@@ -1,0 +1,1894 @@
+SyncPerformance v0.1
+code: omp_atomicadd_array_v2.cpp
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./omp_atomicadd_array_v2 0 1 1000 4
+OMP atomic-add array
+threads: 1
+iter per thread: 1000
+arr step: 4
+num elements: 4
+runtime of all iter: 0.0010599648895263
+max per op: 0.0000000105996489
+min per op: 0.0000000105996489
+med per op: 0.0000000105996489
+avg per op: 0.0000000105996489
+
+
+./omp_atomicadd_array_v2 0 2 1000 4
+OMP atomic-add array
+threads: 2
+iter per thread: 1000
+arr step: 4
+num elements: 8
+runtime of all iter: 0.0009800144348144
+max per op: 0.0000000098001443
+min per op: 0.0000000039183580
+med per op: 0.0000000068592512
+avg per op: 0.0000000068592512
+
+
+./omp_atomicadd_array_v2 0 3 1000 4
+OMP atomic-add array
+threads: 3
+iter per thread: 1000
+arr step: 4
+num elements: 12
+runtime of all iter: 0.0016289457550049
+max per op: 0.0000000162894576
+min per op: 0.0000000102003487
+med per op: 0.0000000161599207
+avg per op: 0.0000000142132197
+
+
+./omp_atomicadd_array_v2 0 4 1000 4
+OMP atomic-add array
+threads: 4
+iter per thread: 1000
+arr step: 4
+num elements: 16
+runtime of all iter: 0.0028171318206787
+max per op: 0.0000000281713182
+min per op: 0.0000000173803404
+med per op: 0.0000000249755894
+avg per op: 0.0000000239525420
+
+
+./omp_atomicadd_array_v2 0 5 1000 4
+OMP atomic-add array
+threads: 5
+iter per thread: 1000
+arr step: 4
+num elements: 20
+runtime of all iter: 0.0025800647430420
+max per op: 0.0000000258006474
+min per op: 0.0000000171205833
+med per op: 0.0000000183778502
+avg per op: 0.0000000217207880
+
+
+./omp_atomicadd_array_v2 0 6 1000 4
+OMP atomic-add array
+threads: 6
+iter per thread: 1000
+arr step: 4
+num elements: 24
+runtime of all iter: 0.0051300281524658
+max per op: 0.0000000513002815
+min per op: 0.0000000169509540
+med per op: 0.0000000422261164
+avg per op: 0.0000000370753844
+
+
+./omp_atomicadd_array_v2 0 7 1000 4
+OMP atomic-add array
+threads: 7
+iter per thread: 1000
+arr step: 4
+num elements: 28
+runtime of all iter: 0.0051180634307861
+max per op: 0.0000000511806343
+min per op: 0.0000000054108290
+med per op: 0.0000000393122266
+avg per op: 0.0000000345332035
+
+
+./omp_atomicadd_array_v2 0 8 1000 4
+OMP atomic-add array
+threads: 8
+iter per thread: 1000
+arr step: 4
+num elements: 32
+runtime of all iter: 0.0052140777282714
+max per op: 0.0000000521407773
+min per op: 0.0000000271092062
+med per op: 0.0000000371041681
+avg per op: 0.0000000400156376
+
+
+./omp_atomicadd_array_v2 0 9 1000 4
+OMP atomic-add array
+threads: 9
+iter per thread: 1000
+arr step: 4
+num elements: 36
+runtime of all iter: 0.0052069298706054
+max per op: 0.0000000520692987
+min per op: 0.0000000168810287
+med per op: 0.0000000366992099
+avg per op: 0.0000000379313290
+
+
+./omp_atomicadd_array_v2 0 10 1000 4
+OMP atomic-add array
+threads: 10
+iter per thread: 1000
+arr step: 4
+num elements: 40
+runtime of all iter: 0.0049910140075683
+max per op: 0.0000000499101401
+min per op: 0.0000000172586980
+med per op: 0.0000000300892115
+avg per op: 0.0000000314679398
+
+
+./omp_atomicadd_array_v2 0 11 1000 4
+OMP atomic-add array
+threads: 11
+iter per thread: 1000
+arr step: 4
+num elements: 44
+runtime of all iter: 0.0052262012023926
+max per op: 0.0000000522620120
+min per op: 0.0000000111399799
+med per op: 0.0000000416408636
+avg per op: 0.0000000403321185
+
+
+./omp_atomicadd_array_v2 0 12 1000 4
+OMP atomic-add array
+threads: 12
+iter per thread: 1000
+arr step: 4
+num elements: 48
+runtime of all iter: 0.0053761477661133
+max per op: 0.0000000537614777
+min per op: 0.0000000186803952
+med per op: 0.0000000399894179
+avg per op: 0.0000000354869049
+
+
+./omp_atomicadd_array_v2 0 13 1000 4
+OMP atomic-add array
+threads: 13
+iter per thread: 1000
+arr step: 4
+num elements: 52
+runtime of all iter: 0.0050919399566651
+max per op: 0.0000000509193996
+min per op: 0.0000000290003674
+med per op: 0.0000000475488455
+avg per op: 0.0000000419980332
+
+
+./omp_atomicadd_array_v2 0 14 1000 4
+OMP atomic-add array
+threads: 14
+iter per thread: 1000
+arr step: 4
+num elements: 56
+runtime of all iter: 0.0057600118408203
+max per op: 0.0000000576001184
+min per op: 0.0000000173292259
+med per op: 0.0000000438448874
+avg per op: 0.0000000435586148
+
+
+./omp_atomicadd_array_v2 0 15 1000 4
+OMP atomic-add array
+threads: 15
+iter per thread: 1000
+arr step: 4
+num elements: 60
+runtime of all iter: 0.0056418618469238
+max per op: 0.0000000564186185
+min per op: 0.0000000106901581
+med per op: 0.0000000504599174
+avg per op: 0.0000000449587317
+
+
+./omp_atomicadd_array_v2 0 16 1000 4
+OMP atomic-add array
+threads: 16
+iter per thread: 1000
+arr step: 4
+num elements: 64
+runtime of all iter: 0.0052839314422608
+max per op: 0.0000000528393144
+min per op: 0.0000000157788565
+med per op: 0.0000000484036070
+avg per op: 0.0000000425904695
+
+
+./omp_atomicadd_array_v2 0 17 1000 4
+OMP atomic-add array
+threads: 17
+iter per thread: 1000
+arr step: 4
+num elements: 68
+runtime of all iter: 0.0054130584869385
+max per op: 0.0000000541305849
+min per op: 0.0000000096689314
+med per op: 0.0000000414182155
+avg per op: 0.0000000409573936
+
+
+./omp_atomicadd_array_v2 0 18 1000 4
+OMP atomic-add array
+threads: 18
+iter per thread: 1000
+arr step: 4
+num elements: 72
+runtime of all iter: 0.0052599231262207
+max per op: 0.0000000525992313
+min per op: 0.0000000278204582
+med per op: 0.0000000449155869
+avg per op: 0.0000000428597897
+
+
+./omp_atomicadd_array_v2 0 19 1000 4
+OMP atomic-add array
+threads: 19
+iter per thread: 1000
+arr step: 4
+num elements: 76
+runtime of all iter: 0.0054227971649170
+max per op: 0.0000000542279716
+min per op: 0.0000000166582118
+med per op: 0.0000000457083955
+avg per op: 0.0000000439989566
+
+
+./omp_atomicadd_array_v2 0 20 1000 4
+OMP atomic-add array
+threads: 20
+iter per thread: 1000
+arr step: 4
+num elements: 80
+runtime of all iter: 0.0057190367126465
+max per op: 0.0000000571903671
+min per op: 0.0000000259295978
+med per op: 0.0000000432899047
+avg per op: 0.0000000447195772
+
+
+./omp_atomicadd_array_v2 0 21 1000 4
+OMP atomic-add array
+threads: 21
+iter per thread: 1000
+arr step: 4
+num elements: 84
+runtime of all iter: 0.0050139969329833
+max per op: 0.0000000501399693
+min per op: 0.0000000126906895
+med per op: 0.0000000452986888
+avg per op: 0.0000000415113102
+
+
+./omp_atomicadd_array_v2 0 22 1000 4
+OMP atomic-add array
+threads: 22
+iter per thread: 1000
+arr step: 4
+num elements: 88
+runtime of all iter: 0.0052539501647949
+max per op: 0.0000000525395016
+min per op: 0.0000000207095699
+med per op: 0.0000000431205047
+avg per op: 0.0000000412072468
+
+
+./omp_atomicadd_array_v2 0 23 1000 4
+OMP atomic-add array
+threads: 23
+iter per thread: 1000
+arr step: 4
+num elements: 92
+runtime of all iter: 0.0053480340576172
+max per op: 0.0000000534803406
+min per op: 0.0000000082799944
+med per op: 0.0000000364614938
+avg per op: 0.0000000339236271
+
+
+./omp_atomicadd_array_v2 0 24 1000 4
+OMP atomic-add array
+threads: 24
+iter per thread: 1000
+arr step: 4
+num elements: 96
+runtime of all iter: 0.0048941762847900
+max per op: 0.0000000489417628
+min per op: 0.0000000176414273
+med per op: 0.0000000377397804
+avg per op: 0.0000000374834841
+
+
+./omp_atomicadd_array_v2 0 25 1000 4
+OMP atomic-add array
+threads: 25
+iter per thread: 1000
+arr step: 4
+num elements: 100
+runtime of all iter: 0.0043291988677979
+max per op: 0.0000000432919887
+min per op: 0.0000000214299228
+med per op: 0.0000000387186571
+avg per op: 0.0000000372880633
+
+
+./omp_atomicadd_array_v2 0 26 1000 4
+OMP atomic-add array
+threads: 26
+iter per thread: 1000
+arr step: 4
+num elements: 104
+runtime of all iter: 0.0050307891693115
+max per op: 0.0000000503078917
+min per op: 0.0000000247886345
+med per op: 0.0000000413895597
+avg per op: 0.0000000396067793
+
+
+./omp_atomicadd_array_v2 0 27 1000 4
+OMP atomic-add array
+threads: 27
+iter per thread: 1000
+arr step: 4
+num elements: 108
+runtime of all iter: 0.0051980728302002
+max per op: 0.0000000519807283
+min per op: 0.0000000170610364
+med per op: 0.0000000445117532
+avg per op: 0.0000000422550216
+
+
+./omp_atomicadd_array_v2 0 28 1000 4
+OMP atomic-add array
+threads: 28
+iter per thread: 1000
+arr step: 4
+num elements: 112
+runtime of all iter: 0.0053410579681397
+max per op: 0.0000000534105797
+min per op: 0.0000000124093027
+med per op: 0.0000000514791869
+avg per op: 0.0000000450776008
+
+
+./omp_atomicadd_array_v2 0 29 1000 4
+OMP atomic-add array
+threads: 29
+iter per thread: 1000
+arr step: 4
+num elements: 116
+runtime of all iter: 0.0050581000213623
+max per op: 0.0000000505810002
+min per op: 0.0000000219317175
+med per op: 0.0000000431090733
+avg per op: 0.0000000433073940
+
+
+./omp_atomicadd_array_v2 0 30 1000 4
+OMP atomic-add array
+threads: 30
+iter per thread: 1000
+arr step: 4
+num elements: 120
+runtime of all iter: 0.0051720995483398
+max per op: 0.0000000517209955
+min per op: 0.0000000267298618
+med per op: 0.0000000448346398
+avg per op: 0.0000000433178242
+
+
+./omp_atomicadd_array_v2 0 31 1000 4
+OMP atomic-add array
+threads: 31
+iter per thread: 1000
+arr step: 4
+num elements: 124
+runtime of all iter: 0.0058790483245850
+max per op: 0.0000000587904832
+min per op: 0.0000000212395737
+med per op: 0.0000000423521887
+avg per op: 0.0000000431422227
+
+
+./omp_atomicadd_array_v2 0 32 1000 4
+OMP atomic-add array
+threads: 32
+iter per thread: 1000
+arr step: 4
+num elements: 128
+runtime of all iter: 0.0056609339294433
+max per op: 0.0000000566093393
+min per op: 0.0000000232500584
+med per op: 0.0000000411148241
+avg per op: 0.0000000407238815
+
+
+./omp_atomicadd_array_v2 0 33 1000 4
+OMP atomic-add array
+threads: 33
+iter per thread: 1000
+arr step: 4
+num elements: 132
+runtime of all iter: 0.0068241233062745
+max per op: 0.0000000682412331
+min per op: 0.0000000194817082
+med per op: 0.0000000488996957
+avg per op: 0.0000000480170299
+
+
+./omp_atomicadd_array_v2 0 34 1000 4
+OMP atomic-add array
+threads: 34
+iter per thread: 1000
+arr step: 4
+num elements: 136
+runtime of all iter: 0.0095650174102784
+max per op: 0.0000000956501741
+min per op: 0.0000000207800519
+med per op: 0.0000000536207078
+avg per op: 0.0000000486715311
+
+
+./omp_atomicadd_array_v2 0 35 1000 4
+OMP atomic-add array
+threads: 35
+iter per thread: 1000
+arr step: 4
+num elements: 140
+runtime of all iter: 0.0086420253448486
+max per op: 0.0000000864202534
+min per op: 0.0000000202397177
+med per op: 0.0000000498817000
+avg per op: 0.0000000511885663
+
+
+./omp_atomicadd_array_v2 0 36 1000 4
+OMP atomic-add array
+threads: 36
+iter per thread: 1000
+arr step: 4
+num elements: 144
+runtime of all iter: 0.0068079790496826
+max per op: 0.0000000680797905
+min per op: 0.0000000224493169
+med per op: 0.0000000443247237
+avg per op: 0.0000000455853886
+
+
+./omp_atomicadd_array_v2 1 1 1000 4
+OMP atomic-add array
+threads: 1
+iter per thread: 1000
+arr step: 4
+num elements: 4
+runtime of all iter: 0.0005579273834228
+max per op: 0.0000000055792738
+min per op: 0.0000000055792738
+med per op: 0.0000000055792738
+avg per op: 0.0000000055792738
+
+
+./omp_atomicadd_array_v2 1 2 1000 4
+OMP atomic-add array
+threads: 2
+iter per thread: 1000
+arr step: 4
+num elements: 8
+runtime of all iter: 0.0011050709838867
+max per op: 0.0000000110507098
+min per op: 0.0000000055104399
+med per op: 0.0000000082756789
+avg per op: 0.0000000082756789
+
+
+./omp_atomicadd_array_v2 1 3 1000 4
+OMP atomic-add array
+threads: 3
+iter per thread: 1000
+arr step: 4
+num elements: 12
+runtime of all iter: 0.0028748378143311
+max per op: 0.0000000287483781
+min per op: 0.0000000043311185
+med per op: 0.0000000279911121
+avg per op: 0.0000000206900630
+
+
+./omp_atomicadd_array_v2 1 4 1000 4
+OMP atomic-add array
+threads: 4
+iter per thread: 1000
+arr step: 4
+num elements: 16
+runtime of all iter: 0.0024469824981690
+max per op: 0.0000000244698250
+min per op: 0.0000000050214793
+med per op: 0.0000000203359134
+avg per op: 0.0000000173971378
+
+
+./omp_atomicadd_array_v2 1 5 1000 4
+OMP atomic-add array
+threads: 5
+iter per thread: 1000
+arr step: 4
+num elements: 20
+runtime of all iter: 0.0029209901123047
+max per op: 0.0000000292099011
+min per op: 0.0000000107610957
+med per op: 0.0000000283398238
+avg per op: 0.0000000238895273
+
+
+./omp_atomicadd_array_v2 1 6 1000 4
+OMP atomic-add array
+threads: 6
+iter per thread: 1000
+arr step: 4
+num elements: 24
+runtime of all iter: 0.0029189610595703
+max per op: 0.0000000291896106
+min per op: 0.0000000120385780
+med per op: 0.0000000269602141
+avg per op: 0.0000000218219849
+
+
+./omp_atomicadd_array_v2 1 7 1000 4
+OMP atomic-add array
+threads: 7
+iter per thread: 1000
+arr step: 4
+num elements: 28
+runtime of all iter: 0.0033500169067383
+max per op: 0.0000000335001691
+min per op: 0.0000000109005550
+med per op: 0.0000000268400491
+avg per op: 0.0000000248658137
+
+
+./omp_atomicadd_array_v2 1 8 1000 4
+OMP atomic-add array
+threads: 8
+iter per thread: 1000
+arr step: 4
+num elements: 32
+runtime of all iter: 0.0027899707641602
+max per op: 0.0000000278997076
+min per op: 0.0000000104092453
+med per op: 0.0000000264500307
+avg per op: 0.0000000226915440
+
+
+./omp_atomicadd_array_v2 1 9 1000 4
+OMP atomic-add array
+threads: 9
+iter per thread: 1000
+arr step: 4
+num elements: 36
+runtime of all iter: 0.0025960412597656
+max per op: 0.0000000259604126
+min per op: 0.0000000035106271
+med per op: 0.0000000274196022
+avg per op: 0.0000000240097595
+
+
+./omp_atomicadd_array_v2 1 10 1000 4
+OMP atomic-add array
+threads: 10
+iter per thread: 1000
+arr step: 4
+num elements: 40
+runtime of all iter: 0.0024849496917725
+max per op: 0.0000000248494969
+min per op: 0.0000000114215265
+med per op: 0.0000000271302812
+avg per op: 0.0000000241382969
+
+
+./omp_atomicadd_array_v2 1 11 1000 4
+OMP atomic-add array
+threads: 11
+iter per thread: 1000
+arr step: 4
+num elements: 44
+runtime of all iter: 0.0034209531402588
+max per op: 0.0000000342095314
+min per op: 0.0000000036402745
+med per op: 0.0000000268493289
+avg per op: 0.0000000258164321
+
+
+./omp_atomicadd_array_v2 1 12 1000 4
+OMP atomic-add array
+threads: 12
+iter per thread: 1000
+arr step: 4
+num elements: 48
+runtime of all iter: 0.0033841036071777
+max per op: 0.0000000338410361
+min per op: 0.0000000054201997
+med per op: 0.0000000271404399
+avg per op: 0.0000000246152404
+
+
+./omp_atomicadd_array_v2 1 13 1000 4
+OMP atomic-add array
+threads: 13
+iter per thread: 1000
+arr step: 4
+num elements: 52
+runtime of all iter: 0.0033749948120117
+max per op: 0.0000000337499481
+min per op: 0.0000000036008015
+med per op: 0.0000000262998909
+avg per op: 0.0000000261478705
+
+
+./omp_atomicadd_array_v2 1 14 1000 4
+OMP atomic-add array
+threads: 14
+iter per thread: 1000
+arr step: 4
+num elements: 56
+runtime of all iter: 0.0031129787597656
+max per op: 0.0000000311297876
+min per op: 0.0000000032402690
+med per op: 0.0000000259246049
+avg per op: 0.0000000212048235
+
+
+./omp_atomicadd_array_v2 1 15 1000 4
+OMP atomic-add array
+threads: 15
+iter per thread: 1000
+arr step: 4
+num elements: 60
+runtime of all iter: 0.0031829529113769
+max per op: 0.0000000318295291
+min per op: 0.0000000056012524
+med per op: 0.0000000280617690
+avg per op: 0.0000000267375145
+
+
+./omp_atomicadd_array_v2 1 16 1000 4
+OMP atomic-add array
+threads: 16
+iter per thread: 1000
+arr step: 4
+num elements: 64
+runtime of all iter: 0.0034802210388184
+max per op: 0.0000000348022104
+min per op: 0.0000000105200862
+med per op: 0.0000000269701263
+avg per op: 0.0000000255519876
+
+
+./omp_atomicadd_array_v2 1 17 1000 4
+OMP atomic-add array
+threads: 17
+iter per thread: 1000
+arr step: 4
+num elements: 68
+runtime of all iter: 0.0031888466949462
+max per op: 0.0000000318884669
+min per op: 0.0000000138891425
+med per op: 0.0000000264305602
+avg per op: 0.0000000246558612
+
+
+./omp_atomicadd_array_v2 1 18 1000 4
+OMP atomic-add array
+threads: 18
+iter per thread: 1000
+arr step: 4
+num elements: 72
+runtime of all iter: 0.0028389970703125
+max per op: 0.0000000283899707
+min per op: 0.0000000057304346
+med per op: 0.0000000267744872
+avg per op: 0.0000000242511686
+
+
+./omp_atomicadd_array_v2 1 19 1000 4
+OMP atomic-add array
+threads: 19
+iter per thread: 1000
+arr step: 4
+num elements: 76
+runtime of all iter: 0.0034688633728027
+max per op: 0.0000000346886337
+min per op: 0.0000000141391005
+med per op: 0.0000000271387210
+avg per op: 0.0000000269000208
+
+
+./omp_atomicadd_array_v2 1 20 1000 4
+OMP atomic-add array
+threads: 20
+iter per thread: 1000
+arr step: 4
+num elements: 80
+runtime of all iter: 0.0034521578826904
+max per op: 0.0000000345215788
+min per op: 0.0000000056121439
+med per op: 0.0000000257200900
+avg per op: 0.0000000244758365
+
+
+./omp_atomicadd_array_v2 1 21 1000 4
+OMP atomic-add array
+threads: 21
+iter per thread: 1000
+arr step: 4
+num elements: 84
+runtime of all iter: 0.0034150660705566
+max per op: 0.0000000341506607
+min per op: 0.0000000151714818
+med per op: 0.0000000273193771
+avg per op: 0.0000000242624661
+
+
+./omp_atomicadd_array_v2 1 22 1000 4
+OMP atomic-add array
+threads: 22
+iter per thread: 1000
+arr step: 4
+num elements: 88
+runtime of all iter: 0.0034090155944824
+max per op: 0.0000000340901559
+min per op: 0.0000000081199284
+med per op: 0.0000000256491086
+avg per op: 0.0000000218952548
+
+
+./omp_atomicadd_array_v2 1 23 1000 4
+OMP atomic-add array
+threads: 23
+iter per thread: 1000
+arr step: 4
+num elements: 92
+runtime of all iter: 0.0033740453643799
+max per op: 0.0000000337404536
+min per op: 0.0000000098412090
+med per op: 0.0000000269708458
+avg per op: 0.0000000236606411
+
+
+./omp_atomicadd_array_v2 1 24 1000 4
+OMP atomic-add array
+threads: 24
+iter per thread: 1000
+arr step: 4
+num elements: 96
+runtime of all iter: 0.0037429545898437
+max per op: 0.0000000374295459
+min per op: 0.0000000109611928
+med per op: 0.0000000259095263
+avg per op: 0.0000000244119073
+
+
+./omp_atomicadd_array_v2 1 25 1000 4
+OMP atomic-add array
+threads: 25
+iter per thread: 1000
+arr step: 4
+num elements: 100
+runtime of all iter: 0.0033660547637939
+max per op: 0.0000000336605476
+min per op: 0.0000000154202074
+med per op: 0.0000000321316058
+avg per op: 0.0000000280249073
+
+
+./omp_atomicadd_array_v2 1 26 1000 4
+OMP atomic-add array
+threads: 26
+iter per thread: 1000
+arr step: 4
+num elements: 104
+runtime of all iter: 0.0032888650817872
+max per op: 0.0000000328886508
+min per op: 0.0000000105612141
+med per op: 0.0000000268604272
+avg per op: 0.0000000238045468
+
+
+./omp_atomicadd_array_v2 1 27 1000 4
+OMP atomic-add array
+threads: 27
+iter per thread: 1000
+arr step: 4
+num elements: 108
+runtime of all iter: 0.0037518843688965
+max per op: 0.0000000375188437
+min per op: 0.0000000055089519
+med per op: 0.0000000281003146
+avg per op: 0.0000000284528552
+
+
+./omp_atomicadd_array_v2 1 28 1000 4
+OMP atomic-add array
+threads: 28
+iter per thread: 1000
+arr step: 4
+num elements: 112
+runtime of all iter: 0.0032070983886718
+max per op: 0.0000000320709839
+min per op: 0.0000000085797136
+med per op: 0.0000000266551621
+avg per op: 0.0000000281172226
+
+
+./omp_atomicadd_array_v2 1 29 1000 4
+OMP atomic-add array
+threads: 29
+iter per thread: 1000
+arr step: 4
+num elements: 116
+runtime of all iter: 0.0033560616760254
+max per op: 0.0000000335606168
+min per op: 0.0000000101687321
+med per op: 0.0000000265115215
+avg per op: 0.0000000242639515
+
+
+./omp_atomicadd_array_v2 1 30 1000 4
+OMP atomic-add array
+threads: 30
+iter per thread: 1000
+arr step: 4
+num elements: 120
+runtime of all iter: 0.0032558847198487
+max per op: 0.0000000325588472
+min per op: 0.0000000098780879
+med per op: 0.0000000229454712
+avg per op: 0.0000000222192647
+
+
+./omp_atomicadd_array_v2 1 31 1000 4
+OMP atomic-add array
+threads: 31
+iter per thread: 1000
+arr step: 4
+num elements: 124
+runtime of all iter: 0.0029429016418456
+max per op: 0.0000000294290164
+min per op: 0.0000000106794719
+med per op: 0.0000000268991714
+avg per op: 0.0000000227564713
+
+
+./omp_atomicadd_array_v2 1 32 1000 4
+OMP atomic-add array
+threads: 32
+iter per thread: 1000
+arr step: 4
+num elements: 128
+runtime of all iter: 0.0032219965057373
+max per op: 0.0000000322199651
+min per op: 0.0000000161320343
+med per op: 0.0000000256998273
+avg per op: 0.0000000276213253
+
+
+./omp_atomicadd_array_v2 1 33 1000 4
+OMP atomic-add array
+threads: 33
+iter per thread: 1000
+arr step: 4
+num elements: 132
+runtime of all iter: 0.0033610867004395
+max per op: 0.0000000336108670
+min per op: 0.0000000111487848
+med per op: 0.0000000264890092
+avg per op: 0.0000000274185559
+
+
+./omp_atomicadd_array_v2 1 34 1000 4
+OMP atomic-add array
+threads: 34
+iter per thread: 1000
+arr step: 4
+num elements: 136
+runtime of all iter: 0.0038050525970459
+max per op: 0.0000000380505260
+min per op: 0.0000000139902260
+med per op: 0.0000000273290009
+avg per op: 0.0000000248156236
+
+
+./omp_atomicadd_array_v2 1 35 1000 4
+OMP atomic-add array
+threads: 35
+iter per thread: 1000
+arr step: 4
+num elements: 140
+runtime of all iter: 0.0040248550567627
+max per op: 0.0000000402485506
+min per op: 0.0000000056779105
+med per op: 0.0000000243084186
+avg per op: 0.0000000249034095
+
+
+./omp_atomicadd_array_v2 1 36 1000 4
+OMP atomic-add array
+threads: 36
+iter per thread: 1000
+arr step: 4
+num elements: 144
+runtime of all iter: 0.0046091848907471
+max per op: 0.0000000460918489
+min per op: 0.0000000080515204
+med per op: 0.0000000258948186
+avg per op: 0.0000000248871382
+
+
+./omp_atomicadd_array_v2 2 1 1000 4
+OMP atomic-add array
+threads: 1
+iter per thread: 1000
+arr step: 4
+num elements: 4
+runtime of all iter: 0.0014089904632568
+max per op: 0.0000000140899046
+min per op: 0.0000000140899046
+med per op: 0.0000000140899046
+avg per op: 0.0000000140899046
+
+
+./omp_atomicadd_array_v2 2 2 1000 4
+OMP atomic-add array
+threads: 2
+iter per thread: 1000
+arr step: 4
+num elements: 8
+runtime of all iter: 0.0023929845428466
+max per op: 0.0000000239298454
+min per op: 0.0000000232789627
+med per op: 0.0000000236044041
+avg per op: 0.0000000236044041
+
+
+./omp_atomicadd_array_v2 2 3 1000 4
+OMP atomic-add array
+threads: 3
+iter per thread: 1000
+arr step: 4
+num elements: 12
+runtime of all iter: 0.0027378737335205
+max per op: 0.0000000273787373
+min per op: 0.0000000140693085
+med per op: 0.0000000223790997
+avg per op: 0.0000000212795042
+
+
+./omp_atomicadd_array_v2 2 4 1000 4
+OMP atomic-add array
+threads: 4
+iter per thread: 1000
+arr step: 4
+num elements: 16
+runtime of all iter: 0.0029159805908203
+max per op: 0.0000000291598059
+min per op: 0.0000000104685960
+med per op: 0.0000000170645998
+avg per op: 0.0000000179747627
+
+
+./omp_atomicadd_array_v2 2 5 1000 4
+OMP atomic-add array
+threads: 5
+iter per thread: 1000
+arr step: 4
+num elements: 20
+runtime of all iter: 0.0041740777740478
+max per op: 0.0000000417407777
+min per op: 0.0000000213778767
+med per op: 0.0000000252597523
+avg per op: 0.0000000297795065
+
+
+./omp_atomicadd_array_v2 2 6 1000 4
+OMP atomic-add array
+threads: 6
+iter per thread: 1000
+arr step: 4
+num elements: 24
+runtime of all iter: 0.0058709900207519
+max per op: 0.0000000587099002
+min per op: 0.0000000553409448
+med per op: 0.0000000472158822
+avg per op: 0.0000000491221400
+
+
+./omp_atomicadd_array_v2 2 7 1000 4
+OMP atomic-add array
+threads: 7
+iter per thread: 1000
+arr step: 4
+num elements: 28
+runtime of all iter: 0.0057168893737793
+max per op: 0.0000000571688937
+min per op: 0.0000000141000067
+med per op: 0.0000000452514397
+avg per op: 0.0000000402485629
+
+
+./omp_atomicadd_array_v2 2 8 1000 4
+OMP atomic-add array
+threads: 8
+iter per thread: 1000
+arr step: 4
+num elements: 32
+runtime of all iter: 0.0056168792572021
+max per op: 0.0000000561687926
+min per op: 0.0000000309902063
+med per op: 0.0000000420300027
+avg per op: 0.0000000431565884
+
+
+./omp_atomicadd_array_v2 2 9 1000 4
+OMP atomic-add array
+threads: 9
+iter per thread: 1000
+arr step: 4
+num elements: 36
+runtime of all iter: 0.0058560958557129
+max per op: 0.0000000585609586
+min per op: 0.0000000274310931
+med per op: 0.0000000447799573
+avg per op: 0.0000000442929707
+
+
+./omp_atomicadd_array_v2 2 10 1000 4
+OMP atomic-add array
+threads: 10
+iter per thread: 1000
+arr step: 4
+num elements: 40
+runtime of all iter: 0.0064719639739991
+max per op: 0.0000000647196397
+min per op: 0.0000000219718283
+med per op: 0.0000000428958784
+avg per op: 0.0000000480696079
+
+
+./omp_atomicadd_array_v2 2 11 1000 4
+OMP atomic-add array
+threads: 11
+iter per thread: 1000
+arr step: 4
+num elements: 44
+runtime of all iter: 0.0064459542541504
+max per op: 0.0000000644595425
+min per op: 0.0000000065706468
+med per op: 0.0000000443586792
+avg per op: 0.0000000436187146
+
+
+./omp_atomicadd_array_v2 2 12 1000 4
+OMP atomic-add array
+threads: 12
+iter per thread: 1000
+arr step: 4
+num elements: 48
+runtime of all iter: 0.0064639846038818
+max per op: 0.0000000646398460
+min per op: 0.0000000265900304
+med per op: 0.0000000511004673
+avg per op: 0.0000000510357542
+
+
+./omp_atomicadd_array_v2 2 13 1000 4
+OMP atomic-add array
+threads: 13
+iter per thread: 1000
+arr step: 4
+num elements: 52
+runtime of all iter: 0.0063519640808105
+max per op: 0.0000000635196408
+min per op: 0.0000000221005740
+med per op: 0.0000000545696323
+avg per op: 0.0000000494568480
+
+
+./omp_atomicadd_array_v2 2 14 1000 4
+OMP atomic-add array
+threads: 14
+iter per thread: 1000
+arr step: 4
+num elements: 56
+runtime of all iter: 0.0066769723510742
+max per op: 0.0000000667697235
+min per op: 0.0000000226801381
+med per op: 0.0000000555292480
+avg per op: 0.0000000538843632
+
+
+./omp_atomicadd_array_v2 2 15 1000 4
+OMP atomic-add array
+threads: 15
+iter per thread: 1000
+arr step: 4
+num elements: 60
+runtime of all iter: 0.0051249124145508
+max per op: 0.0000000512491241
+min per op: 0.0000000145687814
+med per op: 0.0000000555399251
+avg per op: 0.0000000500145764
+
+
+./omp_atomicadd_array_v2 2 16 1000 4
+OMP atomic-add array
+threads: 16
+iter per thread: 1000
+arr step: 4
+num elements: 64
+runtime of all iter: 0.0053299616546632
+max per op: 0.0000000532996165
+min per op: 0.0000000238809221
+med per op: 0.0000000430536842
+avg per op: 0.0000000426048816
+
+
+./omp_atomicadd_array_v2 2 17 1000 4
+OMP atomic-add array
+threads: 17
+iter per thread: 1000
+arr step: 4
+num elements: 68
+runtime of all iter: 0.0061008337249756
+max per op: 0.0000000610083372
+min per op: 0.0000000245989357
+med per op: 0.0000000512821913
+avg per op: 0.0000000482251041
+
+
+./omp_atomicadd_array_v2 2 18 1000 4
+OMP atomic-add array
+threads: 18
+iter per thread: 1000
+arr step: 4
+num elements: 72
+runtime of all iter: 0.0079890596618652
+max per op: 0.0000000798905966
+min per op: 0.0000000225011508
+med per op: 0.0000000578106520
+avg per op: 0.0000000535031640
+
+
+./omp_atomicadd_array_v2 2 19 1000 4
+OMP atomic-add array
+threads: 19
+iter per thread: 1000
+arr step: 4
+num elements: 76
+runtime of all iter: 0.0064559571838378
+max per op: 0.0000000645595718
+min per op: 0.0000000322689549
+med per op: 0.0000000583090268
+avg per op: 0.0000000571762432
+
+
+./omp_atomicadd_array_v2 2 20 1000 4
+OMP atomic-add array
+threads: 20
+iter per thread: 1000
+arr step: 4
+num elements: 80
+runtime of all iter: 0.0069329443359375
+max per op: 0.0000000693294434
+min per op: 0.0000000372082985
+med per op: 0.0000000498401482
+avg per op: 0.0000000545929606
+
+
+./omp_atomicadd_array_v2 2 21 1000 4
+OMP atomic-add array
+threads: 21
+iter per thread: 1000
+arr step: 4
+num elements: 84
+runtime of all iter: 0.0063058817596435
+max per op: 0.0000000630588176
+min per op: 0.0000000199593668
+med per op: 0.0000000504795009
+avg per op: 0.0000000450829596
+
+
+./omp_atomicadd_array_v2 2 22 1000 4
+OMP atomic-add array
+threads: 22
+iter per thread: 1000
+arr step: 4
+num elements: 88
+runtime of all iter: 0.0067538684997559
+max per op: 0.0000000675386850
+min per op: 0.0000000298299155
+med per op: 0.0000000581584366
+avg per op: 0.0000000567902961
+
+
+./omp_atomicadd_array_v2 2 23 1000 4
+OMP atomic-add array
+threads: 23
+iter per thread: 1000
+arr step: 4
+num elements: 92
+runtime of all iter: 0.0082009484252930
+max per op: 0.0000000820094843
+min per op: 0.0000000139312129
+med per op: 0.0000000587499489
+avg per op: 0.0000000609351462
+
+
+./omp_atomicadd_array_v2 2 24 1000 4
+OMP atomic-add array
+threads: 24
+iter per thread: 1000
+arr step: 4
+num elements: 96
+runtime of all iter: 0.0059210024566650
+max per op: 0.0000000592100246
+min per op: 0.0000000308415067
+med per op: 0.0000000683637012
+avg per op: 0.0000000560373613
+
+
+./omp_atomicadd_array_v2 2 25 1000 4
+OMP atomic-add array
+threads: 25
+iter per thread: 1000
+arr step: 4
+num elements: 100
+runtime of all iter: 0.0075381200714112
+max per op: 0.0000000753812007
+min per op: 0.0000000464882225
+med per op: 0.0000000670713457
+avg per op: 0.0000000624927807
+
+
+./omp_atomicadd_array_v2 2 26 1000 4
+OMP atomic-add array
+threads: 26
+iter per thread: 1000
+arr step: 4
+num elements: 104
+runtime of all iter: 0.0067238234710694
+max per op: 0.0000000672382347
+min per op: 0.0000000380181218
+med per op: 0.0000000626651347
+avg per op: 0.0000000584372649
+
+
+./omp_atomicadd_array_v2 2 27 1000 4
+OMP atomic-add array
+threads: 27
+iter per thread: 1000
+arr step: 4
+num elements: 108
+runtime of all iter: 0.0066280572357178
+max per op: 0.0000000662805724
+min per op: 0.0000000295502277
+med per op: 0.0000000767715364
+avg per op: 0.0000000659199468
+
+
+./omp_atomicadd_array_v2 2 28 1000 4
+OMP atomic-add array
+threads: 28
+iter per thread: 1000
+arr step: 4
+num elements: 112
+runtime of all iter: 0.0083850433502197
+max per op: 0.0000000838504335
+min per op: 0.0000000487010526
+med per op: 0.0000000697845055
+avg per op: 0.0000000711134337
+
+
+./omp_atomicadd_array_v2 2 29 1000 4
+OMP atomic-add array
+threads: 29
+iter per thread: 1000
+arr step: 4
+num elements: 116
+runtime of all iter: 0.0074239555816650
+max per op: 0.0000000742395558
+min per op: 0.0000000533695110
+med per op: 0.0000000628887350
+avg per op: 0.0000000640708602
+
+
+./omp_atomicadd_array_v2 2 30 1000 4
+OMP atomic-add array
+threads: 30
+iter per thread: 1000
+arr step: 4
+num elements: 120
+runtime of all iter: 0.0090028941497803
+max per op: 0.0000000900289415
+min per op: 0.0000000640204529
+med per op: 0.0000000688544550
+avg per op: 0.0000000715298055
+
+
+./omp_atomicadd_array_v2 2 31 1000 4
+OMP atomic-add array
+threads: 31
+iter per thread: 1000
+arr step: 4
+num elements: 124
+runtime of all iter: 0.0074571221923828
+max per op: 0.0000000745712219
+min per op: 0.0000000699694978
+med per op: 0.0000000723305045
+avg per op: 0.0000000738925612
+
+
+./omp_atomicadd_array_v2 2 32 1000 4
+OMP atomic-add array
+threads: 32
+iter per thread: 1000
+arr step: 4
+num elements: 128
+runtime of all iter: 0.0078960907592774
+max per op: 0.0000000789609076
+min per op: 0.0000000540411797
+med per op: 0.0000000709696049
+avg per op: 0.0000000737420715
+
+
+./omp_atomicadd_array_v2 2 33 1000 4
+OMP atomic-add array
+threads: 33
+iter per thread: 1000
+arr step: 4
+num elements: 132
+runtime of all iter: 0.0099979427642822
+max per op: 0.0000000999794276
+min per op: 0.0000000312496648
+med per op: 0.0000000848103264
+avg per op: 0.0000000670557840
+
+
+./omp_atomicadd_array_v2 2 34 1000 4
+OMP atomic-add array
+threads: 34
+iter per thread: 1000
+arr step: 4
+num elements: 136
+runtime of all iter: 0.0090569024658204
+max per op: 0.0000000905690247
+min per op: 0.0000000318405621
+med per op: 0.0000000836954938
+avg per op: 0.0000000703905715
+
+
+./omp_atomicadd_array_v2 2 35 1000 4
+OMP atomic-add array
+threads: 35
+iter per thread: 1000
+arr step: 4
+num elements: 140
+runtime of all iter: 0.0092541035308839
+max per op: 0.0000000925410353
+min per op: 0.0000000245802100
+med per op: 0.0000000838099640
+avg per op: 0.0000000699213990
+
+
+./omp_atomicadd_array_v2 2 36 1000 4
+OMP atomic-add array
+threads: 36
+iter per thread: 1000
+arr step: 4
+num elements: 144
+runtime of all iter: 0.0088069493560791
+max per op: 0.0000000880694936
+min per op: 0.0000000248499426
+med per op: 0.0000000794842424
+avg per op: 0.0000000632957339
+
+
+./omp_atomicadd_array_v2 3 1 1000 4
+OMP atomic-add array
+threads: 1
+iter per thread: 1000
+arr step: 4
+num elements: 4
+runtime of all iter: 0.0013431107177734
+max per op: 0.0000000134311072
+min per op: 0.0000000134311072
+med per op: 0.0000000134311072
+avg per op: 0.0000000134311072
+
+
+./omp_atomicadd_array_v2 3 2 1000 4
+OMP atomic-add array
+threads: 2
+iter per thread: 1000
+arr step: 4
+num elements: 8
+runtime of all iter: 0.0013138699493409
+max per op: 0.0000000131386995
+min per op: 0.0000000064915895
+med per op: 0.0000000098202023
+avg per op: 0.0000000098202023
+
+
+./omp_atomicadd_array_v2 3 3 1000 4
+OMP atomic-add array
+threads: 3
+iter per thread: 1000
+arr step: 4
+num elements: 12
+runtime of all iter: 0.0024718941040039
+max per op: 0.0000000247189410
+min per op: 0.0000000140678542
+med per op: 0.0000000244995959
+avg per op: 0.0000000230731956
+
+
+./omp_atomicadd_array_v2 3 4 1000 4
+OMP atomic-add array
+threads: 4
+iter per thread: 1000
+arr step: 4
+num elements: 16
+runtime of all iter: 0.0030410387878418
+max per op: 0.0000000304103879
+min per op: 0.0000000062885275
+med per op: 0.0000000222239470
+avg per op: 0.0000000209398059
+
+
+./omp_atomicadd_array_v2 3 5 1000 4
+OMP atomic-add array
+threads: 5
+iter per thread: 1000
+arr step: 4
+num elements: 20
+runtime of all iter: 0.0033129585266113
+max per op: 0.0000000331295853
+min per op: 0.0000000130888512
+med per op: 0.0000000268696404
+avg per op: 0.0000000258280874
+
+
+./omp_atomicadd_array_v2 3 6 1000 4
+OMP atomic-add array
+threads: 6
+iter per thread: 1000
+arr step: 4
+num elements: 24
+runtime of all iter: 0.0033200431518555
+max per op: 0.0000000332004315
+min per op: 0.0000000065016109
+med per op: 0.0000000298912826
+avg per op: 0.0000000247075644
+
+
+./omp_atomicadd_array_v2 3 7 1000 4
+OMP atomic-add array
+threads: 7
+iter per thread: 1000
+arr step: 4
+num elements: 28
+runtime of all iter: 0.0037489923400880
+max per op: 0.0000000374899234
+min per op: 0.0000000133718724
+med per op: 0.0000000322105312
+avg per op: 0.0000000275742028
+
+
+./omp_atomicadd_array_v2 3 8 1000 4
+OMP atomic-add array
+threads: 8
+iter per thread: 1000
+arr step: 4
+num elements: 32
+runtime of all iter: 0.0029908003082276
+max per op: 0.0000000299080031
+min per op: 0.0000000065094749
+med per op: 0.0000000307409185
+avg per op: 0.0000000261015236
+
+
+./omp_atomicadd_array_v2 3 9 1000 4
+OMP atomic-add array
+threads: 9
+iter per thread: 1000
+arr step: 4
+num elements: 36
+runtime of all iter: 0.0034710436401367
+max per op: 0.0000000347104364
+min per op: 0.0000000134298293
+med per op: 0.0000000317496054
+avg per op: 0.0000000293702618
+
+
+./omp_atomicadd_array_v2 3 10 1000 4
+OMP atomic-add array
+threads: 10
+iter per thread: 1000
+arr step: 4
+num elements: 40
+runtime of all iter: 0.0028721283874511
+max per op: 0.0000000287212839
+min per op: 0.0000000066000615
+med per op: 0.0000000327853175
+avg per op: 0.0000000290340003
+
+
+./omp_atomicadd_array_v2 3 11 1000 4
+OMP atomic-add array
+threads: 11
+iter per thread: 1000
+arr step: 4
+num elements: 44
+runtime of all iter: 0.0035270457153320
+max per op: 0.0000000352704572
+min per op: 0.0000000132604509
+med per op: 0.0000000334996434
+avg per op: 0.0000000279634017
+
+
+./omp_atomicadd_array_v2 3 12 1000 4
+OMP atomic-add array
+threads: 12
+iter per thread: 1000
+arr step: 4
+num elements: 48
+runtime of all iter: 0.0039339108276367
+max per op: 0.0000000393391083
+min per op: 0.0000000049709079
+med per op: 0.0000000252247284
+avg per op: 0.0000000246392400
+
+
+./omp_atomicadd_array_v2 3 13 1000 4
+OMP atomic-add array
+threads: 13
+iter per thread: 1000
+arr step: 4
+num elements: 52
+runtime of all iter: 0.0037270922698975
+max per op: 0.0000000372709227
+min per op: 0.0000000136879626
+med per op: 0.0000000274802412
+avg per op: 0.0000000295029122
+
+
+./omp_atomicadd_array_v2 3 14 1000 4
+OMP atomic-add array
+threads: 14
+iter per thread: 1000
+arr step: 4
+num elements: 56
+runtime of all iter: 0.0041289549255371
+max per op: 0.0000000412895493
+min per op: 0.0000000136496251
+med per op: 0.0000000292039280
+avg per op: 0.0000000265352836
+
+
+./omp_atomicadd_array_v2 3 15 1000 4
+OMP atomic-add array
+threads: 15
+iter per thread: 1000
+arr step: 4
+num elements: 60
+runtime of all iter: 0.0035129773101807
+max per op: 0.0000000351297731
+min per op: 0.0000000137895377
+med per op: 0.0000000243688672
+avg per op: 0.0000000242461475
+
+
+./omp_atomicadd_array_v2 3 16 1000 4
+OMP atomic-add array
+threads: 16
+iter per thread: 1000
+arr step: 4
+num elements: 64
+runtime of all iter: 0.0039340721740723
+max per op: 0.0000000393407217
+min per op: 0.0000000151492476
+med per op: 0.0000000316356344
+avg per op: 0.0000000287807963
+
+
+./omp_atomicadd_array_v2 3 17 1000 4
+OMP atomic-add array
+threads: 17
+iter per thread: 1000
+arr step: 4
+num elements: 68
+runtime of all iter: 0.0038320467987060
+max per op: 0.0000000383204680
+min per op: 0.0000000247698190
+med per op: 0.0000000371689062
+avg per op: 0.0000000312605413
+
+
+./omp_atomicadd_array_v2 3 18 1000 4
+OMP atomic-add array
+threads: 18
+iter per thread: 1000
+arr step: 4
+num elements: 72
+runtime of all iter: 0.0037560413055421
+max per op: 0.0000000375604131
+min per op: 0.0000000231791884
+med per op: 0.0000000286401479
+avg per op: 0.0000000287915808
+
+
+./omp_atomicadd_array_v2 3 19 1000 4
+OMP atomic-add array
+threads: 19
+iter per thread: 1000
+arr step: 4
+num elements: 76
+runtime of all iter: 0.0035028878631592
+max per op: 0.0000000350288786
+min per op: 0.0000000231900078
+med per op: 0.0000000292203212
+avg per op: 0.0000000280734927
+
+
+./omp_atomicadd_array_v2 3 20 1000 4
+OMP atomic-add array
+threads: 20
+iter per thread: 1000
+arr step: 4
+num elements: 80
+runtime of all iter: 0.0041619986419678
+max per op: 0.0000000416199864
+min per op: 0.0000000138999344
+med per op: 0.0000000335157858
+avg per op: 0.0000000316133213
+
+
+./omp_atomicadd_array_v2 3 21 1000 4
+OMP atomic-add array
+threads: 21
+iter per thread: 1000
+arr step: 4
+num elements: 84
+runtime of all iter: 0.0033588578948975
+max per op: 0.0000000335885789
+min per op: 0.0000000068488089
+med per op: 0.0000000312000638
+avg per op: 0.0000000285315325
+
+
+./omp_atomicadd_array_v2 3 22 1000 4
+OMP atomic-add array
+threads: 22
+iter per thread: 1000
+arr step: 4
+num elements: 88
+runtime of all iter: 0.0038168224639893
+max per op: 0.0000000381682246
+min per op: 0.0000000138712495
+med per op: 0.0000000322802168
+avg per op: 0.0000000304794444
+
+
+./omp_atomicadd_array_v2 3 23 1000 4
+OMP atomic-add array
+threads: 23
+iter per thread: 1000
+arr step: 4
+num elements: 92
+runtime of all iter: 0.0039850455932617
+max per op: 0.0000000398504559
+min per op: 0.0000000231886531
+med per op: 0.0000000421013918
+avg per op: 0.0000000358903779
+
+
+./omp_atomicadd_array_v2 3 24 1000 4
+OMP atomic-add array
+threads: 24
+iter per thread: 1000
+arr step: 4
+num elements: 96
+runtime of all iter: 0.0038589472656250
+max per op: 0.0000000385894727
+min per op: 0.0000000138294472
+med per op: 0.0000000344343962
+avg per op: 0.0000000317117281
+
+
+./omp_atomicadd_array_v2 3 25 1000 4
+OMP atomic-add array
+threads: 25
+iter per thread: 1000
+arr step: 4
+num elements: 100
+runtime of all iter: 0.0041031897430420
+max per op: 0.0000000410318974
+min per op: 0.0000000153603537
+med per op: 0.0000000305183730
+avg per op: 0.0000000319161269
+
+
+./omp_atomicadd_array_v2 3 26 1000 4
+OMP atomic-add array
+threads: 26
+iter per thread: 1000
+arr step: 4
+num elements: 104
+runtime of all iter: 0.0033490352630615
+max per op: 0.0000000334903526
+min per op: 0.0000000069005650
+med per op: 0.0000000342006084
+avg per op: 0.0000000326890524
+
+
+./omp_atomicadd_array_v2 3 27 1000 4
+OMP atomic-add array
+threads: 27
+iter per thread: 1000
+arr step: 4
+num elements: 108
+runtime of all iter: 0.0055501113128662
+max per op: 0.0000000555011131
+min per op: 0.0000000270798053
+med per op: 0.0000000355681462
+avg per op: 0.0000000359905046
+
+
+./omp_atomicadd_array_v2 3 28 1000 4
+OMP atomic-add array
+threads: 28
+iter per thread: 1000
+arr step: 4
+num elements: 112
+runtime of all iter: 0.0040531598510742
+max per op: 0.0000000405315985
+min per op: 0.0000000126194382
+med per op: 0.0000000339209738
+avg per op: 0.0000000305010047
+
+
+./omp_atomicadd_array_v2 3 29 1000 4
+OMP atomic-add array
+threads: 29
+iter per thread: 1000
+arr step: 4
+num elements: 116
+runtime of all iter: 0.0040110228424073
+max per op: 0.0000000401102284
+min per op: 0.0000000268805058
+med per op: 0.0000000318891396
+avg per op: 0.0000000304733350
+
+
+./omp_atomicadd_array_v2 3 30 1000 4
+OMP atomic-add array
+threads: 30
+iter per thread: 1000
+arr step: 4
+num elements: 120
+runtime of all iter: 0.0042770003356933
+max per op: 0.0000000427700034
+min per op: 0.0000000133191345
+med per op: 0.0000000375509997
+avg per op: 0.0000000359448445
+
+
+./omp_atomicadd_array_v2 3 31 1000 4
+OMP atomic-add array
+threads: 31
+iter per thread: 1000
+arr step: 4
+num elements: 124
+runtime of all iter: 0.0032808981781006
+max per op: 0.0000000328089818
+min per op: 0.0000000257299455
+med per op: 0.0000000363391328
+avg per op: 0.0000000340404467
+
+
+./omp_atomicadd_array_v2 3 32 1000 4
+OMP atomic-add array
+threads: 32
+iter per thread: 1000
+arr step: 4
+num elements: 128
+runtime of all iter: 0.0038509600524902
+max per op: 0.0000000385096005
+min per op: 0.0000000246399236
+med per op: 0.0000000416254498
+avg per op: 0.0000000353510800
+
+
+./omp_atomicadd_array_v2 3 33 1000 4
+OMP atomic-add array
+threads: 33
+iter per thread: 1000
+arr step: 4
+num elements: 132
+runtime of all iter: 0.0051498414001465
+max per op: 0.0000000514984140
+min per op: 0.0000000164391946
+med per op: 0.0000000367202380
+avg per op: 0.0000000375936793
+
+
+./omp_atomicadd_array_v2 3 34 1000 4
+OMP atomic-add array
+threads: 34
+iter per thread: 1000
+arr step: 4
+num elements: 136
+runtime of all iter: 0.0051189950866699
+max per op: 0.0000000511899509
+min per op: 0.0000000169206854
+med per op: 0.0000000389003789
+avg per op: 0.0000000365183761
+
+
+./omp_atomicadd_array_v2 3 35 1000 4
+OMP atomic-add array
+threads: 35
+iter per thread: 1000
+arr step: 4
+num elements: 140
+runtime of all iter: 0.0050270774536132
+max per op: 0.0000000502707745
+min per op: 0.0000000116781139
+med per op: 0.0000000349391373
+avg per op: 0.0000000342600597
+
+
+./omp_atomicadd_array_v2 3 36 1000 4
+OMP atomic-add array
+threads: 36
+iter per thread: 1000
+arr step: 4
+num elements: 144
+runtime of all iter: 0.0048340973358154
+max per op: 0.0000000483409734
+min per op: 0.0000000114308534
+med per op: 0.0000000345310844
+avg per op: 0.0000000334759523
+
+

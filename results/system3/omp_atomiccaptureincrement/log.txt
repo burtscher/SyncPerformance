@@ -1,0 +1,1750 @@
+SyncPerformance v0.1
+code: omp_atomiccaptureincrement.cpp
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./omp_atomiccaptureincrement 0 1 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0005359231414795
+max per op: 0.0000000053592314
+min per op: 0.0000000053592314
+med per op: 0.0000000053592314
+avg per op: 0.0000000053592314
+
+
+./omp_atomiccaptureincrement 0 2 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0017051026916504
+max per op: 0.0000000170510269
+min per op: 0.0000000169286131
+med per op: 0.0000000169902302
+avg per op: 0.0000000169902302
+
+
+./omp_atomiccaptureincrement 0 3 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0018610745849609
+max per op: 0.0000000186107458
+min per op: 0.0000000033801038
+med per op: 0.0000000185892882
+avg per op: 0.0000000135267126
+
+
+./omp_atomiccaptureincrement 0 4 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0031558127746582
+max per op: 0.0000000315581277
+min per op: 0.0000000237308458
+med per op: 0.0000000265084222
+avg per op: 0.0000000270764545
+
+
+./omp_atomiccaptureincrement 0 5 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0061238862762451
+max per op: 0.0000000612388628
+min per op: 0.0000000462704811
+med per op: 0.0000000494895952
+avg per op: 0.0000000529097628
+
+
+./omp_atomiccaptureincrement 0 6 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0078400115509033
+max per op: 0.0000000784001155
+min per op: 0.0000000549100371
+med per op: 0.0000000697900918
+avg per op: 0.0000000682286930
+
+
+./omp_atomiccaptureincrement 0 7 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0093830213775634
+max per op: 0.0000000938302138
+min per op: 0.0000000548009007
+med per op: 0.0000000887495139
+avg per op: 0.0000000803960742
+
+
+./omp_atomiccaptureincrement 0 8 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0101770242004394
+max per op: 0.0000001017702420
+min per op: 0.0000000821001648
+med per op: 0.0000000905752976
+avg per op: 0.0000000911874952
+
+
+./omp_atomiccaptureincrement 0 9 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0113639855346680
+max per op: 0.0000001136398553
+min per op: 0.0000000808003702
+med per op: 0.0000001010298068
+avg per op: 0.0000000957377990
+
+
+./omp_atomiccaptureincrement 0 10 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0125661078948974
+max per op: 0.0000001256610789
+min per op: 0.0000000798606134
+med per op: 0.0000001063201006
+avg per op: 0.0000001072898879
+
+
+./omp_atomiccaptureincrement 0 11 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0135959629211426
+max per op: 0.0000001359596292
+min per op: 0.0000000602983934
+med per op: 0.0000001295200317
+avg per op: 0.0000001109614665
+
+
+./omp_atomiccaptureincrement 0 12 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0151320134735107
+max per op: 0.0000001513201347
+min per op: 0.0000001042509241
+med per op: 0.0000001240891567
+avg per op: 0.0000001296762787
+
+
+./omp_atomiccaptureincrement 0 13 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0167829344635010
+max per op: 0.0000001678293446
+min per op: 0.0000000750412543
+med per op: 0.0000001436394376
+avg per op: 0.0000001428938575
+
+
+./omp_atomiccaptureincrement 0 14 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0179729913177491
+max per op: 0.0000001797299132
+min per op: 0.0000000751195303
+med per op: 0.0000001477197040
+avg per op: 0.0000001493960877
+
+
+./omp_atomiccaptureincrement 0 15 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0195390408935547
+max per op: 0.0000001953904089
+min per op: 0.0000001200203426
+med per op: 0.0000001605196678
+avg per op: 0.0000001608928079
+
+
+./omp_atomiccaptureincrement 0 16 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0212288883972168
+max per op: 0.0000002122888840
+min per op: 0.0000001215808543
+med per op: 0.0000001550399352
+avg per op: 0.0000001813281646
+
+
+./omp_atomiccaptureincrement 0 17 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0201088138732910
+max per op: 0.0000002010881387
+min per op: 0.0000000959205751
+med per op: 0.0000001725601414
+avg per op: 0.0000001643829724
+
+
+./omp_atomiccaptureincrement 0 18 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0225748756866455
+max per op: 0.0000002257487569
+min per op: 0.0000001578291196
+med per op: 0.0000001865289707
+avg per op: 0.0000001964339625
+
+
+./omp_atomiccaptureincrement 0 19 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0223549555816650
+max per op: 0.0000002235495558
+min per op: 0.0000001496687389
+med per op: 0.0000001681195502
+avg per op: 0.0000001878930534
+
+
+./omp_atomiccaptureincrement 0 20 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0235398591461182
+max per op: 0.0000002353985915
+min per op: 0.0000001564304402
+med per op: 0.0000001965450505
+avg per op: 0.0000001980625657
+
+
+./omp_atomiccaptureincrement 0 21 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0241730102691651
+max per op: 0.0000002417301027
+min per op: 0.0000001555805627
+med per op: 0.0000001848893471
+avg per op: 0.0000002015379457
+
+
+./omp_atomiccaptureincrement 0 22 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0248281048431397
+max per op: 0.0000002482810484
+min per op: 0.0000001562606779
+med per op: 0.0000001999253442
+avg per op: 0.0000002041124310
+
+
+./omp_atomiccaptureincrement 0 23 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0259089016723633
+max per op: 0.0000002590890167
+min per op: 0.0000001867483986
+med per op: 0.0000002264701636
+avg per op: 0.0000002252920225
+
+
+./omp_atomiccaptureincrement 0 24 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0274508960876465
+max per op: 0.0000002745089609
+min per op: 0.0000001653908907
+med per op: 0.0000002308154700
+avg per op: 0.0000002275132738
+
+
+./omp_atomiccaptureincrement 0 25 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0278880314178467
+max per op: 0.0000002788803142
+min per op: 0.0000001766710992
+med per op: 0.0000002151697945
+avg per op: 0.0000002333151378
+
+
+./omp_atomiccaptureincrement 0 26 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0289800099182129
+max per op: 0.0000002898000992
+min per op: 0.0000001949604396
+med per op: 0.0000002272955288
+avg per op: 0.0000002432559190
+
+
+./omp_atomiccaptureincrement 0 27 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0289541073455811
+max per op: 0.0000002895410735
+min per op: 0.0000001826507108
+med per op: 0.0000002731005273
+avg per op: 0.0000002388989915
+
+
+./omp_atomiccaptureincrement 0 28 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0302139710235596
+max per op: 0.0000003021397102
+min per op: 0.0000001821494897
+med per op: 0.0000002483448969
+avg per op: 0.0000002576333866
+
+
+./omp_atomiccaptureincrement 0 29 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0314369293365478
+max per op: 0.0000003143692934
+min per op: 0.0000001933082942
+med per op: 0.0000002595895570
+avg per op: 0.0000002689808246
+
+
+./omp_atomiccaptureincrement 0 30 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0318739341735840
+max per op: 0.0000003187393417
+min per op: 0.0000002104099641
+med per op: 0.0000002820535126
+avg per op: 0.0000002795791179
+
+
+./omp_atomiccaptureincrement 0 31 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0322120338439941
+max per op: 0.0000003221203384
+min per op: 0.0000002183812315
+med per op: 0.0000002615594417
+avg per op: 0.0000002762164682
+
+
+./omp_atomiccaptureincrement 0 32 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0348579548645020
+max per op: 0.0000003485795486
+min per op: 0.0000002523095837
+med per op: 0.0000003062556392
+avg per op: 0.0000003063837677
+
+
+./omp_atomiccaptureincrement 0 33 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0360091459350586
+max per op: 0.0000003600914594
+min per op: 0.0000002839491051
+med per op: 0.0000003089704330
+avg per op: 0.0000003124904933
+
+
+./omp_atomiccaptureincrement 0 34 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0367770636901855
+max per op: 0.0000003677706369
+min per op: 0.0000003121319072
+med per op: 0.0000003549761829
+avg per op: 0.0000003237122014
+
+
+./omp_atomiccaptureincrement 0 35 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0395028026733398
+max per op: 0.0000003950280267
+min per op: 0.0000003249516258
+med per op: 0.0000003703586644
+avg per op: 0.0000003577731262
+
+
+./omp_atomiccaptureincrement 0 36 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0406930580291749
+max per op: 0.0000004069305803
+min per op: 0.0000003063006371
+med per op: 0.0000003726497182
+avg per op: 0.0000003562943240
+
+
+./omp_atomiccaptureincrement 1 1 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0005560609893799
+max per op: 0.0000000055606099
+min per op: 0.0000000055606099
+med per op: 0.0000000055606099
+avg per op: 0.0000000055606099
+
+
+./omp_atomiccaptureincrement 1 2 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0022041112518311
+max per op: 0.0000000220411125
+min per op: 0.0000000170809529
+med per op: 0.0000000191014114
+avg per op: 0.0000000191014114
+
+
+./omp_atomiccaptureincrement 1 3 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0028051525268555
+max per op: 0.0000000280515253
+min per op: 0.0000000166103221
+med per op: 0.0000000260879239
+avg per op: 0.0000000240468879
+
+
+./omp_atomiccaptureincrement 1 4 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0033020244903565
+max per op: 0.0000000330202449
+min per op: 0.0000000236197035
+med per op: 0.0000000278214344
+avg per op: 0.0000000280802119
+
+
+./omp_atomiccaptureincrement 1 5 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0044750717163086
+max per op: 0.0000000447507172
+min per op: 0.0000000245800456
+med per op: 0.0000000328510449
+avg per op: 0.0000000337739258
+
+
+./omp_atomiccaptureincrement 1 6 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0068001015014648
+max per op: 0.0000000680010150
+min per op: 0.0000000252284261
+med per op: 0.0000000584745437
+avg per op: 0.0000000536710584
+
+
+./omp_atomiccaptureincrement 1 7 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0090230212860108
+max per op: 0.0000000902302129
+min per op: 0.0000000259584132
+med per op: 0.0000000917508601
+avg per op: 0.0000000735668472
+
+
+./omp_atomiccaptureincrement 1 8 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0106970259704590
+max per op: 0.0000001069702597
+min per op: 0.0000000786316367
+med per op: 0.0000000963500819
+avg per op: 0.0000000955975113
+
+
+./omp_atomiccaptureincrement 1 9 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0111709488830566
+max per op: 0.0000001117094888
+min per op: 0.0000000797693733
+med per op: 0.0000001023687122
+avg per op: 0.0000000951979865
+
+
+./omp_atomiccaptureincrement 1 10 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0125700783081055
+max per op: 0.0000001257007831
+min per op: 0.0000000797808621
+med per op: 0.0000001155139480
+avg per op: 0.0000001111479978
+
+
+./omp_atomiccaptureincrement 1 11 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0130678792114257
+max per op: 0.0000001306787921
+min per op: 0.0000000646911552
+med per op: 0.0000001132111067
+avg per op: 0.0000001035994266
+
+
+./omp_atomiccaptureincrement 1 12 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0154301592254639
+max per op: 0.0000001543015923
+min per op: 0.0000001144487688
+med per op: 0.0000001367551193
+avg per op: 0.0000001386367684
+
+
+./omp_atomiccaptureincrement 1 13 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0169039435119629
+max per op: 0.0000001690394351
+min per op: 0.0000001184986235
+med per op: 0.0000001458498996
+avg per op: 0.0000001515114352
+
+
+./omp_atomiccaptureincrement 1 14 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0174330391387940
+max per op: 0.0000001743303914
+min per op: 0.0000000748906064
+med per op: 0.0000001415498042
+avg per op: 0.0000001413679359
+
+
+./omp_atomiccaptureincrement 1 15 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0190090645904541
+max per op: 0.0000001900906459
+min per op: 0.0000001038790868
+med per op: 0.0000001758201111
+avg per op: 0.0000001564870336
+
+
+./omp_atomiccaptureincrement 1 16 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0205778302459717
+max per op: 0.0000002057783025
+min per op: 0.0000001687082062
+med per op: 0.0000001696756580
+avg per op: 0.0000001798387160
+
+
+./omp_atomiccaptureincrement 1 17 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0203000733795166
+max per op: 0.0000002030007338
+min per op: 0.0000001453889662
+med per op: 0.0000001598282671
+avg per op: 0.0000001781659312
+
+
+./omp_atomiccaptureincrement 1 18 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0218169413604736
+max per op: 0.0000002181694136
+min per op: 0.0000001195016081
+med per op: 0.0000001720906401
+avg per op: 0.0000001767499229
+
+
+./omp_atomiccaptureincrement 1 19 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0232609098358155
+max per op: 0.0000002326090984
+min per op: 0.0000001571404068
+med per op: 0.0000002156203113
+avg per op: 0.0000001986323571
+
+
+./omp_atomiccaptureincrement 1 20 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0235239775695801
+max per op: 0.0000002352397757
+min per op: 0.0000001402595602
+med per op: 0.0000001801742153
+avg per op: 0.0000001913345207
+
+
+./omp_atomiccaptureincrement 1 21 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0243379223937988
+max per op: 0.0000002433792239
+min per op: 0.0000001452401489
+med per op: 0.0000001982409430
+avg per op: 0.0000002034044946
+
+
+./omp_atomiccaptureincrement 1 22 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0252250014801025
+max per op: 0.0000002522500148
+min per op: 0.0000001761019962
+med per op: 0.0000001984742792
+avg per op: 0.0000002124934000
+
+
+./omp_atomiccaptureincrement 1 23 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0260080016174316
+max per op: 0.0000002600800162
+min per op: 0.0000001710199844
+med per op: 0.0000002080983954
+avg per op: 0.0000002116572990
+
+
+./omp_atomiccaptureincrement 1 24 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0271720439300537
+max per op: 0.0000002717204393
+min per op: 0.0000001511496922
+med per op: 0.0000002289796846
+avg per op: 0.0000002296919313
+
+
+./omp_atomiccaptureincrement 1 25 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0285638791198731
+max per op: 0.0000002856387912
+min per op: 0.0000001769901529
+med per op: 0.0000002332289532
+avg per op: 0.0000002440478850
+
+
+./omp_atomiccaptureincrement 1 26 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0284081585083008
+max per op: 0.0000002840815851
+min per op: 0.0000001952806798
+med per op: 0.0000002242288982
+avg per op: 0.0000002377811606
+
+
+./omp_atomiccaptureincrement 1 27 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0306101530456543
+max per op: 0.0000003061015305
+min per op: 0.0000001969720131
+med per op: 0.0000002407400496
+avg per op: 0.0000002566103775
+
+
+./omp_atomiccaptureincrement 1 28 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0313222241821289
+max per op: 0.0000003132222418
+min per op: 0.0000002155895544
+med per op: 0.0000002527399604
+avg per op: 0.0000002642501262
+
+
+./omp_atomiccaptureincrement 1 29 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0323260794372558
+max per op: 0.0000003232607944
+min per op: 0.0000002134194260
+med per op: 0.0000002608701591
+avg per op: 0.0000002796493457
+
+
+./omp_atomiccaptureincrement 1 30 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0341290589904786
+max per op: 0.0000003412905899
+min per op: 0.0000002250604175
+med per op: 0.0000002996938998
+avg per op: 0.0000002965503874
+
+
+./omp_atomiccaptureincrement 1 31 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0342659220886231
+max per op: 0.0000003426592209
+min per op: 0.0000002590914679
+med per op: 0.0000002867986063
+avg per op: 0.0000003062376292
+
+
+./omp_atomiccaptureincrement 1 32 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0338729688720703
+max per op: 0.0000003387296887
+min per op: 0.0000002287202908
+med per op: 0.0000002903745630
+avg per op: 0.0000002919811309
+
+
+./omp_atomiccaptureincrement 1 33 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0367138851013184
+max per op: 0.0000003671388510
+min per op: 0.0000002863505444
+med per op: 0.0000003070004585
+avg per op: 0.0000003172881850
+
+
+./omp_atomiccaptureincrement 1 34 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0381219287261962
+max per op: 0.0000003812192873
+min per op: 0.0000003188312285
+med per op: 0.0000003246804219
+avg per op: 0.0000003288689913
+
+
+./omp_atomiccaptureincrement 1 35 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0401050404968261
+max per op: 0.0000004010504050
+min per op: 0.0000002740206274
+med per op: 0.0000003133496304
+avg per op: 0.0000003392718114
+
+
+./omp_atomiccaptureincrement 1 36 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0412990261688233
+max per op: 0.0000004129902617
+min per op: 0.0000002897101401
+med per op: 0.0000003635451951
+avg per op: 0.0000003608115104
+
+
+./omp_atomiccaptureincrement 2 1 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0014001228637696
+max per op: 0.0000000140012286
+min per op: 0.0000000140012286
+med per op: 0.0000000140012286
+avg per op: 0.0000000140012286
+
+
+./omp_atomiccaptureincrement 2 2 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0022191294097901
+max per op: 0.0000000221912941
+min per op: 0.0000000204714262
+med per op: 0.0000000218658527
+avg per op: 0.0000000218658527
+
+
+./omp_atomiccaptureincrement 2 3 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0031268337707520
+max per op: 0.0000000312683377
+min per op: 0.0000000172903197
+med per op: 0.0000000309202466
+avg per op: 0.0000000264929680
+
+
+./omp_atomiccaptureincrement 2 4 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0040210076751709
+max per op: 0.0000000402100768
+min per op: 0.0000000272696527
+med per op: 0.0000000319450410
+avg per op: 0.0000000329272338
+
+
+./omp_atomiccaptureincrement 2 5 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0119730320739746
+max per op: 0.0000001197303207
+min per op: 0.0000000791894583
+med per op: 0.0000000829590987
+avg per op: 0.0000000980637169
+
+
+./omp_atomiccaptureincrement 2 6 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0154981053771973
+max per op: 0.0000001549810538
+min per op: 0.0000000679309216
+med per op: 0.0000001341009967
+avg per op: 0.0000001185500539
+
+
+./omp_atomiccaptureincrement 2 7 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0202209892272949
+max per op: 0.0000002022098923
+min per op: 0.0000000696006114
+med per op: 0.0000001801916211
+avg per op: 0.0000001799561427
+
+
+./omp_atomiccaptureincrement 2 8 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0247621843261719
+max per op: 0.0000002476218433
+min per op: 0.0000000917016280
+med per op: 0.0000002239454735
+avg per op: 0.0000001821543473
+
+
+./omp_atomiccaptureincrement 2 9 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0280330607757568
+max per op: 0.0000002803306078
+min per op: 0.0000001931814957
+med per op: 0.0000002643011099
+avg per op: 0.0000002390936788
+
+
+./omp_atomiccaptureincrement 2 10 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0297631248626710
+max per op: 0.0000002976312486
+min per op: 0.0000001968692041
+med per op: 0.0000002556645787
+avg per op: 0.0000002545208848
+
+
+./omp_atomiccaptureincrement 2 11 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0320750433807373
+max per op: 0.0000003207504338
+min per op: 0.0000001833401357
+med per op: 0.0000002633807304
+avg per op: 0.0000002661829147
+
+
+./omp_atomiccaptureincrement 2 12 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0200550773315430
+max per op: 0.0000002005507733
+min per op: 0.0000001970109470
+med per op: 0.0000002020611550
+avg per op: 0.0000002000846650
+
+
+./omp_atomiccaptureincrement 2 13 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0200290146942139
+max per op: 0.0000002002901469
+min per op: 0.0000001159790378
+med per op: 0.0000001773113643
+avg per op: 0.0000001737062920
+
+
+./omp_atomiccaptureincrement 2 14 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0209039064025879
+max per op: 0.0000002090390640
+min per op: 0.0000001154712195
+med per op: 0.0000001841350513
+avg per op: 0.0000001729338059
+
+
+./omp_atomiccaptureincrement 2 15 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0234700520019531
+max per op: 0.0000002347005200
+min per op: 0.0000001384604764
+med per op: 0.0000002390087437
+avg per op: 0.0000001976505907
+
+
+./omp_atomiccaptureincrement 2 16 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0239339841766358
+max per op: 0.0000002393398418
+min per op: 0.0000001736698283
+med per op: 0.0000002066443099
+avg per op: 0.0000002055080964
+
+
+./omp_atomiccaptureincrement 2 17 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0262090719604492
+max per op: 0.0000002620907196
+min per op: 0.0000002096089734
+med per op: 0.0000002378118390
+avg per op: 0.0000002302795555
+
+
+./omp_atomiccaptureincrement 2 18 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0269719693298340
+max per op: 0.0000002697196933
+min per op: 0.0000001837492638
+med per op: 0.0000002137906008
+avg per op: 0.0000002282798142
+
+
+./omp_atomiccaptureincrement 2 19 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0287169498291016
+max per op: 0.0000002871694983
+min per op: 0.0000001918500078
+med per op: 0.0000002684894026
+avg per op: 0.0000002323087630
+
+
+./omp_atomiccaptureincrement 2 20 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0329298738555908
+max per op: 0.0000003292987386
+min per op: 0.0000002005798584
+med per op: 0.0000002970592155
+avg per op: 0.0000002929145594
+
+
+./omp_atomiccaptureincrement 2 21 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0328750278625488
+max per op: 0.0000003287502786
+min per op: 0.0000002146102670
+med per op: 0.0000002768399599
+avg per op: 0.0000002658547744
+
+
+./omp_atomiccaptureincrement 2 22 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0343549418029785
+max per op: 0.0000003435494180
+min per op: 0.0000001781502176
+med per op: 0.0000002895691801
+avg per op: 0.0000002879641311
+
+
+./omp_atomiccaptureincrement 2 23 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0369719386596680
+max per op: 0.0000003697193866
+min per op: 0.0000002000714058
+med per op: 0.0000002959906044
+avg per op: 0.0000003012068670
+
+
+./omp_atomiccaptureincrement 2 24 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0389149085540772
+max per op: 0.0000003891490855
+min per op: 0.0000002005298314
+med per op: 0.0000003528451464
+avg per op: 0.0000003339852749
+
+
+./omp_atomiccaptureincrement 2 25 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0406840161285401
+max per op: 0.0000004068401613
+min per op: 0.0000002116199924
+med per op: 0.0000003781403499
+avg per op: 0.0000003583138344
+
+
+./omp_atomiccaptureincrement 2 26 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0443251065673829
+max per op: 0.0000004432510657
+min per op: 0.0000001999099947
+med per op: 0.0000003641509050
+avg per op: 0.0000003582356859
+
+
+./omp_atomiccaptureincrement 2 27 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0439539300842285
+max per op: 0.0000004395393008
+min per op: 0.0000001976695096
+med per op: 0.0000003593204652
+avg per op: 0.0000003759512574
+
+
+./omp_atomiccaptureincrement 2 28 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0486691077117920
+max per op: 0.0000004866910771
+min per op: 0.0000000796696109
+med per op: 0.0000004135702768
+avg per op: 0.0000004120077770
+
+
+./omp_atomiccaptureincrement 2 29 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0477738574371337
+max per op: 0.0000004777385744
+min per op: 0.0000003316710649
+med per op: 0.0000003944295242
+avg per op: 0.0000004111526780
+
+
+./omp_atomiccaptureincrement 2 30 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0520220628662109
+max per op: 0.0000005202206287
+min per op: 0.0000003688482521
+med per op: 0.0000004256693311
+avg per op: 0.0000004563758896
+
+
+./omp_atomiccaptureincrement 2 31 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0512078194732666
+max per op: 0.0000005120781947
+min per op: 0.0000003508092540
+med per op: 0.0000004217199467
+avg per op: 0.0000004455321303
+
+
+./omp_atomiccaptureincrement 2 32 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0553099026794434
+max per op: 0.0000005530990268
+min per op: 0.0000004055695374
+med per op: 0.0000004979906738
+avg per op: 0.0000004896930068
+
+
+./omp_atomiccaptureincrement 2 33 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0566128882751465
+max per op: 0.0000005661288828
+min per op: 0.0000004184996919
+med per op: 0.0000004654009288
+avg per op: 0.0000004932727207
+
+
+./omp_atomiccaptureincrement 2 34 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0596690249786377
+max per op: 0.0000005966902498
+min per op: 0.0000004318882396
+med per op: 0.0000005060193455
+avg per op: 0.0000005082401518
+
+
+./omp_atomiccaptureincrement 2 35 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0607408833007812
+max per op: 0.0000006074088330
+min per op: 0.0000003635283772
+med per op: 0.0000005124897740
+avg per op: 0.0000005250856072
+
+
+./omp_atomiccaptureincrement 2 36 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0627419856414795
+max per op: 0.0000006274198564
+min per op: 0.0000004420887834
+med per op: 0.0000005501856316
+avg per op: 0.0000005487355455
+
+
+./omp_atomiccaptureincrement 3 1 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0013659350280762
+max per op: 0.0000000136593503
+min per op: 0.0000000136593503
+med per op: 0.0000000136593503
+avg per op: 0.0000000136593503
+
+
+./omp_atomiccaptureincrement 3 2 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0018979509735108
+max per op: 0.0000000189795097
+min per op: 0.0000000206789136
+med per op: 0.0000000227348340
+avg per op: 0.0000000227348340
+
+
+./omp_atomiccaptureincrement 3 3 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0027838849487305
+max per op: 0.0000000278388495
+min per op: 0.0000000129404620
+med per op: 0.0000000281702513
+avg per op: 0.0000000224998628
+
+
+./omp_atomiccaptureincrement 3 4 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0042448078155518
+max per op: 0.0000000424480782
+min per op: 0.0000000268990872
+med per op: 0.0000000339413033
+avg per op: 0.0000000340652809
+
+
+./omp_atomiccaptureincrement 3 5 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0107391508026122
+max per op: 0.0000001073915080
+min per op: 0.0000000642001924
+med per op: 0.0000000687402078
+avg per op: 0.0000000821218828
+
+
+./omp_atomiccaptureincrement 3 6 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0152179205322266
+max per op: 0.0000001521792053
+min per op: 0.0000000595905704
+med per op: 0.0000001299150517
+avg per op: 0.0000001145983224
+
+
+./omp_atomiccaptureincrement 3 7 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0205029720764160
+max per op: 0.0000002050297208
+min per op: 0.0000000518406155
+med per op: 0.0000002053194658
+avg per op: 0.0000001655688536
+
+
+./omp_atomiccaptureincrement 3 8 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0251351728210449
+max per op: 0.0000002513517282
+min per op: 0.0000001871898529
+med per op: 0.0000002205248130
+avg per op: 0.0000002199732352
+
+
+./omp_atomiccaptureincrement 3 9 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0272029876251221
+max per op: 0.0000002720298763
+min per op: 0.0000001863888464
+med per op: 0.0000002572085268
+avg per op: 0.0000002293918482
+
+
+./omp_atomiccaptureincrement 3 10 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0306529526214600
+max per op: 0.0000003065295262
+min per op: 0.0000001967491229
+med per op: 0.0000002657154135
+avg per op: 0.0000002614572790
+
+
+./omp_atomiccaptureincrement 3 11 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0346910363769531
+max per op: 0.0000003469103638
+min per op: 0.0000002173301927
+med per op: 0.0000003448098961
+avg per op: 0.0000002977214048
+
+
+./omp_atomiccaptureincrement 3 12 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0363859373016357
+max per op: 0.0000003638593730
+min per op: 0.0000002628703337
+med per op: 0.0000003227000542
+avg per op: 0.0000003159007537
+
+
+./omp_atomiccaptureincrement 3 13 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0399638126220703
+max per op: 0.0000003996381262
+min per op: 0.0000002708897653
+med per op: 0.0000003574197476
+avg per op: 0.0000003408644915
+
+
+./omp_atomiccaptureincrement 3 14 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0422889919738770
+max per op: 0.0000004228899197
+min per op: 0.0000002509418068
+med per op: 0.0000003716143789
+avg per op: 0.0000003562106936
+
+
+./omp_atomiccaptureincrement 3 15 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0471550660247803
+max per op: 0.0000004715506602
+min per op: 0.0000003830505908
+med per op: 0.0000003850118628
+avg per op: 0.0000004254327198
+
+
+./omp_atomiccaptureincrement 3 16 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0523560836334229
+max per op: 0.0000005235608363
+min per op: 0.0000003879795444
+med per op: 0.0000004728510174
+avg per op: 0.0000004576005296
+
+
+./omp_atomiccaptureincrement 3 17 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0563910407714844
+max per op: 0.0000005639104077
+min per op: 0.0000003919709219
+med per op: 0.0000005031207370
+avg per op: 0.0000004780095280
+
+
+./omp_atomiccaptureincrement 3 18 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0592598616638183
+max per op: 0.0000005925986166
+min per op: 0.0000003860116431
+med per op: 0.0000005314943293
+avg per op: 0.0000004930121510
+
+
+./omp_atomiccaptureincrement 3 19 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0634869782257080
+max per op: 0.0000006348697823
+min per op: 0.0000003931986848
+med per op: 0.0000004904019395
+avg per op: 0.0000004649515110
+
+
+./omp_atomiccaptureincrement 3 20 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0720588451690674
+max per op: 0.0000007205884517
+min per op: 0.0000003871696274
+med per op: 0.0000006421849270
+avg per op: 0.0000005995821198
+
+
+./omp_atomiccaptureincrement 3 21 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0751910555725098
+max per op: 0.0000007519105557
+min per op: 0.0000003901891446
+med per op: 0.0000006879602061
+avg per op: 0.0000005805598136
+
+
+./omp_atomiccaptureincrement 3 22 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0845700001983642
+max per op: 0.0000008457000020
+min per op: 0.0000003991394560
+med per op: 0.0000007222855418
+avg per op: 0.0000006381366331
+
+
+./omp_atomiccaptureincrement 3 23 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1004760853881835
+max per op: 0.0000010047608539
+min per op: 0.0000003888192889
+med per op: 0.0000008030084216
+avg per op: 0.0000008197368403
+
+
+./omp_atomiccaptureincrement 3 24 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0986230177612305
+max per op: 0.0000009862301776
+min per op: 0.0000003914801028
+med per op: 0.0000007361756487
+avg per op: 0.0000008236679823
+
+
+./omp_atomiccaptureincrement 3 25 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1184530343017578
+max per op: 0.0000011845303430
+min per op: 0.0000005186797714
+med per op: 0.0000011003292659
+avg per op: 0.0000009258845943
+
+
+./omp_atomiccaptureincrement 3 26 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1297551761627197
+max per op: 0.0000012975517616
+min per op: 0.0000004283298535
+med per op: 0.0000010839403091
+avg per op: 0.0000010396852211
+
+
+./omp_atomiccaptureincrement 3 27 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1399280726776123
+max per op: 0.0000013992807268
+min per op: 0.0000004069501135
+med per op: 0.0000011368010590
+avg per op: 0.0000010720370764
+
+
+./omp_atomiccaptureincrement 3 28 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1532639854736328
+max per op: 0.0000015326398547
+min per op: 0.0000004682599817
+med per op: 0.0000012504152507
+avg per op: 0.0000012415003740
+
+
+./omp_atomiccaptureincrement 3 29 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1775148995819092
+max per op: 0.0000017751489958
+min per op: 0.0000004609392465
+med per op: 0.0000014631014645
+avg per op: 0.0000014180533232
+
+
+./omp_atomiccaptureincrement 3 30 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1986910950469971
+max per op: 0.0000019869109505
+min per op: 0.0000007896411853
+med per op: 0.0000015040850895
+avg per op: 0.0000015136069594
+
+
+./omp_atomiccaptureincrement 3 31 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2275058975982666
+max per op: 0.0000022750589760
+min per op: 0.0000007903007706
+med per op: 0.0000018947794588
+avg per op: 0.0000018458904046
+
+
+./omp_atomiccaptureincrement 3 32 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2656149988555908
+max per op: 0.0000026561499886
+min per op: 0.0000013503102548
+med per op: 0.0000019300760207
+avg per op: 0.0000021280677237
+
+
+./omp_atomiccaptureincrement 3 33 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2780121441802979
+max per op: 0.0000027801214418
+min per op: 0.0000013814506271
+med per op: 0.0000019139693564
+avg per op: 0.0000021308720310
+
+
+./omp_atomiccaptureincrement 3 34 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3063478478240967
+max per op: 0.0000030634784782
+min per op: 0.0000013908200041
+med per op: 0.0000022966955736
+avg per op: 0.0000023984157274
+
+
+./omp_atomiccaptureincrement 3 35 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2896681226806641
+max per op: 0.0000028966812268
+min per op: 0.0000013347695483
+med per op: 0.0000023108909328
+avg per op: 0.0000022672351941
+
+
+./omp_atomiccaptureincrement 3 36 1000
+OMP atomic-capture-increment, private variable for captures
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3330049951477051
+max per op: 0.0000033300499515
+min per op: 0.0000013226313484
+med per op: 0.0000026544048845
+avg per op: 0.0000025115398655
+
+

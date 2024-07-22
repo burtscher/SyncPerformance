@@ -1,0 +1,8422 @@
+SyncPerformance v0.1
+code: cuda_atomiccas_array_fail.cu
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./cuda_atomiccas_array_fail 0 1 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 1
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 2
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 8466207
+max per op: 84
+min per op: 72
+med per op: 84
+avg per op: 82
+
+
+./cuda_atomiccas_array_fail 0 1 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 9356088
+max per op: 93
+min per op: 81
+med per op: 93
+avg per op: 91
+
+
+./cuda_atomiccas_array_fail 0 1 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 17958821
+max per op: 179
+min per op: 154
+med per op: 179
+avg per op: 175
+
+
+./cuda_atomiccas_array_fail 0 2 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 2
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 4
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 11201424
+max per op: 112
+min per op: 76
+med per op: 112
+avg per op: 109
+
+
+./cuda_atomiccas_array_fail 0 2 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 22399437
+max per op: 223
+min per op: 153
+med per op: 223
+avg per op: 219
+
+
+./cuda_atomiccas_array_fail 0 2 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 22516462
+max per op: 225
+min per op: 153
+med per op: 225
+avg per op: 219
+
+
+./cuda_atomiccas_array_fail 0 4 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 4
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 8
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 11197635
+max per op: 111
+min per op: 76
+med per op: 104
+avg per op: 98
+
+
+./cuda_atomiccas_array_fail 0 4 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 11199105
+max per op: 111
+min per op: 90
+med per op: 111
+avg per op: 106
+
+
+./cuda_atomiccas_array_fail 0 4 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 11066135
+max per op: 110
+min per op: 79
+med per op: 101
+avg per op: 97
+
+
+./cuda_atomiccas_array_fail 0 8 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 8
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 8 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 16
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 8 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 5600028
+max per op: 56
+min per op: 33
+med per op: 55
+avg per op: 50
+
+
+./cuda_atomiccas_array_fail 0 8 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 5642365
+max per op: 56
+min per op: 29
+med per op: 55
+avg per op: 51
+
+
+./cuda_atomiccas_array_fail 0 8 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 6496666
+max per op: 64
+min per op: 32
+med per op: 55
+avg per op: 51
+
+
+./cuda_atomiccas_array_fail 0 16 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 16
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 16 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 32
+runtime of all iter: 1167035
+max per op: 11
+min per op: 11
+med per op: 11
+avg per op: 11
+
+
+./cuda_atomiccas_array_fail 0 16 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 4944483
+max per op: 49
+min per op: 37
+med per op: 40
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 0 16 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 4889332
+max per op: 48
+min per op: 33
+med per op: 39
+avg per op: 41
+
+
+./cuda_atomiccas_array_fail 0 16 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 9548739
+max per op: 95
+min per op: 28
+med per op: 81
+avg per op: 76
+
+
+./cuda_atomiccas_array_fail 0 32 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 32
+runtime of all iter: 1166676
+max per op: 11
+min per op: 11
+med per op: 11
+avg per op: 11
+
+
+./cuda_atomiccas_array_fail 0 32 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 2333336
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 32 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 4666664
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 0 32 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 10494300
+max per op: 104
+min per op: 28
+med per op: 81
+avg per op: 74
+
+
+./cuda_atomiccas_array_fail 0 32 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 15271315
+max per op: 152
+min per op: 40
+med per op: 115
+avg per op: 105
+
+
+./cuda_atomiccas_array_fail 0 64 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 2333335
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 64 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 2333334
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 64 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 10494294
+max per op: 104
+min per op: 31
+med per op: 46
+avg per op: 65
+
+
+./cuda_atomiccas_array_fail 0 64 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 14304008
+max per op: 143
+min per op: 41
+med per op: 94
+avg per op: 102
+
+
+./cuda_atomiccas_array_fail 0 64 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 22276951
+max per op: 222
+min per op: 102
+med per op: 190
+avg per op: 180
+
+
+./cuda_atomiccas_array_fail 0 128 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 4000000
+max per op: 40
+min per op: 40
+med per op: 39
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 128 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 4666669
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 0 128 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 15232261
+max per op: 152
+min per op: 61
+med per op: 104
+avg per op: 110
+
+
+./cuda_atomiccas_array_fail 0 128 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 20593634
+max per op: 205
+min per op: 117
+med per op: 184
+avg per op: 179
+
+
+./cuda_atomiccas_array_fail 0 128 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 41689021
+max per op: 416
+min per op: 127
+med per op: 295
+avg per op: 283
+
+
+./cuda_atomiccas_array_fail 0 256 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 8000000
+max per op: 80
+min per op: 75
+med per op: 77
+avg per op: 77
+
+
+./cuda_atomiccas_array_fail 0 256 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 8000000
+max per op: 80
+min per op: 75
+med per op: 77
+avg per op: 77
+
+
+./cuda_atomiccas_array_fail 0 256 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 20414438
+max per op: 204
+min per op: 100
+med per op: 180
+avg per op: 173
+
+
+./cuda_atomiccas_array_fail 0 256 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 41874825
+max per op: 418
+min per op: 156
+med per op: 359
+avg per op: 340
+
+
+./cuda_atomiccas_array_fail 0 256 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 79429588
+max per op: 794
+min per op: 195
+med per op: 520
+avg per op: 529
+
+
+./cuda_atomiccas_array_fail 0 512 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 16005724
+max per op: 160
+min per op: 147
+med per op: 159
+avg per op: 156
+
+
+./cuda_atomiccas_array_fail 0 512 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 16004977
+max per op: 160
+min per op: 147
+med per op: 159
+avg per op: 156
+
+
+./cuda_atomiccas_array_fail 0 512 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 44361178
+max per op: 443
+min per op: 214
+med per op: 349
+avg per op: 343
+
+
+./cuda_atomiccas_array_fail 0 512 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 78012639
+max per op: 780
+min per op: 318
+med per op: 687
+avg per op: 663
+
+
+./cuda_atomiccas_array_fail 0 512 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 131072
+runtime of all iter: 154160662
+max per op: 1541
+min per op: 386
+med per op: 1014
+avg per op: 1070
+
+
+./cuda_atomiccas_array_fail 0 786 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 786
+runtime of all iter: 24800380
+max per op: 248
+min per op: 217
+med per op: 238
+avg per op: 237
+
+
+./cuda_atomiccas_array_fail 0 786 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 1572
+runtime of all iter: 32000191
+max per op: 320
+min per op: 217
+med per op: 264
+avg per op: 272
+
+
+./cuda_atomiccas_array_fail 0 786 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 50304
+runtime of all iter: 83193770
+max per op: 831
+min per op: 326
+med per op: 619
+avg per op: 607
+
+
+./cuda_atomiccas_array_fail 0 786 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 100608
+runtime of all iter: 159983414
+max per op: 1599
+min per op: 703
+med per op: 1202
+avg per op: 1195
+
+
+./cuda_atomiccas_array_fail 0 786 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 201216
+runtime of all iter: 206088896
+max per op: 2060
+min per op: 582
+med per op: 1202
+avg per op: 1234
+
+
+./cuda_atomiccas_array_fail 0 1024 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 32006998
+max per op: 320
+min per op: 292
+med per op: 319
+avg per op: 315
+
+
+./cuda_atomiccas_array_fail 0 1024 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 32001705
+max per op: 320
+min per op: 291
+med per op: 319
+avg per op: 315
+
+
+./cuda_atomiccas_array_fail 0 1024 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 85075511
+max per op: 850
+min per op: 373
+med per op: 652
+avg per op: 655
+
+
+./cuda_atomiccas_array_fail 0 1024 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 131072
+runtime of all iter: 152231042
+max per op: 1522
+min per op: 940
+med per op: 1310
+avg per op: 1308
+
+
+./cuda_atomiccas_array_fail 0 1024 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 262144
+runtime of all iter: 186805333
+max per op: 1868
+min per op: 921
+med per op: 1274
+avg per op: 1316
+
+
+./cuda_atomiccas_array_fail 1 1 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 1
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 2
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 4552911
+max per op: 45
+min per op: 29
+med per op: 42
+avg per op: 43
+
+
+./cuda_atomiccas_array_fail 1 1 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 8364657
+max per op: 83
+min per op: 57
+med per op: 84
+avg per op: 83
+
+
+./cuda_atomiccas_array_fail 1 1 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 8970927
+max per op: 89
+min per op: 59
+med per op: 87
+avg per op: 86
+
+
+./cuda_atomiccas_array_fail 1 2 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 2
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 4
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 11196817
+max per op: 111
+min per op: 76
+med per op: 104
+avg per op: 98
+
+
+./cuda_atomiccas_array_fail 1 2 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 11195936
+max per op: 111
+min per op: 76
+med per op: 104
+avg per op: 98
+
+
+./cuda_atomiccas_array_fail 1 2 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 14181175
+max per op: 141
+min per op: 76
+med per op: 118
+avg per op: 118
+
+
+./cuda_atomiccas_array_fail 1 4 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 4
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 8
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 5599717
+max per op: 55
+min per op: 34
+med per op: 55
+avg per op: 50
+
+
+./cuda_atomiccas_array_fail 1 4 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 7265147
+max per op: 72
+min per op: 38
+med per op: 55
+avg per op: 57
+
+
+./cuda_atomiccas_array_fail 1 4 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 5688240
+max per op: 56
+min per op: 31
+med per op: 55
+avg per op: 52
+
+
+./cuda_atomiccas_array_fail 1 8 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 8
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 8 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 16
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 8 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 4853594
+max per op: 48
+min per op: 34
+med per op: 40
+avg per op: 41
+
+
+./cuda_atomiccas_array_fail 1 8 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 4883816
+max per op: 48
+min per op: 30
+med per op: 40
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 1 8 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 9687888
+max per op: 96
+min per op: 34
+med per op: 64
+avg per op: 65
+
+
+./cuda_atomiccas_array_fail 1 16 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 16
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 16 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 32
+runtime of all iter: 2333338
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 16 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 4666670
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 1 16 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 9626663
+max per op: 96
+min per op: 20
+med per op: 48
+avg per op: 61
+
+
+./cuda_atomiccas_array_fail 1 16 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 15016158
+max per op: 150
+min per op: 40
+med per op: 118
+avg per op: 116
+
+
+./cuda_atomiccas_array_fail 1 32 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 32
+runtime of all iter: 2333337
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 32 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 2333335
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 32 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 9333609
+max per op: 93
+min per op: 31
+med per op: 46
+avg per op: 62
+
+
+./cuda_atomiccas_array_fail 1 32 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 14141770
+max per op: 141
+min per op: 41
+med per op: 116
+avg per op: 115
+
+
+./cuda_atomiccas_array_fail 1 32 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 22816868
+max per op: 228
+min per op: 123
+med per op: 180
+avg per op: 179
+
+
+./cuda_atomiccas_array_fail 1 64 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 64
+runtime of all iter: 4000003
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 64 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 4666676
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 1 64 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 4096
+runtime of all iter: 14991791
+max per op: 149
+min per op: 59
+med per op: 100
+avg per op: 107
+
+
+./cuda_atomiccas_array_fail 1 64 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 20817721
+max per op: 208
+min per op: 117
+med per op: 186
+avg per op: 180
+
+
+./cuda_atomiccas_array_fail 1 64 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 40510102
+max per op: 405
+min per op: 225
+med per op: 357
+avg per op: 353
+
+
+./cuda_atomiccas_array_fail 1 128 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 128
+runtime of all iter: 8000000
+max per op: 80
+min per op: 80
+med per op: 80
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 1 128 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 7999999
+max per op: 79
+min per op: 79
+med per op: 79
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 1 128 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 8192
+runtime of all iter: 20380181
+max per op: 203
+min per op: 111
+med per op: 183
+avg per op: 178
+
+
+./cuda_atomiccas_array_fail 1 128 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 39607853
+max per op: 396
+min per op: 231
+med per op: 356
+avg per op: 341
+
+
+./cuda_atomiccas_array_fail 1 128 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 83990763
+max per op: 839
+min per op: 457
+med per op: 666
+avg per op: 668
+
+
+./cuda_atomiccas_array_fail 1 256 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 256
+runtime of all iter: 15999999
+max per op: 159
+min per op: 160
+med per op: 160
+avg per op: 160
+
+
+./cuda_atomiccas_array_fail 1 256 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 15999989
+max per op: 159
+min per op: 160
+med per op: 160
+avg per op: 160
+
+
+./cuda_atomiccas_array_fail 1 256 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 16384
+runtime of all iter: 45911158
+max per op: 459
+min per op: 215
+med per op: 340
+avg per op: 337
+
+
+./cuda_atomiccas_array_fail 1 256 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 81372611
+max per op: 813
+min per op: 511
+med per op: 684
+avg per op: 681
+
+
+./cuda_atomiccas_array_fail 1 256 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 159727258
+max per op: 1597
+min per op: 537
+med per op: 1232
+avg per op: 1173
+
+
+./cuda_atomiccas_array_fail 1 512 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 512
+runtime of all iter: 31993270
+max per op: 319
+min per op: 297
+med per op: 318
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 1 512 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 31992933
+max per op: 319
+min per op: 297
+med per op: 318
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 1 512 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 32768
+runtime of all iter: 81558373
+max per op: 815
+min per op: 373
+med per op: 713
+avg per op: 669
+
+
+./cuda_atomiccas_array_fail 1 512 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 153091495
+max per op: 1530
+min per op: 835
+med per op: 1306
+avg per op: 1301
+
+
+./cuda_atomiccas_array_fail 1 512 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 131072
+runtime of all iter: 311904526
+max per op: 3119
+min per op: 1015
+med per op: 2029
+avg per op: 2092
+
+
+./cuda_atomiccas_array_fail 1 786 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 786
+runtime of all iter: 49301904
+max per op: 493
+min per op: 439
+med per op: 473
+avg per op: 473
+
+
+./cuda_atomiccas_array_fail 1 786 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 1572
+runtime of all iter: 56500047
+max per op: 565
+min per op: 440
+med per op: 498
+avg per op: 507
+
+
+./cuda_atomiccas_array_fail 1 786 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 50304
+runtime of all iter: 139874404
+max per op: 1398
+min per op: 566
+med per op: 1086
+avg per op: 1053
+
+
+./cuda_atomiccas_array_fail 1 786 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 100608
+runtime of all iter: 265761769
+max per op: 2657
+min per op: 1399
+med per op: 2135
+avg per op: 2106
+
+
+./cuda_atomiccas_array_fail 1 786 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 201216
+runtime of all iter: 368042942
+max per op: 3680
+min per op: 948
+med per op: 2035
+avg per op: 2125
+
+
+./cuda_atomiccas_array_fail 1 1024 1 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 1
+num elements: 1024
+runtime of all iter: 64007914
+max per op: 640
+min per op: 597
+med per op: 637
+avg per op: 631
+
+
+./cuda_atomiccas_array_fail 1 1024 2 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 1
+num elements: 2048
+runtime of all iter: 64005397
+max per op: 640
+min per op: 597
+med per op: 637
+avg per op: 631
+
+
+./cuda_atomiccas_array_fail 1 1024 64 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 1
+num elements: 65536
+runtime of all iter: 157126676
+max per op: 1571
+min per op: 638
+med per op: 1318
+avg per op: 1292
+
+
+./cuda_atomiccas_array_fail 1 1024 128 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 1
+num elements: 131072
+runtime of all iter: 295680638
+max per op: 2956
+min per op: 2007
+med per op: 2617
+avg per op: 2613
+
+
+./cuda_atomiccas_array_fail 1 1024 256 1000 1
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 1
+num elements: 262144
+runtime of all iter: 322849338
+max per op: 3228
+min per op: 2084
+med per op: 2641
+avg per op: 2655
+
+
+./cuda_atomiccas_array_fail 0 1 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 2
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 4
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 4747910
+max per op: 47
+min per op: 29
+med per op: 43
+avg per op: 44
+
+
+./cuda_atomiccas_array_fail 0 1 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 9142929
+max per op: 91
+min per op: 55
+med per op: 80
+avg per op: 85
+
+
+./cuda_atomiccas_array_fail 0 1 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 8768310
+max per op: 87
+min per op: 58
+med per op: 86
+avg per op: 85
+
+
+./cuda_atomiccas_array_fail 0 2 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 4
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 8
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 11197591
+max per op: 111
+min per op: 76
+med per op: 104
+avg per op: 98
+
+
+./cuda_atomiccas_array_fail 0 2 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 11195964
+max per op: 111
+min per op: 76
+med per op: 104
+avg per op: 98
+
+
+./cuda_atomiccas_array_fail 0 2 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 14165549
+max per op: 141
+min per op: 75
+med per op: 115
+avg per op: 117
+
+
+./cuda_atomiccas_array_fail 0 4 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 8
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 16
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 5599889
+max per op: 55
+min per op: 34
+med per op: 55
+avg per op: 50
+
+
+./cuda_atomiccas_array_fail 0 4 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 7288892
+max per op: 72
+min per op: 38
+med per op: 56
+avg per op: 58
+
+
+./cuda_atomiccas_array_fail 0 4 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 5729423
+max per op: 57
+min per op: 33
+med per op: 54
+avg per op: 51
+
+
+./cuda_atomiccas_array_fail 0 8 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 16
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 8 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 32
+runtime of all iter: 1167034
+max per op: 11
+min per op: 11
+med per op: 11
+avg per op: 11
+
+
+./cuda_atomiccas_array_fail 0 8 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 4854106
+max per op: 48
+min per op: 34
+med per op: 40
+avg per op: 41
+
+
+./cuda_atomiccas_array_fail 0 8 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 4897342
+max per op: 48
+min per op: 29
+med per op: 40
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 0 8 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 9713174
+max per op: 97
+min per op: 30
+med per op: 64
+avg per op: 65
+
+
+./cuda_atomiccas_array_fail 0 16 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 32
+runtime of all iter: 1166684
+max per op: 11
+min per op: 11
+med per op: 11
+avg per op: 11
+
+
+./cuda_atomiccas_array_fail 0 16 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 64
+runtime of all iter: 2333341
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 16 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 4666704
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 0 16 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 9625824
+max per op: 96
+min per op: 20
+med per op: 48
+avg per op: 61
+
+
+./cuda_atomiccas_array_fail 0 16 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 15015289
+max per op: 150
+min per op: 40
+med per op: 119
+avg per op: 116
+
+
+./cuda_atomiccas_array_fail 0 32 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 64
+runtime of all iter: 2333334
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 32 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 2333337
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 0 32 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 9333481
+max per op: 93
+min per op: 31
+med per op: 46
+avg per op: 62
+
+
+./cuda_atomiccas_array_fail 0 32 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 14184593
+max per op: 141
+min per op: 41
+med per op: 116
+avg per op: 115
+
+
+./cuda_atomiccas_array_fail 0 32 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 22730285
+max per op: 227
+min per op: 123
+med per op: 181
+avg per op: 179
+
+
+./cuda_atomiccas_array_fail 0 64 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 4000000
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 64 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 4666681
+max per op: 46
+min per op: 46
+med per op: 46
+avg per op: 46
+
+
+./cuda_atomiccas_array_fail 0 64 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 14990994
+max per op: 149
+min per op: 59
+med per op: 100
+avg per op: 107
+
+
+./cuda_atomiccas_array_fail 0 64 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 20840472
+max per op: 208
+min per op: 117
+med per op: 186
+avg per op: 180
+
+
+./cuda_atomiccas_array_fail 0 64 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 40644181
+max per op: 406
+min per op: 235
+med per op: 357
+avg per op: 353
+
+
+./cuda_atomiccas_array_fail 0 128 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 8000000
+max per op: 80
+min per op: 80
+med per op: 80
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 0 128 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 7999998
+max per op: 79
+min per op: 80
+med per op: 79
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 0 128 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 20376879
+max per op: 203
+min per op: 110
+med per op: 183
+avg per op: 178
+
+
+./cuda_atomiccas_array_fail 0 128 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 39564678
+max per op: 395
+min per op: 224
+med per op: 356
+avg per op: 339
+
+
+./cuda_atomiccas_array_fail 0 128 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 89443928
+max per op: 894
+min per op: 186
+med per op: 576
+avg per op: 560
+
+
+./cuda_atomiccas_array_fail 0 256 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 16000000
+max per op: 160
+min per op: 150
+med per op: 155
+avg per op: 155
+
+
+./cuda_atomiccas_array_fail 0 256 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 15999999
+max per op: 159
+min per op: 150
+med per op: 155
+avg per op: 155
+
+
+./cuda_atomiccas_array_fail 0 256 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 46585246
+max per op: 465
+min per op: 224
+med per op: 339
+avg per op: 340
+
+
+./cuda_atomiccas_array_fail 0 256 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 80780743
+max per op: 807
+min per op: 480
+med per op: 686
+avg per op: 675
+
+
+./cuda_atomiccas_array_fail 0 256 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 157430046
+max per op: 1574
+min per op: 421
+med per op: 1092
+avg per op: 1079
+
+
+./cuda_atomiccas_array_fail 0 512 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 32013115
+max per op: 320
+min per op: 294
+med per op: 318
+avg per op: 312
+
+
+./cuda_atomiccas_array_fail 0 512 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 32040912
+max per op: 320
+min per op: 293
+med per op: 318
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 0 512 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 82265736
+max per op: 822
+min per op: 360
+med per op: 708
+avg per op: 671
+
+
+./cuda_atomiccas_array_fail 0 512 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 152855097
+max per op: 1528
+min per op: 834
+med per op: 1325
+avg per op: 1303
+
+
+./cuda_atomiccas_array_fail 0 512 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 262144
+runtime of all iter: 310202494
+max per op: 3102
+min per op: 1043
+med per op: 2060
+avg per op: 2118
+
+
+./cuda_atomiccas_array_fail 0 786 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 1572
+runtime of all iter: 49287670
+max per op: 492
+min per op: 432
+med per op: 473
+avg per op: 472
+
+
+./cuda_atomiccas_array_fail 0 786 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 3144
+runtime of all iter: 56500004
+max per op: 565
+min per op: 432
+med per op: 494
+avg per op: 507
+
+
+./cuda_atomiccas_array_fail 0 786 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 100608
+runtime of all iter: 138484724
+max per op: 1384
+min per op: 584
+med per op: 1081
+avg per op: 1050
+
+
+./cuda_atomiccas_array_fail 0 786 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 201216
+runtime of all iter: 262237508
+max per op: 2622
+min per op: 1394
+med per op: 2130
+avg per op: 2101
+
+
+./cuda_atomiccas_array_fail 0 786 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 402432
+runtime of all iter: 353573428
+max per op: 3535
+min per op: 1031
+med per op: 2086
+avg per op: 2118
+
+
+./cuda_atomiccas_array_fail 0 1024 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 64006503
+max per op: 640
+min per op: 583
+med per op: 639
+avg per op: 631
+
+
+./cuda_atomiccas_array_fail 0 1024 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 64001517
+max per op: 640
+min per op: 583
+med per op: 639
+avg per op: 631
+
+
+./cuda_atomiccas_array_fail 0 1024 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 156186246
+max per op: 1561
+min per op: 638
+med per op: 1334
+avg per op: 1297
+
+
+./cuda_atomiccas_array_fail 0 1024 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 262144
+runtime of all iter: 288597200
+max per op: 2885
+min per op: 1950
+med per op: 2645
+avg per op: 2618
+
+
+./cuda_atomiccas_array_fail 0 1024 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 524288
+runtime of all iter: 329516859
+max per op: 3295
+min per op: 1846
+med per op: 2656
+avg per op: 2652
+
+
+./cuda_atomiccas_array_fail 1 1 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 2
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 4
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 2392924
+max per op: 23
+min per op: 13
+med per op: 21
+avg per op: 20
+
+
+./cuda_atomiccas_array_fail 1 1 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 4411760
+max per op: 44
+min per op: 29
+med per op: 40
+avg per op: 37
+
+
+./cuda_atomiccas_array_fail 1 1 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 4694181
+max per op: 46
+min per op: 32
+med per op: 42
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 2 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 4
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 8
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 5599781
+max per op: 55
+min per op: 34
+med per op: 55
+avg per op: 50
+
+
+./cuda_atomiccas_array_fail 1 2 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 6485077
+max per op: 64
+min per op: 38
+med per op: 56
+avg per op: 53
+
+
+./cuda_atomiccas_array_fail 1 2 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 11239680
+max per op: 112
+min per op: 52
+med per op: 100
+avg per op: 95
+
+
+./cuda_atomiccas_array_fail 1 4 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 8
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 16
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 4706953
+max per op: 47
+min per op: 37
+med per op: 40
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 1 4 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 9964264
+max per op: 99
+min per op: 16
+med per op: 59
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 4 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 9814028
+max per op: 98
+min per op: 55
+med per op: 80
+avg per op: 78
+
+
+./cuda_atomiccas_array_fail 1 8 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 16
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 8 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 32
+runtime of all iter: 2333337
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 8 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 10494169
+max per op: 104
+min per op: 27
+med per op: 58
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 8 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 10510186
+max per op: 105
+min per op: 30
+med per op: 70
+avg per op: 70
+
+
+./cuda_atomiccas_array_fail 1 8 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 16839743
+max per op: 168
+min per op: 51
+med per op: 108
+avg per op: 110
+
+
+./cuda_atomiccas_array_fail 1 16 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 32
+runtime of all iter: 2333336
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 16 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 64
+runtime of all iter: 2333336
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_atomiccas_array_fail 1 16 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 9333311
+max per op: 93
+min per op: 31
+med per op: 69
+avg per op: 68
+
+
+./cuda_atomiccas_array_fail 1 16 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 16309535
+max per op: 163
+min per op: 58
+med per op: 116
+avg per op: 111
+
+
+./cuda_atomiccas_array_fail 1 16 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 25376745
+max per op: 253
+min per op: 140
+med per op: 185
+avg per op: 181
+
+
+./cuda_atomiccas_array_fail 1 32 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 64
+runtime of all iter: 4000000
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 32 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 4000002
+max per op: 40
+min per op: 39
+med per op: 40
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 32 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 14113200
+max per op: 141
+min per op: 69
+med per op: 93
+avg per op: 108
+
+
+./cuda_atomiccas_array_fail 1 32 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 21696722
+max per op: 216
+min per op: 111
+med per op: 177
+avg per op: 173
+
+
+./cuda_atomiccas_array_fail 1 32 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 42589189
+max per op: 425
+min per op: 199
+med per op: 366
+avg per op: 350
+
+
+./cuda_atomiccas_array_fail 1 64 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 128
+runtime of all iter: 8000000
+max per op: 80
+min per op: 79
+med per op: 80
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 1 64 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 7999998
+max per op: 79
+min per op: 80
+med per op: 79
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 1 64 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 8192
+runtime of all iter: 22152790
+max per op: 221
+min per op: 110
+med per op: 183
+avg per op: 179
+
+
+./cuda_atomiccas_array_fail 1 64 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 44143106
+max per op: 441
+min per op: 193
+med per op: 343
+avg per op: 345
+
+
+./cuda_atomiccas_array_fail 1 64 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 80741122
+max per op: 807
+min per op: 358
+med per op: 675
+avg per op: 677
+
+
+./cuda_atomiccas_array_fail 1 128 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 256
+runtime of all iter: 16000000
+max per op: 160
+min per op: 160
+med per op: 159
+avg per op: 159
+
+
+./cuda_atomiccas_array_fail 1 128 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 16000002
+max per op: 160
+min per op: 160
+med per op: 160
+avg per op: 160
+
+
+./cuda_atomiccas_array_fail 1 128 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 16384
+runtime of all iter: 49655599
+max per op: 496
+min per op: 200
+med per op: 331
+avg per op: 338
+
+
+./cuda_atomiccas_array_fail 1 128 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 79858440
+max per op: 798
+min per op: 374
+med per op: 658
+avg per op: 650
+
+
+./cuda_atomiccas_array_fail 1 128 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 150918381
+max per op: 1509
+min per op: 800
+med per op: 1381
+avg per op: 1335
+
+
+./cuda_atomiccas_array_fail 1 256 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 512
+runtime of all iter: 32000001
+max per op: 320
+min per op: 319
+med per op: 319
+avg per op: 320
+
+
+./cuda_atomiccas_array_fail 1 256 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 32000000
+max per op: 320
+min per op: 320
+med per op: 320
+avg per op: 320
+
+
+./cuda_atomiccas_array_fail 1 256 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 32768
+runtime of all iter: 79138139
+max per op: 791
+min per op: 433
+med per op: 687
+avg per op: 677
+
+
+./cuda_atomiccas_array_fail 1 256 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 155722601
+max per op: 1557
+min per op: 1048
+med per op: 1322
+avg per op: 1323
+
+
+./cuda_atomiccas_array_fail 1 256 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 306099853
+max per op: 3060
+min per op: 1386
+med per op: 2385
+avg per op: 2254
+
+
+./cuda_atomiccas_array_fail 1 512 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 1024
+runtime of all iter: 63999996
+max per op: 639
+min per op: 594
+med per op: 638
+avg per op: 627
+
+
+./cuda_atomiccas_array_fail 1 512 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 64000002
+max per op: 640
+min per op: 594
+med per op: 638
+avg per op: 627
+
+
+./cuda_atomiccas_array_fail 1 512 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 65536
+runtime of all iter: 159018304
+max per op: 1590
+min per op: 947
+med per op: 1281
+avg per op: 1293
+
+
+./cuda_atomiccas_array_fail 1 512 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 293267280
+max per op: 2932
+min per op: 1996
+med per op: 2607
+avg per op: 2602
+
+
+./cuda_atomiccas_array_fail 1 512 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 262144
+runtime of all iter: 578183726
+max per op: 5781
+min per op: 2453
+med per op: 4155
+avg per op: 4223
+
+
+./cuda_atomiccas_array_fail 1 786 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 1572
+runtime of all iter: 98300031
+max per op: 983
+min per op: 876
+med per op: 943
+avg per op: 943
+
+
+./cuda_atomiccas_array_fail 1 786 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 3144
+runtime of all iter: 100700224
+max per op: 1007
+min per op: 876
+med per op: 963
+avg per op: 955
+
+
+./cuda_atomiccas_array_fail 1 786 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 100608
+runtime of all iter: 251183580
+max per op: 2511
+min per op: 1426
+med per op: 2009
+avg per op: 1998
+
+
+./cuda_atomiccas_array_fail 1 786 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 201216
+runtime of all iter: 465265099
+max per op: 4652
+min per op: 3110
+med per op: 4022
+avg per op: 3992
+
+
+./cuda_atomiccas_array_fail 1 786 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 402432
+runtime of all iter: 559456214
+max per op: 5594
+min per op: 2820
+med per op: 3972
+avg per op: 3996
+
+
+./cuda_atomiccas_array_fail 1 1024 1 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 2
+num elements: 2048
+runtime of all iter: 128000006
+max per op: 1280
+min per op: 1195
+med per op: 1273
+avg per op: 1263
+
+
+./cuda_atomiccas_array_fail 1 1024 2 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 2
+num elements: 4096
+runtime of all iter: 128000009
+max per op: 1280
+min per op: 1195
+med per op: 1273
+avg per op: 1263
+
+
+./cuda_atomiccas_array_fail 1 1024 64 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 2
+num elements: 131072
+runtime of all iter: 290612365
+max per op: 2906
+min per op: 2168
+med per op: 2656
+avg per op: 2631
+
+
+./cuda_atomiccas_array_fail 1 1024 128 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 2
+num elements: 262144
+runtime of all iter: 557173868
+max per op: 5571
+min per op: 4199
+med per op: 5350
+avg per op: 5251
+
+
+./cuda_atomiccas_array_fail 1 1024 256 1000 2
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 2
+num elements: 524288
+runtime of all iter: 605687923
+max per op: 6056
+min per op: 4125
+med per op: 5279
+avg per op: 5227
+
+
+./cuda_atomiccas_array_fail 0 1 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 16
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 32
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 1433032
+max per op: 14
+min per op: 8
+med per op: 8
+avg per op: 9
+
+
+./cuda_atomiccas_array_fail 0 1 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 1419254
+max per op: 14
+min per op: 8
+med per op: 9
+avg per op: 10
+
+
+./cuda_atomiccas_array_fail 0 1 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 2067211
+max per op: 20
+min per op: 8
+med per op: 14
+avg per op: 14
+
+
+./cuda_atomiccas_array_fail 0 2 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 32
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 64
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 933476
+max per op: 9
+min per op: 9
+med per op: 9
+avg per op: 9
+
+
+./cuda_atomiccas_array_fail 0 2 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 2118367
+max per op: 21
+min per op: 8
+med per op: 16
+avg per op: 13
+
+
+./cuda_atomiccas_array_fail 0 2 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 4751624
+max per op: 47
+min per op: 7
+med per op: 32
+avg per op: 31
+
+
+./cuda_atomiccas_array_fail 0 4 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 64
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 128
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 1971663
+max per op: 19
+min per op: 8
+med per op: 14
+avg per op: 14
+
+
+./cuda_atomiccas_array_fail 0 4 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 4745102
+max per op: 47
+min per op: 8
+med per op: 27
+avg per op: 26
+
+
+./cuda_atomiccas_array_fail 0 4 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 5732960
+max per op: 57
+min per op: 21
+med per op: 41
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 0 8 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 128
+runtime of all iter: 1688189
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 0 8 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 256
+runtime of all iter: 1656639
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 0 8 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 4494401
+max per op: 44
+min per op: 16
+med per op: 22
+avg per op: 27
+
+
+./cuda_atomiccas_array_fail 0 8 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 5775500
+max per op: 57
+min per op: 21
+med per op: 45
+avg per op: 44
+
+
+./cuda_atomiccas_array_fail 0 8 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 11089435
+max per op: 110
+min per op: 40
+med per op: 88
+avg per op: 84
+
+
+./cuda_atomiccas_array_fail 0 16 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 256
+runtime of all iter: 3208505
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 0 16 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 512
+runtime of all iter: 3208505
+max per op: 32
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_atomiccas_array_fail 0 16 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 6119292
+max per op: 61
+min per op: 31
+med per op: 42
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 0 16 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 11728502
+max per op: 117
+min per op: 33
+med per op: 86
+avg per op: 84
+
+
+./cuda_atomiccas_array_fail 0 16 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 20660248
+max per op: 206
+min per op: 100
+med per op: 162
+avg per op: 157
+
+
+./cuda_atomiccas_array_fail 0 32 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 512
+runtime of all iter: 5973490
+max per op: 59
+min per op: 59
+med per op: 59
+avg per op: 59
+
+
+./cuda_atomiccas_array_fail 0 32 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 5555305
+max per op: 55
+min per op: 59
+med per op: 57
+avg per op: 57
+
+
+./cuda_atomiccas_array_fail 0 32 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 12178448
+max per op: 121
+min per op: 59
+med per op: 88
+avg per op: 82
+
+
+./cuda_atomiccas_array_fail 0 32 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 19600642
+max per op: 196
+min per op: 68
+med per op: 164
+avg per op: 156
+
+
+./cuda_atomiccas_array_fail 0 32 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 37085952
+max per op: 370
+min per op: 181
+med per op: 320
+avg per op: 307
+
+
+./cuda_atomiccas_array_fail 0 64 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 0 64 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 0 64 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 20571615
+max per op: 205
+min per op: 118
+med per op: 158
+avg per op: 159
+
+
+./cuda_atomiccas_array_fail 0 64 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 36596742
+max per op: 365
+min per op: 180
+med per op: 310
+avg per op: 304
+
+
+./cuda_atomiccas_array_fail 0 64 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 70749175
+max per op: 707
+min per op: 414
+med per op: 623
+avg per op: 607
+
+
+./cuda_atomiccas_array_fail 0 128 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 0 128 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 0 128 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 43860762
+max per op: 438
+min per op: 237
+med per op: 308
+avg per op: 318
+
+
+./cuda_atomiccas_array_fail 0 128 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 70870574
+max per op: 708
+min per op: 345
+med per op: 650
+avg per op: 628
+
+
+./cuda_atomiccas_array_fail 0 128 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 139449070
+max per op: 1394
+min per op: 525
+med per op: 1034
+avg per op: 1001
+
+
+./cuda_atomiccas_array_fail 0 256 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 47481436
+max per op: 474
+min per op: 445
+med per op: 460
+avg per op: 460
+
+
+./cuda_atomiccas_array_fail 0 256 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 50973678
+max per op: 509
+min per op: 480
+med per op: 495
+avg per op: 495
+
+
+./cuda_atomiccas_array_fail 0 256 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 82130843
+max per op: 821
+min per op: 468
+med per op: 628
+avg per op: 630
+
+
+./cuda_atomiccas_array_fail 0 256 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 144049565
+max per op: 1440
+min per op: 978
+med per op: 1256
+avg per op: 1245
+
+
+./cuda_atomiccas_array_fail 0 256 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 280644457
+max per op: 2806
+min per op: 1059
+med per op: 1976
+avg per op: 2011
+
+
+./cuda_atomiccas_array_fail 0 512 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 101791741
+max per op: 1017
+min per op: 940
+med per op: 1013
+avg per op: 996
+
+
+./cuda_atomiccas_array_fail 0 512 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 101791531
+max per op: 1017
+min per op: 940
+med per op: 1013
+avg per op: 996
+
+
+./cuda_atomiccas_array_fail 0 512 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 138545237
+max per op: 1385
+min per op: 921
+med per op: 1291
+avg per op: 1271
+
+
+./cuda_atomiccas_array_fail 0 512 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 270396026
+max per op: 2703
+min per op: 2041
+med per op: 2603
+avg per op: 2547
+
+
+./cuda_atomiccas_array_fail 0 512 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 2097152
+runtime of all iter: 539279236
+max per op: 5392
+min per op: 2139
+med per op: 3884
+avg per op: 4157
+
+
+./cuda_atomiccas_array_fail 0 786 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 12576
+runtime of all iter: 153297062
+max per op: 1532
+min per op: 1347
+med per op: 1473
+avg per op: 1471
+
+
+./cuda_atomiccas_array_fail 0 786 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 25152
+runtime of all iter: 153254359
+max per op: 1532
+min per op: 1320
+med per op: 1471
+avg per op: 1456
+
+
+./cuda_atomiccas_array_fail 0 786 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 804864
+runtime of all iter: 233826183
+max per op: 2338
+min per op: 1361
+med per op: 1952
+avg per op: 1915
+
+
+./cuda_atomiccas_array_fail 0 786 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 1609728
+runtime of all iter: 423285263
+max per op: 4232
+min per op: 2551
+med per op: 3882
+avg per op: 3803
+
+
+./cuda_atomiccas_array_fail 0 786 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 3219456
+runtime of all iter: 485063362
+max per op: 4850
+min per op: 2550
+med per op: 3823
+avg per op: 3812
+
+
+./cuda_atomiccas_array_fail 0 1024 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 203502361
+max per op: 2035
+min per op: 1869
+med per op: 2031
+avg per op: 2009
+
+
+./cuda_atomiccas_array_fail 0 1024 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 203492015
+max per op: 2034
+min per op: 1867
+med per op: 2031
+avg per op: 2009
+
+
+./cuda_atomiccas_array_fail 0 1024 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 273643718
+max per op: 2736
+min per op: 1910
+med per op: 2624
+avg per op: 2562
+
+
+./cuda_atomiccas_array_fail 0 1024 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 2097152
+runtime of all iter: 532050188
+max per op: 5320
+min per op: 4067
+med per op: 5249
+avg per op: 5103
+
+
+./cuda_atomiccas_array_fail 0 1024 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 4194304
+runtime of all iter: 563311270
+max per op: 5633
+min per op: 4057
+med per op: 5077
+avg per op: 5091
+
+
+./cuda_atomiccas_array_fail 1 1 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 16
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 32
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 2197927
+max per op: 21
+min per op: 12
+med per op: 13
+avg per op: 15
+
+
+./cuda_atomiccas_array_fail 1 2 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 32
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 64
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 2701533
+max per op: 27
+min per op: 12
+med per op: 13
+avg per op: 14
+
+
+./cuda_atomiccas_array_fail 1 2 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 2741670
+max per op: 27
+min per op: 12
+med per op: 19
+avg per op: 20
+
+
+./cuda_atomiccas_array_fail 1 4 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 64
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 128
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 2060305
+max per op: 20
+min per op: 12
+med per op: 12
+avg per op: 14
+
+
+./cuda_atomiccas_array_fail 1 4 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 2913419
+max per op: 29
+min per op: 12
+med per op: 19
+avg per op: 19
+
+
+./cuda_atomiccas_array_fail 1 4 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 5366419
+max per op: 53
+min per op: 17
+med per op: 43
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 8 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 128
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 256
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 2849503
+max per op: 28
+min per op: 16
+med per op: 18
+avg per op: 19
+
+
+./cuda_atomiccas_array_fail 1 8 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 5224556
+max per op: 52
+min per op: 18
+med per op: 41
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 8 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 9927219
+max per op: 99
+min per op: 40
+med per op: 80
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 1 16 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 256
+runtime of all iter: 3236172
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 512
+runtime of all iter: 3255114
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 5559751
+max per op: 55
+min per op: 32
+med per op: 39
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 1 16 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 11246876
+max per op: 112
+min per op: 32
+med per op: 80
+avg per op: 78
+
+
+./cuda_atomiccas_array_fail 1 16 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 18462760
+max per op: 184
+min per op: 102
+med per op: 156
+avg per op: 154
+
+
+./cuda_atomiccas_array_fail 1 32 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 512
+runtime of all iter: 6453272
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 6453139
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 10849032
+max per op: 108
+min per op: 65
+med per op: 78
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 1 32 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 19043476
+max per op: 190
+min per op: 83
+med per op: 156
+avg per op: 153
+
+
+./cuda_atomiccas_array_fail 1 32 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 35887342
+max per op: 358
+min per op: 173
+med per op: 316
+avg per op: 311
+
+
+./cuda_atomiccas_array_fail 1 64 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 1024
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 1 64 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 1 64 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 65536
+runtime of all iter: 21540784
+max per op: 215
+min per op: 128
+med per op: 154
+avg per op: 159
+
+
+./cuda_atomiccas_array_fail 1 64 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 35933216
+max per op: 359
+min per op: 198
+med per op: 320
+avg per op: 307
+
+
+./cuda_atomiccas_array_fail 1 64 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 71359201
+max per op: 713
+min per op: 447
+med per op: 628
+avg per op: 612
+
+
+./cuda_atomiccas_array_fail 1 128 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 2048
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 1 128 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 1 128 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 131072
+runtime of all iter: 37212098
+max per op: 372
+min per op: 256
+med per op: 320
+avg per op: 316
+
+
+./cuda_atomiccas_array_fail 1 128 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 69258388
+max per op: 692
+min per op: 520
+med per op: 627
+avg per op: 628
+
+
+./cuda_atomiccas_array_fail 1 128 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 135315319
+max per op: 1353
+min per op: 1063
+med per op: 1315
+avg per op: 1282
+
+
+./cuda_atomiccas_array_fail 1 256 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 4096
+runtime of all iter: 51199996
+max per op: 511
+min per op: 511
+med per op: 512
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 51199996
+max per op: 511
+min per op: 512
+med per op: 512
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 262144
+runtime of all iter: 73401169
+max per op: 734
+min per op: 513
+med per op: 646
+avg per op: 637
+
+
+./cuda_atomiccas_array_fail 1 256 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 135012227
+max per op: 1350
+min per op: 1085
+med per op: 1301
+avg per op: 1280
+
+
+./cuda_atomiccas_array_fail 1 256 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 266891062
+max per op: 2668
+min per op: 1346
+med per op: 2008
+avg per op: 2158
+
+
+./cuda_atomiccas_array_fail 1 512 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 8192
+runtime of all iter: 102399990
+max per op: 1023
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 102400004
+max per op: 1024
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 524288
+runtime of all iter: 138009961
+max per op: 1380
+min per op: 1019
+med per op: 1301
+avg per op: 1280
+
+
+./cuda_atomiccas_array_fail 1 512 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 266858143
+max per op: 2668
+min per op: 2044
+med per op: 2612
+avg per op: 2542
+
+
+./cuda_atomiccas_array_fail 1 512 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 2097152
+runtime of all iter: 530264844
+max per op: 5302
+min per op: 2200
+med per op: 3747
+avg per op: 4020
+
+
+./cuda_atomiccas_array_fail 1 786 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 12576
+runtime of all iter: 157200629
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 25152
+runtime of all iter: 157200863
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 804864
+runtime of all iter: 225056978
+max per op: 2250
+min per op: 1400
+med per op: 1948
+avg per op: 1914
+
+
+./cuda_atomiccas_array_fail 1 786 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 1609728
+runtime of all iter: 422788795
+max per op: 4227
+min per op: 2862
+med per op: 3897
+avg per op: 3819
+
+
+./cuda_atomiccas_array_fail 1 786 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 3219456
+runtime of all iter: 463953681
+max per op: 4639
+min per op: 2927
+med per op: 3844
+avg per op: 3837
+
+
+./cuda_atomiccas_array_fail 1 1024 1 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 16
+num elements: 16384
+runtime of all iter: 204799941
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 2 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 16
+num elements: 32768
+runtime of all iter: 204799953
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 64 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 16
+num elements: 1048576
+runtime of all iter: 274898590
+max per op: 2748
+min per op: 2062
+med per op: 2613
+avg per op: 2563
+
+
+./cuda_atomiccas_array_fail 1 1024 128 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 16
+num elements: 2097152
+runtime of all iter: 534788420
+max per op: 5347
+min per op: 4238
+med per op: 5234
+avg per op: 5117
+
+
+./cuda_atomiccas_array_fail 1 1024 256 1000 16
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 16
+num elements: 4194304
+runtime of all iter: 561821536
+max per op: 5618
+min per op: 4112
+med per op: 5100
+avg per op: 5101
+
+
+./cuda_atomiccas_array_fail 0 1 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 32
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 64
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 1231922
+max per op: 12
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 2198859
+max per op: 21
+min per op: 8
+med per op: 14
+avg per op: 13
+
+
+./cuda_atomiccas_array_fail 0 2 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 64
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 128
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 1037527
+max per op: 10
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 2464067
+max per op: 24
+min per op: 8
+med per op: 14
+avg per op: 13
+
+
+./cuda_atomiccas_array_fail 0 2 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2542302
+max per op: 25
+min per op: 11
+med per op: 19
+avg per op: 20
+
+
+./cuda_atomiccas_array_fail 0 4 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 128
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 256
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 1999932
+max per op: 19
+min per op: 8
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 0 4 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2790686
+max per op: 27
+min per op: 9
+med per op: 19
+avg per op: 19
+
+
+./cuda_atomiccas_array_fail 0 4 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 5377102
+max per op: 53
+min per op: 17
+med per op: 43
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 8 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 256
+runtime of all iter: 1553895
+max per op: 15
+min per op: 15
+med per op: 15
+avg per op: 15
+
+
+./cuda_atomiccas_array_fail 0 8 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 512
+runtime of all iter: 1655493
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 0 8 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2870590
+max per op: 28
+min per op: 16
+med per op: 18
+avg per op: 20
+
+
+./cuda_atomiccas_array_fail 0 8 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 5220167
+max per op: 52
+min per op: 19
+med per op: 41
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 8 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 9972653
+max per op: 99
+min per op: 40
+med per op: 80
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 0 16 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 512
+runtime of all iter: 3241345
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 0 16 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 1024
+runtime of all iter: 3210729
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 0 16 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 6141413
+max per op: 61
+min per op: 32
+med per op: 39
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 16 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 11117537
+max per op: 111
+min per op: 31
+med per op: 80
+avg per op: 78
+
+
+./cuda_atomiccas_array_fail 0 16 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 18482887
+max per op: 184
+min per op: 107
+med per op: 154
+avg per op: 155
+
+
+./cuda_atomiccas_array_fail 0 32 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 1024
+runtime of all iter: 6452874
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 0 32 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 6452640
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 0 32 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 10864533
+max per op: 108
+min per op: 64
+med per op: 78
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 0 32 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 18923410
+max per op: 189
+min per op: 84
+med per op: 157
+avg per op: 153
+
+
+./cuda_atomiccas_array_fail 0 32 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 35380624
+max per op: 353
+min per op: 232
+med per op: 319
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 0 64 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 0 64 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 0 64 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 21488049
+max per op: 214
+min per op: 128
+med per op: 154
+avg per op: 159
+
+
+./cuda_atomiccas_array_fail 0 64 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 35733410
+max per op: 357
+min per op: 197
+med per op: 320
+avg per op: 307
+
+
+./cuda_atomiccas_array_fail 0 64 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 71077691
+max per op: 710
+min per op: 443
+med per op: 624
+avg per op: 611
+
+
+./cuda_atomiccas_array_fail 0 128 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 0 128 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 0 128 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 38571619
+max per op: 385
+min per op: 256
+med per op: 321
+avg per op: 316
+
+
+./cuda_atomiccas_array_fail 0 128 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 68885022
+max per op: 688
+min per op: 506
+med per op: 629
+avg per op: 624
+
+
+./cuda_atomiccas_array_fail 0 128 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 136417808
+max per op: 1364
+min per op: 477
+med per op: 946
+avg per op: 976
+
+
+./cuda_atomiccas_array_fail 0 256 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 51200006
+max per op: 512
+min per op: 480
+med per op: 496
+avg per op: 496
+
+
+./cuda_atomiccas_array_fail 0 256 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 51200001
+max per op: 512
+min per op: 480
+med per op: 496
+avg per op: 496
+
+
+./cuda_atomiccas_array_fail 0 256 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 73502571
+max per op: 735
+min per op: 497
+med per op: 639
+avg per op: 628
+
+
+./cuda_atomiccas_array_fail 0 256 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 134346955
+max per op: 1343
+min per op: 899
+med per op: 1288
+avg per op: 1271
+
+
+./cuda_atomiccas_array_fail 0 256 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 267815263
+max per op: 2678
+min per op: 1117
+med per op: 1880
+avg per op: 1989
+
+
+./cuda_atomiccas_array_fail 0 512 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 102399998
+max per op: 1023
+min per op: 940
+med per op: 1019
+avg per op: 1000
+
+
+./cuda_atomiccas_array_fail 0 512 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 102400001
+max per op: 1024
+min per op: 940
+med per op: 1019
+avg per op: 1000
+
+
+./cuda_atomiccas_array_fail 0 512 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 137736610
+max per op: 1377
+min per op: 1051
+med per op: 1298
+avg per op: 1282
+
+
+./cuda_atomiccas_array_fail 0 512 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 267247864
+max per op: 2672
+min per op: 2068
+med per op: 2619
+avg per op: 2540
+
+
+./cuda_atomiccas_array_fail 0 512 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 4194304
+runtime of all iter: 532446601
+max per op: 5324
+min per op: 2381
+med per op: 3886
+avg per op: 4124
+
+
+./cuda_atomiccas_array_fail 0 786 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 25152
+runtime of all iter: 157200278
+max per op: 1572
+min per op: 1380
+med per op: 1509
+avg per op: 1507
+
+
+./cuda_atomiccas_array_fail 0 786 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 50304
+runtime of all iter: 157200497
+max per op: 1572
+min per op: 1378
+med per op: 1509
+avg per op: 1507
+
+
+./cuda_atomiccas_array_fail 0 786 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 1609728
+runtime of all iter: 222433248
+max per op: 2224
+min per op: 1395
+med per op: 1942
+avg per op: 1915
+
+
+./cuda_atomiccas_array_fail 0 786 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 3219456
+runtime of all iter: 420436123
+max per op: 4204
+min per op: 2768
+med per op: 3923
+avg per op: 3846
+
+
+./cuda_atomiccas_array_fail 0 786 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 6438912
+runtime of all iter: 465092641
+max per op: 4650
+min per op: 2898
+med per op: 3842
+avg per op: 3834
+
+
+./cuda_atomiccas_array_fail 0 1024 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 204799984
+max per op: 2047
+min per op: 1867
+med per op: 2043
+avg per op: 2020
+
+
+./cuda_atomiccas_array_fail 0 1024 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 204799976
+max per op: 2047
+min per op: 1867
+med per op: 2044
+avg per op: 2020
+
+
+./cuda_atomiccas_array_fail 0 1024 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 272148580
+max per op: 2721
+min per op: 1997
+med per op: 2628
+avg per op: 2561
+
+
+./cuda_atomiccas_array_fail 0 1024 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 4194304
+runtime of all iter: 532991336
+max per op: 5329
+min per op: 4068
+med per op: 5256
+avg per op: 5111
+
+
+./cuda_atomiccas_array_fail 0 1024 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 8388608
+runtime of all iter: 560608989
+max per op: 5606
+min per op: 4042
+med per op: 5094
+avg per op: 5098
+
+
+./cuda_atomiccas_array_fail 1 1 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 32
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 64
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 1249998
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 64
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 128
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2514537
+max per op: 25
+min per op: 12
+med per op: 18
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 1 4 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 128
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 256
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2366532
+max per op: 23
+min per op: 12
+med per op: 18
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 1 4 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 4986889
+max per op: 49
+min per op: 22
+med per op: 38
+avg per op: 37
+
+
+./cuda_atomiccas_array_fail 1 8 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 256
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 512
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 2565599
+max per op: 25
+min per op: 15
+med per op: 16
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 1 8 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 4815078
+max per op: 48
+min per op: 20
+med per op: 40
+avg per op: 38
+
+
+./cuda_atomiccas_array_fail 1 8 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 9597112
+max per op: 95
+min per op: 33
+med per op: 79
+avg per op: 76
+
+
+./cuda_atomiccas_array_fail 1 16 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 512
+runtime of all iter: 3248787
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 1024
+runtime of all iter: 3236172
+max per op: 32
+min per op: 31
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 5545066
+max per op: 55
+min per op: 32
+med per op: 38
+avg per op: 38
+
+
+./cuda_atomiccas_array_fail 1 16 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 8855600
+max per op: 88
+min per op: 45
+med per op: 78
+avg per op: 77
+
+
+./cuda_atomiccas_array_fail 1 16 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 17701015
+max per op: 177
+min per op: 95
+med per op: 155
+avg per op: 152
+
+
+./cuda_atomiccas_array_fail 1 32 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 1024
+runtime of all iter: 6400000
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 6447579
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 9063163
+max per op: 90
+min per op: 64
+med per op: 80
+avg per op: 78
+
+
+./cuda_atomiccas_array_fail 1 32 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 17127315
+max per op: 171
+min per op: 112
+med per op: 156
+avg per op: 152
+
+
+./cuda_atomiccas_array_fail 1 32 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 35301184
+max per op: 353
+min per op: 218
+med per op: 306
+avg per op: 301
+
+
+./cuda_atomiccas_array_fail 1 64 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 2048
+runtime of all iter: 12800002
+max per op: 128
+min per op: 127
+med per op: 127
+avg per op: 127
+
+
+./cuda_atomiccas_array_fail 1 64 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 12800000
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 1 64 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 131072
+runtime of all iter: 18465205
+max per op: 184
+min per op: 128
+med per op: 159
+avg per op: 156
+
+
+./cuda_atomiccas_array_fail 1 64 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 34199888
+max per op: 341
+min per op: 215
+med per op: 306
+avg per op: 303
+
+
+./cuda_atomiccas_array_fail 1 64 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 65402083
+max per op: 654
+min per op: 560
+med per op: 638
+avg per op: 631
+
+
+./cuda_atomiccas_array_fail 1 128 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 4096
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 1 128 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 25600000
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 1 128 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 262144
+runtime of all iter: 34592179
+max per op: 345
+min per op: 256
+med per op: 315
+avg per op: 312
+
+
+./cuda_atomiccas_array_fail 1 128 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 66225283
+max per op: 662
+min per op: 427
+med per op: 633
+avg per op: 621
+
+
+./cuda_atomiccas_array_fail 1 128 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 131523076
+max per op: 1315
+min per op: 1059
+med per op: 1268
+avg per op: 1247
+
+
+./cuda_atomiccas_array_fail 1 256 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 8192
+runtime of all iter: 51200000
+max per op: 512
+min per op: 512
+med per op: 512
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 51200007
+max per op: 512
+min per op: 512
+med per op: 512
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 524288
+runtime of all iter: 66586558
+max per op: 665
+min per op: 523
+med per op: 642
+avg per op: 628
+
+
+./cuda_atomiccas_array_fail 1 256 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 130877989
+max per op: 1308
+min per op: 1009
+med per op: 1277
+avg per op: 1242
+
+
+./cuda_atomiccas_array_fail 1 256 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 260243646
+max per op: 2602
+min per op: 1340
+med per op: 1988
+avg per op: 2107
+
+
+./cuda_atomiccas_array_fail 1 512 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 16384
+runtime of all iter: 102400004
+max per op: 1024
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 102400007
+max per op: 1024
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 1048576
+runtime of all iter: 135508801
+max per op: 1355
+min per op: 1016
+med per op: 1262
+avg per op: 1252
+
+
+./cuda_atomiccas_array_fail 1 512 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 261314464
+max per op: 2613
+min per op: 1991
+med per op: 2514
+avg per op: 2472
+
+
+./cuda_atomiccas_array_fail 1 512 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 4194304
+runtime of all iter: 516803411
+max per op: 5168
+min per op: 2153
+med per op: 3669
+avg per op: 3915
+
+
+./cuda_atomiccas_array_fail 1 786 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 25152
+runtime of all iter: 157200815
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 50304
+runtime of all iter: 157200834
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 1609728
+runtime of all iter: 208859065
+max per op: 2088
+min per op: 1411
+med per op: 1917
+avg per op: 1884
+
+
+./cuda_atomiccas_array_fail 1 786 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 3219456
+runtime of all iter: 405243273
+max per op: 4052
+min per op: 2999
+med per op: 3835
+avg per op: 3764
+
+
+./cuda_atomiccas_array_fail 1 786 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 6438912
+runtime of all iter: 429791491
+max per op: 4297
+min per op: 2999
+med per op: 3767
+avg per op: 3742
+
+
+./cuda_atomiccas_array_fail 1 1024 1 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 32
+num elements: 32768
+runtime of all iter: 204799944
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 2 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 32
+num elements: 65536
+runtime of all iter: 204799945
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 64 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 32
+num elements: 2097152
+runtime of all iter: 266072280
+max per op: 2660
+min per op: 1992
+med per op: 2554
+avg per op: 2499
+
+
+./cuda_atomiccas_array_fail 1 1024 128 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 32
+num elements: 4194304
+runtime of all iter: 518835860
+max per op: 5188
+min per op: 4121
+med per op: 5126
+avg per op: 4994
+
+
+./cuda_atomiccas_array_fail 1 1024 256 1000 32
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 32
+num elements: 8388608
+runtime of all iter: 547279192
+max per op: 5472
+min per op: 4104
+med per op: 4999
+avg per op: 4995
+
+
+./cuda_atomiccas_array_fail 0 1 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 128
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 256
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 1092077
+max per op: 10
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 1 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1555815
+max per op: 15
+min per op: 8
+med per op: 10
+avg per op: 10
+
+
+./cuda_atomiccas_array_fail 0 2 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 256
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 512
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 1038182
+max per op: 10
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 2 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1447119
+max per op: 14
+min per op: 8
+med per op: 10
+avg per op: 10
+
+
+./cuda_atomiccas_array_fail 0 2 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 2466002
+max per op: 24
+min per op: 10
+med per op: 19
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 0 4 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 512
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 1024
+runtime of all iter: 800000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_array_fail 0 4 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1549512
+max per op: 15
+min per op: 8
+med per op: 9
+avg per op: 10
+
+
+./cuda_atomiccas_array_fail 0 4 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 2670680
+max per op: 26
+min per op: 9
+med per op: 19
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 0 4 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 5340912
+max per op: 53
+min per op: 23
+med per op: 41
+avg per op: 41
+
+
+./cuda_atomiccas_array_fail 0 8 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 1024
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 0 8 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 2048
+runtime of all iter: 1654506
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 0 8 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 3070022
+max per op: 30
+min per op: 16
+med per op: 18
+avg per op: 20
+
+
+./cuda_atomiccas_array_fail 0 8 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 5391116
+max per op: 53
+min per op: 16
+med per op: 42
+avg per op: 40
+
+
+./cuda_atomiccas_array_fail 0 8 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 10075730
+max per op: 100
+min per op: 34
+med per op: 83
+avg per op: 82
+
+
+./cuda_atomiccas_array_fail 0 16 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 2048
+runtime of all iter: 3257347
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 0 16 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 4096
+runtime of all iter: 3258130
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 0 16 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 6212607
+max per op: 62
+min per op: 32
+med per op: 42
+avg per op: 42
+
+
+./cuda_atomiccas_array_fail 0 16 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 9668829
+max per op: 96
+min per op: 33
+med per op: 83
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 0 16 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 19928254
+max per op: 199
+min per op: 64
+med per op: 167
+avg per op: 158
+
+
+./cuda_atomiccas_array_fail 0 32 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 4096
+runtime of all iter: 6480736
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 0 32 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 6468931
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 0 32 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 11295592
+max per op: 112
+min per op: 64
+med per op: 81
+avg per op: 84
+
+
+./cuda_atomiccas_array_fail 0 32 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 19509052
+max per op: 195
+min per op: 64
+med per op: 162
+avg per op: 156
+
+
+./cuda_atomiccas_array_fail 0 32 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 39589946
+max per op: 395
+min per op: 160
+med per op: 312
+avg per op: 307
+
+
+./cuda_atomiccas_array_fail 0 64 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 12799991
+max per op: 127
+min per op: 127
+med per op: 127
+avg per op: 127
+
+
+./cuda_atomiccas_array_fail 0 64 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 12800004
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 0 64 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 20653505
+max per op: 206
+min per op: 128
+med per op: 171
+avg per op: 167
+
+
+./cuda_atomiccas_array_fail 0 64 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 35304645
+max per op: 353
+min per op: 140
+med per op: 310
+avg per op: 305
+
+
+./cuda_atomiccas_array_fail 0 64 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 69361936
+max per op: 693
+min per op: 477
+med per op: 624
+avg per op: 615
+
+
+./cuda_atomiccas_array_fail 0 128 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 25600005
+max per op: 256
+min per op: 255
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 0 128 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 25599997
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_atomiccas_array_fail 0 128 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 44058402
+max per op: 440
+min per op: 256
+med per op: 315
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 0 128 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 69014227
+max per op: 690
+min per op: 329
+med per op: 617
+avg per op: 595
+
+
+./cuda_atomiccas_array_fail 0 128 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 135502836
+max per op: 1355
+min per op: 476
+med per op: 882
+avg per op: 960
+
+
+./cuda_atomiccas_array_fail 0 256 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 51199995
+max per op: 511
+min per op: 480
+med per op: 496
+avg per op: 496
+
+
+./cuda_atomiccas_array_fail 0 256 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 51200002
+max per op: 512
+min per op: 480
+med per op: 496
+avg per op: 496
+
+
+./cuda_atomiccas_array_fail 0 256 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 71237065
+max per op: 712
+min per op: 480
+med per op: 622
+avg per op: 612
+
+
+./cuda_atomiccas_array_fail 0 256 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 134009610
+max per op: 1340
+min per op: 923
+med per op: 1233
+avg per op: 1206
+
+
+./cuda_atomiccas_array_fail 0 256 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 264737781
+max per op: 2647
+min per op: 997
+med per op: 1821
+avg per op: 1930
+
+
+./cuda_atomiccas_array_fail 0 512 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 102400001
+max per op: 1024
+min per op: 940
+med per op: 1019
+avg per op: 1000
+
+
+./cuda_atomiccas_array_fail 0 512 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 102400002
+max per op: 1024
+min per op: 940
+med per op: 1019
+avg per op: 1000
+
+
+./cuda_atomiccas_array_fail 0 512 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 138899549
+max per op: 1388
+min per op: 941
+med per op: 1259
+avg per op: 1233
+
+
+./cuda_atomiccas_array_fail 0 512 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 263186921
+max per op: 2631
+min per op: 1947
+med per op: 2516
+avg per op: 2469
+
+
+./cuda_atomiccas_array_fail 0 512 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 16777216
+runtime of all iter: 524373021
+max per op: 5243
+min per op: 2241
+med per op: 3792
+avg per op: 4027
+
+
+./cuda_atomiccas_array_fail 0 786 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 100608
+runtime of all iter: 157200580
+max per op: 1572
+min per op: 1380
+med per op: 1509
+avg per op: 1507
+
+
+./cuda_atomiccas_array_fail 0 786 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 201216
+runtime of all iter: 157200618
+max per op: 1572
+min per op: 1379
+med per op: 1509
+avg per op: 1507
+
+
+./cuda_atomiccas_array_fail 0 786 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 6438912
+runtime of all iter: 214985911
+max per op: 2149
+min per op: 1378
+med per op: 1948
+avg per op: 1900
+
+
+./cuda_atomiccas_array_fail 0 786 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 12877824
+runtime of all iter: 413814463
+max per op: 4138
+min per op: 2756
+med per op: 3829
+avg per op: 3763
+
+
+./cuda_atomiccas_array_fail 0 786 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 25755648
+runtime of all iter: 461848811
+max per op: 4618
+min per op: 2805
+med per op: 3799
+avg per op: 3766
+
+
+./cuda_atomiccas_array_fail 0 1024 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 204799990
+max per op: 2047
+min per op: 1868
+med per op: 2043
+avg per op: 2020
+
+
+./cuda_atomiccas_array_fail 0 1024 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 204799984
+max per op: 2047
+min per op: 1867
+med per op: 2043
+avg per op: 2020
+
+
+./cuda_atomiccas_array_fail 0 1024 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 274301670
+max per op: 2743
+min per op: 1932
+med per op: 2534
+avg per op: 2498
+
+
+./cuda_atomiccas_array_fail 0 1024 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 16777216
+runtime of all iter: 526003304
+max per op: 5260
+min per op: 3803
+med per op: 5056
+avg per op: 4930
+
+
+./cuda_atomiccas_array_fail 0 1024 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 33554432
+runtime of all iter: 570502100
+max per op: 5705
+min per op: 3804
+med per op: 4976
+avg per op: 4969
+
+
+./cuda_atomiccas_array_fail 1 1 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 128
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 256
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 1 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1249999
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 256
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 512
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 2 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 2502754
+max per op: 25
+min per op: 12
+med per op: 19
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 1 4 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 512
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 1024
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 1225000
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_array_fail 1 4 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 2357497
+max per op: 23
+min per op: 12
+med per op: 18
+avg per op: 18
+
+
+./cuda_atomiccas_array_fail 1 4 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 5094289
+max per op: 50
+min per op: 19
+med per op: 39
+avg per op: 38
+
+
+./cuda_atomiccas_array_fail 1 8 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 1024
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 2048
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_array_fail 1 8 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 2679204
+max per op: 26
+min per op: 15
+med per op: 17
+avg per op: 19
+
+
+./cuda_atomiccas_array_fail 1 8 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 4917517
+max per op: 49
+min per op: 17
+med per op: 39
+avg per op: 38
+
+
+./cuda_atomiccas_array_fail 1 8 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 10015575
+max per op: 100
+min per op: 31
+med per op: 84
+avg per op: 79
+
+
+./cuda_atomiccas_array_fail 1 16 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 2048
+runtime of all iter: 3240488
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 4096
+runtime of all iter: 3234006
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_array_fail 1 16 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 5789146
+max per op: 57
+min per op: 32
+med per op: 40
+avg per op: 41
+
+
+./cuda_atomiccas_array_fail 1 16 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 9983378
+max per op: 99
+min per op: 45
+med per op: 84
+avg per op: 80
+
+
+./cuda_atomiccas_array_fail 1 16 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 20934200
+max per op: 209
+min per op: 66
+med per op: 159
+avg per op: 155
+
+
+./cuda_atomiccas_array_fail 1 32 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 4096
+runtime of all iter: 6452618
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 6452889
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_array_fail 1 32 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 9993341
+max per op: 99
+min per op: 64
+med per op: 89
+avg per op: 84
+
+
+./cuda_atomiccas_array_fail 1 32 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 17766253
+max per op: 177
+min per op: 87
+med per op: 156
+avg per op: 154
+
+
+./cuda_atomiccas_array_fail 1 32 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 34579914
+max per op: 345
+min per op: 292
+med per op: 318
+avg per op: 315
+
+
+./cuda_atomiccas_array_fail 1 64 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 8192
+runtime of all iter: 12800008
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 1 64 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 12800010
+max per op: 128
+min per op: 127
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_array_fail 1 64 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 524288
+runtime of all iter: 20528363
+max per op: 205
+min per op: 128
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_array_fail 1 64 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 34550049
+max per op: 345
+min per op: 227
+med per op: 308
+avg per op: 300
+
+
+./cuda_atomiccas_array_fail 1 64 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 67377410
+max per op: 673
+min per op: 513
+med per op: 629
+avg per op: 615
+
+
+./cuda_atomiccas_array_fail 1 128 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 16384
+runtime of all iter: 25599996
+max per op: 255
+min per op: 256
+med per op: 255
+avg per op: 255
+
+
+./cuda_atomiccas_array_fail 1 128 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 25600001
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_array_fail 1 128 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 1048576
+runtime of all iter: 35342256
+max per op: 353
+min per op: 256
+med per op: 320
+avg per op: 313
+
+
+./cuda_atomiccas_array_fail 1 128 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 67679942
+max per op: 676
+min per op: 494
+med per op: 626
+avg per op: 617
+
+
+./cuda_atomiccas_array_fail 1 128 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 131842599
+max per op: 1318
+min per op: 1029
+med per op: 1285
+avg per op: 1251
+
+
+./cuda_atomiccas_array_fail 1 256 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 32768
+runtime of all iter: 51199997
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 51200011
+max per op: 512
+min per op: 512
+med per op: 512
+avg per op: 512
+
+
+./cuda_atomiccas_array_fail 1 256 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 2097152
+runtime of all iter: 71332879
+max per op: 713
+min per op: 512
+med per op: 648
+avg per op: 629
+
+
+./cuda_atomiccas_array_fail 1 256 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 132702564
+max per op: 1327
+min per op: 1075
+med per op: 1281
+avg per op: 1259
+
+
+./cuda_atomiccas_array_fail 1 256 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 263546788
+max per op: 2635
+min per op: 1360
+med per op: 2006
+avg per op: 2124
+
+
+./cuda_atomiccas_array_fail 1 512 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 65536
+runtime of all iter: 102399998
+max per op: 1023
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 102400003
+max per op: 1024
+min per op: 951
+med per op: 1021
+avg per op: 1004
+
+
+./cuda_atomiccas_array_fail 1 512 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 4194304
+runtime of all iter: 136847834
+max per op: 1368
+min per op: 953
+med per op: 1270
+avg per op: 1246
+
+
+./cuda_atomiccas_array_fail 1 512 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 265333272
+max per op: 2653
+min per op: 1911
+med per op: 2532
+avg per op: 2469
+
+
+./cuda_atomiccas_array_fail 1 512 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 16777216
+runtime of all iter: 526797154
+max per op: 5267
+min per op: 2079
+med per op: 3653
+avg per op: 3930
+
+
+./cuda_atomiccas_array_fail 1 786 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 100608
+runtime of all iter: 157200815
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 201216
+runtime of all iter: 157200769
+max per op: 1572
+min per op: 1401
+med per op: 1509
+avg per op: 1508
+
+
+./cuda_atomiccas_array_fail 1 786 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 6438912
+runtime of all iter: 210126137
+max per op: 2101
+min per op: 1503
+med per op: 1921
+avg per op: 1902
+
+
+./cuda_atomiccas_array_fail 1 786 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 12877824
+runtime of all iter: 411342463
+max per op: 4113
+min per op: 2866
+med per op: 3836
+avg per op: 3779
+
+
+./cuda_atomiccas_array_fail 1 786 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 25755648
+runtime of all iter: 456274406
+max per op: 4562
+min per op: 2839
+med per op: 3785
+avg per op: 3769
+
+
+./cuda_atomiccas_array_fail 1 1024 1 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+arr step: 128
+num elements: 131072
+runtime of all iter: 204799941
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 2 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+arr step: 128
+num elements: 262144
+runtime of all iter: 204799951
+max per op: 2047
+min per op: 1913
+med per op: 2038
+avg per op: 2021
+
+
+./cuda_atomiccas_array_fail 1 1024 64 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+arr step: 128
+num elements: 8388608
+runtime of all iter: 270846936
+max per op: 2708
+min per op: 1930
+med per op: 2568
+avg per op: 2520
+
+
+./cuda_atomiccas_array_fail 1 1024 128 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+arr step: 128
+num elements: 16777216
+runtime of all iter: 525354792
+max per op: 5253
+min per op: 4065
+med per op: 5151
+avg per op: 5016
+
+
+./cuda_atomiccas_array_fail 1 1024 256 1000 128
+CUDA atomic-cas array, compare always fails
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+arr step: 128
+num elements: 33554432
+runtime of all iter: 552929007
+max per op: 5529
+min per op: 4094
+med per op: 5046
+avg per op: 5035
+
+

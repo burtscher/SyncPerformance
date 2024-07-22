@@ -1,0 +1,3142 @@
+SyncPerformance v0.1
+code: cuda_shfl_up_sync.cu
+system: zurich
+CPU: Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 10
+  physical cores: 20
+  threads per core: 2
+  logical cores: 40
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 2070 SUPER
+  SMs: 40
+  mTpSM: 1024
+  max blocks: 40
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.8
+  cache line size (bytes): 128
+./cuda_shfl_up_sync 0 1 1 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 1 2 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 1 20 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 1 40 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 1 80 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 2 1 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 2 2 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 2 20 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 2 40 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 2 80 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 4 1 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 4 2 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 4 20 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300010
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 4 40 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300000
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 4 80 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 8 1 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 8 2 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 8 20 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 8 40 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 8 80 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300004
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 16 1 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 16 2 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 16 20 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 16 40 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 16 80 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 32 1 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300004
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 32 2 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 32 20 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 32 40 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 32 80 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 64 1 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 64 2 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 64 20 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 64 40 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 64 80 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 128 1 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 128 2 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 128 20 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300012
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 128 40 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2299996
+max per op: 22
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 128 80 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2299997
+max per op: 22
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 256 1 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300002
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 256 2 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 256 20 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2299999
+max per op: 22
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 256 40 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300003
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 0 256 80 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200001
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 0 512 1 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199998
+max per op: 31
+min per op: 31
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 0 512 2 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199998
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 32
+
+
+./cuda_shfl_up_sync 0 512 20 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199991
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 0 512 40 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200011
+max per op: 32
+min per op: 31
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 0 512 80 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6400464
+max per op: 64
+min per op: 47
+med per op: 58
+avg per op: 57
+
+
+./cuda_shfl_up_sync 0 786 1 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5160677
+max per op: 51
+min per op: 48
+med per op: 47
+avg per op: 48
+
+
+./cuda_shfl_up_sync 0 786 2 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5160669
+max per op: 51
+min per op: 48
+med per op: 47
+avg per op: 48
+
+
+./cuda_shfl_up_sync 0 786 20 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5160657
+max per op: 51
+min per op: 48
+med per op: 47
+avg per op: 48
+
+
+./cuda_shfl_up_sync 0 786 40 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161525
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 0 786 80 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161554
+max per op: 51
+min per op: 47
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 0 1024 1 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398382
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 0 1024 2 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399562
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 0 1024 20 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399563
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 0 1024 40 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399478
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 0 1024 80 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399478
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 1 1 1 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281003
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 1 2 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 1 20 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281003
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 1 40 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281005
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 1 80 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281000
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 2 1 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 2 2 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 2 20 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281005
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 2 40 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281001
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 2 80 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281002
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 4 1 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 4 2 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 4 20 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281005
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 4 40 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281001
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 4 80 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280995
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 8 1 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281003
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 8 2 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 8 20 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281009
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 8 40 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281000
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 8 80 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280996
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 16 1 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281003
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 16 2 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 16 20 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281005
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 16 40 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281007
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 16 80 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280990
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 32 1 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 32 2 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 32 20 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281003
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 32 40 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281001
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 32 80 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280994
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 64 1 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 64 2 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 64 20 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281001
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 64 40 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 64 80 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281196
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 128 1 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2283993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 128 2 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2283993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 128 20 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2283993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 128 40 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280998
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 1 128 80 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3190971
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 1 256 1 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189970
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 1 256 2 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189969
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 1 256 20 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189961
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 1 256 40 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189977
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 1 256 80 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6459774
+max per op: 64
+min per op: 55
+med per op: 59
+avg per op: 59
+
+
+./cuda_shfl_up_sync 1 512 1 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398476
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 1 512 2 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398476
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 1 512 20 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398476
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 1 512 40 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398497
+max per op: 63
+min per op: 58
+med per op: 63
+avg per op: 62
+
+
+./cuda_shfl_up_sync 1 512 80 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7587396
+max per op: 75
+min per op: 58
+med per op: 66
+avg per op: 68
+
+
+./cuda_shfl_up_sync 1 786 1 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10046929
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 1 786 2 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10046799
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 1 786 20 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10046740
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 1 786 40 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10046675
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 1 786 80 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10046679
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 1 1024 1 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799124
+max per op: 127
+min per op: 114
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 1 1024 2 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799124
+max per op: 127
+min per op: 114
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 1 1024 20 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12798796
+max per op: 127
+min per op: 114
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 1 1024 40 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12798881
+max per op: 127
+min per op: 114
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 1 1024 80 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12798948
+max per op: 127
+min per op: 114
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 2 1 1 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 1 2 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 1 20 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 1 40 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 1 80 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 2 1 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 2 2 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 2 20 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 2 40 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 2 80 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 4 1 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 4 2 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 4 20 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 4 40 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300012
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 4 80 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 8 1 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 8 2 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 8 20 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 8 40 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 8 80 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 16 1 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 16 2 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 16 20 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 16 40 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300014
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 16 80 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 32 1 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 32 2 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 32 20 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 32 40 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300012
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 32 80 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 64 1 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300005
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 64 2 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 64 20 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300010
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 64 40 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300009
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 64 80 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2299999
+max per op: 22
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 128 1 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 128 2 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300006
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 128 20 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300013
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 128 40 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 128 80 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300011
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 256 1 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 256 2 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 256 20 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300007
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 256 40 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2300008
+max per op: 23
+min per op: 23
+med per op: 23
+avg per op: 23
+
+
+./cuda_shfl_up_sync 2 256 80 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200010
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 2 512 1 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200010
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 2 512 2 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200011
+max per op: 32
+min per op: 31
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 2 512 20 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200004
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 2 512 40 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3200004
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_shfl_up_sync 2 512 80 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399396
+max per op: 63
+min per op: 48
+med per op: 58
+avg per op: 56
+
+
+./cuda_shfl_up_sync 2 786 1 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161984
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 2 786 2 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161984
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 2 786 20 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5160952
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 2 786 40 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161126
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 2 786 80 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5161518
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 48
+
+
+./cuda_shfl_up_sync 2 1024 1 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398613
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 2 1024 2 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398613
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 2 1024 20 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399408
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 2 1024 40 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399609
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 2 1024 80 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399924
+max per op: 63
+min per op: 57
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_up_sync 3 1 1 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 1 2 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280998
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 1 20 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 1 40 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281004
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 1 80 1000
+CUDA __shfl_up_sync
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 2 1 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280998
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 2 2 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 2 20 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280997
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 2 40 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280997
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 2 80 1000
+CUDA __shfl_up_sync
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280988
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 4 1 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 4 2 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 4 20 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281000
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 4 40 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280997
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 4 80 1000
+CUDA __shfl_up_sync
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280990
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 8 1 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 8 2 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 8 20 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281000
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 8 40 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280996
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 8 80 1000
+CUDA __shfl_up_sync
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280994
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 16 1 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280997
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 16 2 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 16 20 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280997
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 16 40 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280995
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 16 80 1000
+CUDA __shfl_up_sync
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280988
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 32 1 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 32 2 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280998
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 32 20 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280996
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 32 40 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280994
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 32 80 1000
+CUDA __shfl_up_sync
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280988
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 64 1 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280998
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 64 2 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280999
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 64 20 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2281000
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 64 40 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2280993
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 64 80 1000
+CUDA __shfl_up_sync
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2277021
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 128 1 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2277008
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 128 2 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2277009
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 128 20 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2277006
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 128 40 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2277017
+max per op: 22
+min per op: 22
+med per op: 22
+avg per op: 22
+
+
+./cuda_shfl_up_sync 3 128 80 1000
+CUDA __shfl_up_sync
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3185991
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 3 256 1 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189978
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 3 256 2 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189978
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 3 256 20 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3189974
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 3 256 40 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3192964
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_up_sync 3 256 80 1000
+CUDA __shfl_up_sync
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6435177
+max per op: 64
+min per op: 47
+med per op: 55
+avg per op: 55
+
+
+./cuda_shfl_up_sync 3 512 1 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398830
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 3 512 2 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398843
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 3 512 20 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398865
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 3 512 40 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398587
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_up_sync 3 512 80 1000
+CUDA __shfl_up_sync
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8801588
+max per op: 88
+min per op: 58
+med per op: 77
+avg per op: 77
+
+
+./cuda_shfl_up_sync 3 786 1 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10049257
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 3 786 2 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10048751
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 3 786 20 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10048457
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 3 786 40 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10049029
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 3 786 80 1000
+CUDA __shfl_up_sync
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10048962
+max per op: 100
+min per op: 86
+med per op: 96
+avg per op: 95
+
+
+./cuda_shfl_up_sync 3 1024 1 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799327
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 3 1024 2 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799357
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 3 1024 20 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799184
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 3 1024 40 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799080
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_up_sync 3 1024 80 1000
+CUDA __shfl_up_sync
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799183
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+

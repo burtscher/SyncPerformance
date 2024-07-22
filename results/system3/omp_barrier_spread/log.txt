@@ -1,0 +1,418 @@
+SyncPerformance v0.1
+code: omp_barrier_spread.cpp
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./omp_barrier_spread 0 1 1000
+OMP barrier, proc_bind(spread)
+threads: 1
+iter per thread: 1000
+runtime of all iter: 0.0092651125793457
+max per op: 0.0000000926511258
+min per op: 0.0000000926511258
+med per op: 0.0000000926511258
+avg per op: 0.0000000926511258
+
+
+./omp_barrier_spread 0 2 1000
+OMP barrier, proc_bind(spread)
+threads: 2
+iter per thread: 1000
+runtime of all iter: 0.0580281451416016
+max per op: 0.0000005802814514
+min per op: 0.0000005802714514
+med per op: 0.0000005802764514
+avg per op: 0.0000005802764514
+
+
+./omp_barrier_spread 0 3 1000
+OMP barrier, proc_bind(spread)
+threads: 3
+iter per thread: 1000
+runtime of all iter: 0.0762348997192383
+max per op: 0.0000007623489972
+min per op: 0.0000007623489972
+med per op: 0.0000007623489972
+avg per op: 0.0000007623489972
+
+
+./omp_barrier_spread 0 4 1000
+OMP barrier, proc_bind(spread)
+threads: 4
+iter per thread: 1000
+runtime of all iter: 0.0890440342712402
+max per op: 0.0000008904403427
+min per op: 0.0000008904498795
+med per op: 0.0000008904498795
+avg per op: 0.0000008904474953
+
+
+./omp_barrier_spread 0 5 1000
+OMP barrier, proc_bind(spread)
+threads: 5
+iter per thread: 1000
+runtime of all iter: 0.0888651157989502
+max per op: 0.0000008886511580
+min per op: 0.0000008886611580
+med per op: 0.0000008886611580
+avg per op: 0.0000008886571580
+
+
+./omp_barrier_spread 0 6 1000
+OMP barrier, proc_bind(spread)
+threads: 6
+iter per thread: 1000
+runtime of all iter: 0.0940438083953857
+max per op: 0.0000009404380840
+min per op: 0.0000009404285472
+med per op: 0.0000009404237788
+avg per op: 0.0000009404285472
+
+
+./omp_barrier_spread 0 7 1000
+OMP barrier, proc_bind(spread)
+threads: 7
+iter per thread: 1000
+runtime of all iter: 0.0943040115661621
+max per op: 0.0000009430401157
+min per op: 0.0000009430305789
+med per op: 0.0000009430305789
+avg per op: 0.0000009430346661
+
+
+./omp_barrier_spread 0 8 1000
+OMP barrier, proc_bind(spread)
+threads: 8
+iter per thread: 1000
+runtime of all iter: 0.0980480265960693
+max per op: 0.0000009804802660
+min per op: 0.0000009804810062
+med per op: 0.0000009804810062
+avg per op: 0.0000009804810062
+
+
+./omp_barrier_spread 0 9 1000
+OMP barrier, proc_bind(spread)
+threads: 9
+iter per thread: 1000
+runtime of all iter: 0.1002479160614014
+max per op: 0.0000010024791606
+min per op: 0.0000010024696239
+med per op: 0.0000010024696239
+avg per op: 0.0000010024717431
+
+
+./omp_barrier_spread 0 10 1000
+OMP barrier, proc_bind(spread)
+threads: 10
+iter per thread: 1000
+runtime of all iter: 0.1006329812774658
+max per op: 0.0000010063298128
+min per op: 0.0000010063298128
+med per op: 0.0000010063257732
+avg per op: 0.0000010063285811
+
+
+./omp_barrier_spread 0 11 1000
+OMP barrier, proc_bind(spread)
+threads: 11
+iter per thread: 1000
+runtime of all iter: 0.1022969465942382
+max per op: 0.0000010229694659
+min per op: 0.0000010229694659
+med per op: 0.0000010229694659
+avg per op: 0.0000010229694659
+
+
+./omp_barrier_spread 0 12 1000
+OMP barrier, proc_bind(spread)
+threads: 12
+iter per thread: 1000
+runtime of all iter: 0.1023039720001220
+max per op: 0.0000010230397200
+min per op: 0.0000010230301833
+med per op: 0.0000010230399516
+avg per op: 0.0000010230390411
+
+
+./omp_barrier_spread 0 13 1000
+OMP barrier, proc_bind(spread)
+threads: 13
+iter per thread: 1000
+runtime of all iter: 0.1045590893249512
+max per op: 0.0000010455908932
+min per op: 0.0000010456008932
+med per op: 0.0000010455913565
+avg per op: 0.0000010455956512
+
+
+./omp_barrier_spread 0 14 1000
+OMP barrier, proc_bind(spread)
+threads: 14
+iter per thread: 1000
+runtime of all iter: 0.1045621611175537
+max per op: 0.0000010456216112
+min per op: 0.0000010456096902
+med per op: 0.0000010456156507
+avg per op: 0.0000010456156507
+
+
+./omp_barrier_spread 0 15 1000
+OMP barrier, proc_bind(spread)
+threads: 15
+iter per thread: 1000
+runtime of all iter: 0.1046270587310791
+max per op: 0.0000010462705873
+min per op: 0.0000010462705873
+med per op: 0.0000010462705873
+avg per op: 0.0000010462699515
+
+
+./omp_barrier_spread 0 16 1000
+OMP barrier, proc_bind(spread)
+threads: 16
+iter per thread: 1000
+runtime of all iter: 0.1045821514282226
+max per op: 0.0000010458215143
+min per op: 0.0000010458310510
+med per op: 0.0000010458262827
+avg per op: 0.0000010458262827
+
+
+./omp_barrier_spread 0 17 1000
+OMP barrier, proc_bind(spread)
+threads: 17
+iter per thread: 1000
+runtime of all iter: 0.1045759190216065
+max per op: 0.0000010457591902
+min per op: 0.0000010457587270
+med per op: 0.0000010457687270
+avg per op: 0.0000010457595332
+
+
+./omp_barrier_spread 0 18 1000
+OMP barrier, proc_bind(spread)
+threads: 18
+iter per thread: 1000
+runtime of all iter: 0.1047179058837890
+max per op: 0.0000010471790588
+min per op: 0.0000010471790588
+med per op: 0.0000010471785956
+avg per op: 0.0000010471831687
+
+
+./omp_barrier_spread 0 19 1000
+OMP barrier, proc_bind(spread)
+threads: 19
+iter per thread: 1000
+runtime of all iter: 0.1047059461364745
+max per op: 0.0000010470594614
+min per op: 0.0000010470399246
+med per op: 0.0000010470499246
+avg per op: 0.0000010470539157
+
+
+./omp_barrier_spread 0 20 1000
+OMP barrier, proc_bind(spread)
+threads: 20
+iter per thread: 1000
+runtime of all iter: 0.1047219264221191
+max per op: 0.0000010472192642
+min per op: 0.0000010472197275
+med per op: 0.0000010472242642
+avg per op: 0.0000010472233105
+
+
+./omp_barrier_spread 0 21 1000
+OMP barrier, proc_bind(spread)
+threads: 21
+iter per thread: 1000
+runtime of all iter: 0.1047121893005371
+max per op: 0.0000010471218930
+min per op: 0.0000010470999721
+med per op: 0.0000010471118930
+avg per op: 0.0000010471120033
+
+
+./omp_barrier_spread 0 22 1000
+OMP barrier, proc_bind(spread)
+threads: 22
+iter per thread: 1000
+runtime of all iter: 0.1101688175811768
+max per op: 0.0000011016881758
+min per op: 0.0000011016905600
+med per op: 0.0000011016886391
+avg per op: 0.0000011016884948
+
+
+./omp_barrier_spread 0 23 1000
+OMP barrier, proc_bind(spread)
+threads: 23
+iter per thread: 1000
+runtime of all iter: 0.1047249870910645
+max per op: 0.0000010472498709
+min per op: 0.0000010472497418
+med per op: 0.0000010472498709
+avg per op: 0.0000010472451808
+
+
+./omp_barrier_spread 0 24 1000
+OMP barrier, proc_bind(spread)
+threads: 24
+iter per thread: 1000
+runtime of all iter: 0.1051119765014649
+max per op: 0.0000010511197650
+min per op: 0.0000010511197650
+med per op: 0.0000010511197650
+avg per op: 0.0000010511197650
+
+
+./omp_barrier_spread 0 25 1000
+OMP barrier, proc_bind(spread)
+threads: 25
+iter per thread: 1000
+runtime of all iter: 0.1047390508270264
+max per op: 0.0000010473905083
+min per op: 0.0000010473885873
+med per op: 0.0000010473905083
+avg per op: 0.0000010473929241
+
+
+./omp_barrier_spread 0 26 1000
+OMP barrier, proc_bind(spread)
+threads: 26
+iter per thread: 1000
+runtime of all iter: 0.1116270161132812
+max per op: 0.0000011162701611
+min per op: 0.0000011162706244
+med per op: 0.0000011162706244
+avg per op: 0.0000011162704106
+
+
+./omp_barrier_spread 0 27 1000
+OMP barrier, proc_bind(spread)
+threads: 27
+iter per thread: 1000
+runtime of all iter: 0.1151561288757324
+max per op: 0.0000011515612888
+min per op: 0.0000011515593678
+med per op: 0.0000011515593678
+avg per op: 0.0000011515592331
+
+
+./omp_barrier_spread 0 28 1000
+OMP barrier, proc_bind(spread)
+threads: 28
+iter per thread: 1000
+runtime of all iter: 0.1155049558868408
+max per op: 0.0000011550495589
+min per op: 0.0000011550590956
+med per op: 0.0000011550495589
+avg per op: 0.0000011550519431
+
+
+./omp_barrier_spread 0 29 1000
+OMP barrier, proc_bind(spread)
+threads: 29
+iter per thread: 1000
+runtime of all iter: 0.1213411120605469
+max per op: 0.0000012134111206
+min per op: 0.0000012134206573
+med per op: 0.0000012134111206
+avg per op: 0.0000012134188280
+
+
+./omp_barrier_spread 0 30 1000
+OMP barrier, proc_bind(spread)
+threads: 30
+iter per thread: 1000
+runtime of all iter: 0.1233199348297119
+max per op: 0.0000012331993483
+min per op: 0.0000012331993483
+med per op: 0.0000012331943483
+avg per op: 0.0000012331970150
+
+
+./omp_barrier_spread 0 31 1000
+OMP barrier, proc_bind(spread)
+threads: 31
+iter per thread: 1000
+runtime of all iter: 0.1235338650512696
+max per op: 0.0000012353386505
+min per op: 0.0000012353386505
+med per op: 0.0000012353386505
+avg per op: 0.0000012353357473
+
+
+./omp_barrier_spread 0 32 1000
+OMP barrier, proc_bind(spread)
+threads: 32
+iter per thread: 1000
+runtime of all iter: 0.1236841461029052
+max per op: 0.0000012368414610
+min per op: 0.0000012368390768
+med per op: 0.0000012368490768
+avg per op: 0.0000012368446729
+
+
+./omp_barrier_spread 0 33 1000
+OMP barrier, proc_bind(spread)
+threads: 33
+iter per thread: 1000
+runtime of all iter: 4.8340309434967041
+max per op: 0.0000483403094350
+min per op: 0.0000483404695029
+med per op: 0.0000483403208926
+avg per op: 0.0000483403483945
+
+
+./omp_barrier_spread 0 34 1000
+OMP barrier, proc_bind(spread)
+threads: 34
+iter per thread: 1000
+runtime of all iter: 5.0652660410461419
+max per op: 0.0000506526604105
+min per op: 0.0000506531288290
+med per op: 0.0000506528848853
+avg per op: 0.0000506529163787
+
+
+./omp_barrier_spread 0 35 1000
+OMP barrier, proc_bind(spread)
+threads: 35
+iter per thread: 1000
+runtime of all iter: 5.2996399103088372
+max per op: 0.0000529963991031
+min per op: 0.0000529963508203
+med per op: 0.0000529966593068
+avg per op: 0.0000529965940333
+
+
+./omp_barrier_spread 0 36 1000
+OMP barrier, proc_bind(spread)
+threads: 36
+iter per thread: 1000
+runtime of all iter: 5.4937561984405523
+max per op: 0.0000549375619844
+min per op: 0.0000549378779509
+med per op: 0.0000549379553690
+avg per op: 0.0000549378557532
+
+

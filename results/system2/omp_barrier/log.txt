@@ -1,0 +1,770 @@
+SyncPerformance v0.1
+code: omp_barrier.cpp
+system: austin
+CPU: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 16
+  physical cores: 32
+  threads per core: 2
+  logical cores: 64
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA A100-PCIE-40GB
+  SMs: 108
+  mTpSM: 2048
+  max blocks: 216
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.41
+  cache line size (bytes): 128
+./omp_barrier 0 1 1000
+OMP barrier
+threads: 1
+iter per thread: 1000
+runtime of all iter: 0.0091460472259521
+max per op: 0.0000000914604723
+min per op: 0.0000000914604723
+med per op: 0.0000000914604723
+avg per op: 0.0000000914604723
+
+
+./omp_barrier 0 2 1000
+OMP barrier
+threads: 2
+iter per thread: 1000
+runtime of all iter: 0.0216509147491455
+max per op: 0.0000002165091475
+min per op: 0.0000002165091475
+med per op: 0.0000002165091475
+avg per op: 0.0000002165091475
+
+
+./omp_barrier 0 3 1000
+OMP barrier
+threads: 3
+iter per thread: 1000
+runtime of all iter: 0.0354951627044678
+max per op: 0.0000003549516270
+min per op: 0.0000003549516270
+med per op: 0.0000003549516270
+avg per op: 0.0000003549516270
+
+
+./omp_barrier 0 4 1000
+OMP barrier
+threads: 4
+iter per thread: 1000
+runtime of all iter: 0.1025630260009766
+max per op: 0.0000010256302600
+min per op: 0.0000010256302600
+med per op: 0.0000010256302600
+avg per op: 0.0000010256302600
+
+
+./omp_barrier 0 5 1000
+OMP barrier
+threads: 5
+iter per thread: 1000
+runtime of all iter: 0.1171000986022949
+max per op: 0.0000011710009860
+min per op: 0.0000011710105228
+med per op: 0.0000011710009860
+avg per op: 0.0000011710048007
+
+
+./omp_barrier 0 6 1000
+OMP barrier
+threads: 6
+iter per thread: 1000
+runtime of all iter: 0.1339601028137207
+max per op: 0.0000013396010281
+min per op: 0.0000013396010281
+med per op: 0.0000013395957965
+avg per op: 0.0000013395976176
+
+
+./omp_barrier 0 7 1000
+OMP barrier
+threads: 7
+iter per thread: 1000
+runtime of all iter: 0.1550869708099365
+max per op: 0.0000015508697081
+min per op: 0.0000015508892448
+med per op: 0.0000015508797081
+avg per op: 0.0000015508796419
+
+
+./omp_barrier 0 8 1000
+OMP barrier
+threads: 8
+iter per thread: 1000
+runtime of all iter: 0.1690621419372559
+max per op: 0.0000016906214194
+min per op: 0.0000016906309561
+med per op: 0.0000016906214194
+avg per op: 0.0000016906238036
+
+
+./omp_barrier 0 9 1000
+OMP barrier
+threads: 9
+iter per thread: 1000
+runtime of all iter: 0.1940820816497803
+max per op: 0.0000019408208165
+min per op: 0.0000019408088956
+med per op: 0.0000019408208165
+avg per op: 0.0000019408183808
+
+
+./omp_barrier 0 10 1000
+OMP barrier
+threads: 10
+iter per thread: 1000
+runtime of all iter: 0.1924929605865479
+max per op: 0.0000019249296059
+min per op: 0.0000019250196059
+med per op: 0.0000019249646059
+avg per op: 0.0000019249696059
+
+
+./omp_barrier 0 11 1000
+OMP barrier
+threads: 11
+iter per thread: 1000
+runtime of all iter: 0.2242291554870605
+max per op: 0.0000022422915549
+min per op: 0.0000022423110916
+med per op: 0.0000022423015549
+avg per op: 0.0000022423040295
+
+
+./omp_barrier 0 12 1000
+OMP barrier
+threads: 12
+iter per thread: 1000
+runtime of all iter: 0.2333778227691650
+max per op: 0.0000023337782277
+min per op: 0.0000023337786909
+med per op: 0.0000023337782277
+avg per op: 0.0000023337782663
+
+
+./omp_barrier 0 13 1000
+OMP barrier
+threads: 13
+iter per thread: 1000
+runtime of all iter: 0.2485261317291260
+max per op: 0.0000024852613173
+min per op: 0.0000024852713173
+med per op: 0.0000024852713173
+avg per op: 0.0000024852697788
+
+
+./omp_barrier 0 14 1000
+OMP barrier
+threads: 14
+iter per thread: 1000
+runtime of all iter: 0.2646498729400635
+max per op: 0.0000026464987294
+min per op: 0.0000026465011136
+med per op: 0.0000026465011136
+avg per op: 0.0000026464987956
+
+
+./omp_barrier 0 15 1000
+OMP barrier
+threads: 15
+iter per thread: 1000
+runtime of all iter: 0.2814791177215576
+max per op: 0.0000028147911772
+min per op: 0.0000028148007140
+med per op: 0.0000028148002507
+avg per op: 0.0000028147978311
+
+
+./omp_barrier 0 16 1000
+OMP barrier
+threads: 16
+iter per thread: 1000
+runtime of all iter: 0.2969550992736816
+max per op: 0.0000029695509927
+min per op: 0.0000029695514560
+med per op: 0.0000029695462244
+avg per op: 0.0000029695499165
+
+
+./omp_barrier 0 17 1000
+OMP barrier
+threads: 17
+iter per thread: 1000
+runtime of all iter: 0.3230570659484864
+max per op: 0.0000032305706595
+min per op: 0.0000032305587386
+med per op: 0.0000032305506595
+avg per op: 0.0000032305574883
+
+
+./omp_barrier 0 18 1000
+OMP barrier
+threads: 18
+iter per thread: 1000
+runtime of all iter: 0.3347941682891845
+max per op: 0.0000033479416829
+min per op: 0.0000033479607564
+med per op: 0.0000033479657564
+avg per op: 0.0000033479597482
+
+
+./omp_barrier 0 19 1000
+OMP barrier
+threads: 19
+iter per thread: 1000
+runtime of all iter: 0.3532700214843750
+max per op: 0.0000035327002148
+min per op: 0.0000035326978307
+med per op: 0.0000035326878307
+avg per op: 0.0000035326965794
+
+
+./omp_barrier 0 20 1000
+OMP barrier
+threads: 20
+iter per thread: 1000
+runtime of all iter: 0.3676958952636719
+max per op: 0.0000036769589526
+min per op: 0.0000036769904103
+med per op: 0.0000036769808736
+avg per op: 0.0000036769802775
+
+
+./omp_barrier 0 21 1000
+OMP barrier
+threads: 21
+iter per thread: 1000
+runtime of all iter: 0.3904688417358398
+max per op: 0.0000039046884174
+min per op: 0.0000039046588806
+med per op: 0.0000039046688806
+avg per op: 0.0000039046704636
+
+
+./omp_barrier 0 22 1000
+OMP barrier
+threads: 22
+iter per thread: 1000
+runtime of all iter: 0.4283279765472412
+max per op: 0.0000042832797655
+min per op: 0.0000042832702287
+med per op: 0.0000042832706920
+avg per op: 0.0000042832694670
+
+
+./omp_barrier 0 23 1000
+OMP barrier
+threads: 23
+iter per thread: 1000
+runtime of all iter: 0.4243389450836181
+max per op: 0.0000042433894508
+min per op: 0.0000042434089876
+med per op: 0.0000042433889876
+avg per op: 0.0000042433933958
+
+
+./omp_barrier 0 24 1000
+OMP barrier
+threads: 24
+iter per thread: 1000
+runtime of all iter: 0.4428729118652344
+max per op: 0.0000044287291187
+min per op: 0.0000044287215028
+med per op: 0.0000044287315028
+avg per op: 0.0000044287324798
+
+
+./omp_barrier 0 25 1000
+OMP barrier
+threads: 25
+iter per thread: 1000
+runtime of all iter: 0.4583018204345704
+max per op: 0.0000045830182043
+min per op: 0.0000045830077411
+med per op: 0.0000045830177411
+avg per op: 0.0000045830175449
+
+
+./omp_barrier 0 26 1000
+OMP barrier
+threads: 26
+iter per thread: 1000
+runtime of all iter: 0.4769880662994385
+max per op: 0.0000047698806630
+min per op: 0.0000047698782788
+med per op: 0.0000047698782788
+avg per op: 0.0000047698853140
+
+
+./omp_barrier 0 27 1000
+OMP barrier
+threads: 27
+iter per thread: 1000
+runtime of all iter: 0.5290300324096681
+max per op: 0.0000052903003241
+min per op: 0.0000052902698608
+med per op: 0.0000052902998608
+avg per op: 0.0000052903034641
+
+
+./omp_barrier 0 28 1000
+OMP barrier
+threads: 28
+iter per thread: 1000
+runtime of all iter: 0.5119499588317872
+max per op: 0.0000051194995883
+min per op: 0.0000051195191251
+med per op: 0.0000051194891251
+avg per op: 0.0000051194938341
+
+
+./omp_barrier 0 29 1000
+OMP barrier
+threads: 29
+iter per thread: 1000
+runtime of all iter: 0.5346090139770509
+max per op: 0.0000053460901398
+min per op: 0.0000053460901398
+med per op: 0.0000053460901398
+avg per op: 0.0000053460938690
+
+
+./omp_barrier 0 30 1000
+OMP barrier
+threads: 30
+iter per thread: 1000
+runtime of all iter: 0.5828238407897949
+max per op: 0.0000058282384079
+min per op: 0.0000058282193344
+med per op: 0.0000058282188712
+avg per op: 0.0000058282224429
+
+
+./omp_barrier 0 31 1000
+OMP barrier
+threads: 31
+iter per thread: 1000
+runtime of all iter: 0.5712061159210206
+max per op: 0.0000057120611592
+min per op: 0.0000057121183118
+med per op: 0.0000057120702327
+avg per op: 0.0000057120820012
+
+
+./omp_barrier 0 32 1000
+OMP barrier
+threads: 32
+iter per thread: 1000
+runtime of all iter: 0.5860509614410399
+max per op: 0.0000058605096144
+min per op: 0.0000058604996144
+med per op: 0.0000058605048460
+avg per op: 0.0000058605023337
+
+
+./omp_barrier 0 33 1000
+OMP barrier
+threads: 33
+iter per thread: 1000
+runtime of all iter: 0.6230238780212402
+max per op: 0.0000062302387802
+min per op: 0.0000062302687802
+med per op: 0.0000062302487802
+avg per op: 0.0000062302475400
+
+
+./omp_barrier 0 34 1000
+OMP barrier
+threads: 34
+iter per thread: 1000
+runtime of all iter: 0.5860749555053711
+max per op: 0.0000058607495551
+min per op: 0.0000058607705495
+med per op: 0.0000058607614760
+avg per op: 0.0000058607686987
+
+
+./omp_barrier 0 35 1000
+OMP barrier
+threads: 35
+iter per thread: 1000
+runtime of all iter: 0.6063460704956055
+max per op: 0.0000060634607050
+min per op: 0.0000060634497784
+med per op: 0.0000060634697784
+avg per op: 0.0000060634651331
+
+
+./omp_barrier 0 36 1000
+OMP barrier
+threads: 36
+iter per thread: 1000
+runtime of all iter: 0.6094299476318358
+max per op: 0.0000060942994763
+min per op: 0.0000060943099396
+med per op: 0.0000060943047079
+avg per op: 0.0000060943006185
+
+
+./omp_barrier 0 37 1000
+OMP barrier
+threads: 37
+iter per thread: 1000
+runtime of all iter: 0.5901950721435547
+max per op: 0.0000059019507214
+min per op: 0.0000059019802582
+med per op: 0.0000059019697949
+avg per op: 0.0000059019722112
+
+
+./omp_barrier 0 38 1000
+OMP barrier
+threads: 38
+iter per thread: 1000
+runtime of all iter: 0.5947259837188721
+max per op: 0.0000059472598372
+min per op: 0.0000059472703004
+med per op: 0.0000059472503004
+avg per op: 0.0000059472561580
+
+
+./omp_barrier 0 39 1000
+OMP barrier
+threads: 39
+iter per thread: 1000
+runtime of all iter: 0.6106431689605714
+max per op: 0.0000061064316896
+min per op: 0.0000061064297687
+med per op: 0.0000061064293054
+avg per op: 0.0000061064247749
+
+
+./omp_barrier 0 40 1000
+OMP barrier
+threads: 40
+iter per thread: 1000
+runtime of all iter: 0.6169479933776855
+max per op: 0.0000061694799338
+min per op: 0.0000061694694705
+med per op: 0.0000061694894705
+avg per op: 0.0000061694846510
+
+
+./omp_barrier 0 41 1000
+OMP barrier
+threads: 41
+iter per thread: 1000
+runtime of all iter: 0.6221628941497803
+max per op: 0.0000062216289415
+min per op: 0.0000062216708624
+med per op: 0.0000062216408624
+avg per op: 0.0000062216467403
+
+
+./omp_barrier 0 42 1000
+OMP barrier
+threads: 42
+iter per thread: 1000
+runtime of all iter: 0.5902750078430177
+max per op: 0.0000059027500784
+min per op: 0.0000059027796152
+med per op: 0.0000059027586208
+avg per op: 0.0000059027623536
+
+
+./omp_barrier 0 43 1000
+OMP barrier
+threads: 43
+iter per thread: 1000
+runtime of all iter: 0.6181179174194337
+max per op: 0.0000061811791742
+min per op: 0.0000061812396375
+med per op: 0.0000061812091742
+avg per op: 0.0000061812120403
+
+
+./omp_barrier 0 44 1000
+OMP barrier
+threads: 44
+iter per thread: 1000
+runtime of all iter: 0.5939097709808349
+max per op: 0.0000059390977098
+min per op: 0.0000059390805573
+med per op: 0.0000059391005573
+avg per op: 0.0000059390989543
+
+
+./omp_barrier 0 45 1000
+OMP barrier
+threads: 45
+iter per thread: 1000
+runtime of all iter: 0.6275400171813965
+max per op: 0.0000062754001718
+min per op: 0.0000062753491774
+med per op: 0.0000062753791774
+avg per op: 0.0000062753732688
+
+
+./omp_barrier 0 46 1000
+OMP barrier
+threads: 46
+iter per thread: 1000
+runtime of all iter: 0.5932801519165041
+max per op: 0.0000059328015192
+min per op: 0.0000059327900615
+med per op: 0.0000059327900615
+avg per op: 0.0000059327903351
+
+
+./omp_barrier 0 47 1000
+OMP barrier
+threads: 47
+iter per thread: 1000
+runtime of all iter: 0.5879861425170898
+max per op: 0.0000058798614252
+min per op: 0.0000058798804987
+med per op: 0.0000058798804987
+avg per op: 0.0000058798798830
+
+
+./omp_barrier 0 48 1000
+OMP barrier
+threads: 48
+iter per thread: 1000
+runtime of all iter: 0.6126130619964600
+max per op: 0.0000061261306200
+min per op: 0.0000061261096255
+med per op: 0.0000061261091623
+avg per op: 0.0000061261096769
+
+
+./omp_barrier 0 49 1000
+OMP barrier
+threads: 49
+iter per thread: 1000
+runtime of all iter: 0.6254540947875976
+max per op: 0.0000062545409479
+min per op: 0.0000062545714111
+med per op: 0.0000062545314111
+avg per op: 0.0000062545381202
+
+
+./omp_barrier 0 50 1000
+OMP barrier
+threads: 50
+iter per thread: 1000
+runtime of all iter: 0.6256169787902831
+max per op: 0.0000062561697879
+min per op: 0.0000062561612456
+med per op: 0.0000062561793246
+avg per op: 0.0000062561796797
+
+
+./omp_barrier 0 51 1000
+OMP barrier
+threads: 51
+iter per thread: 1000
+runtime of all iter: 0.5913539746551514
+max per op: 0.0000059135397466
+min per op: 0.0000059135402098
+med per op: 0.0000059135306731
+avg per op: 0.0000059135364336
+
+
+./omp_barrier 0 52 1000
+OMP barrier
+threads: 52
+iter per thread: 1000
+runtime of all iter: 0.6197658959808350
+max per op: 0.0000061976589598
+min per op: 0.0000061976618073
+med per op: 0.0000061976418073
+avg per op: 0.0000061976529000
+
+
+./omp_barrier 0 53 1000
+OMP barrier
+threads: 53
+iter per thread: 1000
+runtime of all iter: 0.6248129427490235
+max per op: 0.0000062481294275
+min per op: 0.0000062482494275
+med per op: 0.0000062482094275
+avg per op: 0.0000062482020865
+
+
+./omp_barrier 0 54 1000
+OMP barrier
+threads: 54
+iter per thread: 1000
+runtime of all iter: 0.6206269542846680
+max per op: 0.0000062062695428
+min per op: 0.0000062062714638
+med per op: 0.0000062062905373
+avg per op: 0.0000062062872342
+
+
+./omp_barrier 0 55 1000
+OMP barrier
+threads: 55
+iter per thread: 1000
+runtime of all iter: 0.5948179082946776
+max per op: 0.0000059481790829
+min per op: 0.0000059482405406
+med per op: 0.0000059482114671
+avg per op: 0.0000059482164356
+
+
+./omp_barrier 0 56 1000
+OMP barrier
+threads: 56
+iter per thread: 1000
+runtime of all iter: 0.6291688486175536
+max per op: 0.0000062916884862
+min per op: 0.0000062916617969
+med per op: 0.0000062916713336
+avg per op: 0.0000062916715049
+
+
+./omp_barrier 0 57 1000
+OMP barrier
+threads: 57
+iter per thread: 1000
+runtime of all iter: 0.6140259737854002
+max per op: 0.0000061402597379
+min per op: 0.0000061402702690
+med per op: 0.0000061402902690
+avg per op: 0.0000061402826226
+
+
+./omp_barrier 0 58 1000
+OMP barrier
+threads: 58
+iter per thread: 1000
+runtime of all iter: 0.5892709181213379
+max per op: 0.0000058927091812
+min per op: 0.0000058926996445
+med per op: 0.0000058926996445
+avg per op: 0.0000058927020343
+
+
+./omp_barrier 0 59 1000
+OMP barrier
+threads: 59
+iter per thread: 1000
+runtime of all iter: 0.5998460338592529
+max per op: 0.0000059984603386
+min per op: 0.0000059984498753
+med per op: 0.0000059984789488
+avg per op: 0.0000059984773682
+
+
+./omp_barrier 0 60 1000
+OMP barrier
+threads: 60
+iter per thread: 1000
+runtime of all iter: 0.6012097870330810
+max per op: 0.0000060120978703
+min per op: 0.0000060121202545
+med per op: 0.0000060121004861
+avg per op: 0.0000060120977223
+
+
+./omp_barrier 0 61 1000
+OMP barrier
+threads: 61
+iter per thread: 1000
+runtime of all iter: 0.6295149610900879
+max per op: 0.0000062951496109
+min per op: 0.0000062951110007
+med per op: 0.0000062951310007
+avg per op: 0.0000062951281392
+
+
+./omp_barrier 0 62 1000
+OMP barrier
+threads: 62
+iter per thread: 1000
+runtime of all iter: 0.6224350802612304
+max per op: 0.0000062243508026
+min per op: 0.0000062243588817
+med per op: 0.0000062243343449
+avg per op: 0.0000062243381787
+
+
+./omp_barrier 0 63 1000
+OMP barrier
+threads: 63
+iter per thread: 1000
+runtime of all iter: 0.5944458863830567
+max per op: 0.0000059444588638
+min per op: 0.0000059445088638
+med per op: 0.0000059444707848
+avg per op: 0.0000059444752796
+
+
+./omp_barrier 0 64 1000
+OMP barrier
+threads: 64
+iter per thread: 1000
+runtime of all iter: 0.6246120864410399
+max per op: 0.0000062461208644
+min per op: 0.0000062461423221
+med per op: 0.0000062461323221
+avg per op: 0.0000062461353743
+
+
+./omp_barrier 0 65 1000
+OMP barrier
+threads: 65
+iter per thread: 1000
+runtime of all iter: 11.8132290877227781
+max per op: 0.0001181322908772
+min per op: 0.0001181325093637
+med per op: 0.0001181324312485
+avg per op: 0.0001181323782506
+
+
+./omp_barrier 0 66 1000
+OMP barrier
+threads: 66
+iter per thread: 1000
+runtime of all iter: 12.1186858979644754
+max per op: 0.0001211868589796
+min per op: 0.0001211866991154
+med per op: 0.0001211865845508
+avg per op: 0.0001211865604156
+
+
+./omp_barrier 0 67 1000
+OMP barrier
+threads: 67
+iter per thread: 1000
+runtime of all iter: 12.5035790255737318
+max per op: 0.0001250357902557
+min per op: 0.0001250354001758
+med per op: 0.0001250357316576
+avg per op: 0.0001250356465836
+
+
+./omp_barrier 0 68 1000
+OMP barrier
+threads: 68
+iter per thread: 1000
+runtime of all iter: 12.8386789052886972
+max per op: 0.0001283867890529
+min per op: 0.0001283866383180
+med per op: 0.0001283867594203
+avg per op: 0.0001283868248413
+
+

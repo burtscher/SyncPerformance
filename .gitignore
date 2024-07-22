@@ -1,0 +1,10 @@
+**/.vscode
+**/__pycache__
+**/.DS_Store
+
+*.out
+*.ptx
+*.asm
+
+# per-system config
+config.py

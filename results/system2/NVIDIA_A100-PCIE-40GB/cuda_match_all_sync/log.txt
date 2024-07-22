@@ -1,0 +1,3142 @@
+SyncPerformance v0.1
+code: cuda_match_all_sync.cu
+system: austin
+CPU: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 16
+  physical cores: 32
+  threads per core: 2
+  logical cores: 64
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA A100-PCIE-40GB
+  SMs: 108
+  mTpSM: 2048
+  max blocks: 216
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.41
+  cache line size (bytes): 128
+./cuda_match_all_sync 0 1 1 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4001991
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_match_all_sync 0 1 2 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4001992
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_match_all_sync 0 1 54 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4001994
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_match_all_sync 0 1 108 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4001993
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_match_all_sync 0 1 216 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4001955
+max per op: 40
+min per op: 40
+med per op: 40
+avg per op: 40
+
+
+./cuda_match_all_sync 0 2 1 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5101991
+max per op: 51
+min per op: 51
+med per op: 51
+avg per op: 51
+
+
+./cuda_match_all_sync 0 2 2 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5101993
+max per op: 51
+min per op: 51
+med per op: 51
+avg per op: 51
+
+
+./cuda_match_all_sync 0 2 54 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5101989
+max per op: 51
+min per op: 51
+med per op: 51
+avg per op: 51
+
+
+./cuda_match_all_sync 0 2 108 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5101994
+max per op: 51
+min per op: 51
+med per op: 51
+avg per op: 51
+
+
+./cuda_match_all_sync 0 2 216 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5101994
+max per op: 51
+min per op: 51
+med per op: 51
+avg per op: 51
+
+
+./cuda_match_all_sync 0 4 1 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7301992
+max per op: 73
+min per op: 73
+med per op: 73
+avg per op: 73
+
+
+./cuda_match_all_sync 0 4 2 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7301992
+max per op: 73
+min per op: 73
+med per op: 73
+avg per op: 73
+
+
+./cuda_match_all_sync 0 4 54 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7301989
+max per op: 73
+min per op: 73
+med per op: 73
+avg per op: 73
+
+
+./cuda_match_all_sync 0 4 108 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7301991
+max per op: 73
+min per op: 73
+med per op: 73
+avg per op: 73
+
+
+./cuda_match_all_sync 0 4 216 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7301993
+max per op: 73
+min per op: 73
+med per op: 73
+avg per op: 73
+
+
+./cuda_match_all_sync 0 8 1 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11701993
+max per op: 117
+min per op: 117
+med per op: 117
+avg per op: 117
+
+
+./cuda_match_all_sync 0 8 2 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11701995
+max per op: 117
+min per op: 117
+med per op: 117
+avg per op: 117
+
+
+./cuda_match_all_sync 0 8 54 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11701990
+max per op: 117
+min per op: 117
+med per op: 117
+avg per op: 117
+
+
+./cuda_match_all_sync 0 8 108 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11701991
+max per op: 117
+min per op: 117
+med per op: 117
+avg per op: 117
+
+
+./cuda_match_all_sync 0 8 216 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11701990
+max per op: 117
+min per op: 117
+med per op: 117
+avg per op: 117
+
+
+./cuda_match_all_sync 0 16 1 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501994
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 16 2 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501992
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 16 54 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501989
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 16 108 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501994
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 16 216 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501996
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 32 1 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501993
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 32 2 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501993
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 32 54 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501987
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 32 108 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501994
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 32 216 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501997
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 64 1 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501993
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 64 2 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501993
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 64 54 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501997
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 64 108 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501992
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 64 216 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20601931
+max per op: 206
+min per op: 205
+med per op: 206
+avg per op: 205
+
+
+./cuda_match_all_sync 0 128 1 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501994
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 128 2 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501993
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 128 54 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20501994
+max per op: 205
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 128 108 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20600165
+max per op: 206
+min per op: 205
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 0 128 216 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599974
+max per op: 255
+min per op: 256
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 0 256 1 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599971
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 0 256 2 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599974
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 0 256 54 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599990
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 0 256 108 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599987
+max per op: 255
+min per op: 256
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 0 256 216 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56917677
+max per op: 569
+min per op: 557
+med per op: 563
+avg per op: 563
+
+
+./cuda_match_all_sync 0 512 1 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56651439
+max per op: 566
+min per op: 562
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 0 512 2 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56665788
+max per op: 566
+min per op: 562
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 0 512 54 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56657308
+max per op: 566
+min per op: 562
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 0 512 108 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56695962
+max per op: 566
+min per op: 561
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 0 512 216 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399962
+max per op: 1023
+min per op: 1023
+med per op: 1023
+avg per op: 1023
+
+
+./cuda_match_all_sync 0 786 1 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81656335
+max per op: 816
+min per op: 767
+med per op: 767
+avg per op: 780
+
+
+./cuda_match_all_sync 0 786 2 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81654436
+max per op: 816
+min per op: 767
+med per op: 768
+avg per op: 780
+
+
+./cuda_match_all_sync 0 786 54 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81657897
+max per op: 816
+min per op: 768
+med per op: 767
+avg per op: 780
+
+
+./cuda_match_all_sync 0 786 108 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81664631
+max per op: 816
+min per op: 768
+med per op: 767
+avg per op: 780
+
+
+./cuda_match_all_sync 0 786 216 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 161343467
+max per op: 1613
+min per op: 966
+med per op: 1332
+avg per op: 1359
+
+
+./cuda_match_all_sync 0 1024 1 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399930
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1023
+
+
+./cuda_match_all_sync 0 1024 2 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399931
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1023
+
+
+./cuda_match_all_sync 0 1024 54 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399932
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1023
+
+
+./cuda_match_all_sync 0 1024 108 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399976
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1023
+
+
+./cuda_match_all_sync 0 1024 216 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204055382
+max per op: 2040
+min per op: 1048
+med per op: 1583
+avg per op: 1595
+
+
+./cuda_match_all_sync 1 1 1 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399998
+max per op: 43
+min per op: 43
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 1 1 2 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399996
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 1 1 54 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399995
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 1 1 108 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399997
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 44
+
+
+./cuda_match_all_sync 1 1 216 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399960
+max per op: 43
+min per op: 44
+med per op: 44
+avg per op: 44
+
+
+./cuda_match_all_sync 1 2 1 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699993
+max per op: 56
+min per op: 56
+med per op: 56
+avg per op: 56
+
+
+./cuda_match_all_sync 1 2 2 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699998
+max per op: 56
+min per op: 57
+med per op: 57
+avg per op: 57
+
+
+./cuda_match_all_sync 1 2 54 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699995
+max per op: 56
+min per op: 57
+med per op: 56
+avg per op: 56
+
+
+./cuda_match_all_sync 1 2 108 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699996
+max per op: 56
+min per op: 57
+med per op: 56
+avg per op: 56
+
+
+./cuda_match_all_sync 1 2 216 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699996
+max per op: 56
+min per op: 57
+med per op: 57
+avg per op: 57
+
+
+./cuda_match_all_sync 1 4 1 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299996
+max per op: 82
+min per op: 82
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 1 4 2 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299996
+max per op: 82
+min per op: 83
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 1 4 54 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299992
+max per op: 82
+min per op: 83
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 1 4 108 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299996
+max per op: 82
+min per op: 83
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 1 4 216 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8598973
+max per op: 85
+min per op: 82
+med per op: 82
+avg per op: 83
+
+
+./cuda_match_all_sync 1 8 1 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499998
+max per op: 134
+min per op: 134
+med per op: 134
+avg per op: 134
+
+
+./cuda_match_all_sync 1 8 2 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499995
+max per op: 134
+min per op: 135
+med per op: 134
+avg per op: 134
+
+
+./cuda_match_all_sync 1 8 54 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499996
+max per op: 134
+min per op: 135
+med per op: 134
+avg per op: 134
+
+
+./cuda_match_all_sync 1 8 108 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499996
+max per op: 134
+min per op: 135
+med per op: 134
+avg per op: 134
+
+
+./cuda_match_all_sync 1 8 216 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13798035
+max per op: 137
+min per op: 135
+med per op: 134
+avg per op: 135
+
+
+./cuda_match_all_sync 1 16 1 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899997
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 16 2 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 16 54 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899997
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 1 16 108 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23900001
+max per op: 239
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 16 216 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 24198038
+max per op: 241
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 1 32 1 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 32 2 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 32 54 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899993
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 32 108 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899999
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 1 32 216 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 24198177
+max per op: 241
+min per op: 239
+med per op: 239
+avg per op: 239
+
+
+./cuda_match_all_sync 1 64 1 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 1 64 2 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899998
+max per op: 238
+min per op: 239
+med per op: 239
+avg per op: 239
+
+
+./cuda_match_all_sync 1 64 54 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23900001
+max per op: 239
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 1 64 108 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899999
+max per op: 238
+min per op: 239
+med per op: 239
+avg per op: 238
+
+
+./cuda_match_all_sync 1 64 216 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100025
+max per op: 281
+min per op: 269
+med per op: 263
+avg per op: 271
+
+
+./cuda_match_all_sync 1 128 1 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100595
+max per op: 281
+min per op: 281
+med per op: 281
+avg per op: 281
+
+
+./cuda_match_all_sync 1 128 2 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100596
+max per op: 281
+min per op: 281
+med per op: 281
+avg per op: 281
+
+
+./cuda_match_all_sync 1 128 54 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100302
+max per op: 281
+min per op: 278
+med per op: 281
+avg per op: 280
+
+
+./cuda_match_all_sync 1 128 108 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28104193
+max per op: 281
+min per op: 269
+med per op: 266
+avg per op: 270
+
+
+./cuda_match_all_sync 1 128 216 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199996
+max per op: 511
+min per op: 512
+med per op: 512
+avg per op: 512
+
+
+./cuda_match_all_sync 1 256 1 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199991
+max per op: 511
+min per op: 511
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 1 256 2 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199910
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 1 256 54 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199993
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 1 256 108 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199995
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 1 256 216 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400004
+max per op: 1024
+min per op: 1024
+med per op: 1023
+avg per op: 1024
+
+
+./cuda_match_all_sync 1 512 1 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400000
+max per op: 1024
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 1 512 2 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399746
+max per op: 1023
+min per op: 1024
+med per op: 1023
+avg per op: 1024
+
+
+./cuda_match_all_sync 1 512 54 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399986
+max per op: 1023
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 1 512 108 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400000
+max per op: 1024
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 1 512 216 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800006
+max per op: 2048
+min per op: 2047
+med per op: 2047
+avg per op: 2048
+
+
+./cuda_match_all_sync 1 786 1 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159958809
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 1 786 2 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159958808
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 1 786 54 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159958809
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 1 786 108 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159956730
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 1 786 216 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 319086574
+max per op: 3190
+min per op: 2048
+med per op: 2538
+avg per op: 2585
+
+
+./cuda_match_all_sync 1 1024 1 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 1 1024 2 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 1 1024 54 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 1 1024 108 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800255
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 1 1024 216 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 406726153
+max per op: 4067
+min per op: 2161
+med per op: 3135
+avg per op: 3126
+
+
+./cuda_match_all_sync 2 1 1 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3997995
+max per op: 39
+min per op: 39
+med per op: 39
+avg per op: 39
+
+
+./cuda_match_all_sync 2 1 2 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3997996
+max per op: 39
+min per op: 39
+med per op: 39
+avg per op: 39
+
+
+./cuda_match_all_sync 2 1 54 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3997994
+max per op: 39
+min per op: 39
+med per op: 39
+avg per op: 39
+
+
+./cuda_match_all_sync 2 1 108 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3997996
+max per op: 39
+min per op: 39
+med per op: 39
+avg per op: 39
+
+
+./cuda_match_all_sync 2 1 216 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3997961
+max per op: 39
+min per op: 39
+med per op: 39
+avg per op: 39
+
+
+./cuda_match_all_sync 2 2 1 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5097997
+max per op: 50
+min per op: 50
+med per op: 50
+avg per op: 50
+
+
+./cuda_match_all_sync 2 2 2 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5097998
+max per op: 50
+min per op: 50
+med per op: 50
+avg per op: 50
+
+
+./cuda_match_all_sync 2 2 54 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5097995
+max per op: 50
+min per op: 50
+med per op: 50
+avg per op: 50
+
+
+./cuda_match_all_sync 2 2 108 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5097996
+max per op: 50
+min per op: 50
+med per op: 50
+avg per op: 50
+
+
+./cuda_match_all_sync 2 2 216 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5098001
+max per op: 50
+min per op: 50
+med per op: 50
+avg per op: 50
+
+
+./cuda_match_all_sync 2 4 1 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7297996
+max per op: 72
+min per op: 72
+med per op: 72
+avg per op: 72
+
+
+./cuda_match_all_sync 2 4 2 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7297995
+max per op: 72
+min per op: 72
+med per op: 72
+avg per op: 72
+
+
+./cuda_match_all_sync 2 4 54 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7297992
+max per op: 72
+min per op: 72
+med per op: 72
+avg per op: 72
+
+
+./cuda_match_all_sync 2 4 108 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7297995
+max per op: 72
+min per op: 72
+med per op: 72
+avg per op: 72
+
+
+./cuda_match_all_sync 2 4 216 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 7297996
+max per op: 72
+min per op: 72
+med per op: 72
+avg per op: 72
+
+
+./cuda_match_all_sync 2 8 1 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11697996
+max per op: 116
+min per op: 116
+med per op: 116
+avg per op: 116
+
+
+./cuda_match_all_sync 2 8 2 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11697995
+max per op: 116
+min per op: 116
+med per op: 116
+avg per op: 116
+
+
+./cuda_match_all_sync 2 8 54 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11697994
+max per op: 116
+min per op: 116
+med per op: 116
+avg per op: 116
+
+
+./cuda_match_all_sync 2 8 108 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11697993
+max per op: 116
+min per op: 116
+med per op: 116
+avg per op: 116
+
+
+./cuda_match_all_sync 2 8 216 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 11697997
+max per op: 116
+min per op: 116
+med per op: 116
+avg per op: 116
+
+
+./cuda_match_all_sync 2 16 1 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497997
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 16 2 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497994
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 16 54 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497996
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 16 108 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497998
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 16 216 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497997
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 32 1 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497996
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 32 2 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497994
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 32 54 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497989
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 32 108 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497999
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 32 216 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497996
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 64 1 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497995
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 64 2 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497998
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 64 54 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497991
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 64 108 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497993
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 64 216 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20597694
+max per op: 205
+min per op: 204
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 2 128 1 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497997
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 128 2 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20497995
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 128 54 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20498000
+max per op: 204
+min per op: 204
+med per op: 204
+avg per op: 204
+
+
+./cuda_match_all_sync 2 128 108 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 20598011
+max per op: 205
+min per op: 204
+med per op: 205
+avg per op: 205
+
+
+./cuda_match_all_sync 2 128 216 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599987
+max per op: 255
+min per op: 256
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 2 256 1 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599952
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 2 256 2 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599951
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 2 256 54 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599988
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 2 256 108 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 25599980
+max per op: 255
+min per op: 256
+med per op: 255
+avg per op: 255
+
+
+./cuda_match_all_sync 2 256 216 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56761691
+max per op: 567
+min per op: 558
+med per op: 562
+avg per op: 563
+
+
+./cuda_match_all_sync 2 512 1 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56687286
+max per op: 566
+min per op: 563
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 2 512 2 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56718516
+max per op: 567
+min per op: 562
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 2 512 54 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56693245
+max per op: 566
+min per op: 561
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 2 512 108 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 56710623
+max per op: 567
+min per op: 560
+med per op: 565
+avg per op: 565
+
+
+./cuda_match_all_sync 2 512 216 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400121
+max per op: 1024
+min per op: 1023
+med per op: 1023
+avg per op: 1023
+
+
+./cuda_match_all_sync 2 786 1 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81656333
+max per op: 816
+min per op: 768
+med per op: 768
+avg per op: 780
+
+
+./cuda_match_all_sync 2 786 2 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81656333
+max per op: 816
+min per op: 768
+med per op: 767
+avg per op: 780
+
+
+./cuda_match_all_sync 2 786 54 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81658068
+max per op: 816
+min per op: 767
+med per op: 768
+avg per op: 780
+
+
+./cuda_match_all_sync 2 786 108 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 81655645
+max per op: 816
+min per op: 768
+med per op: 767
+avg per op: 780
+
+
+./cuda_match_all_sync 2 786 216 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 161329529
+max per op: 1613
+min per op: 1151
+med per op: 1343
+avg per op: 1361
+
+
+./cuda_match_all_sync 2 1024 1 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399753
+max per op: 1023
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 2 1024 2 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399750
+max per op: 1023
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 2 1024 54 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399766
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 2 1024 108 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399940
+max per op: 1023
+min per op: 1023
+med per op: 1024
+avg per op: 1023
+
+
+./cuda_match_all_sync 2 1024 216 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204053241
+max per op: 2040
+min per op: 1254
+med per op: 1595
+avg per op: 1595
+
+
+./cuda_match_all_sync 3 1 1 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399996
+max per op: 43
+min per op: 43
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 3 1 2 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399996
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 3 1 54 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399994
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 43
+
+
+./cuda_match_all_sync 3 1 108 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399997
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 44
+
+
+./cuda_match_all_sync 3 1 216 1000
+CUDA __match_all_sync
+threads per block: 1
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 4399961
+max per op: 43
+min per op: 44
+med per op: 43
+avg per op: 44
+
+
+./cuda_match_all_sync 3 2 1 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699998
+max per op: 56
+min per op: 56
+med per op: 56
+avg per op: 56
+
+
+./cuda_match_all_sync 3 2 2 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699997
+max per op: 56
+min per op: 57
+med per op: 57
+avg per op: 57
+
+
+./cuda_match_all_sync 3 2 54 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699997
+max per op: 56
+min per op: 57
+med per op: 56
+avg per op: 57
+
+
+./cuda_match_all_sync 3 2 108 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699998
+max per op: 56
+min per op: 57
+med per op: 56
+avg per op: 57
+
+
+./cuda_match_all_sync 3 2 216 1000
+CUDA __match_all_sync
+threads per block: 2
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5699993
+max per op: 56
+min per op: 57
+med per op: 57
+avg per op: 57
+
+
+./cuda_match_all_sync 3 4 1 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299996
+max per op: 82
+min per op: 82
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 3 4 2 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299997
+max per op: 82
+min per op: 83
+med per op: 83
+avg per op: 83
+
+
+./cuda_match_all_sync 3 4 54 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299991
+max per op: 82
+min per op: 83
+med per op: 82
+avg per op: 82
+
+
+./cuda_match_all_sync 3 4 108 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8299996
+max per op: 82
+min per op: 83
+med per op: 82
+avg per op: 83
+
+
+./cuda_match_all_sync 3 4 216 1000
+CUDA __match_all_sync
+threads per block: 4
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 8599018
+max per op: 85
+min per op: 83
+med per op: 83
+avg per op: 83
+
+
+./cuda_match_all_sync 3 8 1 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499997
+max per op: 134
+min per op: 134
+med per op: 134
+avg per op: 134
+
+
+./cuda_match_all_sync 3 8 2 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499995
+max per op: 134
+min per op: 135
+med per op: 135
+avg per op: 135
+
+
+./cuda_match_all_sync 3 8 54 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13499996
+max per op: 134
+min per op: 135
+med per op: 134
+avg per op: 135
+
+
+./cuda_match_all_sync 3 8 108 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13500003
+max per op: 135
+min per op: 135
+med per op: 134
+avg per op: 135
+
+
+./cuda_match_all_sync 3 8 216 1000
+CUDA __match_all_sync
+threads per block: 8
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 13798046
+max per op: 137
+min per op: 135
+med per op: 134
+avg per op: 135
+
+
+./cuda_match_all_sync 3 16 1 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899995
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 16 2 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 16 54 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899997
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 16 108 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899999
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 3 16 216 1000
+CUDA __match_all_sync
+threads per block: 16
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 24197865
+max per op: 241
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 3 32 1 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899998
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 32 2 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899996
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 32 54 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899991
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 32 108 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899991
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 32 216 1000
+CUDA __match_all_sync
+threads per block: 32
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 24198026
+max per op: 241
+min per op: 239
+med per op: 239
+avg per op: 239
+
+
+./cuda_match_all_sync 3 64 1 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899998
+max per op: 238
+min per op: 238
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 64 2 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899997
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 238
+
+
+./cuda_match_all_sync 3 64 54 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899997
+max per op: 238
+min per op: 239
+med per op: 238
+avg per op: 239
+
+
+./cuda_match_all_sync 3 64 108 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 23899995
+max per op: 238
+min per op: 239
+med per op: 239
+avg per op: 239
+
+
+./cuda_match_all_sync 3 64 216 1000
+CUDA __match_all_sync
+threads per block: 64
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100751
+max per op: 281
+min per op: 269
+med per op: 266
+avg per op: 270
+
+
+./cuda_match_all_sync 3 128 1 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100594
+max per op: 281
+min per op: 281
+med per op: 281
+avg per op: 281
+
+
+./cuda_match_all_sync 3 128 2 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100595
+max per op: 281
+min per op: 281
+med per op: 281
+avg per op: 281
+
+
+./cuda_match_all_sync 3 128 54 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28100302
+max per op: 281
+min per op: 278
+med per op: 281
+avg per op: 280
+
+
+./cuda_match_all_sync 3 128 108 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 28104193
+max per op: 281
+min per op: 269
+med per op: 266
+avg per op: 270
+
+
+./cuda_match_all_sync 3 128 216 1000
+CUDA __match_all_sync
+threads per block: 128
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199996
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 3 256 1 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199992
+max per op: 511
+min per op: 511
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 3 256 2 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199910
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 3 256 54 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199995
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 3 256 108 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 51199996
+max per op: 511
+min per op: 512
+med per op: 511
+avg per op: 511
+
+
+./cuda_match_all_sync 3 256 216 1000
+CUDA __match_all_sync
+threads per block: 256
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400004
+max per op: 1024
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 3 512 1 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400000
+max per op: 1024
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 3 512 2 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399746
+max per op: 1023
+min per op: 1024
+med per op: 1023
+avg per op: 1024
+
+
+./cuda_match_all_sync 3 512 54 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102399986
+max per op: 1023
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 3 512 108 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 102400000
+max per op: 1024
+min per op: 1024
+med per op: 1024
+avg per op: 1024
+
+
+./cuda_match_all_sync 3 512 216 1000
+CUDA __match_all_sync
+threads per block: 512
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2047
+med per op: 2047
+avg per op: 2048
+
+
+./cuda_match_all_sync 3 786 1 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159957891
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 3 786 2 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159957890
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 3 786 54 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159957891
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 3 786 108 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 159958321
+max per op: 1599
+min per op: 1536
+med per op: 1536
+avg per op: 1553
+
+
+./cuda_match_all_sync 3 786 216 1000
+CUDA __match_all_sync
+threads per block: 786
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 319085558
+max per op: 3190
+min per op: 2047
+med per op: 2538
+avg per op: 2585
+
+
+./cuda_match_all_sync 3 1024 1 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 3 1024 2 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800002
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 3 1024 54 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 54
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204799930
+max per op: 2047
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 3 1024 108 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 108
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 204800187
+max per op: 2048
+min per op: 2048
+med per op: 2048
+avg per op: 2048
+
+
+./cuda_match_all_sync 3 1024 216 1000
+CUDA __match_all_sync
+threads per block: 1024
+blocks: 216
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 406731864
+max per op: 4067
+min per op: 2163
+med per op: 3135
+avg per op: 3125
+
+

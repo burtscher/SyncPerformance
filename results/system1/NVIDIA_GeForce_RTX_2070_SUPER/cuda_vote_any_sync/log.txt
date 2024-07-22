@@ -1,0 +1,737 @@
+SyncPerformance v0.1
+code: cuda_vote_any_sync.cu
+system: zurich
+CPU: Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 10
+  physical cores: 20
+  threads per core: 2
+  logical cores: 40
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 2070 SUPER
+  SMs: 40
+  mTpSM: 1024
+  max blocks: 40
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.8
+  cache line size (bytes): 128
+./cuda_vote_any_sync 0 1 1 1000
+CUDA __any_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 1 2 1000
+CUDA __any_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 1 20 1000
+CUDA __any_sync
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000002
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 1 40 1000
+CUDA __any_sync
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000004
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 1 80 1000
+CUDA __any_sync
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000001
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 2 1 1000
+CUDA __any_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 2 2 1000
+CUDA __any_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 2 20 1000
+CUDA __any_sync
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 2 40 1000
+CUDA __any_sync
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000000
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 2 80 1000
+CUDA __any_sync
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999998
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 4 1 1000
+CUDA __any_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 4 2 1000
+CUDA __any_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000007
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 4 20 1000
+CUDA __any_sync
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000003
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 4 40 1000
+CUDA __any_sync
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000007
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 4 80 1000
+CUDA __any_sync
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000002
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 8 1 1000
+CUDA __any_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 8 2 1000
+CUDA __any_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 8 20 1000
+CUDA __any_sync
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000007
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 8 40 1000
+CUDA __any_sync
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000001
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 8 80 1000
+CUDA __any_sync
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999998
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 16 1 1000
+CUDA __any_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 16 2 1000
+CUDA __any_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 16 20 1000
+CUDA __any_sync
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000002
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 16 40 1000
+CUDA __any_sync
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000003
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 16 80 1000
+CUDA __any_sync
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999999
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 32 1 1000
+CUDA __any_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 32 2 1000
+CUDA __any_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 32 20 1000
+CUDA __any_sync
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 32 40 1000
+CUDA __any_sync
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999997
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 32 80 1000
+CUDA __any_sync
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999999
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 64 1 1000
+CUDA __any_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 64 2 1000
+CUDA __any_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 64 20 1000
+CUDA __any_sync
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999997
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 64 40 1000
+CUDA __any_sync
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999999
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 64 80 1000
+CUDA __any_sync
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000002
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 128 1 1000
+CUDA __any_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 128 2 1000
+CUDA __any_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000005
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 128 20 1000
+CUDA __any_sync
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000001
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 128 40 1000
+CUDA __any_sync
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000003
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 128 80 1000
+CUDA __any_sync
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 999998
+max per op: 9
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 256 1 1000
+CUDA __any_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 256 2 1000
+CUDA __any_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000006
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 256 20 1000
+CUDA __any_sync
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000003
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 256 40 1000
+CUDA __any_sync
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1000001
+max per op: 10
+min per op: 10
+med per op: 10
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 256 80 1000
+CUDA __any_sync
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1001852
+max per op: 10
+min per op: 10
+med per op: 9
+avg per op: 10
+
+
+./cuda_vote_any_sync 0 512 1 1000
+CUDA __any_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 998892
+max per op: 9
+min per op: 9
+med per op: 9
+avg per op: 9
+
+
+./cuda_vote_any_sync 0 512 2 1000
+CUDA __any_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 998892
+max per op: 9
+min per op: 9
+med per op: 9
+avg per op: 9
+
+
+./cuda_vote_any_sync 0 512 20 1000
+CUDA __any_sync
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 998907
+max per op: 9
+min per op: 9
+med per op: 9
+avg per op: 9
+
+
+./cuda_vote_any_sync 0 512 40 1000
+CUDA __any_sync
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1003186
+max per op: 10
+min per op: 9
+med per op: 9
+avg per op: 9
+
+
+./cuda_vote_any_sync 0 512 80 1000
+CUDA __any_sync
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1757908
+max per op: 17
+min per op: 10
+med per op: 13
+avg per op: 13
+
+
+./cuda_vote_any_sync 0 1024 1 1000
+CUDA __any_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1601377
+max per op: 16
+min per op: 14
+med per op: 15
+avg per op: 15
+
+
+./cuda_vote_any_sync 0 1024 2 1000
+CUDA __any_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1601536
+max per op: 16
+min per op: 14
+med per op: 15
+avg per op: 15
+
+
+./cuda_vote_any_sync 0 1024 20 1000
+CUDA __any_sync
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1601860
+max per op: 16
+min per op: 14
+med per op: 15
+avg per op: 15
+
+
+./cuda_vote_any_sync 0 1024 40 1000
+CUDA __any_sync
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1603312
+max per op: 16
+min per op: 14
+med per op: 16
+avg per op: 15
+
+
+./cuda_vote_any_sync 0 1024 80 1000
+CUDA __any_sync
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1603977
+max per op: 16
+min per op: 14
+med per op: 16
+avg per op: 15
+
+

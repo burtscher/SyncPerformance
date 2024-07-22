@@ -1,0 +1,2134 @@
+SyncPerformance v0.1
+code: omp_atomicadd_scalar.cpp
+system: zurich
+CPU: Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 10
+  physical cores: 20
+  threads per core: 2
+  logical cores: 40
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 2070 SUPER
+  SMs: 40
+  mTpSM: 1024
+  max blocks: 40
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.8
+  cache line size (bytes): 128
+./omp_atomicadd_scalar 0 1 1000
+OMP atomic-add scalar
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0007010809173583
+max per op: 0.0000000070108092
+min per op: 0.0000000070108092
+med per op: 0.0000000070108092
+avg per op: 0.0000000070108092
+
+
+./omp_atomicadd_scalar 0 2 1000
+OMP atomic-add scalar
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0036911909332275
+max per op: 0.0000000369119093
+min per op: 0.0000000368999884
+med per op: 0.0000000369059489
+avg per op: 0.0000000369059489
+
+
+./omp_atomicadd_scalar 0 3 1000
+OMP atomic-add scalar
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0058359766387940
+max per op: 0.0000000583597664
+min per op: 0.0000000330087189
+med per op: 0.0000000582381729
+avg per op: 0.0000000498688861
+
+
+./omp_atomicadd_scalar 0 4 1000
+OMP atomic-add scalar
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0072371068115235
+max per op: 0.0000000723710681
+min per op: 0.0000000500588612
+med per op: 0.0000000612051972
+avg per op: 0.0000000612377402
+
+
+./omp_atomicadd_scalar 0 5 1000
+OMP atomic-add scalar
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0097549334106445
+max per op: 0.0000000975493341
+min per op: 0.0000000585702806
+med per op: 0.0000000982691994
+avg per op: 0.0000000823358362
+
+
+./omp_atomicadd_scalar 0 6 1000
+OMP atomic-add scalar
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0107789709320069
+max per op: 0.0000001077897093
+min per op: 0.0000000771499916
+med per op: 0.0000000925946819
+avg per op: 0.0000000927516408
+
+
+./omp_atomicadd_scalar 0 7 1000
+OMP atomic-add scalar
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0126470230407715
+max per op: 0.0000001264702304
+min per op: 0.0000000816007460
+med per op: 0.0000001262818169
+avg per op: 0.0000001072815591
+
+
+./omp_atomicadd_scalar 0 8 1000
+OMP atomic-add scalar
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0151780443115234
+max per op: 0.0000001517804431
+min per op: 0.0000001022600232
+med per op: 0.0000001276396015
+avg per op: 0.0000001269589744
+
+
+./omp_atomicadd_scalar 0 9 1000
+OMP atomic-add scalar
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0162789699249267
+max per op: 0.0000001627896992
+min per op: 0.0000001031487956
+med per op: 0.0000001581090465
+avg per op: 0.0000001353869657
+
+
+./omp_atomicadd_scalar 0 10 1000
+OMP atomic-add scalar
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0172170359954834
+max per op: 0.0000001721703600
+min per op: 0.0000001228700458
+med per op: 0.0000001482950971
+avg per op: 0.0000001475158212
+
+
+./omp_atomicadd_scalar 0 11 1000
+OMP atomic-add scalar
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0203648680725097
+max per op: 0.0000002036486807
+min per op: 0.0000001215712894
+med per op: 0.0000002036010016
+avg per op: 0.0000001665135747
+
+
+./omp_atomicadd_scalar 0 12 1000
+OMP atomic-add scalar
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0214360003509521
+max per op: 0.0000002143600035
+min per op: 0.0000001496102600
+med per op: 0.0000001820494807
+avg per op: 0.0000001818006299
+
+
+./omp_atomicadd_scalar 0 13 1000
+OMP atomic-add scalar
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0231600551605224
+max per op: 0.0000002316005516
+min per op: 0.0000001682189922
+med per op: 0.0000001739485550
+avg per op: 0.0000001982486823
+
+
+./omp_atomicadd_scalar 0 14 1000
+OMP atomic-add scalar
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0247081206359863
+max per op: 0.0000002470812064
+min per op: 0.0000001842720856
+med per op: 0.0000001850506316
+avg per op: 0.0000002180330374
+
+
+./omp_atomicadd_scalar 0 15 1000
+OMP atomic-add scalar
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0272619527282715
+max per op: 0.0000002726195273
+min per op: 0.0000001916915982
+med per op: 0.0000001972496303
+avg per op: 0.0000002303958836
+
+
+./omp_atomicadd_scalar 0 16 1000
+OMP atomic-add scalar
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0294471118164062
+max per op: 0.0000002944711182
+min per op: 0.0000002149009892
+med per op: 0.0000002240100766
+avg per op: 0.0000002528784670
+
+
+./omp_atomicadd_scalar 0 17 1000
+OMP atomic-add scalar
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0307220928039550
+max per op: 0.0000003072209280
+min per op: 0.0000002314497466
+med per op: 0.0000002561401688
+avg per op: 0.0000002645818240
+
+
+./omp_atomicadd_scalar 0 18 1000
+OMP atomic-add scalar
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0314530982360840
+max per op: 0.0000003145309824
+min per op: 0.0000002311995650
+med per op: 0.0000002450957645
+avg per op: 0.0000002674384994
+
+
+./omp_atomicadd_scalar 0 19 1000
+OMP atomic-add scalar
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0348329381713867
+max per op: 0.0000003483293817
+min per op: 0.0000002382392717
+med per op: 0.0000002735099133
+avg per op: 0.0000002919247917
+
+
+./omp_atomicadd_scalar 0 20 1000
+OMP atomic-add scalar
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0366161713256836
+max per op: 0.0000003661617133
+min per op: 0.0000002400592250
+med per op: 0.0000002932445972
+avg per op: 0.0000003030883839
+
+
+./omp_atomicadd_scalar 0 21 1000
+OMP atomic-add scalar
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0377780504913330
+max per op: 0.0000003777805049
+min per op: 0.0000002312784799
+med per op: 0.0000002765692986
+avg per op: 0.0000003064555460
+
+
+./omp_atomicadd_scalar 0 22 1000
+OMP atomic-add scalar
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0386900508117676
+max per op: 0.0000003869005081
+min per op: 0.0000002482795978
+med per op: 0.0000003233194710
+avg per op: 0.0000003297819706
+
+
+./omp_atomicadd_scalar 0 23 1000
+OMP atomic-add scalar
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0407109710540771
+max per op: 0.0000004071097105
+min per op: 0.0000002320184702
+med per op: 0.0000003270803496
+avg per op: 0.0000003286603876
+
+
+./omp_atomicadd_scalar 0 24 1000
+OMP atomic-add scalar
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0421001970367431
+max per op: 0.0000004210019704
+min per op: 0.0000002513614317
+med per op: 0.0000003445159647
+avg per op: 0.0000003551433698
+
+
+./omp_atomicadd_scalar 0 25 1000
+OMP atomic-add scalar
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0448780614166260
+max per op: 0.0000004487806142
+min per op: 0.0000002373506973
+med per op: 0.0000003680407191
+avg per op: 0.0000003457821208
+
+
+./omp_atomicadd_scalar 0 26 1000
+OMP atomic-add scalar
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0450148678436279
+max per op: 0.0000004501486784
+min per op: 0.0000002508899393
+med per op: 0.0000003611850134
+avg per op: 0.0000003557757800
+
+
+./omp_atomicadd_scalar 0 27 1000
+OMP atomic-add scalar
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0465450326080322
+max per op: 0.0000004654503261
+min per op: 0.0000002454690388
+med per op: 0.0000003553099464
+avg per op: 0.0000003724521207
+
+
+./omp_atomicadd_scalar 0 28 1000
+OMP atomic-add scalar
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0484289128570556
+max per op: 0.0000004842891286
+min per op: 0.0000002351194769
+med per op: 0.0000003418906528
+avg per op: 0.0000003780291327
+
+
+./omp_atomicadd_scalar 0 29 1000
+OMP atomic-add scalar
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0498899313659668
+max per op: 0.0000004988993137
+min per op: 0.0000002500684666
+med per op: 0.0000003850699730
+avg per op: 0.0000004074978127
+
+
+./omp_atomicadd_scalar 0 30 1000
+OMP atomic-add scalar
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0517549801788330
+max per op: 0.0000005175498018
+min per op: 0.0000002543609071
+med per op: 0.0000003910948166
+avg per op: 0.0000004199017525
+
+
+./omp_atomicadd_scalar 0 31 1000
+OMP atomic-add scalar
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0536199784545899
+max per op: 0.0000005361997845
+min per op: 0.0000002461606787
+med per op: 0.0000003896706195
+avg per op: 0.0000004259683724
+
+
+./omp_atomicadd_scalar 0 32 1000
+OMP atomic-add scalar
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0567450208435058
+max per op: 0.0000005674502084
+min per op: 0.0000002791189474
+med per op: 0.0000004133602509
+avg per op: 0.0000004577944248
+
+
+./omp_atomicadd_scalar 0 33 1000
+OMP atomic-add scalar
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0588739533233642
+max per op: 0.0000005887395332
+min per op: 0.0000002906998528
+med per op: 0.0000004355305698
+avg per op: 0.0000004798753201
+
+
+./omp_atomicadd_scalar 0 34 1000
+OMP atomic-add scalar
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0602561022186279
+max per op: 0.0000006025610222
+min per op: 0.0000002604319931
+med per op: 0.0000004246846717
+avg per op: 0.0000004815450304
+
+
+./omp_atomicadd_scalar 0 35 1000
+OMP atomic-add scalar
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0619950564422607
+max per op: 0.0000006199505644
+min per op: 0.0000002880811719
+med per op: 0.0000004764800677
+avg per op: 0.0000005043865459
+
+
+./omp_atomicadd_scalar 0 36 1000
+OMP atomic-add scalar
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0642109067840576
+max per op: 0.0000006421090678
+min per op: 0.0000002680619783
+med per op: 0.0000004498543391
+avg per op: 0.0000005219031264
+
+
+./omp_atomicadd_scalar 0 37 1000
+OMP atomic-add scalar
+threads: 37
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0628869998016357
+max per op: 0.0000006288699980
+min per op: 0.0000002660195816
+med per op: 0.0000004519497520
+avg per op: 0.0000005084368760
+
+
+./omp_atomicadd_scalar 0 38 1000
+OMP atomic-add scalar
+threads: 38
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0671999627227783
+max per op: 0.0000006719996272
+min per op: 0.0000004148504384
+med per op: 0.0000004629655621
+avg per op: 0.0000005347394879
+
+
+./omp_atomicadd_scalar 0 39 1000
+OMP atomic-add scalar
+threads: 39
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0645670619812011
+max per op: 0.0000006456706198
+min per op: 0.0000004338798605
+med per op: 0.0000004337908330
+avg per op: 0.0000005266073063
+
+
+./omp_atomicadd_scalar 0 40 1000
+OMP atomic-add scalar
+threads: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0680119051971435
+max per op: 0.0000006801190520
+min per op: 0.0000004604111960
+med per op: 0.0000005667401827
+avg per op: 0.0000005695637272
+
+
+./omp_atomicadd_scalar 0 41 1000
+OMP atomic-add scalar
+threads: 41
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0705709663848877
+max per op: 0.0000007057096638
+min per op: 0.0000004800192429
+med per op: 0.0000004825503505
+avg per op: 0.0000005755455268
+
+
+./omp_atomicadd_scalar 0 42 1000
+OMP atomic-add scalar
+threads: 42
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0766210847015381
+max per op: 0.0000007662108470
+min per op: 0.0000005206693951
+med per op: 0.0000005259113545
+avg per op: 0.0000006223211544
+
+
+./omp_atomicadd_scalar 0 43 1000
+OMP atomic-add scalar
+threads: 43
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0783319295654297
+max per op: 0.0000007833192957
+min per op: 0.0000005079886830
+med per op: 0.0000005570988371
+avg per op: 0.0000006312067458
+
+
+./omp_atomicadd_scalar 0 44 1000
+OMP atomic-add scalar
+threads: 44
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0762038053588867
+max per op: 0.0000007620380536
+min per op: 0.0000004984515115
+med per op: 0.0000005728843345
+avg per op: 0.0000006198754125
+
+
+./omp_atomicadd_scalar 1 1 1000
+OMP atomic-add scalar
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0005978793334961
+max per op: 0.0000000059787933
+min per op: 0.0000000059787933
+med per op: 0.0000000059787933
+avg per op: 0.0000000059787933
+
+
+./omp_atomicadd_scalar 1 2 1000
+OMP atomic-add scalar
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0036380666198731
+max per op: 0.0000000363806662
+min per op: 0.0000000365903409
+med per op: 0.0000000364852051
+avg per op: 0.0000000364852051
+
+
+./omp_atomicadd_scalar 1 3 1000
+OMP atomic-add scalar
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0059190195770263
+max per op: 0.0000000591901958
+min per op: 0.0000000313512634
+med per op: 0.0000000594894193
+avg per op: 0.0000000499170726
+
+
+./omp_atomicadd_scalar 1 4 1000
+OMP atomic-add scalar
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0070478497161865
+max per op: 0.0000000704784972
+min per op: 0.0000000442990182
+med per op: 0.0000000589545351
+avg per op: 0.0000000580044371
+
+
+./omp_atomicadd_scalar 1 5 1000
+OMP atomic-add scalar
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0099890203094482
+max per op: 0.0000000998902031
+min per op: 0.0000000577501825
+med per op: 0.0000000998098515
+avg per op: 0.0000000834144194
+
+
+./omp_atomicadd_scalar 1 6 1000
+OMP atomic-add scalar
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0108579560546875
+max per op: 0.0000001085795605
+min per op: 0.0000000668086255
+med per op: 0.0000000919203588
+avg per op: 0.0000000897115888
+
+
+./omp_atomicadd_scalar 1 7 1000
+OMP atomic-add scalar
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0128750925292969
+max per op: 0.0000001287509253
+min per op: 0.0000000819814957
+med per op: 0.0000001272300621
+avg per op: 0.0000001093933332
+
+
+./omp_atomicadd_scalar 1 8 1000
+OMP atomic-add scalar
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0145069998168945
+max per op: 0.0000001450699982
+min per op: 0.0000000958794791
+med per op: 0.0000001201447690
+avg per op: 0.0000001250199700
+
+
+./omp_atomicadd_scalar 1 9 1000
+OMP atomic-add scalar
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0166281184082031
+max per op: 0.0000001662811841
+min per op: 0.0000000920991718
+med per op: 0.0000001197696411
+avg per op: 0.0000001363440331
+
+
+./omp_atomicadd_scalar 1 10 1000
+OMP atomic-add scalar
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0178060089263916
+max per op: 0.0000001780600893
+min per op: 0.0000001188707246
+med per op: 0.0000001467404266
+avg per op: 0.0000001481135700
+
+
+./omp_atomicadd_scalar 1 11 1000
+OMP atomic-add scalar
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0202160243682862
+max per op: 0.0000002021602437
+min per op: 0.0000001243014793
+med per op: 0.0000001683105528
+avg per op: 0.0000001702946965
+
+
+./omp_atomicadd_scalar 1 12 1000
+OMP atomic-add scalar
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0210458672637940
+max per op: 0.0000002104586726
+min per op: 0.0000001661105168
+med per op: 0.0000001674449397
+avg per op: 0.0000001848140091
+
+
+./omp_atomicadd_scalar 1 13 1000
+OMP atomic-add scalar
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0227648005065918
+max per op: 0.0000002276480051
+min per op: 0.0000001477304810
+med per op: 0.0000001839689252
+avg per op: 0.0000001957337652
+
+
+./omp_atomicadd_scalar 1 14 1000
+OMP atomic-add scalar
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0242720558166504
+max per op: 0.0000002427205582
+min per op: 0.0000001918120183
+med per op: 0.0000001957691753
+avg per op: 0.0000002146570877
+
+
+./omp_atomicadd_scalar 1 15 1000
+OMP atomic-add scalar
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0268597879028319
+max per op: 0.0000002685978790
+min per op: 0.0000001709799634
+med per op: 0.0000001188411728
+avg per op: 0.0000002198303768
+
+
+./omp_atomicadd_scalar 1 16 1000
+OMP atomic-add scalar
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0292900325164794
+max per op: 0.0000002929003252
+min per op: 0.0000001908994359
+med per op: 0.0000002411363768
+avg per op: 0.0000002420862561
+
+
+./omp_atomicadd_scalar 1 17 1000
+OMP atomic-add scalar
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0306940505065918
+max per op: 0.0000003069405051
+min per op: 0.0000002160907173
+med per op: 0.0000002208207860
+avg per op: 0.0000002589190078
+
+
+./omp_atomicadd_scalar 1 18 1000
+OMP atomic-add scalar
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0321139587554932
+max per op: 0.0000003211395876
+min per op: 0.0000002519902892
+med per op: 0.0000002499502184
+avg per op: 0.0000002795323085
+
+
+./omp_atomicadd_scalar 1 19 1000
+OMP atomic-add scalar
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0340399336242676
+max per op: 0.0000003403993362
+min per op: 0.0000002089719469
+med per op: 0.0000003317399522
+avg per op: 0.0000002772869321
+
+
+./omp_atomicadd_scalar 1 20 1000
+OMP atomic-add scalar
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0353880071105958
+max per op: 0.0000003538800711
+min per op: 0.0000002309589240
+med per op: 0.0000002899953015
+avg per op: 0.0000002911096299
+
+
+./omp_atomicadd_scalar 1 21 1000
+OMP atomic-add scalar
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0379120560150147
+max per op: 0.0000003791205602
+min per op: 0.0000002488399304
+med per op: 0.0000003519605086
+avg per op: 0.0000003165175993
+
+
+./omp_atomicadd_scalar 1 22 1000
+OMP atomic-add scalar
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0389768710327148
+max per op: 0.0000003897687103
+min per op: 0.0000002352689169
+med per op: 0.0000002830294967
+avg per op: 0.0000003155257183
+
+
+./omp_atomicadd_scalar 1 23 1000
+OMP atomic-add scalar
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0399938305969238
+max per op: 0.0000003999383060
+min per op: 0.0000002329501462
+med per op: 0.0000002879914296
+avg per op: 0.0000003226408312
+
+
+./omp_atomicadd_scalar 1 24 1000
+OMP atomic-add scalar
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0417910233764648
+max per op: 0.0000004179102338
+min per op: 0.0000002335098529
+med per op: 0.0000002950054783
+avg per op: 0.0000003258766482
+
+
+./omp_atomicadd_scalar 1 25 1000
+OMP atomic-add scalar
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0431639977874755
+max per op: 0.0000004316399779
+min per op: 0.0000002307715878
+med per op: 0.0000003711817838
+avg per op: 0.0000003285121376
+
+
+./omp_atomicadd_scalar 1 26 1000
+OMP atomic-add scalar
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0471269658050537
+max per op: 0.0000004712696581
+min per op: 0.0000002435994931
+med per op: 0.0000003615448418
+avg per op: 0.0000003660920311
+
+
+./omp_atomicadd_scalar 1 27 1000
+OMP atomic-add scalar
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0468709138336182
+max per op: 0.0000004687091383
+min per op: 0.0000002342791666
+med per op: 0.0000003480188197
+avg per op: 0.0000003788622468
+
+
+./omp_atomicadd_scalar 1 28 1000
+OMP atomic-add scalar
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0485201635284424
+max per op: 0.0000004852016353
+min per op: 0.0000002412385437
+med per op: 0.0000003801941806
+avg per op: 0.0000003814851446
+
+
+./omp_atomicadd_scalar 1 29 1000
+OMP atomic-add scalar
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0507260623931884
+max per op: 0.0000005072606239
+min per op: 0.0000002483113330
+med per op: 0.0000003875305569
+avg per op: 0.0000004006580113
+
+
+./omp_atomicadd_scalar 1 30 1000
+OMP atomic-add scalar
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0526688344879150
+max per op: 0.0000005266883449
+min per op: 0.0000002541498666
+med per op: 0.0000004070292232
+avg per op: 0.0000004303992235
+
+
+./omp_atomicadd_scalar 1 31 1000
+OMP atomic-add scalar
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0545939062194825
+max per op: 0.0000005459390622
+min per op: 0.0000002731908771
+med per op: 0.0000004091288582
+avg per op: 0.0000004449218075
+
+
+./omp_atomicadd_scalar 1 32 1000
+OMP atomic-add scalar
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0564638228149414
+max per op: 0.0000005646382281
+min per op: 0.0000002830687337
+med per op: 0.0000004155993447
+avg per op: 0.0000004456350041
+
+
+./omp_atomicadd_scalar 1 33 1000
+OMP atomic-add scalar
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0593827915344239
+max per op: 0.0000005938279153
+min per op: 0.0000002845096550
+med per op: 0.0000004301082613
+avg per op: 0.0000004786066088
+
+
+./omp_atomicadd_scalar 1 34 1000
+OMP atomic-add scalar
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0592831630249024
+max per op: 0.0000005928316302
+min per op: 0.0000002811405901
+med per op: 0.0000004314796903
+avg per op: 0.0000004784439221
+
+
+./omp_atomicadd_scalar 1 35 1000
+OMP atomic-add scalar
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0611469751434326
+max per op: 0.0000006114697514
+min per op: 0.0000002699813522
+med per op: 0.0000004488985222
+avg per op: 0.0000004938129093
+
+
+./omp_atomicadd_scalar 1 36 1000
+OMP atomic-add scalar
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0617299131011963
+max per op: 0.0000006172991310
+min per op: 0.0000002748707780
+med per op: 0.0000004320233653
+avg per op: 0.0000004978937343
+
+
+./omp_atomicadd_scalar 1 37 1000
+OMP atomic-add scalar
+threads: 37
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0625209319763184
+max per op: 0.0000006252093198
+min per op: 0.0000002772812225
+med per op: 0.0000004347503720
+avg per op: 0.0000004982949937
+
+
+./omp_atomicadd_scalar 1 38 1000
+OMP atomic-add scalar
+threads: 38
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0660569394683838
+max per op: 0.0000006605693947
+min per op: 0.0000001699795415
+med per op: 0.0000004653857568
+avg per op: 0.0000005360526074
+
+
+./omp_atomicadd_scalar 1 39 1000
+OMP atomic-add scalar
+threads: 39
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0659761503906250
+max per op: 0.0000006597615039
+min per op: 0.0000004382308345
+med per op: 0.0000004502105580
+avg per op: 0.0000005384511061
+
+
+./omp_atomicadd_scalar 1 40 1000
+OMP atomic-add scalar
+threads: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0711460932312012
+max per op: 0.0000007114609323
+min per op: 0.0000004362810130
+med per op: 0.0000005739495049
+avg per op: 0.0000005760154630
+
+
+./omp_atomicadd_scalar 1 41 1000
+OMP atomic-add scalar
+threads: 41
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0709121412353516
+max per op: 0.0000007091214124
+min per op: 0.0000005023098703
+med per op: 0.0000005035909518
+avg per op: 0.0000005885746024
+
+
+./omp_atomicadd_scalar 1 42 1000
+OMP atomic-add scalar
+threads: 42
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0720220368499755
+max per op: 0.0000007202203685
+min per op: 0.0000005191384474
+med per op: 0.0000005229252902
+avg per op: 0.0000005935203874
+
+
+./omp_atomicadd_scalar 1 43 1000
+OMP atomic-add scalar
+threads: 43
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0770820282897949
+max per op: 0.0000007708202829
+min per op: 0.0000005008979073
+med per op: 0.0000005470604625
+avg per op: 0.0000006172661846
+
+
+./omp_atomicadd_scalar 1 44 1000
+OMP atomic-add scalar
+threads: 44
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0759459072265625
+max per op: 0.0000007594590723
+min per op: 0.0000004939815697
+med per op: 0.0000005649894641
+avg per op: 0.0000006204892779
+
+
+./omp_atomicadd_scalar 2 1 1000
+OMP atomic-add scalar
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0010999834899902
+max per op: 0.0000000109998349
+min per op: 0.0000000109998349
+med per op: 0.0000000109998349
+avg per op: 0.0000000109998349
+
+
+./omp_atomicadd_scalar 2 2 1000
+OMP atomic-add scalar
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0080040081176758
+max per op: 0.0000000800400812
+min per op: 0.0000000799512366
+med per op: 0.0000000800150472
+avg per op: 0.0000000800150472
+
+
+./omp_atomicadd_scalar 2 3 1000
+OMP atomic-add scalar
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0136589246673584
+max per op: 0.0000001365892467
+min per op: 0.0000000793091830
+med per op: 0.0000001364891109
+avg per op: 0.0000001174625135
+
+
+./omp_atomicadd_scalar 2 4 1000
+OMP atomic-add scalar
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0166090617370605
+max per op: 0.0000001660906174
+min per op: 0.0000001144803075
+med per op: 0.0000001414097090
+avg per op: 0.0000001409899765
+
+
+./omp_atomicadd_scalar 2 5 1000
+OMP atomic-add scalar
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0240209095611572
+max per op: 0.0000002402090956
+min per op: 0.0000001345211685
+med per op: 0.0000002406287772
+avg per op: 0.0000001976363702
+
+
+./omp_atomicadd_scalar 2 6 1000
+OMP atomic-add scalar
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0265129685821534
+max per op: 0.0000002651296858
+min per op: 0.0000001601898427
+med per op: 0.0000002167485957
+avg per op: 0.0000002155548440
+
+
+./omp_atomicadd_scalar 2 7 1000
+OMP atomic-add scalar
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0288018579406738
+max per op: 0.0000002880185794
+min per op: 0.0000002044016550
+med per op: 0.0000002539598775
+avg per op: 0.0000002707688687
+
+
+./omp_atomicadd_scalar 2 8 1000
+OMP atomic-add scalar
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0373831047058106
+max per op: 0.0000003738310471
+min per op: 0.0000001878897316
+med per op: 0.0000002477761948
+avg per op: 0.0000002829836123
+
+
+./omp_atomicadd_scalar 2 9 1000
+OMP atomic-add scalar
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0403820106964111
+max per op: 0.0000004038201070
+min per op: 0.0000002824895915
+med per op: 0.0000002682093961
+avg per op: 0.0000003391712975
+
+
+./omp_atomicadd_scalar 2 10 1000
+OMP atomic-add scalar
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0455380973968506
+max per op: 0.0000004553809740
+min per op: 0.0000002711101204
+med per op: 0.0000003568487673
+avg per op: 0.0000003600915631
+
+
+./omp_atomicadd_scalar 2 11 1000
+OMP atomic-add scalar
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0509260125274659
+max per op: 0.0000005092601253
+min per op: 0.0000002999592085
+med per op: 0.0000006061212715
+avg per op: 0.0000003981236649
+
+
+./omp_atomicadd_scalar 2 12 1000
+OMP atomic-add scalar
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0516250211944580
+max per op: 0.0000005162502119
+min per op: 0.0000003182182205
+med per op: 0.0000004063345888
+avg per op: 0.0000004219853720
+
+
+./omp_atomicadd_scalar 2 13 1000
+OMP atomic-add scalar
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0596559293212891
+max per op: 0.0000005965592932
+min per op: 0.0000003399302290
+med per op: 0.0000004140290575
+avg per op: 0.0000004642385860
+
+
+./omp_atomicadd_scalar 2 14 1000
+OMP atomic-add scalar
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0628439568481446
+max per op: 0.0000006284395685
+min per op: 0.0000003892982724
+med per op: 0.0000005169396964
+avg per op: 0.0000005202657154
+
+
+./omp_atomicadd_scalar 2 15 1000
+OMP atomic-add scalar
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0641899452514649
+max per op: 0.0000006418994525
+min per op: 0.0000004372699303
+med per op: 0.0000004286792754
+avg per op: 0.0000005176655678
+
+
+./omp_atomicadd_scalar 2 16 1000
+OMP atomic-add scalar
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0724999620056152
+max per op: 0.0000007249996201
+min per op: 0.0000004314905141
+med per op: 0.0000005607142908
+avg per op: 0.0000005700499274
+
+
+./omp_atomicadd_scalar 2 17 1000
+OMP atomic-add scalar
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0772730709381104
+max per op: 0.0000007727307094
+min per op: 0.0000003963015028
+med per op: 0.0000003525293962
+avg per op: 0.0000006037790926
+
+
+./omp_atomicadd_scalar 2 18 1000
+OMP atomic-add scalar
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0846060898284912
+max per op: 0.0000008460608983
+min per op: 0.0000005074693578
+med per op: 0.0000005534303094
+avg per op: 0.0000006419784744
+
+
+./omp_atomicadd_scalar 2 19 1000
+OMP atomic-add scalar
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0820358257293701
+max per op: 0.0000008203582573
+min per op: 0.0000005233696228
+med per op: 0.0000006034297600
+avg per op: 0.0000006617362419
+
+
+./omp_atomicadd_scalar 2 20 1000
+OMP atomic-add scalar
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0881698840179443
+max per op: 0.0000008816988402
+min per op: 0.0000005266815759
+med per op: 0.0000005852049326
+avg per op: 0.0000006934202315
+
+
+./omp_atomicadd_scalar 2 21 1000
+OMP atomic-add scalar
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0956380397338868
+max per op: 0.0000009563803973
+min per op: 0.0000005201102196
+med per op: 0.0000006216302559
+avg per op: 0.0000007353498624
+
+
+./omp_atomicadd_scalar 2 22 1000
+OMP atomic-add scalar
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0915500178375244
+max per op: 0.0000009155001784
+min per op: 0.0000005382791052
+med per op: 0.0000007543401990
+avg per op: 0.0000007606903030
+
+
+./omp_atomicadd_scalar 2 23 1000
+OMP atomic-add scalar
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0999449611053467
+max per op: 0.0000009994496111
+min per op: 0.0000005351805057
+med per op: 0.0000007120494304
+avg per op: 0.0000007753541869
+
+
+./omp_atomicadd_scalar 2 24 1000
+OMP atomic-add scalar
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1104290069580078
+max per op: 0.0000011042900696
+min per op: 0.0000005120002457
+med per op: 0.0000007268801543
+avg per op: 0.0000008137294813
+
+
+./omp_atomicadd_scalar 2 25 1000
+OMP atomic-add scalar
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1087329959411621
+max per op: 0.0000010873299594
+min per op: 0.0000005546093578
+med per op: 0.0000007776399904
+avg per op: 0.0000008610334235
+
+
+./omp_atomicadd_scalar 2 26 1000
+OMP atomic-add scalar
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1084371223449707
+max per op: 0.0000010843712234
+min per op: 0.0000005316105798
+med per op: 0.0000008512098477
+avg per op: 0.0000008690053587
+
+
+./omp_atomicadd_scalar 2 27 1000
+OMP atomic-add scalar
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1153119811401367
+max per op: 0.0000011531198114
+min per op: 0.0000005379486807
+med per op: 0.0000008392909505
+avg per op: 0.0000009200878831
+
+
+./omp_atomicadd_scalar 2 28 1000
+OMP atomic-add scalar
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1234310435180664
+max per op: 0.0000012343104352
+min per op: 0.0000005534691200
+med per op: 0.0000009508189304
+avg per op: 0.0000009913744911
+
+
+./omp_atomicadd_scalar 2 29 1000
+OMP atomic-add scalar
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1388269843597412
+max per op: 0.0000013882698436
+min per op: 0.0000005278503609
+med per op: 0.0000008774086958
+avg per op: 0.0000010138501723
+
+
+./omp_atomicadd_scalar 2 30 1000
+OMP atomic-add scalar
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1231409961853027
+max per op: 0.0000012314099619
+min per op: 0.0000004865979176
+med per op: 0.0000008339493157
+avg per op: 0.0000009666842385
+
+
+./omp_atomicadd_scalar 2 31 1000
+OMP atomic-add scalar
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1546270744323731
+max per op: 0.0000015462707443
+min per op: 0.0000005117117448
+med per op: 0.0000008695398640
+avg per op: 0.0000011003956376
+
+
+./omp_atomicadd_scalar 2 32 1000
+OMP atomic-add scalar
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0998550261688232
+max per op: 0.0000009985502617
+min per op: 0.0000005262004564
+med per op: 0.0000008300735688
+avg per op: 0.0000009576359692
+
+
+./omp_atomicadd_scalar 2 33 1000
+OMP atomic-add scalar
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0790260140380860
+max per op: 0.0000007902601404
+min per op: 0.0000005738202605
+med per op: 0.0000007876218121
+avg per op: 0.0000007804883423
+
+
+./omp_atomicadd_scalar 2 34 1000
+OMP atomic-add scalar
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0569210536651611
+max per op: 0.0000005692105367
+min per op: 0.0000005383704620
+med per op: 0.0000007184035444
+avg per op: 0.0000005881831460
+
+
+./omp_atomicadd_scalar 2 35 1000
+OMP atomic-add scalar
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0310868896484375
+max per op: 0.0000003108688965
+min per op: 0.0000005510079822
+med per op: 0.0000004994079314
+avg per op: 0.0000004487022809
+
+
+./omp_atomicadd_scalar 2 36 1000
+OMP atomic-add scalar
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0421630967864990
+max per op: 0.0000004216309679
+min per op: 0.0000005349703920
+med per op: 0.0000004983242997
+avg per op: 0.0000003532114938
+
+
+./omp_atomicadd_scalar 2 37 1000
+OMP atomic-add scalar
+threads: 37
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0717351026000976
+max per op: 0.0000007173510260
+min per op: 0.0000006558597826
+med per op: 0.0000004316809598
+avg per op: 0.0000005344767087
+
+
+./omp_atomicadd_scalar 2 38 1000
+OMP atomic-add scalar
+threads: 38
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0911379925231933
+max per op: 0.0000009113799252
+min per op: 0.0000004405112556
+med per op: 0.0000008586243118
+avg per op: 0.0000007174365742
+
+
+./omp_atomicadd_scalar 2 39 1000
+OMP atomic-add scalar
+threads: 39
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1049371188507080
+max per op: 0.0000010493711885
+min per op: 0.0000006561511369
+med per op: 0.0000007008201927
+avg per op: 0.0000008177279186
+
+
+./omp_atomicadd_scalar 2 40 1000
+OMP atomic-add scalar
+threads: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1071478550567627
+max per op: 0.0000010714785506
+min per op: 0.0000004537212437
+med per op: 0.0000007439310677
+avg per op: 0.0000007520766720
+
+
+./omp_atomicadd_scalar 2 41 1000
+OMP atomic-add scalar
+threads: 41
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1077868453521729
+max per op: 0.0000010778684535
+min per op: 0.0000007304698485
+med per op: 0.0000010715490695
+avg per op: 0.0000008679962874
+
+
+./omp_atomicadd_scalar 2 42 1000
+OMP atomic-add scalar
+threads: 42
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1120021334075927
+max per op: 0.0000011200213341
+min per op: 0.0000007156504718
+med per op: 0.0000008267598463
+avg per op: 0.0000009024026213
+
+
+./omp_atomicadd_scalar 2 43 1000
+OMP atomic-add scalar
+threads: 43
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1121560704193115
+max per op: 0.0000011215607042
+min per op: 0.0000006800693776
+med per op: 0.0000007286706670
+avg per op: 0.0000008953277420
+
+
+./omp_atomicadd_scalar 2 44 1000
+OMP atomic-add scalar
+threads: 44
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1182070433349609
+max per op: 0.0000011820704333
+min per op: 0.0000007205419174
+med per op: 0.0000009025288269
+avg per op: 0.0000009406000394
+
+
+./omp_atomicadd_scalar 3 1 1000
+OMP atomic-add scalar
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0012101498718262
+max per op: 0.0000000121014987
+min per op: 0.0000000121014987
+med per op: 0.0000000121014987
+avg per op: 0.0000000121014987
+
+
+./omp_atomicadd_scalar 3 2 1000
+OMP atomic-add scalar
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0085038798217773
+max per op: 0.0000000850387982
+min per op: 0.0000000827409064
+med per op: 0.0000000838898523
+avg per op: 0.0000000838898523
+
+
+./omp_atomicadd_scalar 3 3 1000
+OMP atomic-add scalar
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0131789060363769
+max per op: 0.0000001317890604
+min per op: 0.0000000748785455
+med per op: 0.0000001312096793
+avg per op: 0.0000001126092348
+
+
+./omp_atomicadd_scalar 3 4 1000
+OMP atomic-add scalar
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0179250325775146
+max per op: 0.0000001792503258
+min per op: 0.0000001212104893
+med per op: 0.0000001528251467
+avg per op: 0.0000001515050289
+
+
+./omp_atomicadd_scalar 3 5 1000
+OMP atomic-add scalar
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0260810041503906
+max per op: 0.0000002608100415
+min per op: 0.0000001269300757
+med per op: 0.0000002650610352
+avg per op: 0.0000002112602687
+
+
+./omp_atomicadd_scalar 3 6 1000
+OMP atomic-add scalar
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0265189272766113
+max per op: 0.0000002651892728
+min per op: 0.0000001605121803
+med per op: 0.0000002142846155
+avg per op: 0.0000002142398095
+
+
+./omp_atomicadd_scalar 3 7 1000
+OMP atomic-add scalar
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0311511240692139
+max per op: 0.0000003115112407
+min per op: 0.0000002197513132
+med per op: 0.0000002228913525
+avg per op: 0.0000002601518047
+
+
+./omp_atomicadd_scalar 3 8 1000
+OMP atomic-add scalar
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0377081778411865
+max per op: 0.0000003770817784
+min per op: 0.0000002156309154
+med per op: 0.0000002924944745
+avg per op: 0.0000002944452808
+
+
+./omp_atomicadd_scalar 3 9 1000
+OMP atomic-add scalar
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0391819587860107
+max per op: 0.0000003918195879
+min per op: 0.0000002566801239
+med per op: 0.0000002480502361
+avg per op: 0.0000003179421273
+
+
+./omp_atomicadd_scalar 3 10 1000
+OMP atomic-add scalar
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0440279453430176
+max per op: 0.0000004402794534
+min per op: 0.0000003115000421
+med per op: 0.0000003793258704
+avg per op: 0.0000003652863640
+
+
+./omp_atomicadd_scalar 3 11 1000
+OMP atomic-add scalar
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0484720020446777
+max per op: 0.0000004847200204
+min per op: 0.0000003232091034
+med per op: 0.0000002855204526
+avg per op: 0.0000003948511990
+
+
+./omp_atomicadd_scalar 3 12 1000
+OMP atomic-add scalar
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0523270067291260
+max per op: 0.0000005232700673
+min per op: 0.0000002558896112
+med per op: 0.0000004068946932
+avg per op: 0.0000004208134112
+
+
+./omp_atomicadd_scalar 3 13 1000
+OMP atomic-add scalar
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0578651201934814
+max per op: 0.0000005786512019
+min per op: 0.0000003699315839
+med per op: 0.0000004301304462
+avg per op: 0.0000004602619886
+
+
+./omp_atomicadd_scalar 3 14 1000
+OMP atomic-add scalar
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0633610269317627
+max per op: 0.0000006336102693
+min per op: 0.0000004090609940
+med per op: 0.0000004202801205
+avg per op: 0.0000005080876678
+
+
+./omp_atomicadd_scalar 3 15 1000
+OMP atomic-add scalar
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0679489524993897
+max per op: 0.0000006794895250
+min per op: 0.0000003673185426
+med per op: 0.0000006512989122
+avg per op: 0.0000005298969002
+
+
+./omp_atomicadd_scalar 3 16 1000
+OMP atomic-add scalar
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0722290267791748
+max per op: 0.0000007222902678
+min per op: 0.0000005070793484
+med per op: 0.0000005368442190
+avg per op: 0.0000005873906758
+
+
+./omp_atomicadd_scalar 3 17 1000
+OMP atomic-add scalar
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0825628659667970
+max per op: 0.0000008256286597
+min per op: 0.0000005154788007
+med per op: 0.0000005537005452
+avg per op: 0.0000006496901817
+
+
+./omp_atomicadd_scalar 3 18 1000
+OMP atomic-add scalar
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0891328550872803
+max per op: 0.0000008913285509
+min per op: 0.0000005359897200
+med per op: 0.0000006374463622
+avg per op: 0.0000007010225943
+
+
+./omp_atomicadd_scalar 3 19 1000
+OMP atomic-add scalar
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0869509403076172
+max per op: 0.0000008695094031
+min per op: 0.0000005274582114
+med per op: 0.0000004393684329
+avg per op: 0.0000006912796725
+
+
+./omp_atomicadd_scalar 3 20 1000
+OMP atomic-add scalar
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0905229720916748
+max per op: 0.0000009052297209
+min per op: 0.0000005178394112
+med per op: 0.0000006330702784
+avg per op: 0.0000007183479243
+
+
+./omp_atomicadd_scalar 3 21 1000
+OMP atomic-add scalar
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1074580247039795
+max per op: 0.0000010745802470
+min per op: 0.0000006203895418
+med per op: 0.0000007422086888
+avg per op: 0.0000008495011170
+
+
+./omp_atomicadd_scalar 3 22 1000
+OMP atomic-add scalar
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1097459633941651
+max per op: 0.0000010974596339
+min per op: 0.0000005488491499
+med per op: 0.0000008325253598
+avg per op: 0.0000008155841560
+
+
+./omp_atomicadd_scalar 3 23 1000
+OMP atomic-add scalar
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1109191103210449
+max per op: 0.0000011091911032
+min per op: 0.0000005349786809
+med per op: 0.0000008550602644
+avg per op: 0.0000008704069205
+
+
+./omp_atomicadd_scalar 3 24 1000
+OMP atomic-add scalar
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1236189097595215
+max per op: 0.0000012361890976
+min per op: 0.0000005132799211
+med per op: 0.0000008779258769
+avg per op: 0.0000008565431345
+
+
+./omp_atomicadd_scalar 3 25 1000
+OMP atomic-add scalar
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1266820816650390
+max per op: 0.0000012668208167
+min per op: 0.0000005585304436
+med per op: 0.0000008475810750
+avg per op: 0.0000009243873374
+
+
+./omp_atomicadd_scalar 3 26 1000
+OMP atomic-add scalar
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1429281124725342
+max per op: 0.0000014292811247
+min per op: 0.0000005660506805
+med per op: 0.0000010936299860
+avg per op: 0.0000010613776577
+
+
+./omp_atomicadd_scalar 3 27 1000
+OMP atomic-add scalar
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1378628290100098
+max per op: 0.0000013786282901
+min per op: 0.0000005433105556
+med per op: 0.0000010847611620
+avg per op: 0.0000010789450159
+
+
+./omp_atomicadd_scalar 3 28 1000
+OMP atomic-add scalar
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1497961345520020
+max per op: 0.0000014979613455
+min per op: 0.0000005355012114
+med per op: 0.0000010790138723
+avg per op: 0.0000010849963109
+
+
+./omp_atomicadd_scalar 3 29 1000
+OMP atomic-add scalar
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1564721203155518
+max per op: 0.0000015647212032
+min per op: 0.0000005170295383
+med per op: 0.0000010508401472
+avg per op: 0.0000011331257564
+
+
+./omp_atomicadd_scalar 3 30 1000
+OMP atomic-add scalar
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1677189879760742
+max per op: 0.0000016771898798
+min per op: 0.0000005526414450
+med per op: 0.0000011690468960
+avg per op: 0.0000012215628081
+
+
+./omp_atomicadd_scalar 3 31 1000
+OMP atomic-add scalar
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1789339588928223
+max per op: 0.0000017893395889
+min per op: 0.0000005435904539
+med per op: 0.0000012455417595
+avg per op: 0.0000013515704141
+
+
+./omp_atomicadd_scalar 3 32 1000
+OMP atomic-add scalar
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2193849489135742
+max per op: 0.0000021938494891
+min per op: 0.0000005638991393
+med per op: 0.0000012435653655
+avg per op: 0.0000014328793003
+
+
+./omp_atomicadd_scalar 3 33 1000
+OMP atomic-add scalar
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2000148192749024
+max per op: 0.0000020001481927
+min per op: 0.0000005387604353
+med per op: 0.0000012198699500
+avg per op: 0.0000014044304377
+
+
+./omp_atomicadd_scalar 3 34 1000
+OMP atomic-add scalar
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2070728849639893
+max per op: 0.0000020707288496
+min per op: 0.0000005583989558
+med per op: 0.0000013591446593
+avg per op: 0.0000015701410804
+
+
+./omp_atomicadd_scalar 3 35 1000
+OMP atomic-add scalar
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2285748969268799
+max per op: 0.0000022857489693
+min per op: 0.0000013403389247
+med per op: 0.0000015322601540
+avg per op: 0.0000017232146933
+
+
+./omp_atomicadd_scalar 3 36 1000
+OMP atomic-add scalar
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2405169432525635
+max per op: 0.0000024051694325
+min per op: 0.0000007965798213
+med per op: 0.0000014791853486
+avg per op: 0.0000017261845164
+
+
+./omp_atomicadd_scalar 3 37 1000
+OMP atomic-add scalar
+threads: 37
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2359009753417969
+max per op: 0.0000023590097534
+min per op: 0.0000012658711209
+med per op: 0.0000013610090379
+avg per op: 0.0000017380001484
+
+
+./omp_atomicadd_scalar 3 38 1000
+OMP atomic-add scalar
+threads: 38
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2644520360870361
+max per op: 0.0000026445203609
+min per op: 0.0000009968891849
+med per op: 0.0000015384640012
+avg per op: 0.0000018301828507
+
+
+./omp_atomicadd_scalar 3 39 1000
+OMP atomic-add scalar
+threads: 39
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2812620743713379
+max per op: 0.0000028126207437
+min per op: 0.0000015701308234
+med per op: 0.0000016045318289
+avg per op: 0.0000019725917843
+
+
+./omp_atomicadd_scalar 3 40 1000
+OMP atomic-add scalar
+threads: 40
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2624629113922119
+max per op: 0.0000026246291139
+min per op: 0.0000015074195146
+med per op: 0.0000016916851637
+avg per op: 0.0000020293679567
+
+
+./omp_atomicadd_scalar 3 41 1000
+OMP atomic-add scalar
+threads: 41
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2701520280303955
+max per op: 0.0000027015202803
+min per op: 0.0000014712699759
+med per op: 0.0000015438397359
+avg per op: 0.0000019574240944
+
+
+./omp_atomicadd_scalar 3 42 1000
+OMP atomic-add scalar
+threads: 42
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3182287886352539
+max per op: 0.0000031822878864
+min per op: 0.0000015253406560
+med per op: 0.0000016708011283
+avg per op: 0.0000022297394695
+
+
+./omp_atomicadd_scalar 3 43 1000
+OMP atomic-add scalar
+threads: 43
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3380039830932617
+max per op: 0.0000033800398309
+min per op: 0.0000015298890204
+med per op: 0.0000017356192209
+avg per op: 0.0000023596207661
+
+
+./omp_atomicadd_scalar 3 44 1000
+OMP atomic-add scalar
+threads: 44
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3337230516052246
+max per op: 0.0000033372305161
+min per op: 0.0000015387705144
+med per op: 0.0000018834302665
+avg per op: 0.0000024600048014
+
+

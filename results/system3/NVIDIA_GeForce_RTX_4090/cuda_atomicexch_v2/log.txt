@@ -1,0 +1,5137 @@
+SyncPerformance v0.1
+code: cuda_atomicexch_v2.cu
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./cuda_atomicexch_v2 0 1 1 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 0 1 2 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 0 1 64 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7467047.000000
+max per op: 74.670470
+min per op: 64.135880
+med per op: 74.673660
+avg per op: 73.023390
+
+
+./cuda_atomicexch_v2 0 1 128 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14934342.000000
+max per op: 149.343420
+min per op: 128.275070
+med per op: 149.343730
+avg per op: 146.046120
+
+
+./cuda_atomicexch_v2 0 1 256 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866195.000000
+max per op: 298.661950
+min per op: 256.539030
+med per op: 298.657730
+avg per op: 292.071080
+
+
+./cuda_atomicexch_v2 0 2 1 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 0 2 2 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 0 2 64 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933890.000000
+max per op: 149.338900
+min per op: 128.271190
+med per op: 149.340720
+avg per op: 146.044230
+
+
+./cuda_atomicexch_v2 0 2 128 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866122.000000
+max per op: 298.661220
+min per op: 256.500450
+med per op: 298.659280
+avg per op: 292.067560
+
+
+./cuda_atomicexch_v2 0 2 256 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60236858.000000
+max per op: 602.368580
+min per op: 516.498780
+med per op: 601.570370
+avg per op: 588.432870
+
+
+./cuda_atomicexch_v2 0 4 1 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 0 4 2 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 933330.000000
+max per op: 9.333300
+min per op: 9.333320
+med per op: 9.333300
+avg per op: 9.333300
+
+
+./cuda_atomicexch_v2 0 4 64 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866586.000000
+max per op: 298.665860
+min per op: 256.526090
+med per op: 298.662440
+avg per op: 292.067120
+
+
+./cuda_atomicexch_v2 0 4 128 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60230938.000000
+max per op: 602.309380
+min per op: 516.542450
+med per op: 601.441410
+avg per op: 588.362760
+
+
+./cuda_atomicexch_v2 0 4 256 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120478141.000000
+max per op: 1204.781410
+min per op: 1033.191830
+med per op: 1202.953610
+avg per op: 1176.827450
+
+
+./cuda_atomicexch_v2 0 8 1 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1600000.000000
+max per op: 16.000000
+min per op: 16.000000
+med per op: 16.000000
+avg per op: 16.000000
+
+
+./cuda_atomicexch_v2 0 8 2 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1866667.000000
+max per op: 18.666670
+min per op: 18.666680
+med per op: 18.666660
+avg per op: 18.666660
+
+
+./cuda_atomicexch_v2 0 8 64 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60244623.000000
+max per op: 602.446230
+min per op: 516.670790
+med per op: 601.372100
+avg per op: 588.522220
+
+
+./cuda_atomicexch_v2 0 8 128 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120502011.000000
+max per op: 1205.020110
+min per op: 1033.113190
+med per op: 1203.012260
+avg per op: 1176.933110
+
+
+./cuda_atomicexch_v2 0 8 256 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 241015516.000000
+max per op: 2410.155160
+min per op: 2066.451440
+med per op: 2405.842810
+avg per op: 2353.942500
+
+
+./cuda_atomicexch_v2 0 16 1 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3200000.000000
+max per op: 32.000000
+min per op: 32.000000
+med per op: 32.000000
+avg per op: 32.000000
+
+
+./cuda_atomicexch_v2 0 16 2 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3733333.000000
+max per op: 37.333330
+min per op: 37.333420
+med per op: 37.333390
+avg per op: 37.333390
+
+
+./cuda_atomicexch_v2 0 16 64 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120510017.000000
+max per op: 1205.100170
+min per op: 1033.069560
+med per op: 1202.928490
+avg per op: 1176.953430
+
+
+./cuda_atomicexch_v2 0 16 128 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240989228.000000
+max per op: 2409.892280
+min per op: 2066.361520
+med per op: 2405.735180
+avg per op: 2353.776110
+
+
+./cuda_atomicexch_v2 0 16 256 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481994993.000000
+max per op: 4819.949930
+min per op: 4133.252540
+med per op: 4812.184070
+avg per op: 4707.884140
+
+
+./cuda_atomicexch_v2 0 32 1 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 6400000.000000
+max per op: 64.000000
+min per op: 64.000000
+med per op: 64.000000
+avg per op: 64.000000
+
+
+./cuda_atomicexch_v2 0 32 2 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7466771.000000
+max per op: 74.667710
+min per op: 74.667700
+med per op: 74.667700
+avg per op: 74.667700
+
+
+./cuda_atomicexch_v2 0 32 64 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240984641.000000
+max per op: 2409.846410
+min per op: 2066.290310
+med per op: 2405.755160
+avg per op: 2353.859160
+
+
+./cuda_atomicexch_v2 0 32 128 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481965248.000000
+max per op: 4819.652480
+min per op: 4132.403640
+med per op: 4811.415730
+avg per op: 4707.599970
+
+
+./cuda_atomicexch_v2 0 32 256 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 959459766.000000
+max per op: 9594.597660
+min per op: 8243.199380
+med per op: 9594.593860
+avg per op: 9383.266620
+
+
+./cuda_atomicexch_v2 0 64 1 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 12800000.000000
+max per op: 128.000000
+min per op: 128.000000
+med per op: 128.000000
+avg per op: 128.000000
+
+
+./cuda_atomicexch_v2 0 64 2 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933721.000000
+max per op: 149.337210
+min per op: 149.337220
+med per op: 149.337220
+avg per op: 149.337220
+
+
+./cuda_atomicexch_v2 0 64 64 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481946548.000000
+max per op: 4819.465480
+min per op: 4132.233270
+med per op: 4810.672850
+avg per op: 4707.546450
+
+
+./cuda_atomicexch_v2 0 64 128 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 959500931.000000
+max per op: 9595.009310
+min per op: 8243.380430
+med per op: 9594.890970
+avg per op: 9383.829340
+
+
+./cuda_atomicexch_v2 0 64 256 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1919133140.000000
+max per op: 19191.331400
+min per op: 16487.798410
+med per op: 19191.346420
+avg per op: 18768.511780
+
+
+./cuda_atomicexch_v2 0 128 1 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 25600000.000000
+max per op: 256.000000
+min per op: 256.000000
+med per op: 256.000000
+avg per op: 256.000000
+
+
+./cuda_atomicexch_v2 0 128 2 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866924.000000
+max per op: 298.669240
+min per op: 298.669170
+med per op: 298.669180
+avg per op: 298.669190
+
+
+./cuda_atomicexch_v2 0 128 64 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 959472385.000000
+max per op: 9594.723850
+min per op: 8243.489730
+med per op: 9594.625340
+avg per op: 9383.360170
+
+
+./cuda_atomicexch_v2 0 128 128 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926905862.000000
+max per op: 19269.058620
+min per op: 16554.868230
+med per op: 19269.004100
+avg per op: 18844.752420
+
+
+./cuda_atomicexch_v2 0 128 256 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853819172.000000
+max per op: 38538.191720
+min per op: 33104.420280
+med per op: 38521.645800
+avg per op: 37682.345100
+
+
+./cuda_atomicexch_v2 0 256 1 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 51200002.000000
+max per op: 512.000020
+min per op: 486.917120
+med per op: 499.458570
+avg per op: 499.458570
+
+
+./cuda_atomicexch_v2 0 256 2 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60217665.000000
+max per op: 602.176650
+min per op: 572.676710
+med per op: 587.426650
+avg per op: 587.426660
+
+
+./cuda_atomicexch_v2 0 256 64 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926907232.000000
+max per op: 19269.072320
+min per op: 16375.047050
+med per op: 18898.727830
+avg per op: 18673.445660
+
+
+./cuda_atomicexch_v2 0 256 128 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853808817.000000
+max per op: 38538.088170
+min per op: 33105.232640
+med per op: 38527.213290
+avg per op: 37684.923180
+
+
+./cuda_atomicexch_v2 0 256 256 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7703671294.000000
+max per op: 77036.712940
+min per op: 49674.667760
+med per op: 62864.591750
+avg per op: 66653.815360
+
+
+./cuda_atomicexch_v2 0 512 1 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 102399999.000000
+max per op: 1023.999990
+min per op: 941.486080
+med per op: 1020.970200
+avg per op: 1001.856620
+
+
+./cuda_atomicexch_v2 0 512 2 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120433803.000000
+max per op: 1204.338030
+min per op: 1107.294660
+med per op: 1200.775290
+avg per op: 1178.295840
+
+
+./cuda_atomicexch_v2 0 512 64 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853805254.000000
+max per op: 38538.052540
+min per op: 32566.862750
+med per op: 38311.657970
+avg per op: 37087.979140
+
+
+./cuda_atomicexch_v2 0 512 128 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707575035.000000
+max per op: 77075.750350
+min per op: 61212.703360
+med per op: 76525.334070
+avg per op: 73954.259420
+
+
+./cuda_atomicexch_v2 0 512 256 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15412135790.000000
+max per op: 154121.357900
+min per op: 115881.836340
+med per op: 137890.638390
+avg per op: 141875.988380
+
+
+./cuda_atomicexch_v2 0 1024 1 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 204800003.000000
+max per op: 2048.000030
+min per op: 1859.578900
+med per op: 2042.322700
+avg per op: 2018.293060
+
+
+./cuda_atomicexch_v2 0 1024 2 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240867882.000000
+max per op: 2408.678820
+min per op: 2187.075950
+med per op: 2402.001720
+avg per op: 2373.740590
+
+
+./cuda_atomicexch_v2 0 1024 64 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707577019.000000
+max per op: 77075.770190
+min per op: 60244.387360
+med per op: 76658.415130
+avg per op: 74347.939390
+
+
+./cuda_atomicexch_v2 0 1024 128 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15415293425.000000
+max per op: 154152.934250
+min per op: 120115.630040
+med per op: 153422.826240
+avg per op: 148726.769880
+
+
+./cuda_atomicexch_v2 0 1024 256 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15897400711.000000
+max per op: 158974.007110
+min per op: 120126.684740
+med per op: 149167.725100
+avg per op: 148533.430600
+
+
+./cuda_atomicexch_v2 1 1 1 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 1 1 2 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 1 1 64 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7466884.000000
+max per op: 74.668840
+min per op: 64.113830
+med per op: 74.673930
+avg per op: 73.021940
+
+
+./cuda_atomicexch_v2 1 1 128 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933946.000000
+max per op: 149.339460
+min per op: 128.265330
+med per op: 149.341270
+avg per op: 146.048040
+
+
+./cuda_atomicexch_v2 1 1 256 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29865866.000000
+max per op: 298.658660
+min per op: 256.514300
+med per op: 298.647190
+avg per op: 292.067970
+
+
+./cuda_atomicexch_v2 1 2 1 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 1 2 2 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 1 2 64 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933489.000000
+max per op: 149.334890
+min per op: 128.241660
+med per op: 149.334570
+avg per op: 146.043580
+
+
+./cuda_atomicexch_v2 1 2 128 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866502.000000
+max per op: 298.665020
+min per op: 256.498160
+med per op: 298.658920
+avg per op: 292.077580
+
+
+./cuda_atomicexch_v2 1 2 256 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60215838.000000
+max per op: 602.158380
+min per op: 517.249200
+med per op: 602.148760
+avg per op: 588.886610
+
+
+./cuda_atomicexch_v2 1 4 1 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 1 4 2 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 933453.000000
+max per op: 9.334530
+min per op: 9.334660
+med per op: 9.334610
+avg per op: 9.334610
+
+
+./cuda_atomicexch_v2 1 4 64 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866056.000000
+max per op: 298.660560
+min per op: 256.569420
+med per op: 298.657250
+avg per op: 292.079930
+
+
+./cuda_atomicexch_v2 1 4 128 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60215834.000000
+max per op: 602.158340
+min per op: 517.236360
+med per op: 602.153850
+avg per op: 588.889030
+
+
+./cuda_atomicexch_v2 1 4 256 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430324.000000
+max per op: 1204.303240
+min per op: 1034.510750
+med per op: 1204.286790
+avg per op: 1177.761690
+
+
+./cuda_atomicexch_v2 1 8 1 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1600000.000000
+max per op: 16.000000
+min per op: 16.000000
+med per op: 16.000000
+avg per op: 16.000000
+
+
+./cuda_atomicexch_v2 1 8 2 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1866676.000000
+max per op: 18.666760
+min per op: 18.666660
+med per op: 18.666720
+avg per op: 18.666720
+
+
+./cuda_atomicexch_v2 1 8 64 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60215608.000000
+max per op: 602.156080
+min per op: 517.352430
+med per op: 602.154250
+avg per op: 588.900340
+
+
+./cuda_atomicexch_v2 1 8 128 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430321.000000
+max per op: 1204.303210
+min per op: 1034.486140
+med per op: 1204.286870
+avg per op: 1177.752780
+
+
+./cuda_atomicexch_v2 1 8 256 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240861694.000000
+max per op: 2408.616940
+min per op: 2069.209110
+med per op: 2408.589200
+avg per op: 2355.551990
+
+
+./cuda_atomicexch_v2 1 16 1 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3200000.000000
+max per op: 32.000000
+min per op: 32.000000
+med per op: 32.000000
+avg per op: 32.000000
+
+
+./cuda_atomicexch_v2 1 16 2 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3733343.000000
+max per op: 37.333430
+min per op: 37.333360
+med per op: 37.333340
+avg per op: 37.333340
+
+
+./cuda_atomicexch_v2 1 16 64 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430160.000000
+max per op: 1204.301600
+min per op: 1034.639540
+med per op: 1204.299480
+avg per op: 1177.789210
+
+
+./cuda_atomicexch_v2 1 16 128 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240861066.000000
+max per op: 2408.610660
+min per op: 2069.096280
+med per op: 2408.599160
+avg per op: 2355.562380
+
+
+./cuda_atomicexch_v2 1 16 256 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481725564.000000
+max per op: 4817.255640
+min per op: 4138.442360
+med per op: 4817.238570
+avg per op: 4711.144560
+
+
+./cuda_atomicexch_v2 1 32 1 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 6400000.000000
+max per op: 64.000000
+min per op: 64.000000
+med per op: 64.000000
+avg per op: 64.000000
+
+
+./cuda_atomicexch_v2 1 32 2 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7466725.000000
+max per op: 74.667250
+min per op: 74.667220
+med per op: 74.667240
+avg per op: 74.667240
+
+
+./cuda_atomicexch_v2 1 32 64 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240860390.000000
+max per op: 2408.603900
+min per op: 2069.322020
+med per op: 2408.598670
+avg per op: 2355.554240
+
+
+./cuda_atomicexch_v2 1 32 128 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481725887.000000
+max per op: 4817.258870
+min per op: 4138.701420
+med per op: 4817.221010
+avg per op: 4711.182790
+
+
+./cuda_atomicexch_v2 1 32 256 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963455361.000000
+max per op: 9634.553610
+min per op: 8277.808200
+med per op: 9634.515880
+avg per op: 9422.303850
+
+
+./cuda_atomicexch_v2 1 64 1 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 12800000.000000
+max per op: 128.000000
+min per op: 128.000000
+med per op: 128.000000
+avg per op: 128.000000
+
+
+./cuda_atomicexch_v2 1 64 2 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933358.000000
+max per op: 149.333580
+min per op: 149.333570
+med per op: 149.333590
+avg per op: 149.333580
+
+
+./cuda_atomicexch_v2 1 64 64 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481725387.000000
+max per op: 4817.253870
+min per op: 4138.973610
+med per op: 4817.213080
+avg per op: 4711.188740
+
+
+./cuda_atomicexch_v2 1 64 128 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963454709.000000
+max per op: 9634.547090
+min per op: 8277.108470
+med per op: 9634.468780
+avg per op: 9422.308370
+
+
+./cuda_atomicexch_v2 1 64 256 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926905473.000000
+max per op: 19269.054730
+min per op: 16555.474850
+med per op: 19269.050670
+avg per op: 18844.763030
+
+
+./cuda_atomicexch_v2 1 128 1 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 25600000.000000
+max per op: 256.000000
+min per op: 256.000000
+med per op: 256.000000
+avg per op: 256.000000
+
+
+./cuda_atomicexch_v2 1 128 2 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29867451.000000
+max per op: 298.674510
+min per op: 298.674510
+med per op: 298.674510
+avg per op: 298.674510
+
+
+./cuda_atomicexch_v2 1 128 64 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963454971.000000
+max per op: 9634.549710
+min per op: 8278.030000
+med per op: 9634.518650
+avg per op: 9422.433570
+
+
+./cuda_atomicexch_v2 1 128 128 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926905511.000000
+max per op: 19269.055110
+min per op: 16556.006750
+med per op: 19269.029010
+avg per op: 18844.946840
+
+
+./cuda_atomicexch_v2 1 128 256 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853791446.000000
+max per op: 38537.914460
+min per op: 33105.015010
+med per op: 38521.677130
+avg per op: 37682.273110
+
+
+./cuda_atomicexch_v2 1 256 1 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 51200000.000000
+max per op: 512.000000
+min per op: 487.060480
+med per op: 499.530240
+avg per op: 499.530240
+
+
+./cuda_atomicexch_v2 1 256 2 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60217645.000000
+max per op: 602.176450
+min per op: 572.844870
+med per op: 587.510640
+avg per op: 587.510650
+
+
+./cuda_atomicexch_v2 1 256 64 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926906491.000000
+max per op: 19269.064910
+min per op: 16371.407000
+med per op: 18898.198370
+avg per op: 18673.544230
+
+
+./cuda_atomicexch_v2 1 256 128 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853806704.000000
+max per op: 38538.067040
+min per op: 33105.578090
+med per op: 38527.203260
+avg per op: 37684.664340
+
+
+./cuda_atomicexch_v2 1 256 256 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7703589456.000000
+max per op: 77035.894560
+min per op: 49665.205970
+med per op: 62861.700490
+avg per op: 66654.123030
+
+
+./cuda_atomicexch_v2 1 512 1 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 102400000.000000
+max per op: 1024.000000
+min per op: 941.557740
+med per op: 1020.678390
+avg per op: 1001.728630
+
+
+./cuda_atomicexch_v2 1 512 2 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120433961.000000
+max per op: 1204.339610
+min per op: 1107.378460
+med per op: 1200.433090
+avg per op: 1178.145830
+
+
+./cuda_atomicexch_v2 1 512 64 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853805627.000000
+max per op: 38538.056270
+min per op: 32568.673930
+med per op: 38310.524340
+avg per op: 37088.094680
+
+
+./cuda_atomicexch_v2 1 512 128 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707575308.000000
+max per op: 77075.753080
+min per op: 61154.747290
+med per op: 76523.369590
+avg per op: 73953.469940
+
+
+./cuda_atomicexch_v2 1 512 256 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15412185098.000000
+max per op: 154121.850980
+min per op: 115884.873600
+med per op: 137890.907160
+avg per op: 141874.947280
+
+
+./cuda_atomicexch_v2 1 1024 1 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 204799999.000000
+max per op: 2047.999990
+min per op: 1860.794840
+med per op: 2042.859290
+avg per op: 2018.586970
+
+
+./cuda_atomicexch_v2 1 1024 2 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240868237.000000
+max per op: 2408.682370
+min per op: 2188.509380
+med per op: 2402.636140
+avg per op: 2374.088840
+
+
+./cuda_atomicexch_v2 1 1024 64 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707575687.000000
+max per op: 77075.756870
+min per op: 60252.041320
+med per op: 76659.186600
+avg per op: 74347.814150
+
+
+./cuda_atomicexch_v2 1 1024 128 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15415299983.000000
+max per op: 154152.999830
+min per op: 120101.165600
+med per op: 153428.509250
+avg per op: 148726.744050
+
+
+./cuda_atomicexch_v2 1 1024 256 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15897422455.000000
+max per op: 158974.224550
+min per op: 120115.921170
+med per op: 149169.583210
+avg per op: 148535.773490
+
+
+./cuda_atomicexch_v2 2 1 1 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 2 1 2 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 2 1 64 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7467146.000000
+max per op: 74.671460
+min per op: 64.118550
+med per op: 74.673790
+avg per op: 73.024040
+
+
+./cuda_atomicexch_v2 2 1 128 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14934131.000000
+max per op: 149.341310
+min per op: 128.247570
+med per op: 149.342950
+avg per op: 146.044790
+
+
+./cuda_atomicexch_v2 2 1 256 1000
+CUDA atomic-exchange
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866575.000000
+max per op: 298.665750
+min per op: 256.510810
+med per op: 298.656710
+avg per op: 292.070690
+
+
+./cuda_atomicexch_v2 2 2 1 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 2 2 2 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicexch_v2 2 2 64 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933187.000000
+max per op: 149.331870
+min per op: 128.289380
+med per op: 149.332380
+avg per op: 146.037680
+
+
+./cuda_atomicexch_v2 2 2 128 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866240.000000
+max per op: 298.662400
+min per op: 256.551210
+med per op: 298.654800
+avg per op: 292.069390
+
+
+./cuda_atomicexch_v2 2 2 256 1000
+CUDA atomic-exchange
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60215939.000000
+max per op: 602.159390
+min per op: 517.213610
+med per op: 602.154020
+avg per op: 588.878660
+
+
+./cuda_atomicexch_v2 2 4 1 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicexch_v2 2 4 2 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 933343.000000
+max per op: 9.333430
+min per op: 9.333410
+med per op: 9.333420
+avg per op: 9.333420
+
+
+./cuda_atomicexch_v2 2 4 64 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29866225.000000
+max per op: 298.662250
+min per op: 256.560820
+med per op: 298.657720
+avg per op: 292.073920
+
+
+./cuda_atomicexch_v2 2 4 128 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60216019.000000
+max per op: 602.160190
+min per op: 517.327370
+med per op: 602.156120
+avg per op: 588.897130
+
+
+./cuda_atomicexch_v2 2 4 256 1000
+CUDA atomic-exchange
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430280.000000
+max per op: 1204.302800
+min per op: 1034.624440
+med per op: 1204.287090
+avg per op: 1177.786370
+
+
+./cuda_atomicexch_v2 2 8 1 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1600000.000000
+max per op: 16.000000
+min per op: 16.000000
+med per op: 16.000000
+avg per op: 16.000000
+
+
+./cuda_atomicexch_v2 2 8 2 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1866672.000000
+max per op: 18.666720
+min per op: 18.666720
+med per op: 18.666730
+avg per op: 18.666730
+
+
+./cuda_atomicexch_v2 2 8 64 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60215714.000000
+max per op: 602.157140
+min per op: 517.358800
+med per op: 602.152710
+avg per op: 588.908910
+
+
+./cuda_atomicexch_v2 2 8 128 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430026.000000
+max per op: 1204.300260
+min per op: 1034.674070
+med per op: 1204.295550
+avg per op: 1177.788750
+
+
+./cuda_atomicexch_v2 2 8 256 1000
+CUDA atomic-exchange
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240861501.000000
+max per op: 2408.615010
+min per op: 2069.426990
+med per op: 2408.595010
+avg per op: 2355.574220
+
+
+./cuda_atomicexch_v2 2 16 1 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3200000.000000
+max per op: 32.000000
+min per op: 32.000000
+med per op: 32.000000
+avg per op: 32.000000
+
+
+./cuda_atomicexch_v2 2 16 2 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3733330.000000
+max per op: 37.333300
+min per op: 37.333280
+med per op: 37.333290
+avg per op: 37.333290
+
+
+./cuda_atomicexch_v2 2 16 64 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120430002.000000
+max per op: 1204.300020
+min per op: 1034.676690
+med per op: 1204.290200
+avg per op: 1177.781220
+
+
+./cuda_atomicexch_v2 2 16 128 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240860570.000000
+max per op: 2408.605700
+min per op: 2069.322360
+med per op: 2408.599980
+avg per op: 2355.568920
+
+
+./cuda_atomicexch_v2 2 16 256 1000
+CUDA atomic-exchange
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481725800.000000
+max per op: 4817.258000
+min per op: 4138.497040
+med per op: 4817.248590
+avg per op: 4711.132840
+
+
+./cuda_atomicexch_v2 2 32 1 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 6400000.000000
+max per op: 64.000000
+min per op: 64.000000
+med per op: 64.000000
+avg per op: 64.000000
+
+
+./cuda_atomicexch_v2 2 32 2 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7466652.000000
+max per op: 74.666520
+min per op: 74.666520
+med per op: 74.666520
+avg per op: 74.666520
+
+
+./cuda_atomicexch_v2 2 32 64 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240860966.000000
+max per op: 2408.609660
+min per op: 2069.285340
+med per op: 2408.607350
+avg per op: 2355.585990
+
+
+./cuda_atomicexch_v2 2 32 128 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481726019.000000
+max per op: 4817.260190
+min per op: 4138.593070
+med per op: 4817.227740
+avg per op: 4711.144500
+
+
+./cuda_atomicexch_v2 2 32 256 1000
+CUDA atomic-exchange
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963455401.000000
+max per op: 9634.554010
+min per op: 8276.688990
+med per op: 9634.554160
+avg per op: 9422.377570
+
+
+./cuda_atomicexch_v2 2 64 1 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 12800000.000000
+max per op: 128.000000
+min per op: 128.000000
+med per op: 128.000000
+avg per op: 128.000000
+
+
+./cuda_atomicexch_v2 2 64 2 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 14933698.000000
+max per op: 149.336980
+min per op: 149.336990
+med per op: 149.336990
+avg per op: 149.336980
+
+
+./cuda_atomicexch_v2 2 64 64 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 481725839.000000
+max per op: 4817.258390
+min per op: 4138.470140
+med per op: 4817.209720
+avg per op: 4711.172230
+
+
+./cuda_atomicexch_v2 2 64 128 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963455306.000000
+max per op: 9634.553060
+min per op: 8276.878490
+med per op: 9634.483400
+avg per op: 9422.365910
+
+
+./cuda_atomicexch_v2 2 64 256 1000
+CUDA atomic-exchange
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926905475.000000
+max per op: 19269.054750
+min per op: 16554.550220
+med per op: 19269.059060
+avg per op: 18844.788110
+
+
+./cuda_atomicexch_v2 2 128 1 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 25600000.000000
+max per op: 256.000000
+min per op: 256.000000
+med per op: 256.000000
+avg per op: 256.000000
+
+
+./cuda_atomicexch_v2 2 128 2 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 29867154.000000
+max per op: 298.671540
+min per op: 298.671590
+med per op: 298.671560
+avg per op: 298.671570
+
+
+./cuda_atomicexch_v2 2 128 64 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 963455885.000000
+max per op: 9634.558850
+min per op: 8277.343630
+med per op: 9634.463070
+avg per op: 9422.393260
+
+
+./cuda_atomicexch_v2 2 128 128 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926906687.000000
+max per op: 19269.066870
+min per op: 16554.835390
+med per op: 19268.995700
+avg per op: 18844.871680
+
+
+./cuda_atomicexch_v2 2 128 256 1000
+CUDA atomic-exchange
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853810242.000000
+max per op: 38538.102420
+min per op: 33101.846640
+med per op: 38524.770500
+avg per op: 37683.145910
+
+
+./cuda_atomicexch_v2 2 256 1 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 51200002.000000
+max per op: 512.000020
+min per op: 486.927360
+med per op: 499.463690
+avg per op: 499.463690
+
+
+./cuda_atomicexch_v2 2 256 2 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 60217745.000000
+max per op: 602.177450
+min per op: 572.688960
+med per op: 587.433240
+avg per op: 587.433220
+
+
+./cuda_atomicexch_v2 2 256 64 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 1926906313.000000
+max per op: 19269.063130
+min per op: 16373.453430
+med per op: 18898.067840
+avg per op: 18673.414600
+
+
+./cuda_atomicexch_v2 2 256 128 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853804538.000000
+max per op: 38538.045380
+min per op: 33106.078770
+med per op: 38526.949750
+avg per op: 37684.631020
+
+
+./cuda_atomicexch_v2 2 256 256 1000
+CUDA atomic-exchange
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7703611858.000000
+max per op: 77036.118580
+min per op: 49661.297950
+med per op: 62858.261250
+avg per op: 66653.653880
+
+
+./cuda_atomicexch_v2 2 512 1 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 102399994.000000
+max per op: 1023.999940
+min per op: 941.409280
+med per op: 1020.935660
+avg per op: 1001.820130
+
+
+./cuda_atomicexch_v2 2 512 2 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 120433825.000000
+max per op: 1204.338250
+min per op: 1107.204510
+med per op: 1200.734330
+avg per op: 1178.252640
+
+
+./cuda_atomicexch_v2 2 512 64 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 3853806710.000000
+max per op: 38538.067100
+min per op: 32565.641500
+med per op: 38311.043710
+avg per op: 37087.581650
+
+
+./cuda_atomicexch_v2 2 512 128 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707577000.000000
+max per op: 77075.770000
+min per op: 61174.251770
+med per op: 76526.678350
+avg per op: 73954.676050
+
+
+./cuda_atomicexch_v2 2 512 256 1000
+CUDA atomic-exchange
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15412156263.000000
+max per op: 154121.562630
+min per op: 115895.210250
+med per op: 137890.400170
+avg per op: 141875.522080
+
+
+./cuda_atomicexch_v2 2 1024 1 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 204799999.000000
+max per op: 2047.999990
+min per op: 1859.508460
+med per op: 2042.600960
+avg per op: 2018.491420
+
+
+./cuda_atomicexch_v2 2 1024 2 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 240868337.000000
+max per op: 2408.683370
+min per op: 2186.995310
+med per op: 2402.333370
+avg per op: 2373.977500
+
+
+./cuda_atomicexch_v2 2 1024 64 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 7707575872.000000
+max per op: 77075.758720
+min per op: 60245.372210
+med per op: 76658.890440
+avg per op: 74347.783850
+
+
+./cuda_atomicexch_v2 2 1024 128 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15415293824.000000
+max per op: 154152.938240
+min per op: 120147.250590
+med per op: 153430.171320
+avg per op: 148727.565750
+
+
+./cuda_atomicexch_v2 2 1024 256 1000
+CUDA atomic-exchange
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+&lf
+runtime of all iter: 15897401308.000000
+max per op: 158974.013080
+min per op: 120110.153090
+med per op: 149169.569560
+avg per op: 148537.013700
+
+

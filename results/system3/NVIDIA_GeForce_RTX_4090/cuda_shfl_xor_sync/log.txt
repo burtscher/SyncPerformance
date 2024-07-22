@@ -1,0 +1,3142 @@
+SyncPerformance v0.1
+code: cuda_shfl_xor_sync.cu
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./cuda_shfl_xor_sync 0 1 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 1 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 1 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 1 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 1 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 2 1 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 2 2 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 2 64 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 2 128 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 2 256 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699983
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 4 1 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 4 2 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 4 64 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 4 128 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 4 256 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 8 1 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 8 2 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 8 64 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699978
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 8 128 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 8 256 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 16 1 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 16 2 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 16 64 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699979
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 16 128 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 16 256 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699980
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 32 1 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 32 2 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 32 64 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699978
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 32 128 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 32 256 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699981
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 64 1 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 64 2 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 64 64 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699980
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 64 128 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699979
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 64 256 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699979
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 128 1 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 128 2 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 128 64 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699980
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 128 128 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699980
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 128 256 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799974
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 0 256 1 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 256 2 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 0 256 64 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799979
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 0 256 128 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799978
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 0 256 256 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199972
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 0 512 1 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199967
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 0 512 2 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199967
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 0 512 64 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199977
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 0 512 128 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199976
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 0 512 256 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6435718
+max per op: 64
+min per op: 55
+med per op: 58
+avg per op: 59
+
+
+./cuda_shfl_xor_sync 0 786 1 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199677
+max per op: 51
+min per op: 47
+med per op: 47
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 0 786 2 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199681
+max per op: 51
+min per op: 47
+med per op: 47
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 0 786 64 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199690
+max per op: 51
+min per op: 47
+med per op: 47
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 0 786 128 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199684
+max per op: 51
+min per op: 47
+med per op: 47
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 0 786 256 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199684
+max per op: 51
+min per op: 47
+med per op: 47
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 0 1024 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399023
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 0 1024 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399023
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 0 1024 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398294
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 0 1024 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398504
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 0 1024 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398715
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 1 1 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 1 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 1 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 1 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 1 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 2 1 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 2 2 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 2 64 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 2 128 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 2 256 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 4 1 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 4 2 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693968
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 4 64 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 4 128 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 4 256 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 8 1 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 8 2 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 8 64 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 8 128 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 8 256 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 16 1 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 16 2 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 16 64 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 16 128 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 16 256 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 32 1 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 32 2 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 32 64 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 32 128 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 32 256 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 64 1 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 64 2 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 64 64 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 64 128 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 64 256 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2888950
+max per op: 28
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 128 1 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2694968
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 128 2 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2694968
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 128 64 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2793966
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 1 128 128 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2793973
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 1 128 256 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3197854
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 1 256 1 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3196968
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 1 256 2 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3196968
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 1 256 64 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3195498
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 1 256 128 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3195492
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 1 256 256 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6509152
+max per op: 65
+min per op: 55
+med per op: 59
+avg per op: 59
+
+
+./cuda_shfl_xor_sync 1 512 1 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399936
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 1 512 2 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399936
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 1 512 64 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6400088
+max per op: 64
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 1 512 128 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399899
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 1 512 256 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 9241285
+max per op: 92
+min per op: 58
+med per op: 75
+avg per op: 77
+
+
+./cuda_shfl_xor_sync 1 786 1 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399840
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 1 786 2 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10400130
+max per op: 104
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 1 786 64 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399967
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 1 786 128 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399967
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 1 786 256 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399962
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 1 1024 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799362
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 1 1024 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799362
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 1 1024 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799419
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 1 1024 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799679
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 1 1024 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799680
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 2 1 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 1 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 1 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699991
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 1 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699988
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 1 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699996
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 2 1 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 2 2 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 2 64 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 2 128 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699992
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 2 256 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699996
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 4 1 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 4 2 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 4 64 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 4 128 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699989
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 4 256 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699995
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 8 1 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 8 2 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 8 64 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 8 128 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699992
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 8 256 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699996
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 16 1 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699985
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 16 2 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 16 64 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 16 128 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699989
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 16 256 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699995
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 2 32 1 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 32 2 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 32 64 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 32 128 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699985
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 32 256 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699992
+max per op: 26
+min per op: 27
+med per op: 27
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 64 1 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699988
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 64 2 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699988
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 64 64 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699997
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 64 128 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 64 256 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699993
+max per op: 26
+min per op: 27
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 128 1 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699987
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 128 2 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699986
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 128 64 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 128 128 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699994
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 128 256 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799993
+max per op: 27
+min per op: 27
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 2 256 1 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699988
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 256 2 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2699989
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 2 256 64 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799994
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 2 256 128 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2799993
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 2 256 256 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199998
+max per op: 31
+min per op: 32
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 2 512 1 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199992
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 2 512 2 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199992
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 2 512 64 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199996
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 2 512 128 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3199995
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 2 512 256 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6434980
+max per op: 64
+min per op: 56
+med per op: 58
+avg per op: 59
+
+
+./cuda_shfl_xor_sync 2 786 1 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199610
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 2 786 2 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199610
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 2 786 64 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199611
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 2 786 128 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199622
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 2 786 256 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 5199626
+max per op: 51
+min per op: 48
+med per op: 48
+avg per op: 49
+
+
+./cuda_shfl_xor_sync 2 1024 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398575
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 2 1024 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398575
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 2 1024 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398940
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 2 1024 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6398782
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 2 1024 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399013
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 63
+
+
+./cuda_shfl_xor_sync 3 1 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 1 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 1 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 1 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 1 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693979
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 2 1 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 2 2 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693969
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 2 64 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 2 128 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 2 256 1000
+CUDA __shfl_xor_sync
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 4 1 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 4 2 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 4 64 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 4 128 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 4 256 1000
+CUDA __shfl_xor_sync
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 8 1 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 8 2 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693968
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 8 64 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 8 128 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 8 256 1000
+CUDA __shfl_xor_sync
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 16 1 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 16 2 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 16 64 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693977
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 16 128 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 16 256 1000
+CUDA __shfl_xor_sync
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693976
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 32 1 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693971
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 32 2 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 32 64 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693978
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 32 128 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693973
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 32 256 1000
+CUDA __shfl_xor_sync
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693975
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 64 1 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693972
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 64 2 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693970
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 64 64 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693974
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 64 128 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693978
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 64 256 1000
+CUDA __shfl_xor_sync
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2693808
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 128 1 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2694961
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 128 2 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2694961
+max per op: 26
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 128 64 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2793968
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 26
+
+
+./cuda_shfl_xor_sync 3 128 128 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2793974
+max per op: 27
+min per op: 26
+med per op: 26
+avg per op: 27
+
+
+./cuda_shfl_xor_sync 3 128 256 1000
+CUDA __shfl_xor_sync
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3197369
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 3 256 1 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3196976
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 3 256 2 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3196976
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 3 256 64 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3195986
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 3 256 128 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 3195994
+max per op: 31
+min per op: 31
+med per op: 31
+avg per op: 31
+
+
+./cuda_shfl_xor_sync 3 256 256 1000
+CUDA __shfl_xor_sync
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6493191
+max per op: 64
+min per op: 55
+med per op: 59
+avg per op: 59
+
+
+./cuda_shfl_xor_sync 3 512 1 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399532
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 3 512 2 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399745
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 3 512 64 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399743
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 3 512 128 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 6399507
+max per op: 63
+min per op: 58
+med per op: 64
+avg per op: 62
+
+
+./cuda_shfl_xor_sync 3 512 256 1000
+CUDA __shfl_xor_sync
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 9268312
+max per op: 92
+min per op: 58
+med per op: 75
+avg per op: 77
+
+
+./cuda_shfl_xor_sync 3 786 1 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10398511
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 3 786 2 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399092
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 3 786 64 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399811
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 3 786 128 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399522
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 3 786 256 1000
+CUDA __shfl_xor_sync
+threads per block: 786
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 10399322
+max per op: 103
+min per op: 87
+med per op: 96
+avg per op: 96
+
+
+./cuda_shfl_xor_sync 3 1024 1 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799929
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 3 1024 2 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799929
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 3 1024 64 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799655
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 3 1024 128 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799902
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+
+./cuda_shfl_xor_sync 3 1024 256 1000
+CUDA __shfl_xor_sync
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 12799828
+max per op: 127
+min per op: 115
+med per op: 128
+avg per op: 126
+
+

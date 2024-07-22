@@ -1,0 +1,1342 @@
+SyncPerformance v0.1
+code: cuda_atomiccas_scalar_pass_v2.cu
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./cuda_atomiccas_scalar_pass_v2 0 1 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7523568.000000
+max per op: 75.235680
+min per op: 64.618170
+med per op: 75.234690
+avg per op: 73.572980
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 15038464.000000
+max per op: 150.384640
+min per op: 129.207340
+med per op: 150.387450
+avg per op: 147.069810
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 30066841.000000
+max per op: 300.668410
+min per op: 258.284740
+med per op: 300.662520
+avg per op: 294.038370
+
+
+./cuda_atomiccas_scalar_pass_v2 0 2 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 2 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 2 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 15035542.000000
+max per op: 150.355420
+min per op: 129.177250
+med per op: 150.354920
+avg per op: 147.042540
+
+
+./cuda_atomiccas_scalar_pass_v2 0 2 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 30066782.000000
+max per op: 300.667820
+min per op: 258.299980
+med per op: 300.663170
+avg per op: 294.037180
+
+
+./cuda_atomiccas_scalar_pass_v2 0 2 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 60171307.000000
+max per op: 601.713070
+min per op: 516.083380
+med per op: 600.871490
+avg per op: 587.750520
+
+
+./cuda_atomiccas_scalar_pass_v2 0 4 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 4 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 939749.000000
+max per op: 9.397490
+min per op: 9.397700
+med per op: 9.397590
+avg per op: 9.397590
+
+
+./cuda_atomiccas_scalar_pass_v2 0 4 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 29865934.000000
+max per op: 298.659340
+min per op: 256.593210
+med per op: 298.658280
+avg per op: 292.081230
+
+
+./cuda_atomiccas_scalar_pass_v2 0 4 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 60166034.000000
+max per op: 601.660340
+min per op: 516.066940
+med per op: 600.568040
+avg per op: 587.686690
+
+
+./cuda_atomiccas_scalar_pass_v2 0 4 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 120336106.000000
+max per op: 1203.361060
+min per op: 1032.177680
+med per op: 1201.160410
+avg per op: 1175.494650
+
+
+./cuda_atomiccas_scalar_pass_v2 0 8 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1600000.000000
+max per op: 16.000000
+min per op: 16.000000
+med per op: 16.000000
+avg per op: 16.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 8 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1866671.000000
+max per op: 18.666710
+min per op: 18.666720
+med per op: 18.666720
+avg per op: 18.666720
+
+
+./cuda_atomiccas_scalar_pass_v2 0 8 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 60176985.000000
+max per op: 601.769850
+min per op: 516.089110
+med per op: 600.855800
+avg per op: 587.781560
+
+
+./cuda_atomiccas_scalar_pass_v2 0 8 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 120355318.000000
+max per op: 1203.553180
+min per op: 1032.177640
+med per op: 1201.219490
+avg per op: 1175.481210
+
+
+./cuda_atomiccas_scalar_pass_v2 0 8 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 240693563.000000
+max per op: 2406.935630
+min per op: 2064.369350
+med per op: 2402.285630
+avg per op: 2350.904310
+
+
+./cuda_atomiccas_scalar_pass_v2 0 16 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3200000.000000
+max per op: 32.000000
+min per op: 32.000000
+med per op: 32.000000
+avg per op: 32.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 16 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3733345.000000
+max per op: 37.333450
+min per op: 37.333430
+med per op: 37.333440
+avg per op: 37.333440
+
+
+./cuda_atomiccas_scalar_pass_v2 0 16 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 120350806.000000
+max per op: 1203.508060
+min per op: 1032.160340
+med per op: 1201.599790
+avg per op: 1175.534360
+
+
+./cuda_atomiccas_scalar_pass_v2 0 16 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 240688996.000000
+max per op: 2406.889960
+min per op: 2064.391530
+med per op: 2403.213590
+avg per op: 2350.967200
+
+
+./cuda_atomiccas_scalar_pass_v2 0 16 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 481359383.000000
+max per op: 4813.593830
+min per op: 4128.677130
+med per op: 4806.099790
+avg per op: 4701.852620
+
+
+./cuda_atomiccas_scalar_pass_v2 0 32 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 6400000.000000
+max per op: 64.000000
+min per op: 64.000000
+med per op: 64.000000
+avg per op: 64.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 32 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 7466722.000000
+max per op: 74.667220
+min per op: 74.667230
+med per op: 74.667230
+avg per op: 74.667230
+
+
+./cuda_atomiccas_scalar_pass_v2 0 32 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 240706781.000000
+max per op: 2407.067810
+min per op: 2064.400280
+med per op: 2402.887590
+avg per op: 2350.997580
+
+
+./cuda_atomiccas_scalar_pass_v2 0 32 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 481355463.000000
+max per op: 4813.554630
+min per op: 4128.689690
+med per op: 4805.692070
+avg per op: 4701.795460
+
+
+./cuda_atomiccas_scalar_pass_v2 0 32 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 962790339.000000
+max per op: 9627.903390
+min per op: 8257.369420
+med per op: 9610.616850
+avg per op: 9403.115240
+
+
+./cuda_atomiccas_scalar_pass_v2 0 64 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 12800000.000000
+max per op: 128.000000
+min per op: 128.000000
+med per op: 128.000000
+avg per op: 128.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 64 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 14934436.000000
+max per op: 149.344360
+min per op: 149.344330
+med per op: 149.344350
+avg per op: 149.344350
+
+
+./cuda_atomiccas_scalar_pass_v2 0 64 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 481388341.000000
+max per op: 4813.883410
+min per op: 4128.583290
+med per op: 4806.244620
+avg per op: 4702.085820
+
+
+./cuda_atomiccas_scalar_pass_v2 0 64 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 962798976.000000
+max per op: 9627.989760
+min per op: 8257.302020
+med per op: 9610.714340
+avg per op: 9403.316680
+
+
+./cuda_atomiccas_scalar_pass_v2 0 64 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 1926896272.000000
+max per op: 19268.962720
+min per op: 16556.325050
+med per op: 19268.926280
+avg per op: 18844.868630
+
+
+./cuda_atomiccas_scalar_pass_v2 0 128 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 25600000.000000
+max per op: 256.000000
+min per op: 256.000000
+med per op: 256.000000
+avg per op: 256.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 0 128 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 29867207.000000
+max per op: 298.672070
+min per op: 298.672080
+med per op: 298.672080
+avg per op: 298.672080
+
+
+./cuda_atomiccas_scalar_pass_v2 0 128 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 963442135.000000
+max per op: 9634.421350
+min per op: 8278.220390
+med per op: 9634.370690
+avg per op: 9422.408840
+
+
+./cuda_atomiccas_scalar_pass_v2 0 128 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 1926895576.000000
+max per op: 19268.955760
+min per op: 16556.491860
+med per op: 19268.875300
+avg per op: 18844.880360
+
+
+./cuda_atomiccas_scalar_pass_v2 0 128 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 3853762442.000000
+max per op: 38537.624420
+min per op: 33104.650380
+med per op: 38524.824940
+avg per op: 37682.086270
+
+
+./cuda_atomiccas_scalar_pass_v2 0 256 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 51200003.000000
+max per op: 512.000030
+min per op: 485.050880
+med per op: 498.525450
+avg per op: 498.525450
+
+
+./cuda_atomiccas_scalar_pass_v2 0 256 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 60216965.000000
+max per op: 602.169650
+min per op: 570.474770
+med per op: 586.322220
+avg per op: 586.322220
+
+
+./cuda_atomiccas_scalar_pass_v2 0 256 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 1926896613.000000
+max per op: 19268.966130
+min per op: 16441.497780
+med per op: 18885.022360
+avg per op: 18674.722960
+
+
+./cuda_atomiccas_scalar_pass_v2 0 256 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 3853785905.000000
+max per op: 38537.859050
+min per op: 33110.378600
+med per op: 38536.270220
+avg per op: 37688.544530
+
+
+./cuda_atomiccas_scalar_pass_v2 0 256 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 7703637205.000000
+max per op: 77036.372050
+min per op: 49610.462760
+med per op: 62889.602550
+avg per op: 66681.263620
+
+
+./cuda_atomiccas_scalar_pass_v2 0 512 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 102400005.000000
+max per op: 1024.000050
+min per op: 952.408960
+med per op: 1015.274260
+avg per op: 1002.057170
+
+
+./cuda_atomiccas_scalar_pass_v2 0 512 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 120433816.000000
+max per op: 1204.338160
+min per op: 1119.880870
+med per op: 1194.446050
+avg per op: 1178.535020
+
+
+./cuda_atomiccas_scalar_pass_v2 0 512 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 3853770444.000000
+max per op: 38537.704440
+min per op: 32586.945940
+med per op: 38345.654940
+avg per op: 37191.967630
+
+
+./cuda_atomiccas_scalar_pass_v2 0 512 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 7707643248.000000
+max per op: 77076.432480
+min per op: 61720.463620
+med per op: 76675.653090
+avg per op: 74156.862400
+
+
+./cuda_atomiccas_scalar_pass_v2 0 512 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15412105378.000000
+max per op: 154121.053780
+min per op: 115917.332620
+med per op: 138290.544250
+avg per op: 142111.712160
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1024 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 204800010.000000
+max per op: 2048.000100
+min per op: 1890.062120
+med per op: 2032.655250
+avg per op: 2013.432530
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1024 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 240870053.000000
+max per op: 2408.700530
+min per op: 2223.270340
+med per op: 2390.460010
+avg per op: 2367.999190
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1024 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7707641639.000000
+max per op: 77076.416390
+min per op: 62134.126240
+med per op: 76465.825250
+avg per op: 74450.117040
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1024 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 15415206129.000000
+max per op: 154152.061290
+min per op: 123340.584100
+med per op: 152912.460560
+avg per op: 148628.291600
+
+
+./cuda_atomiccas_scalar_pass_v2 0 1024 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15897363864.000000
+max per op: 158973.638640
+min per op: 123389.523460
+med per op: 149217.866710
+avg per op: 148430.459770
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7472931.000000
+max per op: 74.729310
+min per op: 64.182560
+med per op: 74.726330
+avg per op: 73.078060
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937614.000000
+max per op: 149.376140
+min per op: 128.317660
+med per op: 149.378760
+avg per op: 146.081090
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29866182.000000
+max per op: 298.661820
+min per op: 256.606280
+med per op: 298.658840
+avg per op: 292.077800
+
+
+./cuda_atomiccas_scalar_pass_v2 1 2 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 2 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 2 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 14934653.000000
+max per op: 149.346530
+min per op: 128.295670
+med per op: 149.344090
+avg per op: 146.054230
+
+
+./cuda_atomiccas_scalar_pass_v2 1 2 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 29866156.000000
+max per op: 298.661560
+min per op: 256.577600
+med per op: 298.657250
+avg per op: 292.074590
+
+
+./cuda_atomiccas_scalar_pass_v2 1 2 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 60215441.000000
+max per op: 602.154410
+min per op: 517.346710
+med per op: 602.149600
+avg per op: 588.898310
+
+
+./cuda_atomiccas_scalar_pass_v2 1 4 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 4 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1228000.000000
+max per op: 12.280000
+min per op: 12.280000
+med per op: 12.280000
+avg per op: 12.280000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 4 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 29866250.000000
+max per op: 298.662500
+min per op: 256.556830
+med per op: 298.658790
+avg per op: 292.073470
+
+
+./cuda_atomiccas_scalar_pass_v2 1 4 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 60215343.000000
+max per op: 602.153430
+min per op: 517.321810
+med per op: 602.146740
+avg per op: 588.891270
+
+
+./cuda_atomiccas_scalar_pass_v2 1 4 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 120430705.000000
+max per op: 1204.307050
+min per op: 1034.711720
+med per op: 1204.294350
+avg per op: 1177.779290
+
+
+./cuda_atomiccas_scalar_pass_v2 1 8 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1599996.000000
+max per op: 15.999960
+min per op: 15.999960
+med per op: 15.999960
+avg per op: 15.999960
+
+
+./cuda_atomiccas_scalar_pass_v2 1 8 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1866669.000000
+max per op: 18.666690
+min per op: 18.666680
+med per op: 18.666700
+avg per op: 18.666700
+
+
+./cuda_atomiccas_scalar_pass_v2 1 8 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 60215343.000000
+max per op: 602.153430
+min per op: 517.393840
+med per op: 602.150670
+avg per op: 588.901950
+
+
+./cuda_atomiccas_scalar_pass_v2 1 8 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 120430177.000000
+max per op: 1204.301770
+min per op: 1034.770400
+med per op: 1204.292180
+avg per op: 1177.782100
+
+
+./cuda_atomiccas_scalar_pass_v2 1 8 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 240862355.000000
+max per op: 2408.623550
+min per op: 2069.595080
+med per op: 2408.592290
+avg per op: 2355.583710
+
+
+./cuda_atomiccas_scalar_pass_v2 1 16 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3200000.000000
+max per op: 32.000000
+min per op: 32.000000
+med per op: 32.000000
+avg per op: 32.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 16 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3733334.000000
+max per op: 37.333340
+min per op: 37.333310
+med per op: 37.333330
+avg per op: 37.333330
+
+
+./cuda_atomiccas_scalar_pass_v2 1 16 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 120430249.000000
+max per op: 1204.302490
+min per op: 1034.740080
+med per op: 1204.297120
+avg per op: 1177.790780
+
+
+./cuda_atomiccas_scalar_pass_v2 1 16 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 240862676.000000
+max per op: 2408.626760
+min per op: 2069.428810
+med per op: 2408.612950
+avg per op: 2355.576810
+
+
+./cuda_atomiccas_scalar_pass_v2 1 16 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 481722587.000000
+max per op: 4817.225870
+min per op: 4138.827380
+med per op: 4817.223680
+avg per op: 4711.140280
+
+
+./cuda_atomiccas_scalar_pass_v2 1 32 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 6400000.000000
+max per op: 64.000000
+min per op: 64.000000
+med per op: 64.000000
+avg per op: 64.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 32 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 7466785.000000
+max per op: 74.667850
+min per op: 74.667810
+med per op: 74.667820
+avg per op: 74.667820
+
+
+./cuda_atomiccas_scalar_pass_v2 1 32 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 240862317.000000
+max per op: 2408.623170
+min per op: 2069.545920
+med per op: 2408.602760
+avg per op: 2355.590770
+
+
+./cuda_atomiccas_scalar_pass_v2 1 32 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 481722438.000000
+max per op: 4817.224380
+min per op: 4138.953060
+med per op: 4817.199850
+avg per op: 4711.157240
+
+
+./cuda_atomiccas_scalar_pass_v2 1 32 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 963441840.000000
+max per op: 9634.418400
+min per op: 8278.334110
+med per op: 9634.415600
+avg per op: 9422.256620
+
+
+./cuda_atomiccas_scalar_pass_v2 1 64 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 12800000.000000
+max per op: 128.000000
+min per op: 128.000000
+med per op: 128.000000
+avg per op: 128.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 64 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 14934443.000000
+max per op: 149.344430
+min per op: 149.344410
+med per op: 149.344430
+avg per op: 149.344430
+
+
+./cuda_atomiccas_scalar_pass_v2 1 64 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 481722356.000000
+max per op: 4817.223560
+min per op: 4138.737210
+med per op: 4817.158270
+avg per op: 4711.148140
+
+
+./cuda_atomiccas_scalar_pass_v2 1 64 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 963441721.000000
+max per op: 9634.417210
+min per op: 8278.172420
+med per op: 9634.360280
+avg per op: 9422.290660
+
+
+./cuda_atomiccas_scalar_pass_v2 1 64 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 1926896282.000000
+max per op: 19268.962820
+min per op: 16555.610480
+med per op: 19268.817260
+avg per op: 18844.802870
+
+
+./cuda_atomiccas_scalar_pass_v2 1 128 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 25600000.000000
+max per op: 256.000000
+min per op: 256.000000
+med per op: 256.000000
+avg per op: 256.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 128 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 29866944.000000
+max per op: 298.669440
+min per op: 298.669440
+med per op: 298.669430
+avg per op: 298.669440
+
+
+./cuda_atomiccas_scalar_pass_v2 1 128 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 963441970.000000
+max per op: 9634.419700
+min per op: 8278.237140
+med per op: 9634.345950
+avg per op: 9422.297510
+
+
+./cuda_atomiccas_scalar_pass_v2 1 128 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 1926896042.000000
+max per op: 19268.960420
+min per op: 16555.987680
+med per op: 19268.803890
+avg per op: 18844.740100
+
+
+./cuda_atomiccas_scalar_pass_v2 1 128 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 3853760470.000000
+max per op: 38537.604700
+min per op: 33111.719170
+med per op: 38537.612890
+avg per op: 37689.164240
+
+
+./cuda_atomiccas_scalar_pass_v2 1 256 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 51200000.000000
+max per op: 512.000000
+min per op: 512.000000
+med per op: 512.000000
+avg per op: 512.000000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 256 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 60216891.000000
+max per op: 602.168910
+min per op: 602.168850
+med per op: 602.168890
+avg per op: 602.168890
+
+
+./cuda_atomiccas_scalar_pass_v2 1 256 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 1926897446.000000
+max per op: 19268.974460
+min per op: 16555.980610
+med per op: 19268.845140
+avg per op: 18844.905040
+
+
+./cuda_atomiccas_scalar_pass_v2 1 256 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 3853769549.000000
+max per op: 38537.695490
+min per op: 33110.581520
+med per op: 38537.442900
+avg per op: 37689.048100
+
+
+./cuda_atomiccas_scalar_pass_v2 1 256 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 7705793313.000000
+max per op: 77057.933130
+min per op: 55173.892900
+med per op: 66278.520450
+avg per op: 69942.517920
+
+
+./cuda_atomiccas_scalar_pass_v2 1 512 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 102399994.000000
+max per op: 1023.999940
+min per op: 879.344640
+med per op: 1018.879970
+avg per op: 985.417070
+
+
+./cuda_atomiccas_scalar_pass_v2 1 512 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 120434163.000000
+max per op: 1204.341630
+min per op: 1034.208140
+med per op: 1198.319320
+avg per op: 1158.962780
+
+
+./cuda_atomiccas_scalar_pass_v2 1 512 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 3853771032.000000
+max per op: 38537.710320
+min per op: 32403.403110
+med per op: 38219.954280
+avg per op: 37388.779730
+
+
+./cuda_atomiccas_scalar_pass_v2 1 512 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 7707647384.000000
+max per op: 77076.473840
+min per op: 65840.388910
+med per op: 76784.392430
+avg per op: 75127.466630
+
+
+./cuda_atomiccas_scalar_pass_v2 1 512 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15411402965.000000
+max per op: 154114.029650
+min per op: 116285.605190
+med per op: 138181.774280
+avg per op: 142020.875020
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1024 1 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 204800003.000000
+max per op: 2048.000030
+min per op: 1634.370560
+med per op: 2044.700980
+avg per op: 1982.238240
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1024 2 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 240869975.000000
+max per op: 2408.699750
+min per op: 1922.220160
+med per op: 2404.914550
+avg per op: 2331.260090
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1024 64 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7707643264.000000
+max per op: 77076.432640
+min per op: 60068.966890
+med per op: 76288.836500
+avg per op: 73852.082000
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1024 128 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 15415198278.000000
+max per op: 154151.982780
+min per op: 122540.407670
+med per op: 152211.906920
+avg per op: 147778.431690
+
+
+./cuda_atomiccas_scalar_pass_v2 1 1024 256 1000
+CUDA atomic-cas scalar, compare always passes
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15897363344.000000
+max per op: 158973.633440
+min per op: 122534.643540
+med per op: 148867.689000
+avg per op: 147497.837720
+
+

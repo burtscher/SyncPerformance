@@ -1,0 +1,2662 @@
+SyncPerformance v0.1
+code: cuda_atomicadd_scalar_v2.cu
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./cuda_atomicadd_scalar_v2 0 1 1 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 1 2 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 1 64 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473536.000000
+max per op: 74.735360
+min per op: 64.200020
+med per op: 74.735510
+avg per op: 73.086730
+
+
+./cuda_atomicadd_scalar_v2 0 1 128 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937417.000000
+max per op: 149.374170
+min per op: 128.340860
+med per op: 149.379830
+avg per op: 146.083080
+
+
+./cuda_atomicadd_scalar_v2 0 1 256 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29866008.000000
+max per op: 298.660080
+min per op: 256.563830
+med per op: 298.651680
+avg per op: 292.072060
+
+
+./cuda_atomicadd_scalar_v2 0 2 1 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 2 2 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 2 64 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473538.000000
+max per op: 74.735380
+min per op: 64.205510
+med per op: 74.735280
+avg per op: 73.088160
+
+
+./cuda_atomicadd_scalar_v2 0 2 128 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937458.000000
+max per op: 149.374580
+min per op: 128.345650
+med per op: 149.380370
+avg per op: 146.083180
+
+
+./cuda_atomicadd_scalar_v2 0 2 256 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29865889.000000
+max per op: 298.658890
+min per op: 256.556950
+med per op: 298.653880
+avg per op: 292.073600
+
+
+./cuda_atomicadd_scalar_v2 0 4 1 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 4 2 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 4 64 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473554.000000
+max per op: 74.735540
+min per op: 64.197920
+med per op: 74.735360
+avg per op: 73.087600
+
+
+./cuda_atomicadd_scalar_v2 0 4 128 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937202.000000
+max per op: 149.372020
+min per op: 128.319640
+med per op: 149.377680
+avg per op: 146.079410
+
+
+./cuda_atomicadd_scalar_v2 0 4 256 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29866009.000000
+max per op: 298.660090
+min per op: 256.580080
+med per op: 298.656430
+avg per op: 292.074730
+
+
+./cuda_atomicadd_scalar_v2 0 8 1 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 8 2 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 8 64 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473525.000000
+max per op: 74.735250
+min per op: 64.205060
+med per op: 74.735360
+avg per op: 73.088670
+
+
+./cuda_atomicadd_scalar_v2 0 8 128 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937222.000000
+max per op: 149.372220
+min per op: 128.326700
+med per op: 149.377930
+avg per op: 146.079740
+
+
+./cuda_atomicadd_scalar_v2 0 8 256 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29865993.000000
+max per op: 298.659930
+min per op: 256.521870
+med per op: 298.653290
+avg per op: 292.064960
+
+
+./cuda_atomicadd_scalar_v2 0 16 1 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 16 2 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 16 64 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473531.000000
+max per op: 74.735310
+min per op: 64.202120
+med per op: 74.735300
+avg per op: 73.087170
+
+
+./cuda_atomicadd_scalar_v2 0 16 128 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937310.000000
+max per op: 149.373100
+min per op: 128.337600
+med per op: 149.379990
+avg per op: 146.083470
+
+
+./cuda_atomicadd_scalar_v2 0 16 256 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29865975.000000
+max per op: 298.659750
+min per op: 256.589910
+med per op: 298.653160
+avg per op: 292.072840
+
+
+./cuda_atomicadd_scalar_v2 0 32 1 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 32 2 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 32 64 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473589.000000
+max per op: 74.735890
+min per op: 64.202350
+med per op: 74.735250
+avg per op: 73.087190
+
+
+./cuda_atomicadd_scalar_v2 0 32 128 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937146.000000
+max per op: 149.371460
+min per op: 128.320430
+med per op: 149.378520
+avg per op: 146.081710
+
+
+./cuda_atomicadd_scalar_v2 0 32 256 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29866062.000000
+max per op: 298.660620
+min per op: 256.552940
+med per op: 298.658140
+avg per op: 292.082780
+
+
+./cuda_atomicadd_scalar_v2 0 64 1 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 64 2 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 0 64 64 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 14934343.000000
+max per op: 149.343430
+min per op: 128.311420
+med per op: 149.345430
+avg per op: 146.051910
+
+
+./cuda_atomicadd_scalar_v2 0 64 128 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 29865897.000000
+max per op: 298.658970
+min per op: 256.603930
+med per op: 298.655620
+avg per op: 292.072640
+
+
+./cuda_atomicadd_scalar_v2 0 64 256 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 59963626.000000
+max per op: 599.636260
+min per op: 515.169620
+med per op: 599.635430
+avg per op: 586.437200
+
+
+./cuda_atomicadd_scalar_v2 0 128 1 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 0 128 2 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 933607.000000
+max per op: 9.336070
+min per op: 9.328710
+med per op: 9.333240
+avg per op: 9.333310
+
+
+./cuda_atomicadd_scalar_v2 0 128 64 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 29865771.000000
+max per op: 298.657710
+min per op: 256.594270
+med per op: 298.657590
+avg per op: 292.074280
+
+
+./cuda_atomicadd_scalar_v2 0 128 128 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 59967017.000000
+max per op: 599.670170
+min per op: 515.261090
+med per op: 599.667330
+avg per op: 586.467300
+
+
+./cuda_atomicadd_scalar_v2 0 128 256 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 118802370.000000
+max per op: 1188.023700
+min per op: 534.877450
+med per op: 829.785790
+avg per op: 892.505650
+
+
+./cuda_atomicadd_scalar_v2 0 256 1 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1591003.000000
+max per op: 15.910030
+min per op: 15.908620
+med per op: 15.909320
+avg per op: 15.909330
+
+
+./cuda_atomicadd_scalar_v2 0 256 2 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1866958.000000
+max per op: 18.669580
+min per op: 17.631570
+med per op: 18.153520
+avg per op: 18.151790
+
+
+./cuda_atomicadd_scalar_v2 0 256 64 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 59966036.000000
+max per op: 599.660360
+min per op: 488.683050
+med per op: 573.559990
+avg per op: 573.371990
+
+
+./cuda_atomicadd_scalar_v2 0 256 128 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 119933260.000000
+max per op: 1199.332600
+min per op: 977.385250
+med per op: 1147.109350
+avg per op: 1146.746940
+
+
+./cuda_atomicadd_scalar_v2 0 256 256 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 238484358.000000
+max per op: 2384.843580
+min per op: 1041.432130
+med per op: 1667.090200
+avg per op: 1786.711940
+
+
+./cuda_atomicadd_scalar_v2 0 512 1 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3179647.000000
+max per op: 31.796470
+min per op: 32.301930
+med per op: 32.314020
+avg per op: 32.152630
+
+
+./cuda_atomicadd_scalar_v2 0 512 2 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3733371.000000
+max per op: 37.333710
+min per op: 34.279650
+med per op: 37.204070
+avg per op: 36.504230
+
+
+./cuda_atomicadd_scalar_v2 0 512 64 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 119930149.000000
+max per op: 1199.301490
+min per op: 945.215560
+med per op: 1193.381960
+avg per op: 1150.333760
+
+
+./cuda_atomicadd_scalar_v2 0 512 128 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 240859867.000000
+max per op: 2408.598670
+min per op: 1898.255010
+med per op: 2397.198880
+avg per op: 2310.260970
+
+
+./cuda_atomicadd_scalar_v2 0 512 256 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 480580235.000000
+max per op: 4805.802350
+min per op: 2173.137250
+med per op: 3454.120010
+avg per op: 3719.380580
+
+
+./cuda_atomicadd_scalar_v2 0 1024 1 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 6403855.000000
+max per op: 64.038550
+min per op: 64.850880
+med per op: 66.760990
+avg per op: 66.216910
+
+
+./cuda_atomicadd_scalar_v2 0 1024 2 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 7466682.000000
+max per op: 74.666820
+min per op: 67.649700
+med per op: 74.651440
+avg per op: 73.680660
+
+
+./cuda_atomicadd_scalar_v2 0 1024 64 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 240860222.000000
+max per op: 2408.602220
+min per op: 1873.516600
+med per op: 2407.392740
+avg per op: 2328.419300
+
+
+./cuda_atomicadd_scalar_v2 0 1024 128 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 481719693.000000
+max per op: 4817.196930
+min per op: 3750.403310
+med per op: 4813.150370
+avg per op: 4656.146340
+
+
+./cuda_atomicadd_scalar_v2 0 1024 256 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 496787707.000000
+max per op: 4967.877070
+min per op: 3751.221330
+med per op: 4665.630780
+avg per op: 4650.984050
+
+
+./cuda_atomicadd_scalar_v2 1 1 1 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 1 1 2 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 1 1 64 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7473327.000000
+max per op: 74.733270
+min per op: 64.194820
+med per op: 74.733740
+avg per op: 73.083970
+
+
+./cuda_atomicadd_scalar_v2 1 1 128 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 14937314.000000
+max per op: 149.373140
+min per op: 128.336870
+med per op: 149.378920
+avg per op: 146.081140
+
+
+./cuda_atomicadd_scalar_v2 1 1 256 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 29866067.000000
+max per op: 298.660670
+min per op: 256.598340
+med per op: 298.657170
+avg per op: 292.071790
+
+
+./cuda_atomicadd_scalar_v2 1 2 1 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 1 2 2 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 1 2 64 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 14935427.000000
+max per op: 149.354270
+min per op: 128.317070
+med per op: 149.356110
+avg per op: 146.063120
+
+
+./cuda_atomicadd_scalar_v2 1 2 128 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 29865792.000000
+max per op: 298.657920
+min per op: 256.571830
+med per op: 298.654700
+avg per op: 292.074490
+
+
+./cuda_atomicadd_scalar_v2 1 2 256 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 60214631.000000
+max per op: 602.146310
+min per op: 517.418660
+med per op: 602.143230
+avg per op: 588.885420
+
+
+./cuda_atomicadd_scalar_v2 1 4 1 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 1 4 2 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 933471.000000
+max per op: 9.334710
+min per op: 9.334670
+med per op: 9.334700
+avg per op: 9.334700
+
+
+./cuda_atomicadd_scalar_v2 1 4 64 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 29865832.000000
+max per op: 298.658320
+min per op: 256.570630
+med per op: 298.658240
+avg per op: 292.073880
+
+
+./cuda_atomicadd_scalar_v2 1 4 128 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 60214556.000000
+max per op: 602.145560
+min per op: 517.337170
+med per op: 602.144400
+avg per op: 588.881750
+
+
+./cuda_atomicadd_scalar_v2 1 4 256 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 120429338.000000
+max per op: 1204.293380
+min per op: 1034.742590
+med per op: 1204.288830
+avg per op: 1177.768720
+
+
+./cuda_atomicadd_scalar_v2 1 8 1 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 933366.000000
+max per op: 9.333660
+min per op: 9.333660
+med per op: 9.333660
+avg per op: 9.333660
+
+
+./cuda_atomicadd_scalar_v2 1 8 2 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1866671.000000
+max per op: 18.666710
+min per op: 18.666650
+med per op: 18.666680
+avg per op: 18.666680
+
+
+./cuda_atomicadd_scalar_v2 1 8 64 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 60214701.000000
+max per op: 602.147010
+min per op: 517.409440
+med per op: 602.145730
+avg per op: 588.896320
+
+
+./cuda_atomicadd_scalar_v2 1 8 128 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 120429904.000000
+max per op: 1204.299040
+min per op: 1034.786680
+med per op: 1204.292960
+avg per op: 1177.788330
+
+
+./cuda_atomicadd_scalar_v2 1 8 256 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 240859345.000000
+max per op: 2408.593450
+min per op: 2069.671110
+med per op: 2408.582450
+avg per op: 2355.546230
+
+
+./cuda_atomicadd_scalar_v2 1 16 1 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1866724.000000
+max per op: 18.667240
+min per op: 18.667240
+med per op: 18.667240
+avg per op: 18.667240
+
+
+./cuda_atomicadd_scalar_v2 1 16 2 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3733338.000000
+max per op: 37.333380
+min per op: 37.333370
+med per op: 37.333370
+avg per op: 37.333370
+
+
+./cuda_atomicadd_scalar_v2 1 16 64 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 120429327.000000
+max per op: 1204.293270
+min per op: 1034.856320
+med per op: 1204.292310
+avg per op: 1177.790430
+
+
+./cuda_atomicadd_scalar_v2 1 16 128 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 240859153.000000
+max per op: 2408.591530
+min per op: 2069.575610
+med per op: 2408.587190
+avg per op: 2355.561500
+
+
+./cuda_atomicadd_scalar_v2 1 16 256 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 481718061.000000
+max per op: 4817.180610
+min per op: 4139.198890
+med per op: 4817.160230
+avg per op: 4711.159040
+
+
+./cuda_atomicadd_scalar_v2 1 32 1 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3733333.000000
+max per op: 37.333330
+min per op: 37.333330
+med per op: 37.333330
+avg per op: 37.333330
+
+
+./cuda_atomicadd_scalar_v2 1 32 2 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 7466696.000000
+max per op: 74.666960
+min per op: 74.666980
+med per op: 74.666970
+avg per op: 74.666970
+
+
+./cuda_atomicadd_scalar_v2 1 32 64 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 240859140.000000
+max per op: 2408.591400
+min per op: 2069.635160
+med per op: 2408.586150
+avg per op: 2355.564650
+
+
+./cuda_atomicadd_scalar_v2 1 32 128 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 481718001.000000
+max per op: 4817.180010
+min per op: 4139.235240
+med per op: 4817.171810
+avg per op: 4711.160540
+
+
+./cuda_atomicadd_scalar_v2 1 32 256 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 963435490.000000
+max per op: 9634.354900
+min per op: 8278.283120
+med per op: 9634.319530
+avg per op: 9422.300500
+
+
+./cuda_atomicadd_scalar_v2 1 64 1 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 7466670.000000
+max per op: 74.666700
+min per op: 74.666700
+med per op: 74.666700
+avg per op: 74.666700
+
+
+./cuda_atomicadd_scalar_v2 1 64 2 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 14933704.000000
+max per op: 149.337040
+min per op: 149.337030
+med per op: 149.337050
+avg per op: 149.337040
+
+
+./cuda_atomicadd_scalar_v2 1 64 64 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 481718044.000000
+max per op: 4817.180440
+min per op: 4139.248520
+med per op: 4817.171050
+avg per op: 4711.143040
+
+
+./cuda_atomicadd_scalar_v2 1 64 128 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 963435690.000000
+max per op: 9634.356900
+min per op: 8278.497330
+med per op: 9634.325430
+avg per op: 9422.227100
+
+
+./cuda_atomicadd_scalar_v2 1 64 256 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 1926873417.000000
+max per op: 19268.734170
+min per op: 16556.804140
+med per op: 19268.734060
+avg per op: 18844.599490
+
+
+./cuda_atomicadd_scalar_v2 1 128 1 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 14933468.000000
+max per op: 149.334680
+min per op: 149.334680
+med per op: 149.334670
+avg per op: 149.334670
+
+
+./cuda_atomicadd_scalar_v2 1 128 2 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 29866800.000000
+max per op: 298.668000
+min per op: 298.667980
+med per op: 298.667980
+avg per op: 298.667980
+
+
+./cuda_atomicadd_scalar_v2 1 128 64 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 963435653.000000
+max per op: 9634.356530
+min per op: 8278.549320
+med per op: 9634.349850
+avg per op: 9422.344070
+
+
+./cuda_atomicadd_scalar_v2 1 128 128 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 1926873196.000000
+max per op: 19268.731960
+min per op: 16556.800720
+med per op: 19268.672830
+avg per op: 18844.715180
+
+
+./cuda_atomicadd_scalar_v2 1 128 256 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 3853746444.000000
+max per op: 38537.464440
+min per op: 33108.975520
+med per op: 38521.085420
+avg per op: 37681.951060
+
+
+./cuda_atomicadd_scalar_v2 1 256 1 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 29866846.000000
+max per op: 298.668460
+min per op: 284.036350
+med per op: 291.352200
+avg per op: 291.352190
+
+
+./cuda_atomicadd_scalar_v2 1 256 2 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 60216520.000000
+max per op: 602.165200
+min per op: 572.665510
+med per op: 587.415170
+avg per op: 587.415180
+
+
+./cuda_atomicadd_scalar_v2 1 256 64 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 1926873833.000000
+max per op: 19268.738330
+min per op: 16373.454240
+med per op: 18896.388050
+avg per op: 18672.496400
+
+
+./cuda_atomicadd_scalar_v2 1 256 128 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 3853740513.000000
+max per op: 38537.405130
+min per op: 33112.410910
+med per op: 38526.411590
+avg per op: 37684.173570
+
+
+./cuda_atomicadd_scalar_v2 1 256 256 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 7703520841.000000
+max per op: 77035.208410
+min per op: 49675.722410
+med per op: 62870.315740
+avg per op: 66656.687250
+
+
+./cuda_atomicadd_scalar_v2 1 512 1 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 60216672.000000
+max per op: 602.166720
+min per op: 553.851430
+med per op: 600.300060
+avg per op: 589.154560
+
+
+./cuda_atomicadd_scalar_v2 1 512 2 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 120433050.000000
+max per op: 1204.330500
+min per op: 1107.701320
+med per op: 1200.597120
+avg per op: 1178.306650
+
+
+./cuda_atomicadd_scalar_v2 1 512 64 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 3853740405.000000
+max per op: 38537.404050
+min per op: 32564.634840
+med per op: 38310.013970
+avg per op: 37087.452700
+
+
+./cuda_atomicadd_scalar_v2 1 512 128 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 7707517147.000000
+max per op: 77075.171470
+min per op: 61150.268970
+med per op: 76526.719280
+avg per op: 73953.380310
+
+
+./cuda_atomicadd_scalar_v2 1 512 256 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15412001184.000000
+max per op: 154120.011840
+min per op: 115898.690460
+med per op: 137889.481410
+avg per op: 141873.478630
+
+
+./cuda_atomicadd_scalar_v2 1 1024 1 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 120433064.000000
+max per op: 1204.330640
+min per op: 1092.699120
+med per op: 1200.886260
+avg per op: 1186.798840
+
+
+./cuda_atomicadd_scalar_v2 1 1024 2 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 240866797.000000
+max per op: 2408.667970
+min per op: 2185.403890
+med per op: 2401.779300
+avg per op: 2373.604430
+
+
+./cuda_atomicadd_scalar_v2 1 1024 64 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 7707517323.000000
+max per op: 77075.173230
+min per op: 60248.046280
+med per op: 76660.246340
+avg per op: 74347.947690
+
+
+./cuda_atomicadd_scalar_v2 1 1024 128 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 15415023922.000000
+max per op: 154150.239220
+min per op: 120133.311250
+med per op: 153424.960100
+avg per op: 148725.925290
+
+
+./cuda_atomicadd_scalar_v2 1 1024 256 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 15897192873.000000
+max per op: 158971.928730
+min per op: 120141.376270
+med per op: 149165.862500
+avg per op: 148535.131890
+
+
+./cuda_atomicadd_scalar_v2 2 1 1 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 600000.000000
+max per op: 6.000000
+min per op: 6.000000
+med per op: 6.000000
+avg per op: 6.000000
+
+
+./cuda_atomicadd_scalar_v2 2 1 2 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 700099.000000
+max per op: 7.000990
+min per op: 7.000940
+med per op: 7.000990
+avg per op: 7.000990
+
+
+./cuda_atomicadd_scalar_v2 2 1 64 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 22421805.000000
+max per op: 224.218050
+min per op: 192.625990
+med per op: 224.218020
+avg per op: 219.270810
+
+
+./cuda_atomicadd_scalar_v2 2 1 128 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 45259950.000000
+max per op: 452.599500
+min per op: 388.531990
+med per op: 452.602280
+avg per op: 442.587080
+
+
+./cuda_atomicadd_scalar_v2 2 1 256 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 90321798.000000
+max per op: 903.217980
+min per op: 776.031700
+med per op: 903.209100
+avg per op: 883.320410
+
+
+./cuda_atomicadd_scalar_v2 2 2 1 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 700099.000000
+max per op: 7.000990
+min per op: 7.000990
+med per op: 7.000990
+avg per op: 7.000990
+
+
+./cuda_atomicadd_scalar_v2 2 2 2 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1400788.000000
+max per op: 14.007880
+min per op: 14.007870
+med per op: 14.007900
+avg per op: 14.007900
+
+
+./cuda_atomicadd_scalar_v2 2 2 64 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 45402078.000000
+max per op: 454.020780
+min per op: 390.450380
+med per op: 454.046420
+avg per op: 444.085180
+
+
+./cuda_atomicadd_scalar_v2 2 2 128 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 90321745.000000
+max per op: 903.217450
+min per op: 776.062570
+med per op: 903.215540
+avg per op: 883.323650
+
+
+./cuda_atomicadd_scalar_v2 2 2 256 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 180643636.000000
+max per op: 1806.436360
+min per op: 1552.085320
+med per op: 1806.423440
+avg per op: 1766.652280
+
+
+./cuda_atomicadd_scalar_v2 2 4 1 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1400636.000000
+max per op: 14.006360
+min per op: 14.006360
+med per op: 14.006360
+avg per op: 14.006360
+
+
+./cuda_atomicadd_scalar_v2 2 4 2 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 2800489.000000
+max per op: 28.004890
+min per op: 28.006450
+med per op: 28.005710
+avg per op: 28.005710
+
+
+./cuda_atomicadd_scalar_v2 2 4 64 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 90321643.000000
+max per op: 903.216430
+min per op: 776.128910
+med per op: 903.214770
+avg per op: 883.338710
+
+
+./cuda_atomicadd_scalar_v2 2 4 128 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 180643341.000000
+max per op: 1806.433410
+min per op: 1552.196840
+med per op: 1806.428540
+avg per op: 1766.667500
+
+
+./cuda_atomicadd_scalar_v2 2 4 256 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 361286810.000000
+max per op: 3612.868100
+min per op: 3104.428200
+med per op: 3612.835110
+avg per op: 3533.298300
+
+
+./cuda_atomicadd_scalar_v2 2 8 1 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 2799977.000000
+max per op: 27.999770
+min per op: 27.999770
+med per op: 27.999770
+avg per op: 27.999770
+
+
+./cuda_atomicadd_scalar_v2 2 8 2 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 5599995.000000
+max per op: 55.999950
+min per op: 55.999850
+med per op: 55.999980
+avg per op: 55.999980
+
+
+./cuda_atomicadd_scalar_v2 2 8 64 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 180643366.000000
+max per op: 1806.433660
+min per op: 1552.281230
+med per op: 1806.429200
+avg per op: 1766.684350
+
+
+./cuda_atomicadd_scalar_v2 2 8 128 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 361286973.000000
+max per op: 3612.869730
+min per op: 3104.510870
+med per op: 3612.860450
+avg per op: 3533.318120
+
+
+./cuda_atomicadd_scalar_v2 2 8 256 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 722574152.000000
+max per op: 7225.741520
+min per op: 6208.998720
+med per op: 7225.703860
+avg per op: 7066.600320
+
+
+./cuda_atomicadd_scalar_v2 2 16 1 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 5600000.000000
+max per op: 56.000000
+min per op: 56.000000
+med per op: 56.000000
+avg per op: 56.000000
+
+
+./cuda_atomicadd_scalar_v2 2 16 2 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 11200010.000000
+max per op: 112.000100
+min per op: 111.999990
+med per op: 112.000090
+avg per op: 112.000090
+
+
+./cuda_atomicadd_scalar_v2 2 16 64 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 361286797.000000
+max per op: 3612.867970
+min per op: 3104.510210
+med per op: 3612.853190
+avg per op: 3533.349240
+
+
+./cuda_atomicadd_scalar_v2 2 16 128 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 722573688.000000
+max per op: 7225.736880
+min per op: 6208.835580
+med per op: 7225.690600
+avg per op: 7066.652360
+
+
+./cuda_atomicadd_scalar_v2 2 16 256 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 1445147399.000000
+max per op: 14451.473990
+min per op: 12417.785550
+med per op: 14451.468440
+avg per op: 14133.301210
+
+
+./cuda_atomicadd_scalar_v2 2 32 1 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 11200008.000000
+max per op: 112.000080
+min per op: 112.000080
+med per op: 112.000080
+avg per op: 112.000080
+
+
+./cuda_atomicadd_scalar_v2 2 32 2 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 22400004.000000
+max per op: 224.000040
+min per op: 224.000110
+med per op: 224.000020
+avg per op: 224.000020
+
+
+./cuda_atomicadd_scalar_v2 2 32 64 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 722573726.000000
+max per op: 7225.737260
+min per op: 6208.868510
+med per op: 7225.719040
+avg per op: 7066.658050
+
+
+./cuda_atomicadd_scalar_v2 2 32 128 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 1445147700.000000
+max per op: 14451.477000
+min per op: 12417.681500
+med per op: 14451.430640
+avg per op: 14133.364450
+
+
+./cuda_atomicadd_scalar_v2 2 32 256 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 2890294608.000000
+max per op: 28902.946080
+min per op: 24835.809270
+med per op: 28902.937330
+avg per op: 28266.564320
+
+
+./cuda_atomicadd_scalar_v2 2 64 1 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 22399987.000000
+max per op: 223.999870
+min per op: 223.999870
+med per op: 223.999890
+avg per op: 223.999890
+
+
+./cuda_atomicadd_scalar_v2 2 64 2 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 45432306.000000
+max per op: 454.323060
+min per op: 454.334400
+med per op: 454.328860
+avg per op: 454.328800
+
+
+./cuda_atomicadd_scalar_v2 2 64 64 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 1445147333.000000
+max per op: 14451.473330
+min per op: 12417.960390
+med per op: 14451.453990
+avg per op: 14133.304800
+
+
+./cuda_atomicadd_scalar_v2 2 64 128 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 2890293479.000000
+max per op: 28902.934790
+min per op: 24835.584520
+med per op: 28902.894180
+avg per op: 28266.698240
+
+
+./cuda_atomicadd_scalar_v2 2 64 256 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 5780589907.000000
+max per op: 57805.899070
+min per op: 49671.640740
+med per op: 57805.893870
+avg per op: 56533.280860
+
+
+./cuda_atomicadd_scalar_v2 2 128 1 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 45424049.000000
+max per op: 454.240490
+min per op: 454.240440
+med per op: 454.240390
+avg per op: 454.240480
+
+
+./cuda_atomicadd_scalar_v2 2 128 2 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 90324546.000000
+max per op: 903.245460
+min per op: 903.245350
+med per op: 903.245390
+avg per op: 903.245300
+
+
+./cuda_atomicadd_scalar_v2 2 128 64 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 2890294714.000000
+max per op: 28902.947140
+min per op: 24835.755780
+med per op: 28902.898540
+avg per op: 28266.777460
+
+
+./cuda_atomicadd_scalar_v2 2 128 128 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 5780589455.000000
+max per op: 57805.894550
+min per op: 49668.794700
+med per op: 57805.707880
+avg per op: 56533.403870
+
+
+./cuda_atomicadd_scalar_v2 2 128 256 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 11561176567.000000
+max per op: 115611.765670
+min per op: 99320.923840
+med per op: 115599.221410
+avg per op: 113061.189340
+
+
+./cuda_atomicadd_scalar_v2 2 256 1 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 90324535.000000
+max per op: 903.245350
+min per op: 858.959190
+med per op: 881.102300
+avg per op: 881.102330
+
+
+./cuda_atomicadd_scalar_v2 2 256 2 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 180649065.000000
+max per op: 1806.490650
+min per op: 1717.918300
+med per op: 1762.204460
+avg per op: 1762.204450
+
+
+./cuda_atomicadd_scalar_v2 2 256 64 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 5780584018.000000
+max per op: 57805.840180
+min per op: 49668.032660
+med per op: 57802.760080
+avg per op: 56532.137950
+
+
+./cuda_atomicadd_scalar_v2 2 256 128 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 11561168425.000000
+max per op: 115611.684250
+min per op: 99329.448590
+med per op: 115605.116140
+avg per op: 113064.030360
+
+
+./cuda_atomicadd_scalar_v2 2 256 256 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 23110331132.000000
+max per op: 231103.311320
+min per op: 149024.609860
+med per op: 188614.367720
+avg per op: 199982.255520
+
+
+./cuda_atomicadd_scalar_v2 2 512 1 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 180649056.000000
+max per op: 1806.490560
+min per op: 1660.824280
+med per op: 1800.657920
+avg per op: 1767.157700
+
+
+./cuda_atomicadd_scalar_v2 2 512 2 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 361298111.000000
+max per op: 3612.981110
+min per op: 3321.648370
+med per op: 3601.315820
+avg per op: 3534.315240
+
+
+./cuda_atomicadd_scalar_v2 2 512 64 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 11561178327.000000
+max per op: 115611.783270
+min per op: 91732.334570
+med per op: 114789.711430
+avg per op: 110931.158470
+
+
+./cuda_atomicadd_scalar_v2 2 512 128 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 23122356845.000000
+max per op: 231223.568450
+min per op: 183505.624560
+med per op: 229575.853230
+avg per op: 221861.565510
+
+
+./cuda_atomicadd_scalar_v2 2 512 256 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 46235218206.000000
+max per op: 462352.182060
+min per op: 347688.196610
+med per op: 413685.101120
+avg per op: 425626.808220
+
+
+./cuda_atomicadd_scalar_v2 2 1024 1 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 361298119.000000
+max per op: 3612.981190
+min per op: 3281.374950
+med per op: 3602.861470
+avg per op: 3560.923130
+
+
+./cuda_atomicadd_scalar_v2 2 1024 2 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 722596228.000000
+max per op: 7225.962280
+min per op: 6562.749960
+med per op: 7205.619900
+avg per op: 7121.860390
+
+
+./cuda_atomicadd_scalar_v2 2 1024 64 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 23122356833.000000
+max per op: 231223.568330
+min per op: 180216.750000
+med per op: 230135.978470
+avg per op: 223083.967550
+
+
+./cuda_atomicadd_scalar_v2 2 1024 128 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 46244713946.000000
+max per op: 462447.139460
+min per op: 360302.419910
+med per op: 460263.342940
+avg per op: 446168.873540
+
+
+./cuda_atomicadd_scalar_v2 2 1024 256 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 47691351890.000000
+max per op: 476913.518900
+min per op: 360432.682130
+med per op: 447494.579480
+avg per op: 445594.355650
+
+
+./cuda_atomicadd_scalar_v2 3 1 1 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 3 1 2 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 3 1 64 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 22421596.000000
+max per op: 224.215960
+min per op: 192.623270
+med per op: 224.213450
+avg per op: 219.268800
+
+
+./cuda_atomicadd_scalar_v2 3 1 128 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 45172085.000000
+max per op: 451.720850
+min per op: 388.128030
+med per op: 451.740800
+avg per op: 441.786040
+
+
+./cuda_atomicadd_scalar_v2 3 1 256 1000
+CUDA atomic-add scalar
+threads per block: 1
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 90321762.000000
+max per op: 903.217620
+min per op: 776.048140
+med per op: 903.206980
+avg per op: 883.337390
+
+
+./cuda_atomicadd_scalar_v2 3 2 1 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 800000.000000
+max per op: 8.000000
+min per op: 8.000000
+med per op: 8.000000
+avg per op: 8.000000
+
+
+./cuda_atomicadd_scalar_v2 3 2 2 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1400596.000000
+max per op: 14.005960
+min per op: 14.006150
+med per op: 14.006060
+avg per op: 14.006060
+
+
+./cuda_atomicadd_scalar_v2 3 2 64 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 44830602.000000
+max per op: 448.306020
+min per op: 384.955700
+med per op: 448.295130
+avg per op: 438.399350
+
+
+./cuda_atomicadd_scalar_v2 3 2 128 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 90321650.000000
+max per op: 903.216500
+min per op: 776.056060
+med per op: 903.212150
+avg per op: 883.338330
+
+
+./cuda_atomicadd_scalar_v2 3 2 256 1000
+CUDA atomic-add scalar
+threads per block: 2
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 180643600.000000
+max per op: 1806.436000
+min per op: 1552.103740
+med per op: 1806.423900
+avg per op: 1766.658710
+
+
+./cuda_atomicadd_scalar_v2 3 4 1 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1400609.000000
+max per op: 14.006090
+min per op: 14.006090
+med per op: 14.006090
+avg per op: 14.006090
+
+
+./cuda_atomicadd_scalar_v2 3 4 2 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 2800698.000000
+max per op: 28.006980
+min per op: 28.007940
+med per op: 28.007480
+avg per op: 28.007480
+
+
+./cuda_atomicadd_scalar_v2 3 4 64 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 90321661.000000
+max per op: 903.216610
+min per op: 776.129780
+med per op: 903.214670
+avg per op: 883.342950
+
+
+./cuda_atomicadd_scalar_v2 3 4 128 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 180643414.000000
+max per op: 1806.434140
+min per op: 1552.104200
+med per op: 1806.426490
+avg per op: 1766.671140
+
+
+./cuda_atomicadd_scalar_v2 3 4 256 1000
+CUDA atomic-add scalar
+threads per block: 4
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 361286796.000000
+max per op: 3612.867960
+min per op: 3104.334590
+med per op: 3612.828500
+avg per op: 3533.329930
+
+
+./cuda_atomicadd_scalar_v2 3 8 1 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 2799979.000000
+max per op: 27.999790
+min per op: 27.999790
+med per op: 27.999790
+avg per op: 27.999790
+
+
+./cuda_atomicadd_scalar_v2 3 8 2 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 5600001.000000
+max per op: 56.000010
+min per op: 56.000000
+med per op: 56.000010
+avg per op: 56.000010
+
+
+./cuda_atomicadd_scalar_v2 3 8 64 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 180643359.000000
+max per op: 1806.433590
+min per op: 1552.228230
+med per op: 1806.428540
+avg per op: 1766.678600
+
+
+./cuda_atomicadd_scalar_v2 3 8 128 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 361287147.000000
+max per op: 3612.871470
+min per op: 3104.294100
+med per op: 3612.856040
+avg per op: 3533.346520
+
+
+./cuda_atomicadd_scalar_v2 3 8 256 1000
+CUDA atomic-add scalar
+threads per block: 8
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 722574628.000000
+max per op: 7225.746280
+min per op: 6209.101220
+med per op: 7225.722690
+avg per op: 7066.757000
+
+
+./cuda_atomicadd_scalar_v2 3 16 1 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 5600016.000000
+max per op: 56.000160
+min per op: 56.000160
+med per op: 56.000160
+avg per op: 56.000160
+
+
+./cuda_atomicadd_scalar_v2 3 16 2 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 11199999.000000
+max per op: 111.999990
+min per op: 111.999990
+med per op: 112.000010
+avg per op: 112.000010
+
+
+./cuda_atomicadd_scalar_v2 3 16 64 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 361286785.000000
+max per op: 3612.867850
+min per op: 3104.574640
+med per op: 3612.859370
+avg per op: 3533.371430
+
+
+./cuda_atomicadd_scalar_v2 3 16 128 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 722573771.000000
+max per op: 7225.737710
+min per op: 6208.900310
+med per op: 7225.699640
+avg per op: 7066.707380
+
+
+./cuda_atomicadd_scalar_v2 3 16 256 1000
+CUDA atomic-add scalar
+threads per block: 16
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 1445147301.000000
+max per op: 14451.473010
+min per op: 12417.436890
+med per op: 14451.432990
+avg per op: 14133.257500
+
+
+./cuda_atomicadd_scalar_v2 3 32 1 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 11200006.000000
+max per op: 112.000060
+min per op: 112.000060
+med per op: 112.000060
+avg per op: 112.000060
+
+
+./cuda_atomicadd_scalar_v2 3 32 2 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 22400008.000000
+max per op: 224.000080
+min per op: 224.000000
+med per op: 224.000050
+avg per op: 224.000050
+
+
+./cuda_atomicadd_scalar_v2 3 32 64 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 722573595.000000
+max per op: 7225.735950
+min per op: 6209.075420
+med per op: 7225.719990
+avg per op: 7066.755490
+
+
+./cuda_atomicadd_scalar_v2 3 32 128 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 1445147277.000000
+max per op: 14451.472770
+min per op: 12418.039520
+med per op: 14451.405690
+avg per op: 14133.425290
+
+
+./cuda_atomicadd_scalar_v2 3 32 256 1000
+CUDA atomic-add scalar
+threads per block: 32
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 2890294640.000000
+max per op: 28902.946400
+min per op: 24835.616670
+med per op: 28902.941520
+avg per op: 28266.671420
+
+
+./cuda_atomicadd_scalar_v2 3 64 1 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 22399981.000000
+max per op: 223.999810
+min per op: 223.999960
+med per op: 223.999890
+avg per op: 223.999890
+
+
+./cuda_atomicadd_scalar_v2 3 64 2 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 45392547.000000
+max per op: 453.925470
+min per op: 453.915450
+med per op: 453.920490
+avg per op: 453.920530
+
+
+./cuda_atomicadd_scalar_v2 3 64 64 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 1445147240.000000
+max per op: 14451.472400
+min per op: 12417.600000
+med per op: 14451.423260
+avg per op: 14133.397490
+
+
+./cuda_atomicadd_scalar_v2 3 64 128 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 2890294568.000000
+max per op: 28902.945680
+min per op: 24834.929120
+med per op: 28902.830660
+avg per op: 28266.762330
+
+
+./cuda_atomicadd_scalar_v2 3 64 256 1000
+CUDA atomic-add scalar
+threads per block: 64
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 5780589284.000000
+max per op: 57805.892840
+min per op: 49669.966710
+med per op: 57805.855520
+avg per op: 56533.390080
+
+
+./cuda_atomicadd_scalar_v2 3 128 1 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 45326056.000000
+max per op: 453.260560
+min per op: 453.260210
+med per op: 453.260480
+avg per op: 453.260450
+
+
+./cuda_atomicadd_scalar_v2 3 128 2 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 90324513.000000
+max per op: 903.245130
+min per op: 903.245160
+med per op: 903.245280
+avg per op: 903.245260
+
+
+./cuda_atomicadd_scalar_v2 3 128 64 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 2890294564.000000
+max per op: 28902.945640
+min per op: 24834.159640
+med per op: 28902.864870
+avg per op: 28266.650100
+
+
+./cuda_atomicadd_scalar_v2 3 128 128 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 5780589172.000000
+max per op: 57805.891720
+min per op: 49667.811400
+med per op: 57805.600720
+avg per op: 56533.187600
+
+
+./cuda_atomicadd_scalar_v2 3 128 256 1000
+CUDA atomic-add scalar
+threads per block: 128
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 11561180707.000000
+max per op: 115611.807070
+min per op: 99317.309540
+med per op: 115599.574580
+avg per op: 113060.756780
+
+
+./cuda_atomicadd_scalar_v2 3 256 1 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 90324530.000000
+max per op: 903.245300
+min per op: 858.995290
+med per op: 881.120270
+avg per op: 881.120310
+
+
+./cuda_atomicadd_scalar_v2 3 256 2 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 180649062.000000
+max per op: 1806.490620
+min per op: 1717.990590
+med per op: 1762.240580
+avg per op: 1762.240640
+
+
+./cuda_atomicadd_scalar_v2 3 256 64 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 5780584102.000000
+max per op: 57805.841020
+min per op: 49664.736080
+med per op: 57802.680550
+avg per op: 56532.047340
+
+
+./cuda_atomicadd_scalar_v2 3 256 128 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 11561167560.000000
+max per op: 115611.675600
+min per op: 99329.672030
+med per op: 115605.072650
+avg per op: 113063.063390
+
+
+./cuda_atomicadd_scalar_v2 3 256 256 1000
+CUDA atomic-add scalar
+threads per block: 256
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 23110472689.000000
+max per op: 231104.726890
+min per op: 149001.599600
+med per op: 188608.863340
+avg per op: 199970.792230
+
+
+./cuda_atomicadd_scalar_v2 3 512 1 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 180649067.000000
+max per op: 1806.490670
+min per op: 1660.941740
+med per op: 1800.926600
+avg per op: 1767.344240
+
+
+./cuda_atomicadd_scalar_v2 3 512 2 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 361298109.000000
+max per op: 3612.981090
+min per op: 3321.883200
+med per op: 3601.853220
+avg per op: 3534.688380
+
+
+./cuda_atomicadd_scalar_v2 3 512 64 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 11561178362.000000
+max per op: 115611.783620
+min per op: 91783.428390
+med per op: 114787.339310
+avg per op: 110930.550820
+
+
+./cuda_atomicadd_scalar_v2 3 512 128 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 23122356882.000000
+max per op: 231223.568820
+min per op: 183469.992650
+med per op: 229570.493470
+avg per op: 221860.932850
+
+
+./cuda_atomicadd_scalar_v2 3 512 256 1000
+CUDA atomic-add scalar
+threads per block: 512
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 46235666473.000000
+max per op: 462356.664730
+min per op: 347671.744490
+med per op: 413684.680760
+avg per op: 425626.710430
+
+
+./cuda_atomicadd_scalar_v2 3 1024 1 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 361298141.000000
+max per op: 3612.981410
+min per op: 3282.623940
+med per op: 3602.232790
+avg per op: 3560.668740
+
+
+./cuda_atomicadd_scalar_v2 3 1024 2 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 722596321.000000
+max per op: 7225.963210
+min per op: 6567.569550
+med per op: 7204.914870
+avg per op: 7121.780930
+
+
+./cuda_atomicadd_scalar_v2 3 1024 64 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 64
+iter per thread: 1000
+runtime of all iter: 23122358039.000000
+max per op: 231223.580390
+min per op: 180180.180410
+med per op: 230135.799190
+avg per op: 223085.587600
+
+
+./cuda_atomicadd_scalar_v2 3 1024 128 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 128
+iter per thread: 1000
+runtime of all iter: 46244714690.000000
+max per op: 462447.146900
+min per op: 360365.835630
+med per op: 460269.247910
+avg per op: 446167.142350
+
+
+./cuda_atomicadd_scalar_v2 3 1024 256 1000
+CUDA atomic-add scalar
+threads per block: 1024
+blocks: 256
+iter per thread: 1000
+runtime of all iter: 47691352036.000000
+max per op: 476913.520360
+min per op: 360396.812870
+med per op: 447496.588800
+avg per op: 445600.801110
+
+

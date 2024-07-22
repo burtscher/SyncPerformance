@@ -1,0 +1,1462 @@
+SyncPerformance v0.1
+code: cuda_atomiccas_scalar_fail.cu
+system: zurich
+CPU: Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 10
+  physical cores: 20
+  threads per core: 2
+  logical cores: 40
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 2070 SUPER
+  SMs: 40
+  mTpSM: 1024
+  max blocks: 40
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.8
+  cache line size (bytes): 128
+./cuda_atomiccas_scalar_fail 0 1 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 802000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 1 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 802000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 1 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 2097712
+max per op: 20
+min per op: 18
+med per op: 18
+avg per op: 19
+
+
+./cuda_atomiccas_scalar_fail 0 1 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 4196842
+max per op: 41
+min per op: 37
+med per op: 37
+avg per op: 39
+
+
+./cuda_atomiccas_scalar_fail 0 1 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 8392839
+max per op: 83
+min per op: 75
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 0 2 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 802000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 2 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 802000
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 2 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 4195124
+max per op: 41
+min per op: 37
+med per op: 37
+avg per op: 39
+
+
+./cuda_atomiccas_scalar_fail 0 2 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 8391605
+max per op: 83
+min per op: 74
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 0 2 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 16845915
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 0 4 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 802074
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 4 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 834469
+max per op: 8
+min per op: 8
+med per op: 8
+avg per op: 8
+
+
+./cuda_atomiccas_scalar_fail 0 4 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 8392415
+max per op: 83
+min per op: 75
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 0 4 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 16850495
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 0 4 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 33564799
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 0 8 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1600000
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_scalar_fail 0 8 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1678443
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_scalar_fail 0 8 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 16833819
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 0 8 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 33569065
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 0 8 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 67058734
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 0 16 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3200000
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_scalar_fail 0 16 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3356939
+max per op: 33
+min per op: 33
+med per op: 33
+avg per op: 33
+
+
+./cuda_atomiccas_scalar_fail 0 16 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 33562039
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 0 16 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 67058776
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 0 16 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 134117416
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 0 32 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 6400000
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_scalar_fail 0 32 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 6714152
+max per op: 67
+min per op: 67
+med per op: 67
+avg per op: 67
+
+
+./cuda_atomiccas_scalar_fail 0 32 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 67058695
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 0 32 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 134117382
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 0 32 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 268234695
+max per op: 2682
+min per op: 2414
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 0 64 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 12800002
+max per op: 128
+min per op: 128
+med per op: 128
+avg per op: 128
+
+
+./cuda_atomiccas_scalar_fail 0 64 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 13488485
+max per op: 134
+min per op: 134
+med per op: 134
+avg per op: 134
+
+
+./cuda_atomiccas_scalar_fail 0 64 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 134116841
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 0 64 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 268234687
+max per op: 2682
+min per op: 2414
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 0 64 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 536467583
+max per op: 5364
+min per op: 4829
+med per op: 4829
+avg per op: 5043
+
+
+./cuda_atomiccas_scalar_fail 0 128 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 25600002
+max per op: 256
+min per op: 256
+med per op: 256
+avg per op: 256
+
+
+./cuda_atomiccas_scalar_fail 0 128 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 26858370
+max per op: 268
+min per op: 268
+med per op: 268
+avg per op: 268
+
+
+./cuda_atomiccas_scalar_fail 0 128 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 268234736
+max per op: 2682
+min per op: 2414
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 0 128 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 536469852
+max per op: 5364
+min per op: 4829
+med per op: 4829
+avg per op: 5043
+
+
+./cuda_atomiccas_scalar_fail 0 128 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 1072557039
+max per op: 10725
+min per op: 6844
+med per op: 9651
+avg per op: 9069
+
+
+./cuda_atomiccas_scalar_fail 0 256 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 51199999
+max per op: 511
+min per op: 488
+med per op: 500
+avg per op: 500
+
+
+./cuda_atomiccas_scalar_fail 0 256 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 53895471
+max per op: 538
+min per op: 505
+med per op: 521
+avg per op: 521
+
+
+./cuda_atomiccas_scalar_fail 0 256 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 536470651
+max per op: 5364
+min per op: 4558
+med per op: 4829
+avg per op: 4937
+
+
+./cuda_atomiccas_scalar_fail 0 256 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 1072938683
+max per op: 10729
+min per op: 9106
+med per op: 9658
+avg per op: 9875
+
+
+./cuda_atomiccas_scalar_fail 0 256 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 2145220011
+max per op: 21452
+min per op: 16314
+med per op: 19311
+avg per op: 18827
+
+
+./cuda_atomiccas_scalar_fail 0 512 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 102399993
+max per op: 1023
+min per op: 962
+med per op: 1018
+avg per op: 1006
+
+
+./cuda_atomiccas_scalar_fail 0 512 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 107749142
+max per op: 1077
+min per op: 983
+med per op: 1068
+avg per op: 1049
+
+
+./cuda_atomiccas_scalar_fail 0 512 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 1072934875
+max per op: 10729
+min per op: 8918
+med per op: 9658
+avg per op: 9927
+
+
+./cuda_atomiccas_scalar_fail 0 512 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 2145878204
+max per op: 21458
+min per op: 18087
+med per op: 19316
+avg per op: 19838
+
+
+./cuda_atomiccas_scalar_fail 0 512 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 4290250802
+max per op: 42902
+min per op: 32767
+med per op: 38589
+avg per op: 37805
+
+
+./cuda_atomiccas_scalar_fail 0 786 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 157200009
+max per op: 1572
+min per op: 1368
+med per op: 1510
+avg per op: 1509
+
+
+./cuda_atomiccas_scalar_fail 0 786 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 165560589
+max per op: 1655
+min per op: 1439
+med per op: 1585
+avg per op: 1579
+
+
+./cuda_atomiccas_scalar_fail 0 786 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 1647131019
+max per op: 16471
+min per op: 13251
+med per op: 14809
+avg per op: 15020
+
+
+./cuda_atomiccas_scalar_fail 0 786 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 3294256644
+max per op: 32942
+min per op: 26320
+med per op: 29574
+avg per op: 29996
+
+
+./cuda_atomiccas_scalar_fail 0 786 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 3953898190
+max per op: 39538
+min per op: 24954
+med per op: 28460
+avg per op: 29774
+
+
+./cuda_atomiccas_scalar_fail 0 1024 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 204799997
+max per op: 2047
+min per op: 1874
+med per op: 2043
+avg per op: 2022
+
+
+./cuda_atomiccas_scalar_fail 0 1024 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 216814385
+max per op: 2168
+min per op: 1946
+med per op: 2126
+avg per op: 2117
+
+
+./cuda_atomiccas_scalar_fail 0 1024 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 2145885401
+max per op: 21458
+min per op: 18170
+med per op: 19286
+avg per op: 19925
+
+
+./cuda_atomiccas_scalar_fail 0 1024 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 4291756109
+max per op: 42917
+min per op: 35774
+med per op: 38522
+avg per op: 39847
+
+
+./cuda_atomiccas_scalar_fail 0 1024 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 5151137022
+max per op: 51511
+min per op: 33420
+med per op: 38400
+avg per op: 39739
+
+
+./cuda_atomiccas_scalar_fail 1 1 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 1 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 1 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 2192408
+max per op: 21
+min per op: 18
+med per op: 18
+avg per op: 20
+
+
+./cuda_atomiccas_scalar_fail 1 1 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 4197712
+max per op: 41
+min per op: 37
+med per op: 37
+avg per op: 39
+
+
+./cuda_atomiccas_scalar_fail 1 1 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 8391414
+max per op: 83
+min per op: 74
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 1 2 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 2 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 2 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 4197084
+max per op: 41
+min per op: 37
+med per op: 37
+avg per op: 39
+
+
+./cuda_atomiccas_scalar_fail 1 2 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 8391825
+max per op: 83
+min per op: 75
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 1 2 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 2
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 16859201
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 1 4 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 4 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1211995
+max per op: 12
+min per op: 12
+med per op: 12
+avg per op: 12
+
+
+./cuda_atomiccas_scalar_fail 1 4 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 8393433
+max per op: 83
+min per op: 75
+med per op: 75
+avg per op: 78
+
+
+./cuda_atomiccas_scalar_fail 1 4 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 16844293
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 1 4 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 4
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 33562986
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 1 8 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 1610409
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_scalar_fail 1 8 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 1678514
+max per op: 16
+min per op: 16
+med per op: 16
+avg per op: 16
+
+
+./cuda_atomiccas_scalar_fail 1 8 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 16846860
+max per op: 168
+min per op: 150
+med per op: 151
+avg per op: 157
+
+
+./cuda_atomiccas_scalar_fail 1 8 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 33566730
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 1 8 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 8
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 67058793
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 1 16 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 3200000
+max per op: 32
+min per op: 32
+med per op: 32
+avg per op: 32
+
+
+./cuda_atomiccas_scalar_fail 1 16 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 3357018
+max per op: 33
+min per op: 33
+med per op: 33
+avg per op: 33
+
+
+./cuda_atomiccas_scalar_fail 1 16 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 33573229
+max per op: 335
+min per op: 301
+med per op: 302
+avg per op: 315
+
+
+./cuda_atomiccas_scalar_fail 1 16 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 67058751
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 1 16 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 16
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 134117358
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 1 32 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 6400000
+max per op: 64
+min per op: 64
+med per op: 64
+avg per op: 64
+
+
+./cuda_atomiccas_scalar_fail 1 32 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 6713810
+max per op: 67
+min per op: 67
+med per op: 67
+avg per op: 67
+
+
+./cuda_atomiccas_scalar_fail 1 32 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 67058837
+max per op: 670
+min per op: 603
+med per op: 603
+avg per op: 630
+
+
+./cuda_atomiccas_scalar_fail 1 32 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 134117392
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 1 32 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 32
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 268234673
+max per op: 2682
+min per op: 2414
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 1 64 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 12799998
+max per op: 127
+min per op: 127
+med per op: 127
+avg per op: 127
+
+
+./cuda_atomiccas_scalar_fail 1 64 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 13437429
+max per op: 134
+min per op: 134
+med per op: 134
+avg per op: 134
+
+
+./cuda_atomiccas_scalar_fail 1 64 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 134117580
+max per op: 1341
+min per op: 1207
+med per op: 1207
+avg per op: 1260
+
+
+./cuda_atomiccas_scalar_fail 1 64 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 268234665
+max per op: 2682
+min per op: 2414
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 1 64 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 64
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 536469402
+max per op: 5364
+min per op: 4829
+med per op: 4829
+avg per op: 5043
+
+
+./cuda_atomiccas_scalar_fail 1 128 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 25599998
+max per op: 255
+min per op: 255
+med per op: 255
+avg per op: 255
+
+
+./cuda_atomiccas_scalar_fail 1 128 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 26941307
+max per op: 269
+min per op: 268
+med per op: 268
+avg per op: 268
+
+
+./cuda_atomiccas_scalar_fail 1 128 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 268235173
+max per op: 2682
+min per op: 2413
+med per op: 2414
+avg per op: 2521
+
+
+./cuda_atomiccas_scalar_fail 1 128 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 536469409
+max per op: 5364
+min per op: 4829
+med per op: 4829
+avg per op: 5043
+
+
+./cuda_atomiccas_scalar_fail 1 128 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 128
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 1071212759
+max per op: 10712
+min per op: 5856
+med per op: 9022
+avg per op: 8472
+
+
+./cuda_atomiccas_scalar_fail 1 256 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 51199811
+max per op: 511
+min per op: 492
+med per op: 502
+avg per op: 502
+
+
+./cuda_atomiccas_scalar_fail 1 256 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 53836851
+max per op: 538
+min per op: 513
+med per op: 526
+avg per op: 525
+
+
+./cuda_atomiccas_scalar_fail 1 256 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 536470578
+max per op: 5364
+min per op: 4631
+med per op: 4829
+avg per op: 4965
+
+
+./cuda_atomiccas_scalar_fail 1 256 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 1072938564
+max per op: 10729
+min per op: 9211
+med per op: 9658
+avg per op: 9915
+
+
+./cuda_atomiccas_scalar_fail 1 256 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 256
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 2145434713
+max per op: 21454
+min per op: 14292
+med per op: 19306
+avg per op: 18436
+
+
+./cuda_atomiccas_scalar_fail 1 512 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 102400117
+max per op: 1024
+min per op: 947
+med per op: 1006
+avg per op: 995
+
+
+./cuda_atomiccas_scalar_fail 1 512 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 107839016
+max per op: 1078
+min per op: 990
+med per op: 1053
+avg per op: 1043
+
+
+./cuda_atomiccas_scalar_fail 1 512 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 1072937754
+max per op: 10729
+min per op: 8905
+med per op: 9658
+avg per op: 9872
+
+
+./cuda_atomiccas_scalar_fail 1 512 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 2145877637
+max per op: 21458
+min per op: 18102
+med per op: 19316
+avg per op: 19822
+
+
+./cuda_atomiccas_scalar_fail 1 512 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 512
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 4290496065
+max per op: 42904
+min per op: 32137
+med per op: 38473
+avg per op: 37732
+
+
+./cuda_atomiccas_scalar_fail 1 786 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 157199976
+max per op: 1571
+min per op: 1380
+med per op: 1508
+avg per op: 1496
+
+
+./cuda_atomiccas_scalar_fail 1 786 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 165497041
+max per op: 1654
+min per op: 1444
+med per op: 1574
+avg per op: 1568
+
+
+./cuda_atomiccas_scalar_fail 1 786 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 1647128031
+max per op: 16471
+min per op: 13065
+med per op: 14747
+avg per op: 14949
+
+
+./cuda_atomiccas_scalar_fail 1 786 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 3294256870
+max per op: 32942
+min per op: 27655
+med per op: 29521
+avg per op: 30087
+
+
+./cuda_atomiccas_scalar_fail 1 786 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 786
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 3953897984
+max per op: 39538
+min per op: 24971
+med per op: 28462
+avg per op: 29861
+
+
+./cuda_atomiccas_scalar_fail 1 1024 1 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 1
+iter per thread: 1000
+runtime of all iter: 204799868
+max per op: 2047
+min per op: 1873
+med per op: 2035
+avg per op: 2006
+
+
+./cuda_atomiccas_scalar_fail 1 1024 2 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 2
+iter per thread: 1000
+runtime of all iter: 216778680
+max per op: 2167
+min per op: 1946
+med per op: 2121
+avg per op: 2101
+
+
+./cuda_atomiccas_scalar_fail 1 1024 20 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 20
+iter per thread: 1000
+runtime of all iter: 2145873774
+max per op: 21458
+min per op: 18090
+med per op: 19298
+avg per op: 19908
+
+
+./cuda_atomiccas_scalar_fail 1 1024 40 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 40
+iter per thread: 1000
+runtime of all iter: 4291755902
+max per op: 42917
+min per op: 36651
+med per op: 38574
+avg per op: 39836
+
+
+./cuda_atomiccas_scalar_fail 1 1024 80 1000
+CUDA atomic-cas scalar, compare always fails
+threads per block: 1024
+blocks: 80
+iter per thread: 1000
+runtime of all iter: 5151136393
+max per op: 51511
+min per op: 33315
+med per op: 38196
+avg per op: 39724
+
+

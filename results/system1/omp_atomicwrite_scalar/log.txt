@@ -1,0 +1,6710 @@
+SyncPerformance v0.1
+code: omp_atomicwrite_scalar.cpp
+system: zurich
+CPU: Intel(R) Xeon(R) CPU E5-2687W v3 @ 3.10GHz
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 2
+  cores per socket: 10
+  physical cores: 20
+  threads per core: 2
+  logical cores: 40
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 2070 SUPER
+  SMs: 40
+  mTpSM: 1024
+  max blocks: 40
+  cores per SM: 64
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 1.8
+  cache line size (bytes): 128
+./omp_atomicwrite_scalar 0 1 1000
+OMP atomic-write scalar
+threads: 1
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0000259669342041
+max per op: 0.0000000002596693
+min per op: 0.0000000002596693
+med per op: 0.0000000002596693
+avg per op: 0.0000000002596693
+
+
+./omp_atomicwrite_scalar 0 2 1000
+OMP atomic-write scalar
+threads: 2
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0009199271087647
+max per op: 0.0000000091992711
+min per op: 0.0000000088210262
+med per op: 0.0000000090106888
+avg per op: 0.0000000090106888
+
+
+./omp_atomicwrite_scalar 0 3 1000
+OMP atomic-write scalar
+threads: 3
+iter per thread: 1000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0014049841766357
+max per op: 0.0000000140498418
+min per op: 0.0000000071094434
+med per op: 0.0000000139091335
+avg per op: 0.0000000110867207
+
+
+./omp_atomicwrite_scalar 0 4 1000
+OMP atomic-write scalar
+threads: 4
+iter per thread: 1000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0047388807983398
+max per op: 0.0000000473888080
+min per op: 0.0000000415207840
+med per op: 0.0000000445660244
+avg per op: 0.0000000445178605
+
+
+./omp_atomicwrite_scalar 0 5 1000
+OMP atomic-write scalar
+threads: 5
+iter per thread: 1000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0073629274749756
+max per op: 0.0000000736292747
+min per op: 0.0000000399807898
+med per op: 0.0000000648389264
+avg per op: 0.0000000599997375
+
+
+./omp_atomicwrite_scalar 0 6 1000
+OMP atomic-write scalar
+threads: 6
+iter per thread: 1000
+result: 4.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 4.000000
+result: 4.000000
+result: 0.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0118551278381348
+max per op: 0.0000001185512784
+min per op: 0.0000001001290701
+med per op: 0.0000001101951704
+avg per op: 0.0000001097500452
+
+
+./omp_atomicwrite_scalar 0 7 1000
+OMP atomic-write scalar
+threads: 7
+iter per thread: 1000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0157058750457764
+max per op: 0.0000001570587505
+min per op: 0.0000000986110875
+med per op: 0.0000001349181671
+avg per op: 0.0000001270072524
+
+
+./omp_atomicwrite_scalar 0 8 1000
+OMP atomic-write scalar
+threads: 8
+iter per thread: 1000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0230949125518799
+max per op: 0.0000002309491255
+min per op: 0.0000001985193663
+med per op: 0.0000002166262652
+avg per op: 0.0000002160783130
+
+
+./omp_atomicwrite_scalar 0 9 1000
+OMP atomic-write scalar
+threads: 9
+iter per thread: 1000
+result: 8.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 4.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0272299185485840
+max per op: 0.0000002722991855
+min per op: 0.0000001971894891
+med per op: 0.0000002712389941
+avg per op: 0.0000002401506970
+
+
+./omp_atomicwrite_scalar 0 10 1000
+OMP atomic-write scalar
+threads: 10
+iter per thread: 1000
+result: 8.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 0.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0334450623168945
+max per op: 0.0000003344506232
+min per op: 0.0000002687897948
+med per op: 0.0000003042652872
+avg per op: 0.0000003039242236
+
+
+./omp_atomicwrite_scalar 0 11 1000
+OMP atomic-write scalar
+threads: 11
+iter per thread: 1000
+result: 10.000000
+result: 0.000000
+result: 0.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0364619078063965
+max per op: 0.0000003646190781
+min per op: 0.0000002674200211
+med per op: 0.0000003620691107
+avg per op: 0.0000003216838468
+
+
+./omp_atomicwrite_scalar 0 12 1000
+OMP atomic-write scalar
+threads: 12
+iter per thread: 1000
+result: 9.000000
+result: 10.000000
+result: 10.000000
+result: 9.000000
+result: 10.000000
+result: 10.000000
+result: 6.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 9.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 10.000000
+result: 10.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.0540671391754151
+max per op: 0.0000005406713918
+min per op: 0.0000004821305304
+med per op: 0.0000004939401599
+avg per op: 0.0000005117003958
+
+
+./omp_atomicwrite_scalar 0 13 1000
+OMP atomic-write scalar
+threads: 13
+iter per thread: 1000
+result: 12.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0563928562011719
+max per op: 0.0000005639285620
+min per op: 0.0000004650002672
+med per op: 0.0000004939620464
+avg per op: 0.0000005178700027
+
+
+./omp_atomicwrite_scalar 0 14 1000
+OMP atomic-write scalar
+threads: 14
+iter per thread: 1000
+result: 0.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 6.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 4.000000
+result: 4.000000
+result: 9.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0565549664764404
+max per op: 0.0000005655496648
+min per op: 0.0000004556078586
+med per op: 0.0000005121554487
+avg per op: 0.0000005135158448
+
+
+./omp_atomicwrite_scalar 0 15 1000
+OMP atomic-write scalar
+threads: 15
+iter per thread: 1000
+result: 9.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 6.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0645459025268555
+max per op: 0.0000006454590253
+min per op: 0.0000005069803119
+med per op: 0.0000006278695201
+avg per op: 0.0000005796879224
+
+
+./omp_atomicwrite_scalar 0 16 1000
+OMP atomic-write scalar
+threads: 16
+iter per thread: 1000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 15.000000
+result: 1.000000
+result: 1.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0737329951782227
+max per op: 0.0000007373299518
+min per op: 0.0000006002300824
+med per op: 0.0000006716561625
+avg per op: 0.0000006717969090
+
+
+./omp_atomicwrite_scalar 0 17 1000
+OMP atomic-write scalar
+threads: 17
+iter per thread: 1000
+result: 8.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 6.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 8.000000
+result: 6.000000
+result: 6.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 10.000000
+result: 8.000000
+result: 8.000000
+result: 13.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0791029482879639
+max per op: 0.0000007910294829
+min per op: 0.0000006170291057
+med per op: 0.0000007657108131
+avg per op: 0.0000007104552618
+
+
+./omp_atomicwrite_scalar 0 18 1000
+OMP atomic-write scalar
+threads: 18
+iter per thread: 1000
+result: 6.000000
+result: 12.000000
+result: 12.000000
+result: 16.000000
+result: 12.000000
+result: 12.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+result: 12.000000
+result: 12.000000
+result: 12.000000
+result: 10.000000
+result: 12.000000
+result: 12.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 7.000000
+result: 12.000000
+result: 12.000000
+result: 7.000000
+result: 12.000000
+result: 12.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.0782989963836670
+max per op: 0.0000007829899638
+min per op: 0.0000006366600490
+med per op: 0.0000007095954201
+avg per op: 0.0000007142761399
+
+
+./omp_atomicwrite_scalar 0 19 1000
+OMP atomic-write scalar
+threads: 19
+iter per thread: 1000
+result: 1.000000
+result: 18.000000
+result: 18.000000
+result: 17.000000
+result: 18.000000
+result: 18.000000
+result: 3.000000
+result: 18.000000
+result: 18.000000
+result: 17.000000
+result: 18.000000
+result: 18.000000
+result: 17.000000
+result: 18.000000
+result: 18.000000
+result: 5.000000
+result: 18.000000
+result: 18.000000
+result: 5.000000
+result: 18.000000
+result: 18.000000
+result: 15.000000
+result: 18.000000
+result: 18.000000
+result: 17.000000
+result: 18.000000
+result: 18.000000
+runtime of all iter: 0.1001250292663575
+max per op: 0.0000010012502927
+min per op: 0.0000008031383144
+med per op: 0.0000009905384920
+avg per op: 0.0000009101698993
+
+
+./omp_atomicwrite_scalar 0 20 1000
+OMP atomic-write scalar
+threads: 20
+iter per thread: 1000
+result: 4.000000
+result: 8.000000
+result: 8.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 18.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.1057408967132568
+max per op: 0.0000010574089671
+min per op: 0.0000008679697849
+med per op: 0.0000009149901381
+avg per op: 0.0000009709851000
+
+
+./omp_atomicwrite_scalar 0 21 1000
+OMP atomic-write scalar
+threads: 21
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1134760691986084
+max per op: 0.0000011347606920
+min per op: 0.0000009497288423
+med per op: 0.0000010998699753
+avg per op: 0.0000010521103282
+
+
+./omp_atomicwrite_scalar 0 22 1000
+OMP atomic-write scalar
+threads: 22
+iter per thread: 1000
+result: 20.000000
+result: 10.000000
+result: 10.000000
+result: 0.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 20.000000
+result: 10.000000
+result: 10.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 21.000000
+result: 10.000000
+result: 10.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 21.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1021611835479736
+max per op: 0.0000010216118355
+min per op: 0.0000008349698599
+med per op: 0.0000009257892390
+avg per op: 0.0000009362812909
+
+
+./omp_atomicwrite_scalar 0 23 1000
+OMP atomic-write scalar
+threads: 23
+iter per thread: 1000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 6.000000
+result: 6.000000
+result: 21.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 7.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 22.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 7.000000
+result: 7.000000
+runtime of all iter: 0.1159939993438721
+max per op: 0.0000011599399934
+min per op: 0.0000009474104317
+med per op: 0.0000011239904222
+avg per op: 0.0000010641291848
+
+
+./omp_atomicwrite_scalar 0 24 1000
+OMP atomic-write scalar
+threads: 24
+iter per thread: 1000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 19.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 22.000000
+result: 22.000000
+result: 19.000000
+result: 1.000000
+result: 1.000000
+result: 20.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 22.000000
+result: 22.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 22.000000
+result: 1.000000
+result: 1.000000
+result: 20.000000
+result: 2.000000
+result: 2.000000
+runtime of all iter: 0.1199399471130371
+max per op: 0.0000011993994711
+min per op: 0.0000009640492200
+med per op: 0.0000011053099631
+avg per op: 0.0000010929336546
+
+
+./omp_atomicwrite_scalar 0 25 1000
+OMP atomic-write scalar
+threads: 25
+iter per thread: 1000
+result: 22.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 22.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 21.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.1047330627136230
+max per op: 0.0000010473306271
+min per op: 0.0000007942604453
+med per op: 0.0000009662093723
+avg per op: 0.0000009425243781
+
+
+./omp_atomicwrite_scalar 0 26 1000
+OMP atomic-write scalar
+threads: 26
+iter per thread: 1000
+result: 24.000000
+result: 20.000000
+result: 20.000000
+result: 15.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 20.000000
+result: 20.000000
+result: 5.000000
+result: 20.000000
+result: 20.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 17.000000
+result: 20.000000
+result: 20.000000
+result: 25.000000
+result: 0.000000
+result: 0.000000
+result: 6.000000
+result: 23.000000
+result: 23.000000
+runtime of all iter: 0.1235100243072509
+max per op: 0.0000012351002431
+min per op: 0.0000008843911101
+med per op: 0.0000011365661143
+avg per op: 0.0000011055575794
+
+
+./omp_atomicwrite_scalar 0 27 1000
+OMP atomic-write scalar
+threads: 27
+iter per thread: 1000
+result: 22.000000
+result: 10.000000
+result: 10.000000
+result: 25.000000
+result: 10.000000
+result: 10.000000
+result: 21.000000
+result: 10.000000
+result: 10.000000
+result: 2.000000
+result: 10.000000
+result: 10.000000
+result: 21.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 16.000000
+result: 10.000000
+result: 10.000000
+result: 4.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.1231800286865234
+max per op: 0.0000012318002869
+min per op: 0.0000008809715445
+med per op: 0.0000011527290678
+avg per op: 0.0000011069550125
+
+
+./omp_atomicwrite_scalar 0 28 1000
+OMP atomic-write scalar
+threads: 28
+iter per thread: 1000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 20.000000
+result: 20.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 25.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1508349358673096
+max per op: 0.0000015083493587
+min per op: 0.0000009179503571
+med per op: 0.0000013650095709
+avg per op: 0.0000013503536408
+
+
+./omp_atomicwrite_scalar 0 29 1000
+OMP atomic-write scalar
+threads: 29
+iter per thread: 1000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 25.000000
+result: 0.000000
+result: 0.000000
+result: 27.000000
+result: 24.000000
+result: 24.000000
+result: 7.000000
+result: 20.000000
+result: 20.000000
+result: 25.000000
+result: 24.000000
+result: 24.000000
+result: 13.000000
+result: 24.000000
+result: 24.000000
+result: 2.000000
+result: 24.000000
+result: 24.000000
+result: 11.000000
+result: 6.000000
+result: 6.000000
+result: 18.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1556528749237060
+max per op: 0.0000015565287492
+min per op: 0.0000010001617462
+med per op: 0.0000014153600888
+avg per op: 0.0000014080115995
+
+
+./omp_atomicwrite_scalar 0 30 1000
+OMP atomic-write scalar
+threads: 30
+iter per thread: 1000
+result: 8.000000
+result: 28.000000
+result: 28.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 28.000000
+result: 8.000000
+result: 8.000000
+result: 26.000000
+result: 8.000000
+result: 8.000000
+result: 29.000000
+result: 28.000000
+result: 28.000000
+result: 20.000000
+result: 28.000000
+result: 28.000000
+result: 29.000000
+result: 8.000000
+result: 8.000000
+result: 4.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+runtime of all iter: 0.1728040150604248
+max per op: 0.0000017280401506
+min per op: 0.0000009991602390
+med per op: 0.0000015970859514
+avg per op: 0.0000015764521353
+
+
+./omp_atomicwrite_scalar 0 31 1000
+OMP atomic-write scalar
+threads: 31
+iter per thread: 1000
+result: 25.000000
+result: 20.000000
+result: 20.000000
+result: 14.000000
+result: 20.000000
+result: 20.000000
+result: 24.000000
+result: 14.000000
+result: 14.000000
+result: 25.000000
+result: 14.000000
+result: 14.000000
+result: 27.000000
+result: 20.000000
+result: 20.000000
+result: 11.000000
+result: 14.000000
+result: 14.000000
+result: 2.000000
+result: 22.000000
+result: 22.000000
+result: 23.000000
+result: 4.000000
+result: 4.000000
+result: 29.000000
+result: 22.000000
+result: 22.000000
+runtime of all iter: 0.1579019291381836
+max per op: 0.0000015790192914
+min per op: 0.0000009695101659
+med per op: 0.0000015343709348
+avg per op: 0.0000014268218854
+
+
+./omp_atomicwrite_scalar 0 32 1000
+OMP atomic-write scalar
+threads: 32
+iter per thread: 1000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 29.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 25.000000
+result: 22.000000
+result: 22.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 22.000000
+result: 22.000000
+result: 5.000000
+result: 22.000000
+result: 22.000000
+result: 5.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.1630190605773926
+max per op: 0.0000016301906058
+min per op: 0.0000008873600714
+med per op: 0.0000015351406893
+avg per op: 0.0000014755282691
+
+
+./omp_atomicwrite_scalar 0 33 1000
+OMP atomic-write scalar
+threads: 33
+iter per thread: 1000
+result: 6.000000
+result: 30.000000
+result: 30.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 13.000000
+result: 14.000000
+result: 14.000000
+result: 7.000000
+result: 14.000000
+result: 14.000000
+result: 0.000000
+result: 32.000000
+result: 32.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 25.000000
+result: 32.000000
+result: 32.000000
+result: 5.000000
+result: 30.000000
+result: 30.000000
+result: 21.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.1766460743408203
+max per op: 0.0000017664607434
+min per op: 0.0000009305007759
+med per op: 0.0000016569795497
+avg per op: 0.0000016262614704
+
+
+./omp_atomicwrite_scalar 0 34 1000
+OMP atomic-write scalar
+threads: 34
+iter per thread: 1000
+result: 24.000000
+result: 26.000000
+result: 26.000000
+result: 29.000000
+result: 8.000000
+result: 8.000000
+result: 29.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 24.000000
+result: 10.000000
+result: 10.000000
+result: 3.000000
+result: 27.000000
+result: 27.000000
+result: 26.000000
+result: 27.000000
+result: 27.000000
+result: 27.000000
+result: 27.000000
+result: 27.000000
+result: 12.000000
+result: 7.000000
+result: 7.000000
+runtime of all iter: 0.1875458584442139
+max per op: 0.0000018754585844
+min per op: 0.0000009707797464
+med per op: 0.0000017852254694
+avg per op: 0.0000017350296186
+
+
+./omp_atomicwrite_scalar 0 35 1000
+OMP atomic-write scalar
+threads: 35
+iter per thread: 1000
+result: 8.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 20.000000
+result: 20.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 23.000000
+result: 20.000000
+result: 20.000000
+result: 9.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 31.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 5.000000
+result: 5.000000
+runtime of all iter: 0.1901398133239746
+max per op: 0.0000019013981332
+min per op: 0.0000010307602396
+med per op: 0.0000018552288638
+avg per op: 0.0000017684459592
+
+
+./omp_atomicwrite_scalar 0 36 1000
+OMP atomic-write scalar
+threads: 36
+iter per thread: 1000
+result: 10.000000
+result: 12.000000
+result: 12.000000
+result: 29.000000
+result: 26.000000
+result: 26.000000
+result: 31.000000
+result: 10.000000
+result: 10.000000
+result: 35.000000
+result: 12.000000
+result: 12.000000
+result: 7.000000
+result: 34.000000
+result: 34.000000
+result: 32.000000
+result: 10.000000
+result: 10.000000
+result: 26.000000
+result: 34.000000
+result: 34.000000
+result: 24.000000
+result: 10.000000
+result: 10.000000
+result: 34.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1950828523254394
+max per op: 0.0000019508285233
+min per op: 0.0000008746904469
+med per op: 0.0000018607936427
+avg per op: 0.0000018306838607
+
+
+./omp_atomicwrite_scalar 0 37 1000
+OMP atomic-write scalar
+threads: 37
+iter per thread: 1000
+result: 28.000000
+result: 4.000000
+result: 4.000000
+result: 9.000000
+result: 24.000000
+result: 24.000000
+result: 33.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 4.000000
+result: 4.000000
+result: 35.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 24.000000
+result: 24.000000
+result: 25.000000
+result: 24.000000
+result: 24.000000
+result: 19.000000
+result: 24.000000
+result: 24.000000
+runtime of all iter: 0.2045831515655518
+max per op: 0.0000020458315157
+min per op: 0.0000009338196880
+med per op: 0.0000019931604872
+avg per op: 0.0000019221548208
+
+
+./omp_atomicwrite_scalar 0 38 1000
+OMP atomic-write scalar
+threads: 38
+iter per thread: 1000
+result: 32.000000
+result: 8.000000
+result: 8.000000
+result: 29.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 30.000000
+result: 30.000000
+result: 25.000000
+result: 31.000000
+result: 31.000000
+result: 9.000000
+result: 5.000000
+result: 5.000000
+result: 17.000000
+result: 21.000000
+result: 21.000000
+result: 36.000000
+result: 5.000000
+result: 5.000000
+result: 12.000000
+result: 21.000000
+result: 21.000000
+runtime of all iter: 0.2221418827819824
+max per op: 0.0000022214188278
+min per op: 0.0000010093903371
+med per op: 0.0000021415545493
+avg per op: 0.0000021231257786
+
+
+./omp_atomicwrite_scalar 0 39 1000
+OMP atomic-write scalar
+threads: 39
+iter per thread: 1000
+result: 20.000000
+result: 30.000000
+result: 30.000000
+result: 1.000000
+result: 12.000000
+result: 12.000000
+result: 33.000000
+result: 30.000000
+result: 30.000000
+result: 30.000000
+result: 30.000000
+result: 30.000000
+result: 15.000000
+result: 12.000000
+result: 12.000000
+result: 28.000000
+result: 12.000000
+result: 12.000000
+result: 14.000000
+result: 30.000000
+result: 30.000000
+result: 25.000000
+result: 12.000000
+result: 12.000000
+result: 29.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.2191249913635255
+max per op: 0.0000021912499136
+min per op: 0.0000013318017126
+med per op: 0.0000021853109068
+avg per op: 0.0000020990324794
+
+
+./omp_atomicwrite_scalar 0 40 1000
+OMP atomic-write scalar
+threads: 40
+iter per thread: 1000
+result: 37.000000
+result: 0.000000
+result: 0.000000
+result: 36.000000
+result: 0.000000
+result: 0.000000
+result: 29.000000
+result: 20.000000
+result: 20.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 17.000000
+result: 34.000000
+result: 34.000000
+result: 13.000000
+result: 17.000000
+result: 17.000000
+result: 8.000000
+result: 31.000000
+result: 31.000000
+result: 14.000000
+result: 17.000000
+result: 17.000000
+result: 32.000000
+result: 31.000000
+result: 31.000000
+runtime of all iter: 0.2317950160217285
+max per op: 0.0000023179501602
+min per op: 0.0000021351605946
+med per op: 0.0000022605050431
+avg per op: 0.0000022573367800
+
+
+./omp_atomicwrite_scalar 0 41 1000
+OMP atomic-write scalar
+threads: 41
+iter per thread: 1000
+result: 38.000000
+result: 27.000000
+result: 27.000000
+result: 6.000000
+result: 7.000000
+result: 7.000000
+result: 13.000000
+result: 3.000000
+result: 3.000000
+result: 13.000000
+result: 27.000000
+result: 27.000000
+result: 36.000000
+result: 2.000000
+result: 2.000000
+result: 4.000000
+result: 20.000000
+result: 20.000000
+result: 2.000000
+result: 11.000000
+result: 11.000000
+result: 2.000000
+result: 3.000000
+result: 3.000000
+result: 39.000000
+result: 11.000000
+result: 11.000000
+runtime of all iter: 0.2307049355621338
+max per op: 0.0000023070493556
+min per op: 0.0000021027794012
+med per op: 0.0000022086916418
+avg per op: 0.0000022360958103
+
+
+./omp_atomicwrite_scalar 0 42 1000
+OMP atomic-write scalar
+threads: 42
+iter per thread: 1000
+result: 34.000000
+result: 23.000000
+result: 23.000000
+result: 24.000000
+result: 2.000000
+result: 2.000000
+result: 3.000000
+result: 28.000000
+result: 28.000000
+result: 3.000000
+result: 9.000000
+result: 9.000000
+result: 19.000000
+result: 31.000000
+result: 31.000000
+result: 1.000000
+result: 35.000000
+result: 35.000000
+result: 16.000000
+result: 29.000000
+result: 29.000000
+result: 41.000000
+result: 37.000000
+result: 37.000000
+result: 23.000000
+result: 40.000000
+result: 40.000000
+runtime of all iter: 0.2890390666503907
+max per op: 0.0000028903906665
+min per op: 0.0000027687495665
+med per op: 0.0000028613855044
+avg per op: 0.0000028468986847
+
+
+./omp_atomicwrite_scalar 0 43 1000
+OMP atomic-write scalar
+threads: 43
+iter per thread: 1000
+result: 14.000000
+result: 30.000000
+result: 30.000000
+result: 27.000000
+result: 10.000000
+result: 10.000000
+result: 26.000000
+result: 20.000000
+result: 20.000000
+result: 27.000000
+result: 30.000000
+result: 30.000000
+result: 31.000000
+result: 30.000000
+result: 30.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 42.000000
+result: 30.000000
+result: 30.000000
+result: 3.000000
+result: 21.000000
+result: 21.000000
+result: 39.000000
+result: 3.000000
+result: 3.000000
+runtime of all iter: 0.2454100438842773
+max per op: 0.0000024541004388
+min per op: 0.0000021930288072
+med per op: 0.0000023291592084
+avg per op: 0.0000023425426940
+
+
+./omp_atomicwrite_scalar 0 44 1000
+OMP atomic-write scalar
+threads: 44
+iter per thread: 1000
+result: 40.000000
+result: 19.000000
+result: 19.000000
+result: 42.000000
+result: 14.000000
+result: 14.000000
+result: 4.000000
+result: 14.000000
+result: 14.000000
+result: 33.000000
+result: 25.000000
+result: 25.000000
+result: 13.000000
+result: 16.000000
+result: 16.000000
+result: 36.000000
+result: 43.000000
+result: 43.000000
+result: 38.000000
+result: 16.000000
+result: 16.000000
+result: 42.000000
+result: 29.000000
+result: 29.000000
+result: 32.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.2467821113891602
+max per op: 0.0000024678211139
+min per op: 0.0000021489811128
+med per op: 0.0000023665698029
+avg per op: 0.0000023337736929
+
+
+./omp_atomicwrite_scalar 1 1 1000
+OMP atomic-write scalar
+threads: 1
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0000279456787109
+max per op: 0.0000000002794568
+min per op: 0.0000000002794568
+med per op: 0.0000000002794568
+avg per op: 0.0000000002794568
+
+
+./omp_atomicwrite_scalar 1 2 1000
+OMP atomic-write scalar
+threads: 2
+iter per thread: 1000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0010090668334961
+max per op: 0.0000000100906683
+min per op: 0.0000000100607454
+med per op: 0.0000000100760168
+avg per op: 0.0000000100760168
+
+
+./omp_atomicwrite_scalar 1 3 1000
+OMP atomic-write scalar
+threads: 3
+iter per thread: 1000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0017989868774414
+max per op: 0.0000000179898688
+min per op: 0.0000000108298595
+med per op: 0.0000000178706595
+avg per op: 0.0000000155634128
+
+
+./omp_atomicwrite_scalar 1 4 1000
+OMP atomic-write scalar
+threads: 4
+iter per thread: 1000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0047011845245361
+max per op: 0.0000000470118452
+min per op: 0.0000000352000729
+med per op: 0.0000000418099460
+avg per op: 0.0000000415050879
+
+
+./omp_atomicwrite_scalar 1 5 1000
+OMP atomic-write scalar
+threads: 5
+iter per thread: 1000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0071938834991455
+max per op: 0.0000000719388350
+min per op: 0.0000000409104527
+med per op: 0.0000000708220415
+avg per op: 0.0000000593618335
+
+
+./omp_atomicwrite_scalar 1 6 1000
+OMP atomic-write scalar
+threads: 6
+iter per thread: 1000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0142468353576660
+max per op: 0.0000001424683536
+min per op: 0.0000001149996396
+med per op: 0.0000001292451749
+avg per op: 0.0000001293624843
+
+
+./omp_atomicwrite_scalar 1 7 1000
+OMP atomic-write scalar
+threads: 7
+iter per thread: 1000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 6.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0150241041412355
+max per op: 0.0000001502410414
+min per op: 0.0000001033688905
+med per op: 0.0000001481103078
+avg per op: 0.0000001298679673
+
+
+./omp_atomicwrite_scalar 1 8 1000
+OMP atomic-write scalar
+threads: 8
+iter per thread: 1000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0225899568634034
+max per op: 0.0000002258995686
+min per op: 0.0000001700298985
+med per op: 0.0000001932993201
+avg per op: 0.0000001957074999
+
+
+./omp_atomicwrite_scalar 1 9 1000
+OMP atomic-write scalar
+threads: 9
+iter per thread: 1000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 0.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0290650782623291
+max per op: 0.0000002906507826
+min per op: 0.0000002204997641
+med per op: 0.0000002851809691
+avg per op: 0.0000002589321766
+
+
+./omp_atomicwrite_scalar 1 10 1000
+OMP atomic-write scalar
+threads: 10
+iter per thread: 1000
+result: 9.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 9.000000
+result: 6.000000
+result: 6.000000
+result: 9.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0332270866241455
+max per op: 0.0000003322708662
+min per op: 0.0000002619915117
+med per op: 0.0000002992400214
+avg per op: 0.0000002990173822
+
+
+./omp_atomicwrite_scalar 1 11 1000
+OMP atomic-write scalar
+threads: 11
+iter per thread: 1000
+result: 10.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 0.000000
+result: 10.000000
+result: 10.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0446641804504394
+max per op: 0.0000004466418045
+min per op: 0.0000003419703967
+med per op: 0.0000004329811287
+avg per op: 0.0000003971604660
+
+
+./omp_atomicwrite_scalar 1 12 1000
+OMP atomic-write scalar
+threads: 12
+iter per thread: 1000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0478609158325195
+max per op: 0.0000004786091583
+min per op: 0.0000003831796936
+med per op: 0.0000004301050528
+avg per op: 0.0000004316617218
+
+
+./omp_atomicwrite_scalar 1 13 1000
+OMP atomic-write scalar
+threads: 13
+iter per thread: 1000
+result: 12.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 0.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0504859331207275
+max per op: 0.0000005048593312
+min per op: 0.0000003868999786
+med per op: 0.0000004918386618
+avg per op: 0.0000004515628148
+
+
+./omp_atomicwrite_scalar 1 14 1000
+OMP atomic-write scalar
+threads: 14
+iter per thread: 1000
+result: 13.000000
+result: 8.000000
+result: 8.000000
+result: 0.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 10.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0601429905548096
+max per op: 0.0000006014299055
+min per op: 0.0000004866211816
+med per op: 0.0000005476401759
+avg per op: 0.0000005463904935
+
+
+./omp_atomicwrite_scalar 1 15 1000
+OMP atomic-write scalar
+threads: 15
+iter per thread: 1000
+result: 10.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0663810562133789
+max per op: 0.0000006638105621
+min per op: 0.0000005187711876
+med per op: 0.0000006505300581
+avg per op: 0.0000005953839149
+
+
+./omp_atomicwrite_scalar 1 16 1000
+OMP atomic-write scalar
+threads: 16
+iter per thread: 1000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 15.000000
+result: 1.000000
+result: 1.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0797648342590332
+max per op: 0.0000007976483426
+min per op: 0.0000006483115646
+med per op: 0.0000007292603233
+avg per op: 0.0000007274009292
+
+
+./omp_atomicwrite_scalar 1 17 1000
+OMP atomic-write scalar
+threads: 17
+iter per thread: 1000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 15.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0785820314178466
+max per op: 0.0000007858203142
+min per op: 0.0000006158088445
+med per op: 0.0000007726193350
+avg per op: 0.0000007052392405
+
+
+./omp_atomicwrite_scalar 1 18 1000
+OMP atomic-write scalar
+threads: 18
+iter per thread: 1000
+result: 6.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0990849341888428
+max per op: 0.0000009908493419
+min per op: 0.0000008287514809
+med per op: 0.0000009138501298
+avg per op: 0.0000009134255388
+
+
+./omp_atomicwrite_scalar 1 19 1000
+OMP atomic-write scalar
+threads: 19
+iter per thread: 1000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 17.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 17.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 17.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.1050050151367188
+max per op: 0.0000010500501514
+min per op: 0.0000008444300899
+med per op: 0.0000009826104012
+avg per op: 0.0000009580528362
+
+
+./omp_atomicwrite_scalar 1 20 1000
+OMP atomic-write scalar
+threads: 20
+iter per thread: 1000
+result: 0.000000
+result: 6.000000
+result: 6.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 0.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 0.000000
+result: 8.000000
+result: 8.000000
+result: 19.000000
+result: 6.000000
+result: 6.000000
+result: 0.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1131408532409668
+max per op: 0.0000011314085324
+min per op: 0.0000009729401509
+med per op: 0.0000010219911381
+avg per op: 0.0000010553024611
+
+
+./omp_atomicwrite_scalar 1 21 1000
+OMP atomic-write scalar
+threads: 21
+iter per thread: 1000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 19.000000
+result: 6.000000
+result: 6.000000
+result: 12.000000
+result: 6.000000
+result: 6.000000
+result: 19.000000
+result: 6.000000
+result: 6.000000
+result: 19.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1113840279235840
+max per op: 0.0000011138402792
+min per op: 0.0000009102207333
+med per op: 0.0000009673894295
+avg per op: 0.0000010167514905
+
+
+./omp_atomicwrite_scalar 1 22 1000
+OMP atomic-write scalar
+threads: 22
+iter per thread: 1000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 4.000000
+result: 16.000000
+result: 16.000000
+result: 4.000000
+result: 16.000000
+result: 16.000000
+result: 21.000000
+result: 16.000000
+result: 16.000000
+result: 14.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 4.000000
+result: 19.000000
+result: 19.000000
+runtime of all iter: 0.1155891563262940
+max per op: 0.0000011558915633
+min per op: 0.0000009133497786
+med per op: 0.0000009959455183
+avg per op: 0.0000010429145542
+
+
+./omp_atomicwrite_scalar 1 23 1000
+OMP atomic-write scalar
+threads: 23
+iter per thread: 1000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 22.000000
+result: 22.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 22.000000
+result: 22.000000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 12.000000
+result: 22.000000
+result: 22.000000
+runtime of all iter: 0.1202710372009277
+max per op: 0.0000012027103720
+min per op: 0.0000009778189340
+med per op: 0.0000010627595805
+avg per op: 0.0000011006162810
+
+
+./omp_atomicwrite_scalar 1 24 1000
+OMP atomic-write scalar
+threads: 24
+iter per thread: 1000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 22.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 4.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.1267010741729737
+max per op: 0.0000012670107417
+min per op: 0.0000009627608888
+med per op: 0.0000011156890850
+avg per op: 0.0000011381275419
+
+
+./omp_atomicwrite_scalar 1 25 1000
+OMP atomic-write scalar
+threads: 25
+iter per thread: 1000
+result: 20.000000
+result: 8.000000
+result: 8.000000
+result: 20.000000
+result: 24.000000
+result: 24.000000
+result: 23.000000
+result: 8.000000
+result: 8.000000
+result: 21.000000
+result: 24.000000
+result: 24.000000
+result: 22.000000
+result: 24.000000
+result: 24.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.1228551511993408
+max per op: 0.0000012285515120
+min per op: 0.0000009686908107
+med per op: 0.0000011644791789
+avg per op: 0.0000011291575725
+
+
+./omp_atomicwrite_scalar 1 26 1000
+OMP atomic-write scalar
+threads: 26
+iter per thread: 1000
+result: 1.000000
+result: 24.000000
+result: 24.000000
+result: 25.000000
+result: 22.000000
+result: 22.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 24.000000
+result: 24.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 25.000000
+result: 25.000000
+runtime of all iter: 0.1352429247741699
+max per op: 0.0000013524292477
+min per op: 0.0000010058191725
+med per op: 0.0000012580492823
+avg per op: 0.0000012226276763
+
+
+./omp_atomicwrite_scalar 1 27 1000
+OMP atomic-write scalar
+threads: 27
+iter per thread: 1000
+result: 24.000000
+result: 0.000000
+result: 0.000000
+result: 6.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 23.000000
+result: 20.000000
+result: 20.000000
+result: 4.000000
+result: 20.000000
+result: 20.000000
+result: 25.000000
+result: 6.000000
+result: 6.000000
+result: 6.000000
+result: 22.000000
+result: 22.000000
+result: 25.000000
+result: 6.000000
+result: 6.000000
+result: 10.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1181239600372314
+max per op: 0.0000011812396004
+min per op: 0.0000008693313205
+med per op: 0.0000011335688638
+avg per op: 0.0000010728247733
+
+
+./omp_atomicwrite_scalar 1 28 1000
+OMP atomic-write scalar
+threads: 28
+iter per thread: 1000
+result: 4.000000
+result: 20.000000
+result: 20.000000
+result: 27.000000
+result: 0.000000
+result: 0.000000
+result: 26.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 15.000000
+result: 4.000000
+result: 4.000000
+result: 27.000000
+result: 4.000000
+result: 4.000000
+result: 27.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 24.000000
+result: 24.000000
+result: 27.000000
+result: 24.000000
+result: 24.000000
+runtime of all iter: 0.1506590254364013
+max per op: 0.0000015065902544
+min per op: 0.0000009031900699
+med per op: 0.0000013614603790
+avg per op: 0.0000013449436361
+
+
+./omp_atomicwrite_scalar 1 29 1000
+OMP atomic-write scalar
+threads: 29
+iter per thread: 1000
+result: 20.000000
+result: 6.000000
+result: 6.000000
+result: 27.000000
+result: 26.000000
+result: 26.000000
+result: 21.000000
+result: 26.000000
+result: 26.000000
+result: 23.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 26.000000
+result: 26.000000
+result: 11.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1501761291809082
+max per op: 0.0000015017612918
+min per op: 0.0000009049512061
+med per op: 0.0000013593291551
+avg per op: 0.0000013433476503
+
+
+./omp_atomicwrite_scalar 1 30 1000
+OMP atomic-write scalar
+threads: 30
+iter per thread: 1000
+result: 24.000000
+result: 28.000000
+result: 28.000000
+result: 26.000000
+result: 28.000000
+result: 28.000000
+result: 3.000000
+result: 28.000000
+result: 28.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 13.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 6.000000
+result: 28.000000
+result: 28.000000
+result: 16.000000
+result: 8.000000
+result: 8.000000
+result: 25.000000
+result: 28.000000
+result: 28.000000
+runtime of all iter: 0.1661138115997315
+max per op: 0.0000016611381160
+min per op: 0.0000009743093951
+med per op: 0.0000015365838976
+avg per op: 0.0000015146734870
+
+
+./omp_atomicwrite_scalar 1 31 1000
+OMP atomic-write scalar
+threads: 31
+iter per thread: 1000
+result: 24.000000
+result: 22.000000
+result: 22.000000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 17.000000
+result: 1.000000
+result: 1.000000
+result: 29.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 4.000000
+result: 22.000000
+result: 22.000000
+result: 25.000000
+result: 1.000000
+result: 1.000000
+result: 4.000000
+result: 22.000000
+result: 22.000000
+result: 5.000000
+result: 22.000000
+result: 22.000000
+runtime of all iter: 0.1585489088745117
+max per op: 0.0000015854890887
+min per op: 0.0000010220385652
+med per op: 0.0000015560603000
+avg per op: 0.0000014514140753
+
+
+./omp_atomicwrite_scalar 1 32 1000
+OMP atomic-write scalar
+threads: 32
+iter per thread: 1000
+result: 17.000000
+result: 0.000000
+result: 0.000000
+result: 27.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 25.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 12.000000
+result: 12.000000
+result: 27.000000
+result: 14.000000
+result: 14.000000
+result: 27.000000
+result: 12.000000
+result: 12.000000
+result: 27.000000
+result: 12.000000
+result: 12.000000
+result: 27.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.1864439452362061
+max per op: 0.0000018644394524
+min per op: 0.0000009453209210
+med per op: 0.0000017333049300
+avg per op: 0.0000017174128914
+
+
+./omp_atomicwrite_scalar 1 33 1000
+OMP atomic-write scalar
+threads: 33
+iter per thread: 1000
+result: 14.000000
+result: 30.000000
+result: 30.000000
+result: 17.000000
+result: 30.000000
+result: 30.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 14.000000
+result: 30.000000
+result: 30.000000
+result: 19.000000
+result: 12.000000
+result: 12.000000
+result: 23.000000
+result: 12.000000
+result: 12.000000
+result: 8.000000
+result: 30.000000
+result: 30.000000
+result: 6.000000
+result: 12.000000
+result: 12.000000
+result: 27.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.2018459579315185
+max per op: 0.0000020184595793
+min per op: 0.0000010100006363
+med per op: 0.0000019194014281
+avg per op: 0.0000019027171983
+
+
+./omp_atomicwrite_scalar 1 34 1000
+OMP atomic-write scalar
+threads: 34
+iter per thread: 1000
+result: 13.000000
+result: 30.000000
+result: 30.000000
+result: 8.000000
+result: 30.000000
+result: 30.000000
+result: 23.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 22.000000
+result: 3.000000
+result: 3.000000
+result: 26.000000
+result: 31.000000
+result: 31.000000
+result: 6.000000
+result: 31.000000
+result: 31.000000
+result: 28.000000
+result: 31.000000
+result: 31.000000
+runtime of all iter: 0.2126388114471436
+max per op: 0.0000021263881145
+min per op: 0.0000010747702966
+med per op: 0.0000020312352596
+avg per op: 0.0000020111075848
+
+
+./omp_atomicwrite_scalar 1 35 1000
+OMP atomic-write scalar
+threads: 35
+iter per thread: 1000
+result: 26.000000
+result: 14.000000
+result: 14.000000
+result: 29.000000
+result: 14.000000
+result: 14.000000
+result: 7.000000
+result: 28.000000
+result: 28.000000
+result: 32.000000
+result: 28.000000
+result: 28.000000
+result: 1.000000
+result: 28.000000
+result: 28.000000
+result: 18.000000
+result: 28.000000
+result: 28.000000
+result: 27.000000
+result: 28.000000
+result: 28.000000
+result: 17.000000
+result: 28.000000
+result: 28.000000
+result: 31.000000
+result: 28.000000
+result: 28.000000
+runtime of all iter: 0.2052089379882812
+max per op: 0.0000020520893799
+min per op: 0.0000010301490875
+med per op: 0.0000019393104185
+avg per op: 0.0000019389920376
+
+
+./omp_atomicwrite_scalar 1 36 1000
+OMP atomic-write scalar
+threads: 36
+iter per thread: 1000
+result: 8.000000
+result: 18.000000
+result: 18.000000
+result: 23.000000
+result: 18.000000
+result: 18.000000
+result: 27.000000
+result: 18.000000
+result: 18.000000
+result: 15.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 15.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 8.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 18.000000
+result: 18.000000
+runtime of all iter: 0.2192649762268066
+max per op: 0.0000021926497623
+min per op: 0.0000010345104100
+med per op: 0.0000020964801514
+avg per op: 0.0000021041356251
+
+
+./omp_atomicwrite_scalar 1 37 1000
+OMP atomic-write scalar
+threads: 37
+iter per thread: 1000
+result: 22.000000
+result: 32.000000
+result: 32.000000
+result: 27.000000
+result: 32.000000
+result: 32.000000
+result: 17.000000
+result: 32.000000
+result: 32.000000
+result: 35.000000
+result: 12.000000
+result: 12.000000
+result: 35.000000
+result: 12.000000
+result: 12.000000
+result: 29.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 2.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.2175191204528809
+max per op: 0.0000021751912045
+min per op: 0.0000010154508368
+med per op: 0.0000020717608398
+avg per op: 0.0000020866021335
+
+
+./omp_atomicwrite_scalar 1 38 1000
+OMP atomic-write scalar
+threads: 38
+iter per thread: 1000
+result: 1.000000
+result: 12.000000
+result: 12.000000
+result: 17.000000
+result: 32.000000
+result: 32.000000
+result: 15.000000
+result: 32.000000
+result: 32.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 23.000000
+result: 25.000000
+result: 25.000000
+result: 16.000000
+result: 25.000000
+result: 25.000000
+result: 0.000000
+result: 25.000000
+result: 25.000000
+result: 22.000000
+result: 25.000000
+result: 25.000000
+result: 22.000000
+result: 25.000000
+result: 25.000000
+runtime of all iter: 0.2225188300018310
+max per op: 0.0000022251883000
+min per op: 0.0000009523492239
+med per op: 0.0000021442464152
+avg per op: 0.0000021291984716
+
+
+./omp_atomicwrite_scalar 1 39 1000
+OMP atomic-write scalar
+threads: 39
+iter per thread: 1000
+result: 1.000000
+result: 32.000000
+result: 32.000000
+result: 7.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 9.000000
+result: 30.000000
+result: 30.000000
+result: 37.000000
+result: 10.000000
+result: 10.000000
+result: 3.000000
+result: 30.000000
+result: 30.000000
+result: 31.000000
+result: 32.000000
+result: 32.000000
+result: 15.000000
+result: 30.000000
+result: 30.000000
+result: 14.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.2367429857177735
+max per op: 0.0000023674298572
+min per op: 0.0000022354695251
+med per op: 0.0000022648602420
+avg per op: 0.0000023088146373
+
+
+./omp_atomicwrite_scalar 1 40 1000
+OMP atomic-write scalar
+threads: 40
+iter per thread: 1000
+result: 28.000000
+result: 1.000000
+result: 1.000000
+result: 30.000000
+result: 22.000000
+result: 22.000000
+result: 32.000000
+result: 30.000000
+result: 30.000000
+result: 9.000000
+result: 30.000000
+result: 30.000000
+result: 39.000000
+result: 33.000000
+result: 33.000000
+result: 1.000000
+result: 13.000000
+result: 13.000000
+result: 15.000000
+result: 33.000000
+result: 33.000000
+result: 30.000000
+result: 33.000000
+result: 33.000000
+result: 39.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.2357361097717285
+max per op: 0.0000023573610977
+min per op: 0.0000022107794089
+med per op: 0.0000022985091608
+avg per op: 0.0000022986495538
+
+
+./omp_atomicwrite_scalar 1 41 1000
+OMP atomic-write scalar
+threads: 41
+iter per thread: 1000
+result: 11.000000
+result: 37.000000
+result: 37.000000
+result: 8.000000
+result: 13.000000
+result: 13.000000
+result: 6.000000
+result: 13.000000
+result: 13.000000
+result: 29.000000
+result: 37.000000
+result: 37.000000
+result: 36.000000
+result: 30.000000
+result: 30.000000
+result: 8.000000
+result: 26.000000
+result: 26.000000
+result: 40.000000
+result: 13.000000
+result: 13.000000
+result: 23.000000
+result: 37.000000
+result: 37.000000
+result: 15.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.2450810171356201
+max per op: 0.0000024508101714
+min per op: 0.0000022386486786
+med per op: 0.0000023548901685
+avg per op: 0.0000023797418723
+
+
+./omp_atomicwrite_scalar 1 42 1000
+OMP atomic-write scalar
+threads: 42
+iter per thread: 1000
+result: 33.000000
+result: 27.000000
+result: 27.000000
+result: 28.000000
+result: 8.000000
+result: 8.000000
+result: 4.000000
+result: 23.000000
+result: 23.000000
+result: 22.000000
+result: 7.000000
+result: 7.000000
+result: 26.000000
+result: 27.000000
+result: 27.000000
+result: 6.000000
+result: 36.000000
+result: 36.000000
+result: 29.000000
+result: 27.000000
+result: 27.000000
+result: 3.000000
+result: 15.000000
+result: 15.000000
+result: 35.000000
+result: 15.000000
+result: 15.000000
+runtime of all iter: 0.2422510429229737
+max per op: 0.0000024225104292
+min per op: 0.0000022099295764
+med per op: 0.0000023248354639
+avg per op: 0.0000023496897202
+
+
+./omp_atomicwrite_scalar 1 43 1000
+OMP atomic-write scalar
+threads: 43
+iter per thread: 1000
+result: 42.000000
+result: 38.000000
+result: 38.000000
+result: 16.000000
+result: 15.000000
+result: 15.000000
+result: 2.000000
+result: 3.000000
+result: 3.000000
+result: 37.000000
+result: 37.000000
+result: 37.000000
+result: 3.000000
+result: 39.000000
+result: 39.000000
+result: 24.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 31.000000
+result: 31.000000
+result: 10.000000
+result: 15.000000
+result: 15.000000
+result: 21.000000
+result: 25.000000
+result: 25.000000
+runtime of all iter: 0.2517871414947510
+max per op: 0.0000025178714149
+min per op: 0.0000022499886479
+med per op: 0.0000023978007161
+avg per op: 0.0000024075752047
+
+
+./omp_atomicwrite_scalar 1 44 1000
+OMP atomic-write scalar
+threads: 44
+iter per thread: 1000
+result: 27.000000
+result: 10.000000
+result: 10.000000
+result: 33.000000
+result: 24.000000
+result: 24.000000
+result: 42.000000
+result: 24.000000
+result: 24.000000
+result: 15.000000
+result: 24.000000
+result: 24.000000
+result: 38.000000
+result: 34.000000
+result: 34.000000
+result: 10.000000
+result: 16.000000
+result: 16.000000
+result: 23.000000
+result: 24.000000
+result: 24.000000
+result: 33.000000
+result: 31.000000
+result: 31.000000
+result: 42.000000
+result: 26.000000
+result: 26.000000
+runtime of all iter: 0.2591709208984375
+max per op: 0.0000025917092090
+min per op: 0.0000022410707228
+med per op: 0.0000025060941822
+avg per op: 0.0000024596491253
+
+
+./omp_atomicwrite_scalar 2 1 1000
+OMP atomic-write scalar
+threads: 1
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0000280028533935
+max per op: 0.0000000002800285
+min per op: 0.0000000002800285
+med per op: 0.0000000002800285
+avg per op: 0.0000000002800285
+
+
+./omp_atomicwrite_scalar 2 2 1000
+OMP atomic-write scalar
+threads: 2
+iter per thread: 1000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0009169212951661
+max per op: 0.0000000091692130
+min per op: 0.0000000090688968
+med per op: 0.0000000091193767
+avg per op: 0.0000000091193767
+
+
+./omp_atomicwrite_scalar 2 3 1000
+OMP atomic-write scalar
+threads: 3
+iter per thread: 1000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0017511159210205
+max per op: 0.0000000175111592
+min per op: 0.0000000053401212
+med per op: 0.0000000174389119
+avg per op: 0.0000000139535637
+
+
+./omp_atomicwrite_scalar 2 4 1000
+OMP atomic-write scalar
+threads: 4
+iter per thread: 1000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0053849786376954
+max per op: 0.0000000538497864
+min per op: 0.0000000413678795
+med per op: 0.0000000480795279
+avg per op: 0.0000000479792267
+
+
+./omp_atomicwrite_scalar 2 5 1000
+OMP atomic-write scalar
+threads: 5
+iter per thread: 1000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0065320638885498
+max per op: 0.0000000653206389
+min per op: 0.0000000385497272
+med per op: 0.0000000652306866
+avg per op: 0.0000000546880553
+
+
+./omp_atomicwrite_scalar 2 6 1000
+OMP atomic-write scalar
+threads: 6
+iter per thread: 1000
+result: 4.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0145210550842285
+max per op: 0.0000001452105508
+min per op: 0.0000001152899146
+med per op: 0.0000001320445797
+avg per op: 0.0000001320919152
+
+
+./omp_atomicwrite_scalar 2 7 1000
+OMP atomic-write scalar
+threads: 7
+iter per thread: 1000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0162399900665283
+max per op: 0.0000001623999007
+min per op: 0.0000001100790388
+med per op: 0.0000001591411565
+avg per op: 0.0000001408197832
+
+
+./omp_atomicwrite_scalar 2 8 1000
+OMP atomic-write scalar
+threads: 8
+iter per thread: 1000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 4.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0225950503234863
+max per op: 0.0000002259505032
+min per op: 0.0000001738096710
+med per op: 0.0000002028355513
+avg per op: 0.0000002027142864
+
+
+./omp_atomicwrite_scalar 2 9 1000
+OMP atomic-write scalar
+threads: 9
+iter per thread: 1000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 4.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0236260132141113
+max per op: 0.0000002362601321
+min per op: 0.0000001568588696
+med per op: 0.0000002349607076
+avg per op: 0.0000002018595481
+
+
+./omp_atomicwrite_scalar 2 10 1000
+OMP atomic-write scalar
+threads: 10
+iter per thread: 1000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0348669967956543
+max per op: 0.0000003486699680
+min per op: 0.0000002776494218
+med per op: 0.0000003146111451
+avg per op: 0.0000003147206445
+
+
+./omp_atomicwrite_scalar 2 11 1000
+OMP atomic-write scalar
+threads: 11
+iter per thread: 1000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 10.000000
+result: 10.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0370780623321533
+max per op: 0.0000003707806233
+min per op: 0.0000002805493887
+med per op: 0.0000003675401195
+avg per op: 0.0000003307657901
+
+
+./omp_atomicwrite_scalar 2 12 1000
+OMP atomic-write scalar
+threads: 12
+iter per thread: 1000
+result: 10.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0500639248046875
+max per op: 0.0000005006392480
+min per op: 0.0000004167410966
+med per op: 0.0000004593655590
+avg per op: 0.0000004599566275
+
+
+./omp_atomicwrite_scalar 2 13 1000
+OMP atomic-write scalar
+threads: 13
+iter per thread: 1000
+result: 8.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 8.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 12.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0561339285736084
+max per op: 0.0000005613392857
+min per op: 0.0000004774908817
+med per op: 0.0000004874887903
+avg per op: 0.0000005173974938
+
+
+./omp_atomicwrite_scalar 2 14 1000
+OMP atomic-write scalar
+threads: 14
+iter per thread: 1000
+result: 10.000000
+result: 10.000000
+result: 10.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 10.000000
+result: 10.000000
+result: 5.000000
+result: 8.000000
+result: 8.000000
+result: 13.000000
+result: 8.000000
+result: 8.000000
+result: 12.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0560449372253418
+max per op: 0.0000005604493723
+min per op: 0.0000004599897151
+med per op: 0.0000005018947536
+avg per op: 0.0000005060313534
+
+
+./omp_atomicwrite_scalar 2 15 1000
+OMP atomic-write scalar
+threads: 15
+iter per thread: 1000
+result: 10.000000
+result: 12.000000
+result: 12.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+result: 2.000000
+result: 12.000000
+result: 12.000000
+result: 14.000000
+result: 12.000000
+result: 12.000000
+result: 14.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 2.000000
+result: 12.000000
+result: 12.000000
+result: 7.000000
+result: 12.000000
+result: 12.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.0727701311187745
+max per op: 0.0000007277013112
+min per op: 0.0000006224694284
+med per op: 0.0000006416904964
+avg per op: 0.0000006742599771
+
+
+./omp_atomicwrite_scalar 2 16 1000
+OMP atomic-write scalar
+threads: 16
+iter per thread: 1000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 12.000000
+result: 6.000000
+result: 6.000000
+result: 13.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 4.000000
+result: 6.000000
+result: 6.000000
+result: 11.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 4.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0840430208282471
+max per op: 0.0000008404302083
+min per op: 0.0000006941888733
+med per op: 0.0000007756751151
+avg per op: 0.0000007738007952
+
+
+./omp_atomicwrite_scalar 2 17 1000
+OMP atomic-write scalar
+threads: 17
+iter per thread: 1000
+result: 16.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 15.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 8.000000
+result: 8.000000
+result: 11.000000
+result: 8.000000
+result: 8.000000
+result: 15.000000
+result: 8.000000
+result: 8.000000
+result: 13.000000
+result: 8.000000
+result: 8.000000
+result: 10.000000
+result: 8.000000
+result: 8.000000
+result: 10.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0834750627136231
+max per op: 0.0000008347506271
+min per op: 0.0000006655194478
+med per op: 0.0000008137690863
+avg per op: 0.0000007571084676
+
+
+./omp_atomicwrite_scalar 2 18 1000
+OMP atomic-write scalar
+threads: 18
+iter per thread: 1000
+result: 0.000000
+result: 16.000000
+result: 16.000000
+result: 15.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 16.000000
+result: 16.000000
+result: 2.000000
+result: 16.000000
+result: 16.000000
+result: 6.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 16.000000
+result: 16.000000
+result: 0.000000
+result: 16.000000
+result: 16.000000
+result: 2.000000
+result: 16.000000
+result: 16.000000
+runtime of all iter: 0.0908108754882812
+max per op: 0.0000009081087549
+min per op: 0.0000007717910054
+med per op: 0.0000008481903961
+avg per op: 0.0000008468034623
+
+
+./omp_atomicwrite_scalar 2 19 1000
+OMP atomic-write scalar
+threads: 19
+iter per thread: 1000
+result: 3.000000
+result: 10.000000
+result: 10.000000
+result: 13.000000
+result: 10.000000
+result: 10.000000
+result: 11.000000
+result: 10.000000
+result: 10.000000
+result: 11.000000
+result: 10.000000
+result: 10.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 2.000000
+result: 10.000000
+result: 10.000000
+result: 1.000000
+result: 10.000000
+result: 10.000000
+result: 1.000000
+result: 10.000000
+result: 10.000000
+result: 2.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.1062308993072509
+max per op: 0.0000010623089931
+min per op: 0.0000008918499739
+med per op: 0.0000009291203621
+avg per op: 0.0000009850519679
+
+
+./omp_atomicwrite_scalar 2 20 1000
+OMP atomic-write scalar
+threads: 20
+iter per thread: 1000
+result: 18.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 16.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1040290343780518
+max per op: 0.0000010402903438
+min per op: 0.0000008826812253
+med per op: 0.0000009598962823
+avg per op: 0.0000009680396873
+
+
+./omp_atomicwrite_scalar 2 21 1000
+OMP atomic-write scalar
+threads: 21
+iter per thread: 1000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 14.000000
+result: 14.000000
+result: 20.000000
+result: 14.000000
+result: 14.000000
+result: 20.000000
+result: 14.000000
+result: 14.000000
+result: 20.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.1103538117675782
+max per op: 0.0000011035381177
+min per op: 0.0000008922290891
+med per op: 0.0000010879783865
+avg per op: 0.0000010111919420
+
+
+./omp_atomicwrite_scalar 2 22 1000
+OMP atomic-write scalar
+threads: 22
+iter per thread: 1000
+result: 20.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 16.000000
+result: 16.000000
+result: 0.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1029210359954834
+max per op: 0.0000010292103600
+min per op: 0.0000007901503926
+med per op: 0.0000008977963486
+avg per op: 0.0000009181381613
+
+
+./omp_atomicwrite_scalar 2 23 1000
+OMP atomic-write scalar
+threads: 23
+iter per thread: 1000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 22.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 10.000000
+result: 1.000000
+result: 1.000000
+result: 10.000000
+result: 1.000000
+result: 1.000000
+result: 10.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.1232369721221923
+max per op: 0.0000012323697212
+min per op: 0.0000010046405595
+med per op: 0.0000011671699307
+avg per op: 0.0000011379596722
+
+
+./omp_atomicwrite_scalar 2 24 1000
+OMP atomic-write scalar
+threads: 24
+iter per thread: 1000
+result: 21.000000
+result: 20.000000
+result: 20.000000
+result: 19.000000
+result: 0.000000
+result: 0.000000
+result: 19.000000
+result: 14.000000
+result: 14.000000
+result: 23.000000
+result: 18.000000
+result: 18.000000
+result: 14.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 18.000000
+result: 18.000000
+result: 2.000000
+result: 14.000000
+result: 14.000000
+result: 1.000000
+result: 23.000000
+result: 23.000000
+runtime of all iter: 0.1246808758087158
+max per op: 0.0000012468087581
+min per op: 0.0000009942401637
+med per op: 0.0000011439796545
+avg per op: 0.0000011405958640
+
+
+./omp_atomicwrite_scalar 2 25 1000
+OMP atomic-write scalar
+threads: 25
+iter per thread: 1000
+result: 0.000000
+result: 10.000000
+result: 10.000000
+result: 24.000000
+result: 10.000000
+result: 10.000000
+result: 22.000000
+result: 10.000000
+result: 10.000000
+result: 5.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 5.000000
+result: 10.000000
+result: 10.000000
+result: 16.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.1061789728088379
+max per op: 0.0000010617897281
+min per op: 0.0000008294691524
+med per op: 0.0000010233796378
+avg per op: 0.0000009610058603
+
+
+./omp_atomicwrite_scalar 2 26 1000
+OMP atomic-write scalar
+threads: 26
+iter per thread: 1000
+result: 0.000000
+result: 24.000000
+result: 24.000000
+result: 1.000000
+result: 24.000000
+result: 24.000000
+result: 1.000000
+result: 24.000000
+result: 24.000000
+result: 1.000000
+result: 24.000000
+result: 24.000000
+result: 3.000000
+result: 24.000000
+result: 24.000000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 3.000000
+result: 12.000000
+result: 12.000000
+result: 2.000000
+result: 3.000000
+result: 3.000000
+result: 20.000000
+result: 3.000000
+result: 3.000000
+runtime of all iter: 0.1343491801147461
+max per op: 0.0000013434918011
+min per op: 0.0000009044213766
+med per op: 0.0000012069412840
+avg per op: 0.0000012013155971
+
+
+./omp_atomicwrite_scalar 2 27 1000
+OMP atomic-write scalar
+threads: 27
+iter per thread: 1000
+result: 0.000000
+result: 26.000000
+result: 26.000000
+result: 3.000000
+result: 26.000000
+result: 26.000000
+result: 21.000000
+result: 6.000000
+result: 6.000000
+result: 21.000000
+result: 6.000000
+result: 6.000000
+result: 15.000000
+result: 6.000000
+result: 6.000000
+result: 19.000000
+result: 26.000000
+result: 26.000000
+result: 15.000000
+result: 6.000000
+result: 6.000000
+result: 21.000000
+result: 26.000000
+result: 26.000000
+result: 23.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.1299559117126465
+max per op: 0.0000012995591171
+min per op: 0.0000009434197049
+med per op: 0.0000012427211369
+avg per op: 0.0000011714067032
+
+
+./omp_atomicwrite_scalar 2 28 1000
+OMP atomic-write scalar
+threads: 28
+iter per thread: 1000
+result: 6.000000
+result: 24.000000
+result: 24.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 1.000000
+result: 24.000000
+result: 24.000000
+result: 4.000000
+result: 24.000000
+result: 24.000000
+result: 1.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 20.000000
+result: 20.000000
+result: 11.000000
+result: 20.000000
+result: 20.000000
+runtime of all iter: 0.1521750363006592
+max per op: 0.0000015217503630
+min per op: 0.0000009291006728
+med per op: 0.0000013649100330
+avg per op: 0.0000013542150774
+
+
+./omp_atomicwrite_scalar 2 29 1000
+OMP atomic-write scalar
+threads: 29
+iter per thread: 1000
+result: 20.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 26.000000
+result: 26.000000
+result: 28.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 28.000000
+result: 28.000000
+result: 4.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 26.000000
+result: 26.000000
+result: 5.000000
+result: 28.000000
+result: 28.000000
+result: 4.000000
+result: 26.000000
+result: 26.000000
+runtime of all iter: 0.1410848182525634
+max per op: 0.0000014108481825
+min per op: 0.0000008742092461
+med per op: 0.0000012735798428
+avg per op: 0.0000012595074588
+
+
+./omp_atomicwrite_scalar 2 30 1000
+OMP atomic-write scalar
+threads: 30
+iter per thread: 1000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 25.000000
+result: 28.000000
+result: 28.000000
+result: 23.000000
+result: 12.000000
+result: 12.000000
+result: 29.000000
+result: 12.000000
+result: 12.000000
+result: 14.000000
+result: 28.000000
+result: 28.000000
+result: 11.000000
+result: 28.000000
+result: 28.000000
+result: 2.000000
+result: 28.000000
+result: 28.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 25.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1579541378784180
+max per op: 0.0000015795413788
+min per op: 0.0000009513195758
+med per op: 0.0000014570747722
+avg per op: 0.0000014234727984
+
+
+./omp_atomicwrite_scalar 2 31 1000
+OMP atomic-write scalar
+threads: 31
+iter per thread: 1000
+result: 26.000000
+result: 4.000000
+result: 4.000000
+result: 25.000000
+result: 18.000000
+result: 18.000000
+result: 1.000000
+result: 18.000000
+result: 18.000000
+result: 7.000000
+result: 24.000000
+result: 24.000000
+result: 25.000000
+result: 24.000000
+result: 24.000000
+result: 29.000000
+result: 24.000000
+result: 24.000000
+result: 25.000000
+result: 6.000000
+result: 6.000000
+result: 25.000000
+result: 18.000000
+result: 18.000000
+result: 7.000000
+result: 2.000000
+result: 2.000000
+runtime of all iter: 0.1665890499267578
+max per op: 0.0000016658904993
+min per op: 0.0000009808503398
+med per op: 0.0000015406995494
+avg per op: 0.0000015246985370
+
+
+./omp_atomicwrite_scalar 2 32 1000
+OMP atomic-write scalar
+threads: 32
+iter per thread: 1000
+result: 30.000000
+result: 26.000000
+result: 26.000000
+result: 31.000000
+result: 4.000000
+result: 4.000000
+result: 27.000000
+result: 4.000000
+result: 4.000000
+result: 30.000000
+result: 4.000000
+result: 4.000000
+result: 29.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 26.000000
+result: 26.000000
+result: 29.000000
+result: 26.000000
+result: 26.000000
+result: 8.000000
+result: 26.000000
+result: 26.000000
+result: 17.000000
+result: 26.000000
+result: 26.000000
+runtime of all iter: 0.1692210553894044
+max per op: 0.0000016922105539
+min per op: 0.0000009239000359
+med per op: 0.0000016022157204
+avg per op: 0.0000015367147765
+
+
+./omp_atomicwrite_scalar 2 33 1000
+OMP atomic-write scalar
+threads: 33
+iter per thread: 1000
+result: 20.000000
+result: 32.000000
+result: 32.000000
+result: 29.000000
+result: 32.000000
+result: 32.000000
+result: 5.000000
+result: 32.000000
+result: 32.000000
+result: 19.000000
+result: 12.000000
+result: 12.000000
+result: 27.000000
+result: 32.000000
+result: 32.000000
+result: 31.000000
+result: 12.000000
+result: 12.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 19.000000
+result: 12.000000
+result: 12.000000
+result: 17.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1438491981048584
+max per op: 0.0000014384919810
+min per op: 0.0000007866815733
+med per op: 0.0000013915595918
+avg per op: 0.0000013054912988
+
+
+./omp_atomicwrite_scalar 2 34 1000
+OMP atomic-write scalar
+threads: 34
+iter per thread: 1000
+result: 18.000000
+result: 24.000000
+result: 24.000000
+result: 25.000000
+result: 8.000000
+result: 8.000000
+result: 22.000000
+result: 24.000000
+result: 24.000000
+result: 11.000000
+result: 30.000000
+result: 30.000000
+result: 27.000000
+result: 20.000000
+result: 20.000000
+result: 2.000000
+result: 31.000000
+result: 31.000000
+result: 0.000000
+result: 18.000000
+result: 18.000000
+result: 18.000000
+result: 31.000000
+result: 31.000000
+result: 22.000000
+result: 18.000000
+result: 18.000000
+runtime of all iter: 0.1879121484375000
+max per op: 0.0000018791214844
+min per op: 0.0000010044704732
+med per op: 0.0000017961808923
+avg per op: 0.0000017285399258
+
+
+./omp_atomicwrite_scalar 2 35 1000
+OMP atomic-write scalar
+threads: 35
+iter per thread: 1000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 23.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 20.000000
+result: 20.000000
+result: 15.000000
+result: 0.000000
+result: 0.000000
+result: 23.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 11.000000
+result: 11.000000
+result: 16.000000
+result: 11.000000
+result: 11.000000
+result: 6.000000
+result: 13.000000
+result: 13.000000
+result: 20.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.1978531245269775
+max per op: 0.0000019785312453
+min per op: 0.0000011029989629
+med per op: 0.0000019339820718
+avg per op: 0.0000018445382085
+
+
+./omp_atomicwrite_scalar 2 36 1000
+OMP atomic-write scalar
+threads: 36
+iter per thread: 1000
+result: 32.000000
+result: 8.000000
+result: 8.000000
+result: 34.000000
+result: 28.000000
+result: 28.000000
+result: 35.000000
+result: 28.000000
+result: 28.000000
+result: 15.000000
+result: 28.000000
+result: 28.000000
+result: 2.000000
+result: 28.000000
+result: 28.000000
+result: 31.000000
+result: 28.000000
+result: 28.000000
+result: 24.000000
+result: 28.000000
+result: 28.000000
+result: 17.000000
+result: 8.000000
+result: 8.000000
+result: 15.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.1668680035247803
+max per op: 0.0000016686800352
+min per op: 0.0000007770088371
+med per op: 0.0000015745583092
+avg per op: 0.0000015536332118
+
+
+./omp_atomicwrite_scalar 2 37 1000
+OMP atomic-write scalar
+threads: 37
+iter per thread: 1000
+result: 10.000000
+result: 36.000000
+result: 36.000000
+result: 27.000000
+result: 16.000000
+result: 16.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 28.000000
+result: 16.000000
+result: 16.000000
+result: 22.000000
+result: 36.000000
+result: 36.000000
+result: 14.000000
+result: 36.000000
+result: 36.000000
+result: 9.000000
+result: 36.000000
+result: 36.000000
+result: 11.000000
+result: 16.000000
+result: 16.000000
+result: 36.000000
+result: 36.000000
+result: 36.000000
+runtime of all iter: 0.2212028975524902
+max per op: 0.0000022120289755
+min per op: 0.0000010313187564
+med per op: 0.0000021067395853
+avg per op: 0.0000021008006965
+
+
+./omp_atomicwrite_scalar 2 38 1000
+OMP atomic-write scalar
+threads: 38
+iter per thread: 1000
+result: 0.000000
+result: 14.000000
+result: 14.000000
+result: 35.000000
+result: 32.000000
+result: 32.000000
+result: 16.000000
+result: 0.000000
+result: 0.000000
+result: 31.000000
+result: 14.000000
+result: 14.000000
+result: 11.000000
+result: 32.000000
+result: 32.000000
+result: 11.000000
+result: 14.000000
+result: 14.000000
+result: 11.000000
+result: 32.000000
+result: 32.000000
+result: 29.000000
+result: 32.000000
+result: 32.000000
+result: 21.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.2159138773345947
+max per op: 0.0000021591387733
+min per op: 0.0000010220213585
+med per op: 0.0000020788906559
+avg per op: 0.0000020664993932
+
+
+./omp_atomicwrite_scalar 2 39 1000
+OMP atomic-write scalar
+threads: 39
+iter per thread: 1000
+result: 38.000000
+result: 28.000000
+result: 28.000000
+result: 11.000000
+result: 28.000000
+result: 28.000000
+result: 31.000000
+result: 28.000000
+result: 28.000000
+result: 13.000000
+result: 28.000000
+result: 28.000000
+result: 2.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 28.000000
+result: 28.000000
+result: 3.000000
+result: 28.000000
+result: 28.000000
+result: 21.000000
+result: 28.000000
+result: 28.000000
+result: 16.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.2408719608764648
+max per op: 0.0000024087196088
+min per op: 0.0000022808698875
+med per op: 0.0000023144302153
+avg per op: 0.0000023556430119
+
+
+./omp_atomicwrite_scalar 2 40 1000
+OMP atomic-write scalar
+threads: 40
+iter per thread: 1000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 26.000000
+result: 20.000000
+result: 20.000000
+result: 33.000000
+result: 20.000000
+result: 20.000000
+result: 37.000000
+result: 20.000000
+result: 20.000000
+result: 31.000000
+result: 13.000000
+result: 13.000000
+result: 26.000000
+result: 23.000000
+result: 23.000000
+result: 18.000000
+result: 13.000000
+result: 13.000000
+result: 8.000000
+result: 13.000000
+result: 13.000000
+result: 14.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.2219989917449952
+max per op: 0.0000022199899174
+min per op: 0.0000021186097139
+med per op: 0.0000021766001202
+avg per op: 0.0000021770543461
+
+
+./omp_atomicwrite_scalar 2 41 1000
+OMP atomic-write scalar
+threads: 41
+iter per thread: 1000
+result: 39.000000
+result: 28.000000
+result: 28.000000
+result: 20.000000
+result: 28.000000
+result: 28.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 10.000000
+result: 28.000000
+result: 28.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 21.000000
+result: 5.000000
+result: 5.000000
+result: 3.000000
+result: 7.000000
+result: 7.000000
+result: 7.000000
+result: 13.000000
+result: 13.000000
+result: 9.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.2425840126953125
+max per op: 0.0000024258401270
+min per op: 0.0000022233197365
+med per op: 0.0000023249100307
+avg per op: 0.0000023622204188
+
+
+./omp_atomicwrite_scalar 2 42 1000
+OMP atomic-write scalar
+threads: 42
+iter per thread: 1000
+result: 21.000000
+result: 22.000000
+result: 22.000000
+result: 30.000000
+result: 28.000000
+result: 28.000000
+result: 24.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 24.000000
+result: 24.000000
+result: 36.000000
+result: 22.000000
+result: 22.000000
+result: 29.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 17.000000
+result: 17.000000
+result: 12.000000
+result: 25.000000
+result: 25.000000
+result: 8.000000
+result: 22.000000
+result: 22.000000
+runtime of all iter: 0.2442860080871582
+max per op: 0.0000024428600809
+min per op: 0.0000022196993669
+med per op: 0.0000023393752043
+avg per op: 0.0000023675856548
+
+
+./omp_atomicwrite_scalar 2 43 1000
+OMP atomic-write scalar
+threads: 43
+iter per thread: 1000
+result: 32.000000
+result: 28.000000
+result: 28.000000
+result: 0.000000
+result: 18.000000
+result: 18.000000
+result: 5.000000
+result: 17.000000
+result: 17.000000
+result: 15.000000
+result: 17.000000
+result: 17.000000
+result: 42.000000
+result: 22.000000
+result: 22.000000
+result: 40.000000
+result: 17.000000
+result: 17.000000
+result: 40.000000
+result: 19.000000
+result: 19.000000
+result: 40.000000
+result: 18.000000
+result: 18.000000
+result: 12.000000
+result: 7.000000
+result: 7.000000
+runtime of all iter: 0.2501298531188966
+max per op: 0.0000025012985312
+min per op: 0.0000022607118657
+med per op: 0.0000024111293512
+avg per op: 0.0000024014232617
+
+
+./omp_atomicwrite_scalar 2 44 1000
+OMP atomic-write scalar
+threads: 44
+iter per thread: 1000
+result: 22.000000
+result: 34.000000
+result: 34.000000
+result: 43.000000
+result: 34.000000
+result: 34.000000
+result: 0.000000
+result: 14.000000
+result: 14.000000
+result: 12.000000
+result: 34.000000
+result: 34.000000
+result: 25.000000
+result: 22.000000
+result: 22.000000
+result: 18.000000
+result: 42.000000
+result: 42.000000
+result: 35.000000
+result: 42.000000
+result: 42.000000
+result: 39.000000
+result: 22.000000
+result: 22.000000
+result: 23.000000
+result: 34.000000
+result: 34.000000
+runtime of all iter: 0.2176639499816895
+max per op: 0.0000021766394998
+min per op: 0.0000018143494891
+med per op: 0.0000020630454472
+avg per op: 0.0000020366122418
+
+
+./omp_atomicwrite_scalar 3 1 1000
+OMP atomic-write scalar
+threads: 1
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0000199857788086
+max per op: 0.0000000001998578
+min per op: 0.0000000001998578
+med per op: 0.0000000001998578
+avg per op: 0.0000000001998578
+
+
+./omp_atomicwrite_scalar 3 2 1000
+OMP atomic-write scalar
+threads: 2
+iter per thread: 1000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0012189613342285
+max per op: 0.0000000121896133
+min per op: 0.0000000122485680
+med per op: 0.0000000122044637
+avg per op: 0.0000000122044637
+
+
+./omp_atomicwrite_scalar 3 3 1000
+OMP atomic-write scalar
+threads: 3
+iter per thread: 1000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0023259947052002
+max per op: 0.0000000232599471
+min per op: 0.0000000090693394
+med per op: 0.0000000231505730
+avg per op: 0.0000000184101879
+
+
+./omp_atomicwrite_scalar 3 4 1000
+OMP atomic-write scalar
+threads: 4
+iter per thread: 1000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 1.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0109808932189941
+max per op: 0.0000001098089322
+min per op: 0.0000001027396085
+med per op: 0.0000001064656131
+avg per op: 0.0000001064683162
+
+
+./omp_atomicwrite_scalar 3 5 1000
+OMP atomic-write scalar
+threads: 5
+iter per thread: 1000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+result: 2.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0075359952392579
+max per op: 0.0000000753599524
+min per op: 0.0000000546107718
+med per op: 0.0000000757299124
+avg per op: 0.0000000675064595
+
+
+./omp_atomicwrite_scalar 3 6 1000
+OMP atomic-write scalar
+threads: 6
+iter per thread: 1000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.0150309035339355
+max per op: 0.0000001503090353
+min per op: 0.0000001253504166
+med per op: 0.0000001381504399
+avg per op: 0.0000001373881820
+
+
+./omp_atomicwrite_scalar 3 7 1000
+OMP atomic-write scalar
+threads: 7
+iter per thread: 1000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0168360201568604
+max per op: 0.0000001683602016
+min per op: 0.0000001185777322
+med per op: 0.0000001681917920
+avg per op: 0.0000001472892330
+
+
+./omp_atomicwrite_scalar 3 8 1000
+OMP atomic-write scalar
+threads: 8
+iter per thread: 1000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+result: 2.000000
+result: 6.000000
+result: 6.000000
+result: 3.000000
+result: 6.000000
+result: 6.000000
+result: 7.000000
+result: 6.000000
+result: 6.000000
+runtime of all iter: 0.0218607997589111
+max per op: 0.0000002186079976
+min per op: 0.0000001715507712
+med per op: 0.0000001960442149
+avg per op: 0.0000001957919927
+
+
+./omp_atomicwrite_scalar 3 9 1000
+OMP atomic-write scalar
+threads: 9
+iter per thread: 1000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0243859555511474
+max per op: 0.0000002438595555
+min per op: 0.0000001718092551
+med per op: 0.0000002402682420
+avg per op: 0.0000002113828977
+
+
+./omp_atomicwrite_scalar 3 10 1000
+OMP atomic-write scalar
+threads: 10
+iter per thread: 1000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 4.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0317041651000977
+max per op: 0.0000003170416510
+min per op: 0.0000002631399786
+med per op: 0.0000002873451490
+avg per op: 0.0000002894384612
+
+
+./omp_atomicwrite_scalar 3 11 1000
+OMP atomic-write scalar
+threads: 11
+iter per thread: 1000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 0.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+runtime of all iter: 0.0366501074218750
+max per op: 0.0000003665010742
+min per op: 0.0000002788582800
+med per op: 0.0000003647400717
+avg per op: 0.0000003282482979
+
+
+./omp_atomicwrite_scalar 3 12 1000
+OMP atomic-write scalar
+threads: 12
+iter per thread: 1000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 5.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0414460532684326
+max per op: 0.0000004144605327
+min per op: 0.0000003309783304
+med per op: 0.0000003749605730
+avg per op: 0.0000003748728351
+
+
+./omp_atomicwrite_scalar 3 13 1000
+OMP atomic-write scalar
+threads: 13
+iter per thread: 1000
+result: 4.000000
+result: 1.000000
+result: 1.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0514521003265381
+max per op: 0.0000005145210033
+min per op: 0.0000003941696556
+med per op: 0.0000004736389124
+avg per op: 0.0000004565839519
+
+
+./omp_atomicwrite_scalar 3 14 1000
+OMP atomic-write scalar
+threads: 14
+iter per thread: 1000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 11.000000
+result: 1.000000
+result: 1.000000
+result: 7.000000
+result: 1.000000
+result: 1.000000
+result: 12.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.0624119937744141
+max per op: 0.0000006241199377
+min per op: 0.0000005162492436
+med per op: 0.0000005690699194
+avg per op: 0.0000005698181149
+
+
+./omp_atomicwrite_scalar 3 15 1000
+OMP atomic-write scalar
+threads: 15
+iter per thread: 1000
+result: 14.000000
+result: 4.000000
+result: 4.000000
+result: 2.000000
+result: 4.000000
+result: 4.000000
+result: 9.000000
+result: 4.000000
+result: 4.000000
+result: 11.000000
+result: 4.000000
+result: 4.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+result: 3.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 4.000000
+result: 4.000000
+result: 13.000000
+result: 10.000000
+result: 10.000000
+result: 7.000000
+result: 4.000000
+result: 4.000000
+runtime of all iter: 0.0636171409454346
+max per op: 0.0000006361714095
+min per op: 0.0000004883395082
+med per op: 0.0000006231306770
+avg per op: 0.0000005689420813
+
+
+./omp_atomicwrite_scalar 3 16 1000
+OMP atomic-write scalar
+threads: 16
+iter per thread: 1000
+result: 6.000000
+result: 14.000000
+result: 14.000000
+result: 2.000000
+result: 14.000000
+result: 14.000000
+result: 3.000000
+result: 14.000000
+result: 14.000000
+result: 13.000000
+result: 14.000000
+result: 14.000000
+result: 1.000000
+result: 14.000000
+result: 14.000000
+result: 9.000000
+result: 14.000000
+result: 14.000000
+result: 9.000000
+result: 14.000000
+result: 14.000000
+result: 7.000000
+result: 14.000000
+result: 14.000000
+result: 13.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.0746721710357666
+max per op: 0.0000007467217104
+min per op: 0.0000006029701076
+med per op: 0.0000006795693275
+avg per op: 0.0000006781435402
+
+
+./omp_atomicwrite_scalar 3 17 1000
+OMP atomic-write scalar
+threads: 17
+iter per thread: 1000
+result: 12.000000
+result: 16.000000
+result: 16.000000
+result: 11.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 16.000000
+result: 16.000000
+result: 7.000000
+result: 16.000000
+result: 16.000000
+result: 11.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 16.000000
+result: 16.000000
+result: 9.000000
+result: 16.000000
+result: 16.000000
+result: 15.000000
+result: 16.000000
+result: 16.000000
+runtime of all iter: 0.0821669652557373
+max per op: 0.0000008216696526
+min per op: 0.0000006469813382
+med per op: 0.0000008066685399
+avg per op: 0.0000007416442517
+
+
+./omp_atomicwrite_scalar 3 18 1000
+OMP atomic-write scalar
+threads: 18
+iter per thread: 1000
+result: 6.000000
+result: 12.000000
+result: 12.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+result: 13.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 12.000000
+result: 12.000000
+result: 17.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+result: 11.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.0983699981079101
+max per op: 0.0000009836999811
+min per op: 0.0000008186194960
+med per op: 0.0000009057008854
+avg per op: 0.0000009048113998
+
+
+./omp_atomicwrite_scalar 3 19 1000
+OMP atomic-write scalar
+threads: 19
+iter per thread: 1000
+result: 18.000000
+result: 10.000000
+result: 10.000000
+result: 10.000000
+result: 16.000000
+result: 16.000000
+result: 11.000000
+result: 10.000000
+result: 10.000000
+result: 3.000000
+result: 16.000000
+result: 16.000000
+result: 11.000000
+result: 10.000000
+result: 10.000000
+result: 17.000000
+result: 10.000000
+result: 10.000000
+result: 9.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 10.000000
+result: 10.000000
+runtime of all iter: 0.0905229983978271
+max per op: 0.0000009052299840
+min per op: 0.0000006991899397
+med per op: 0.0000008894192297
+avg per op: 0.0000008115758735
+
+
+./omp_atomicwrite_scalar 3 20 1000
+OMP atomic-write scalar
+threads: 20
+iter per thread: 1000
+result: 11.000000
+result: 6.000000
+result: 6.000000
+result: 11.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 6.000000
+result: 6.000000
+result: 6.000000
+result: 12.000000
+result: 12.000000
+result: 17.000000
+result: 12.000000
+result: 12.000000
+result: 5.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 6.000000
+result: 6.000000
+result: 9.000000
+result: 12.000000
+result: 12.000000
+result: 15.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.1043471549835205
+max per op: 0.0000010434715498
+min per op: 0.0000008456305034
+med per op: 0.0000009494204701
+avg per op: 0.0000009495942275
+
+
+./omp_atomicwrite_scalar 3 21 1000
+OMP atomic-write scalar
+threads: 21
+iter per thread: 1000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 18.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1087938458709716
+max per op: 0.0000010879384587
+min per op: 0.0000009021997781
+med per op: 0.0000009901011404
+avg per op: 0.0000009964494167
+
+
+./omp_atomicwrite_scalar 3 22 1000
+OMP atomic-write scalar
+threads: 22
+iter per thread: 1000
+result: 20.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 21.000000
+result: 18.000000
+result: 18.000000
+result: 3.000000
+result: 3.000000
+result: 3.000000
+result: 3.000000
+result: 3.000000
+result: 3.000000
+result: 18.000000
+result: 3.000000
+result: 3.000000
+result: 16.000000
+result: 18.000000
+result: 18.000000
+runtime of all iter: 0.1127179272766113
+max per op: 0.0000011271792728
+min per op: 0.0000009283802135
+med per op: 0.0000010254096532
+avg per op: 0.0000010413233577
+
+
+./omp_atomicwrite_scalar 3 23 1000
+OMP atomic-write scalar
+threads: 23
+iter per thread: 1000
+result: 1.000000
+result: 22.000000
+result: 22.000000
+result: 22.000000
+result: 22.000000
+result: 22.000000
+result: 2.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 22.000000
+result: 22.000000
+result: 2.000000
+result: 22.000000
+result: 22.000000
+result: 2.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 2.000000
+result: 22.000000
+result: 22.000000
+result: 18.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.1128341857147218
+max per op: 0.0000011283418571
+min per op: 0.0000009218494740
+med per op: 0.0000011140311230
+avg per op: 0.0000010370035776
+
+
+./omp_atomicwrite_scalar 3 24 1000
+OMP atomic-write scalar
+threads: 24
+iter per thread: 1000
+result: 0.000000
+result: 20.000000
+result: 20.000000
+result: 21.000000
+result: 20.000000
+result: 20.000000
+result: 13.000000
+result: 0.000000
+result: 0.000000
+result: 11.000000
+result: 20.000000
+result: 20.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 13.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 3.000000
+result: 13.000000
+result: 13.000000
+runtime of all iter: 0.1159592190551757
+max per op: 0.0000011595921906
+min per op: 0.0000009028114578
+med per op: 0.0000010631284489
+avg per op: 0.0000010474278722
+
+
+./omp_atomicwrite_scalar 3 25 1000
+OMP atomic-write scalar
+threads: 25
+iter per thread: 1000
+result: 24.000000
+result: 22.000000
+result: 22.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 21.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 4.000000
+result: 0.000000
+result: 0.000000
+result: 17.000000
+result: 20.000000
+result: 20.000000
+result: 3.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1176828947296144
+max per op: 0.0000011768289473
+min per op: 0.0000009131796855
+med per op: 0.0000011491897037
+avg per op: 0.0000010667647454
+
+
+./omp_atomicwrite_scalar 3 26 1000
+OMP atomic-write scalar
+threads: 26
+iter per thread: 1000
+result: 4.000000
+result: 1.000000
+result: 1.000000
+result: 9.000000
+result: 0.000000
+result: 0.000000
+result: 4.000000
+result: 1.000000
+result: 1.000000
+result: 25.000000
+result: 4.000000
+result: 4.000000
+result: 23.000000
+result: 1.000000
+result: 1.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+result: 3.000000
+result: 1.000000
+result: 1.000000
+result: 23.000000
+result: 0.000000
+result: 0.000000
+result: 5.000000
+result: 1.000000
+result: 1.000000
+runtime of all iter: 0.1310438855895996
+max per op: 0.0000013104388559
+min per op: 0.0000009884403944
+med per op: 0.0000012159992393
+avg per op: 0.0000011867531102
+
+
+./omp_atomicwrite_scalar 3 27 1000
+OMP atomic-write scalar
+threads: 27
+iter per thread: 1000
+result: 0.000000
+result: 12.000000
+result: 12.000000
+result: 23.000000
+result: 0.000000
+result: 0.000000
+result: 25.000000
+result: 14.000000
+result: 14.000000
+result: 9.000000
+result: 14.000000
+result: 14.000000
+result: 25.000000
+result: 14.000000
+result: 14.000000
+result: 9.000000
+result: 14.000000
+result: 14.000000
+result: 17.000000
+result: 0.000000
+result: 0.000000
+result: 14.000000
+result: 1.000000
+result: 1.000000
+result: 14.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1148319728546142
+max per op: 0.0000011483197285
+min per op: 0.0000007631694321
+med per op: 0.0000010020905113
+avg per op: 0.0000010136940065
+
+
+./omp_atomicwrite_scalar 3 28 1000
+OMP atomic-write scalar
+threads: 28
+iter per thread: 1000
+result: 22.000000
+result: 0.000000
+result: 0.000000
+result: 19.000000
+result: 1.000000
+result: 1.000000
+result: 19.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 21.000000
+result: 0.000000
+result: 0.000000
+result: 8.000000
+result: 1.000000
+result: 1.000000
+result: 8.000000
+result: 0.000000
+result: 0.000000
+result: 7.000000
+result: 0.000000
+result: 0.000000
+result: 8.000000
+result: 0.000000
+result: 0.000000
+runtime of all iter: 0.1510492111206055
+max per op: 0.0000015104921112
+min per op: 0.0000009301789055
+med per op: 0.0000013604243451
+avg per op: 0.0000013535942222
+
+
+./omp_atomicwrite_scalar 3 29 1000
+OMP atomic-write scalar
+threads: 29
+iter per thread: 1000
+result: 0.000000
+result: 26.000000
+result: 26.000000
+result: 0.000000
+result: 26.000000
+result: 26.000000
+result: 21.000000
+result: 26.000000
+result: 26.000000
+result: 7.000000
+result: 26.000000
+result: 26.000000
+result: 25.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 11.000000
+result: 26.000000
+result: 26.000000
+result: 19.000000
+result: 26.000000
+result: 26.000000
+result: 16.000000
+result: 26.000000
+result: 26.000000
+runtime of all iter: 0.1493700502624512
+max per op: 0.0000014937005026
+min per op: 0.0000009325400957
+med per op: 0.0000013703008272
+avg per op: 0.0000013399260005
+
+
+./omp_atomicwrite_scalar 3 30 1000
+OMP atomic-write scalar
+threads: 30
+iter per thread: 1000
+result: 28.000000
+result: 22.000000
+result: 22.000000
+result: 23.000000
+result: 18.000000
+result: 18.000000
+result: 23.000000
+result: 28.000000
+result: 28.000000
+result: 13.000000
+result: 28.000000
+result: 28.000000
+result: 18.000000
+result: 28.000000
+result: 28.000000
+result: 28.000000
+result: 28.000000
+result: 28.000000
+result: 27.000000
+result: 22.000000
+result: 22.000000
+result: 13.000000
+result: 22.000000
+result: 22.000000
+result: 29.000000
+result: 28.000000
+result: 28.000000
+runtime of all iter: 0.1616659599609375
+max per op: 0.0000016166595996
+min per op: 0.0000009644700800
+med per op: 0.0000014680813611
+avg per op: 0.0000014466883592
+
+
+./omp_atomicwrite_scalar 3 31 1000
+OMP atomic-write scalar
+threads: 31
+iter per thread: 1000
+result: 11.000000
+result: 0.000000
+result: 0.000000
+result: 27.000000
+result: 19.000000
+result: 19.000000
+result: 8.000000
+result: 0.000000
+result: 0.000000
+result: 4.000000
+result: 19.000000
+result: 19.000000
+result: 14.000000
+result: 0.000000
+result: 0.000000
+result: 10.000000
+result: 0.000000
+result: 0.000000
+result: 26.000000
+result: 0.000000
+result: 0.000000
+result: 4.000000
+result: 19.000000
+result: 19.000000
+result: 8.000000
+result: 19.000000
+result: 19.000000
+runtime of all iter: 0.1607280892486572
+max per op: 0.0000016072808925
+min per op: 0.0000010131203204
+med per op: 0.0000015747004800
+avg per op: 0.0000014652764496
+
+
+./omp_atomicwrite_scalar 3 32 1000
+OMP atomic-write scalar
+threads: 32
+iter per thread: 1000
+result: 1.000000
+result: 16.000000
+result: 16.000000
+result: 29.000000
+result: 16.000000
+result: 16.000000
+result: 0.000000
+result: 16.000000
+result: 16.000000
+result: 5.000000
+result: 30.000000
+result: 30.000000
+result: 5.000000
+result: 30.000000
+result: 30.000000
+result: 23.000000
+result: 16.000000
+result: 16.000000
+result: 13.000000
+result: 16.000000
+result: 16.000000
+result: 23.000000
+result: 16.000000
+result: 16.000000
+result: 17.000000
+result: 30.000000
+result: 30.000000
+runtime of all iter: 0.1871850358428955
+max per op: 0.0000018718503584
+min per op: 0.0000009906288739
+med per op: 0.0000017526407970
+avg per op: 0.0000017350601506
+
+
+./omp_atomicwrite_scalar 3 33 1000
+OMP atomic-write scalar
+threads: 33
+iter per thread: 1000
+result: 30.000000
+result: 16.000000
+result: 16.000000
+result: 18.000000
+result: 28.000000
+result: 28.000000
+result: 27.000000
+result: 28.000000
+result: 28.000000
+result: 16.000000
+result: 28.000000
+result: 28.000000
+result: 0.000000
+result: 28.000000
+result: 28.000000
+result: 14.000000
+result: 28.000000
+result: 28.000000
+result: 21.000000
+result: 28.000000
+result: 28.000000
+result: 22.000000
+result: 16.000000
+result: 16.000000
+result: 22.000000
+result: 16.000000
+result: 16.000000
+runtime of all iter: 0.1842999993133545
+max per op: 0.0000018429999931
+min per op: 0.0000009347005087
+med per op: 0.0000017060792088
+avg per op: 0.0000016970358041
+
+
+./omp_atomicwrite_scalar 3 34 1000
+OMP atomic-write scalar
+threads: 34
+iter per thread: 1000
+result: 24.000000
+result: 6.000000
+result: 6.000000
+result: 23.000000
+result: 26.000000
+result: 26.000000
+result: 27.000000
+result: 6.000000
+result: 6.000000
+result: 5.000000
+result: 26.000000
+result: 26.000000
+result: 9.000000
+result: 26.000000
+result: 26.000000
+result: 5.000000
+result: 26.000000
+result: 26.000000
+result: 23.000000
+result: 17.000000
+result: 17.000000
+result: 18.000000
+result: 13.000000
+result: 13.000000
+result: 5.000000
+result: 5.000000
+result: 5.000000
+runtime of all iter: 0.1878579044952393
+max per op: 0.0000018785790450
+min per op: 0.0000009436201411
+med per op: 0.0000017981407712
+avg per op: 0.0000017776479835
+
+
+./omp_atomicwrite_scalar 3 35 1000
+OMP atomic-write scalar
+threads: 35
+iter per thread: 1000
+result: 34.000000
+result: 14.000000
+result: 14.000000
+result: 19.000000
+result: 14.000000
+result: 14.000000
+result: 3.000000
+result: 14.000000
+result: 14.000000
+result: 25.000000
+result: 34.000000
+result: 34.000000
+result: 23.000000
+result: 22.000000
+result: 22.000000
+result: 23.000000
+result: 22.000000
+result: 22.000000
+result: 19.000000
+result: 9.000000
+result: 9.000000
+result: 23.000000
+result: 28.000000
+result: 28.000000
+result: 13.000000
+result: 28.000000
+result: 28.000000
+runtime of all iter: 0.1940469621582032
+max per op: 0.0000019404696216
+min per op: 0.0000010258820543
+med per op: 0.0000018635315056
+avg per op: 0.0000017940067338
+
+
+./omp_atomicwrite_scalar 3 36 1000
+OMP atomic-write scalar
+threads: 36
+iter per thread: 1000
+result: 26.000000
+result: 10.000000
+result: 10.000000
+result: 15.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 34.000000
+result: 30.000000
+result: 30.000000
+result: 4.000000
+result: 30.000000
+result: 30.000000
+result: 14.000000
+result: 30.000000
+result: 30.000000
+result: 23.000000
+result: 30.000000
+result: 30.000000
+result: 35.000000
+result: 30.000000
+result: 30.000000
+result: 5.000000
+result: 30.000000
+result: 30.000000
+runtime of all iter: 0.2069178813171387
+max per op: 0.0000020691788132
+min per op: 0.0000009942003708
+med per op: 0.0000019870505759
+avg per op: 0.0000019501699960
+
+
+./omp_atomicwrite_scalar 3 37 1000
+OMP atomic-write scalar
+threads: 37
+iter per thread: 1000
+result: 24.000000
+result: 34.000000
+result: 34.000000
+result: 3.000000
+result: 14.000000
+result: 14.000000
+result: 6.000000
+result: 14.000000
+result: 14.000000
+result: 23.000000
+result: 14.000000
+result: 14.000000
+result: 35.000000
+result: 34.000000
+result: 34.000000
+result: 23.000000
+result: 14.000000
+result: 14.000000
+result: 17.000000
+result: 14.000000
+result: 14.000000
+result: 14.000000
+result: 34.000000
+result: 34.000000
+result: 27.000000
+result: 34.000000
+result: 34.000000
+runtime of all iter: 0.2212261815032959
+max per op: 0.0000022122618150
+min per op: 0.0000010068299382
+med per op: 0.0000021069719382
+avg per op: 0.0000021232892397
+
+
+./omp_atomicwrite_scalar 3 38 1000
+OMP atomic-write scalar
+threads: 38
+iter per thread: 1000
+result: 26.000000
+result: 8.000000
+result: 8.000000
+result: 8.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 3.000000
+result: 8.000000
+result: 8.000000
+result: 7.000000
+result: 8.000000
+result: 8.000000
+result: 2.000000
+result: 8.000000
+result: 8.000000
+result: 9.000000
+result: 28.000000
+result: 28.000000
+result: 27.000000
+result: 28.000000
+result: 28.000000
+result: 15.000000
+result: 28.000000
+result: 28.000000
+runtime of all iter: 0.2237628030700684
+max per op: 0.0000022376280307
+min per op: 0.0000010089199657
+med per op: 0.0000021674238043
+avg per op: 0.0000021357805516
+
+
+./omp_atomicwrite_scalar 3 39 1000
+OMP atomic-write scalar
+threads: 39
+iter per thread: 1000
+result: 15.000000
+result: 30.000000
+result: 30.000000
+result: 5.000000
+result: 30.000000
+result: 30.000000
+result: 28.000000
+result: 10.000000
+result: 10.000000
+result: 19.000000
+result: 10.000000
+result: 10.000000
+result: 33.000000
+result: 19.000000
+result: 19.000000
+result: 1.000000
+result: 19.000000
+result: 19.000000
+result: 1.000000
+result: 27.000000
+result: 27.000000
+result: 10.000000
+result: 19.000000
+result: 19.000000
+result: 38.000000
+result: 27.000000
+result: 27.000000
+runtime of all iter: 0.2396239472503663
+max per op: 0.0000023962394725
+min per op: 0.0000022351422549
+med per op: 0.0000022985808150
+avg per op: 0.0000023406081147
+
+
+./omp_atomicwrite_scalar 3 40 1000
+OMP atomic-write scalar
+threads: 40
+iter per thread: 1000
+result: 20.000000
+result: 32.000000
+result: 32.000000
+result: 2.000000
+result: 32.000000
+result: 32.000000
+result: 23.000000
+result: 10.000000
+result: 10.000000
+result: 37.000000
+result: 32.000000
+result: 32.000000
+result: 35.000000
+result: 10.000000
+result: 10.000000
+result: 16.000000
+result: 32.000000
+result: 32.000000
+result: 24.000000
+result: 10.000000
+result: 10.000000
+result: 37.000000
+result: 32.000000
+result: 32.000000
+result: 15.000000
+result: 32.000000
+result: 32.000000
+runtime of all iter: 0.2377931221923828
+max per op: 0.0000023779312219
+min per op: 0.0000022513495667
+med per op: 0.0000023244594318
+avg per op: 0.0000023229360699
+
+
+./omp_atomicwrite_scalar 3 41 1000
+OMP atomic-write scalar
+threads: 41
+iter per thread: 1000
+result: 0.000000
+result: 19.000000
+result: 19.000000
+result: 23.000000
+result: 20.000000
+result: 20.000000
+result: 34.000000
+result: 20.000000
+result: 20.000000
+result: 10.000000
+result: 16.000000
+result: 16.000000
+result: 12.000000
+result: 29.000000
+result: 29.000000
+result: 11.000000
+result: 9.000000
+result: 9.000000
+result: 22.000000
+result: 27.000000
+result: 27.000000
+result: 32.000000
+result: 6.000000
+result: 6.000000
+result: 28.000000
+result: 12.000000
+result: 12.000000
+runtime of all iter: 0.2533948525848388
+max per op: 0.0000025339485258
+min per op: 0.0000024057110521
+med per op: 0.0000025198702972
+avg per op: 0.0000025037273180
+
+
+./omp_atomicwrite_scalar 3 42 1000
+OMP atomic-write scalar
+threads: 42
+iter per thread: 1000
+result: 23.000000
+result: 12.000000
+result: 12.000000
+result: 22.000000
+result: 12.000000
+result: 12.000000
+result: 31.000000
+result: 1.000000
+result: 1.000000
+result: 32.000000
+result: 14.000000
+result: 14.000000
+result: 25.000000
+result: 4.000000
+result: 4.000000
+result: 39.000000
+result: 14.000000
+result: 14.000000
+result: 13.000000
+result: 15.000000
+result: 15.000000
+result: 38.000000
+result: 24.000000
+result: 24.000000
+result: 2.000000
+result: 14.000000
+result: 14.000000
+runtime of all iter: 0.2424731231994629
+max per op: 0.0000024247312320
+min per op: 0.0000021684107526
+med per op: 0.0000023151453138
+avg per op: 0.0000023179565492
+
+
+./omp_atomicwrite_scalar 3 43 1000
+OMP atomic-write scalar
+threads: 43
+iter per thread: 1000
+result: 37.000000
+result: 16.000000
+result: 16.000000
+result: 11.000000
+result: 19.000000
+result: 19.000000
+result: 11.000000
+result: 0.000000
+result: 0.000000
+result: 6.000000
+result: 1.000000
+result: 1.000000
+result: 18.000000
+result: 3.000000
+result: 3.000000
+result: 5.000000
+result: 36.000000
+result: 36.000000
+result: 28.000000
+result: 0.000000
+result: 0.000000
+result: 35.000000
+result: 12.000000
+result: 12.000000
+result: 23.000000
+result: 27.000000
+result: 27.000000
+runtime of all iter: 0.2505539871520996
+max per op: 0.0000025055398715
+min per op: 0.0000022439492380
+med per op: 0.0000024145793051
+avg per op: 0.0000023959406570
+
+
+./omp_atomicwrite_scalar 3 44 1000
+OMP atomic-write scalar
+threads: 44
+iter per thread: 1000
+result: 13.000000
+result: 7.000000
+result: 7.000000
+result: 14.000000
+result: 5.000000
+result: 5.000000
+result: 34.000000
+result: 20.000000
+result: 20.000000
+result: 37.000000
+result: 20.000000
+result: 20.000000
+result: 16.000000
+result: 25.000000
+result: 25.000000
+result: 43.000000
+result: 16.000000
+result: 16.000000
+result: 40.000000
+result: 2.000000
+result: 2.000000
+result: 41.000000
+result: 30.000000
+result: 30.000000
+result: 19.000000
+result: 25.000000
+result: 25.000000
+runtime of all iter: 0.2562780800781250
+max per op: 0.0000025627808008
+min per op: 0.0000022191609383
+med per op: 0.0000024680196792
+avg per op: 0.0000024313858211
+
+

@@ -1,0 +1,1750 @@
+SyncPerformance v0.1
+code: omp_criticaladd_scalar_spread.cpp
+system: ithaca
+CPU: AMD Ryzen Threadripper 2950X 16-Core Processor
+  architecture: x86_64
+  op-modes: 32-bit, 64-bit
+  sockets: 1
+  cores per socket: 16
+  physical cores: 16
+  threads per core: 2
+  logical cores: 32
+  cache line size (bytes): 64
+  NUMA nodes: 2
+GPU: NVIDIA GeForce RTX 4090
+  SMs: 128
+  mTpSM: 1536
+  max blocks: 128
+  cores per SM: 128
+  regs per SM: 65536
+  regs per block: 65536
+  clock rate (GHz): 2.625
+  cache line size (bytes): 128
+./omp_criticaladd_scalar_spread 0 1 1000
+OMP critical add scalar spread
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0027820490722656
+max per op: 0.0000000278204907
+min per op: 0.0000000278204907
+med per op: 0.0000000278204907
+avg per op: 0.0000000278204907
+
+
+./omp_criticaladd_scalar_spread 0 2 1000
+OMP critical add scalar spread
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0047830545349121
+max per op: 0.0000000478305453
+min per op: 0.0000000284114174
+med per op: 0.0000000383808250
+avg per op: 0.0000000383808250
+
+
+./omp_criticaladd_scalar_spread 0 3 1000
+OMP critical add scalar spread
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0112459545135498
+max per op: 0.0000001124595451
+min per op: 0.0000000509694527
+med per op: 0.0000000969616679
+avg per op: 0.0000000863163245
+
+
+./omp_criticaladd_scalar_spread 0 4 1000
+OMP critical add scalar spread
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0241809790039062
+max per op: 0.0000002418097900
+min per op: 0.0000001407085593
+med per op: 0.0000002020010536
+avg per op: 0.0000001965757079
+
+
+./omp_criticaladd_scalar_spread 0 5 1000
+OMP critical add scalar spread
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0629241230773925
+max per op: 0.0000006292412308
+min per op: 0.0000001821888519
+med per op: 0.0000006254904156
+avg per op: 0.0000004712871122
+
+
+./omp_criticaladd_scalar_spread 0 6 1000
+OMP critical add scalar spread
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0683332070770264
+max per op: 0.0000006833320708
+min per op: 0.0000002009093909
+med per op: 0.0000005480714378
+avg per op: 0.0000004886002240
+
+
+./omp_criticaladd_scalar_spread 0 7 1000
+OMP critical add scalar spread
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1166279665679932
+max per op: 0.0000011662796657
+min per op: 0.0000005387880316
+med per op: 0.0000009376607034
+avg per op: 0.0000009372036871
+
+
+./omp_criticaladd_scalar_spread 0 8 1000
+OMP critical add scalar spread
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1140828558959961
+max per op: 0.0000011408285590
+min per op: 0.0000005119315326
+med per op: 0.0000009665211947
+avg per op: 0.0000008869004954
+
+
+./omp_criticaladd_scalar_spread 0 9 1000
+OMP critical add scalar spread
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1451739651641845
+max per op: 0.0000014517396516
+min per op: 0.0000005473180238
+med per op: 0.0000011251716351
+avg per op: 0.0000011279211754
+
+
+./omp_criticaladd_scalar_spread 0 10 1000
+OMP critical add scalar spread
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2052438424377442
+max per op: 0.0000020524384244
+min per op: 0.0000004318406644
+med per op: 0.0000018845447189
+avg per op: 0.0000015207880236
+
+
+./omp_criticaladd_scalar_spread 0 11 1000
+OMP critical add scalar spread
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3085311852569580
+max per op: 0.0000030853118526
+min per op: 0.0000020549006480
+med per op: 0.0000029192702811
+avg per op: 0.0000026845801287
+
+
+./omp_criticaladd_scalar_spread 0 12 1000
+OMP critical add scalar spread
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3809649646759032
+max per op: 0.0000038096496468
+min per op: 0.0000022236609615
+med per op: 0.0000035087357526
+avg per op: 0.0000032461694620
+
+
+./omp_criticaladd_scalar_spread 0 13 1000
+OMP critical add scalar spread
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4308709921874999
+max per op: 0.0000043087099219
+min per op: 0.0000024097799028
+med per op: 0.0000037011517920
+avg per op: 0.0000036413883595
+
+
+./omp_criticaladd_scalar_spread 0 14 1000
+OMP critical add scalar spread
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.5094129570465089
+max per op: 0.0000050941295705
+min per op: 0.0000029584700803
+med per op: 0.0000046091198200
+avg per op: 0.0000044667123703
+
+
+./omp_criticaladd_scalar_spread 0 15 1000
+OMP critical add scalar spread
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.5707060271606447
+max per op: 0.0000057070602716
+min per op: 0.0000044484389783
+med per op: 0.0000054991481538
+avg per op: 0.0000050609369636
+
+
+./omp_criticaladd_scalar_spread 0 16 1000
+OMP critical add scalar spread
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6518981718139647
+max per op: 0.0000065189817181
+min per op: 0.0000042392997513
+med per op: 0.0000058681065981
+avg per op: 0.0000055096907182
+
+
+./omp_criticaladd_scalar_spread 0 17 1000
+OMP critical add scalar spread
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6845009940643311
+max per op: 0.0000068450099406
+min per op: 0.0000027785993079
+med per op: 0.0000069393918463
+avg per op: 0.0000057835587917
+
+
+./omp_criticaladd_scalar_spread 0 18 1000
+OMP critical add scalar spread
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8065290197296143
+max per op: 0.0000080652901973
+min per op: 0.0000019509497818
+med per op: 0.0000070677600221
+avg per op: 0.0000065445810465
+
+
+./omp_criticaladd_scalar_spread 0 19 1000
+OMP critical add scalar spread
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8153509888610840
+max per op: 0.0000081535098886
+min per op: 0.0000028679111201
+med per op: 0.0000079285100458
+avg per op: 0.0000064104234694
+
+
+./omp_criticaladd_scalar_spread 0 20 1000
+OMP critical add scalar spread
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8616839951934816
+max per op: 0.0000086168399519
+min per op: 0.0000024501300127
+med per op: 0.0000074393206260
+avg per op: 0.0000068973184777
+
+
+./omp_criticaladd_scalar_spread 0 21 1000
+OMP critical add scalar spread
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9109059339752198
+max per op: 0.0000091090593398
+min per op: 0.0000029914299860
+med per op: 0.0000082077797629
+avg per op: 0.0000069646644301
+
+
+./omp_criticaladd_scalar_spread 0 22 1000
+OMP critical add scalar spread
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9413390738067626
+max per op: 0.0000094133907381
+min per op: 0.0000020327609911
+med per op: 0.0000082190841877
+avg per op: 0.0000068242551894
+
+
+./omp_criticaladd_scalar_spread 0 23 1000
+OMP critical add scalar spread
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.0102411824645996
+max per op: 0.0000101024118246
+min per op: 0.0000028928719940
+med per op: 0.0000086742014204
+avg per op: 0.0000080472523646
+
+
+./omp_criticaladd_scalar_spread 0 24 1000
+OMP critical add scalar spread
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.0737551712951661
+max per op: 0.0000107375517130
+min per op: 0.0000023347421626
+med per op: 0.0000085554653906
+avg per op: 0.0000081550712063
+
+
+./omp_criticaladd_scalar_spread 0 25 1000
+OMP critical add scalar spread
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9339009380035399
+max per op: 0.0000093390093800
+min per op: -0.0000040458990172
+med per op: 0.0000066417516560
+avg per op: 0.0000051607561314
+
+
+./omp_criticaladd_scalar_spread 0 26 1000
+OMP critical add scalar spread
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1947799654998779
+max per op: 0.0000119477996550
+min per op: 0.0000013145302484
+med per op: 0.0000095101746552
+avg per op: 0.0000089287879356
+
+
+./omp_criticaladd_scalar_spread 0 27 1000
+OMP critical add scalar spread
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.2737518629455566
+max per op: 0.0000127375186295
+min per op: 0.0000016562098788
+med per op: 0.0000093558719284
+avg per op: 0.0000089766200372
+
+
+./omp_criticaladd_scalar_spread 0 28 1000
+OMP critical add scalar spread
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3978810031585693
+max per op: 0.0000139788100316
+min per op: 0.0000023014793030
+med per op: 0.0000104069259196
+avg per op: 0.0000105279654663
+
+
+./omp_criticaladd_scalar_spread 0 29 1000
+OMP critical add scalar spread
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.5424789745483400
+max per op: 0.0000154247897455
+min per op: 0.0000024156511746
+med per op: 0.0000125786112173
+avg per op: 0.0000121809583850
+
+
+./omp_criticaladd_scalar_spread 0 30 1000
+OMP critical add scalar spread
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.6360340125579835
+max per op: 0.0000163603401256
+min per op: 0.0000016063000099
+med per op: 0.0000144855840297
+avg per op: 0.0000131570510892
+
+
+./omp_criticaladd_scalar_spread 0 31 1000
+OMP critical add scalar spread
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2.0305270896453855
+max per op: 0.0000203052708965
+min per op: 0.0000145583204062
+med per op: 0.0000198675679462
+avg per op: 0.0000190247960771
+
+
+./omp_criticaladd_scalar_spread 0 32 1000
+OMP critical add scalar spread
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2.2078949573822020
+max per op: 0.0000220789495738
+min per op: 0.0000191590187817
+med per op: 0.0000221154917277
+avg per op: 0.0000218903752550
+
+
+./omp_criticaladd_scalar_spread 0 33 1000
+OMP critical add scalar spread
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2772998716888427
+max per op: 0.0000027729987169
+min per op: 0.0000024119200897
+med per op: 0.0000027479501199
+avg per op: 0.0000026565683782
+
+
+./omp_criticaladd_scalar_spread 0 34 1000
+OMP critical add scalar spread
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2849098310699463
+max per op: 0.0000028490983107
+min per op: 0.0000025191902356
+med per op: 0.0000027239404269
+avg per op: 0.0000027163517999
+
+
+./omp_criticaladd_scalar_spread 0 35 1000
+OMP critical add scalar spread
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2927041137390137
+max per op: 0.0000029270411374
+min per op: 0.0000025447997281
+med per op: 0.0000028327799945
+avg per op: 0.0000028140271355
+
+
+./omp_criticaladd_scalar_spread 0 36 1000
+OMP critical add scalar spread
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3054808245544433
+max per op: 0.0000030548082455
+min per op: 0.0000026685814365
+med per op: 0.0000029413003234
+avg per op: 0.0000029488938360
+
+
+./omp_criticaladd_scalar_spread 1 1 1000
+OMP critical add scalar spread
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0021000088958740
+max per op: 0.0000000210000890
+min per op: 0.0000000210000890
+med per op: 0.0000000210000890
+avg per op: 0.0000000210000890
+
+
+./omp_criticaladd_scalar_spread 1 2 1000
+OMP critical add scalar spread
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0080088871154785
+max per op: 0.0000000800888712
+min per op: 0.0000000715115147
+med per op: 0.0000000764293776
+avg per op: 0.0000000764293776
+
+
+./omp_criticaladd_scalar_spread 1 3 1000
+OMP critical add scalar spread
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0109778110046387
+max per op: 0.0000001097781100
+min per op: 0.0000000487692371
+med per op: 0.0000000921614421
+avg per op: 0.0000000922075642
+
+
+./omp_criticaladd_scalar_spread 1 4 1000
+OMP critical add scalar spread
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0235029618530274
+max per op: 0.0000002350296185
+min per op: 0.0000001829591112
+med per op: 0.0000002049149963
+avg per op: 0.0000002041530080
+
+
+./omp_criticaladd_scalar_spread 1 5 1000
+OMP critical add scalar spread
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0573269058685303
+max per op: 0.0000005732690587
+min per op: 0.0000002581402754
+med per op: 0.0000005269082401
+avg per op: 0.0000004857401119
+
+
+./omp_criticaladd_scalar_spread 1 6 1000
+OMP critical add scalar spread
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0883021366271972
+max per op: 0.0000008830213663
+min per op: 0.0000002658602872
+med per op: 0.0000006958508607
+avg per op: 0.0000006303274747
+
+
+./omp_criticaladd_scalar_spread 1 7 1000
+OMP critical add scalar spread
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1033818748626708
+max per op: 0.0000010338187486
+min per op: 0.0000005795712036
+med per op: 0.0000007619703891
+avg per op: 0.0000008194628011
+
+
+./omp_criticaladd_scalar_spread 1 8 1000
+OMP critical add scalar spread
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1382532068939210
+max per op: 0.0000013825320689
+min per op: 0.0000004967808893
+med per op: 0.0000011613353919
+avg per op: 0.0000010883312007
+
+
+./omp_criticaladd_scalar_spread 1 9 1000
+OMP critical add scalar spread
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1537108267364502
+max per op: 0.0000015371082674
+min per op: 0.0000006821684128
+med per op: 0.0000011830983342
+avg per op: 0.0000012433531184
+
+
+./omp_criticaladd_scalar_spread 1 10 1000
+OMP critical add scalar spread
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1989089602203369
+max per op: 0.0000019890896022
+min per op: 0.0000008802418541
+med per op: 0.0000017897438213
+avg per op: 0.0000017459170960
+
+
+./omp_criticaladd_scalar_spread 1 11 1000
+OMP critical add scalar spread
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3095819601135253
+max per op: 0.0000030958196011
+min per op: 0.0000022998907057
+med per op: 0.0000029761507002
+avg per op: 0.0000028267662510
+
+
+./omp_criticaladd_scalar_spread 1 12 1000
+OMP critical add scalar spread
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4776331471252441
+max per op: 0.0000047763314713
+min per op: 0.0000030306114464
+med per op: 0.0000043942064748
+avg per op: 0.0000042802604117
+
+
+./omp_criticaladd_scalar_spread 1 13 1000
+OMP critical add scalar spread
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4247728811645508
+max per op: 0.0000042477288116
+min per op: 0.0000037543000252
+med per op: 0.0000036924319002
+avg per op: 0.0000039883095699
+
+
+./omp_criticaladd_scalar_spread 1 14 1000
+OMP critical add scalar spread
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4556769375762940
+max per op: 0.0000045567693758
+min per op: 0.0000028612677721
+med per op: 0.0000041816001315
+avg per op: 0.0000041072431932
+
+
+./omp_criticaladd_scalar_spread 1 15 1000
+OMP critical add scalar spread
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.5968238986816407
+max per op: 0.0000059682389868
+min per op: 0.0000039929408922
+med per op: 0.0000050878301447
+avg per op: 0.0000051191658771
+
+
+./omp_criticaladd_scalar_spread 1 16 1000
+OMP critical add scalar spread
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6810560050506592
+max per op: 0.0000068105600505
+min per op: 0.0000043368593770
+med per op: 0.0000059214650764
+avg per op: 0.0000056805061145
+
+
+./omp_criticaladd_scalar_spread 1 17 1000
+OMP critical add scalar spread
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7110950450439453
+max per op: 0.0000071109504504
+min per op: 0.0000020390999889
+med per op: 0.0000067319217307
+avg per op: 0.0000059443921243
+
+
+./omp_criticaladd_scalar_spread 1 18 1000
+OMP critical add scalar spread
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7736950762481689
+max per op: 0.0000077369507625
+min per op: 0.0000018245210887
+med per op: 0.0000068277498231
+avg per op: 0.0000063035155047
+
+
+./omp_criticaladd_scalar_spread 1 19 1000
+OMP critical add scalar spread
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8074158635711671
+max per op: 0.0000080741586357
+min per op: 0.0000024897709018
+med per op: 0.0000072299490462
+avg per op: 0.0000065298566807
+
+
+./omp_criticaladd_scalar_spread 1 20 1000
+OMP critical add scalar spread
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8679459945068360
+max per op: 0.0000086794599451
+min per op: 0.0000022656384157
+med per op: 0.0000076231757411
+avg per op: 0.0000069422817228
+
+
+./omp_criticaladd_scalar_spread 1 21 1000
+OMP critical add scalar spread
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9036148369445800
+max per op: 0.0000090361483694
+min per op: 0.0000031810007104
+med per op: 0.0000073768691045
+avg per op: 0.0000067909276079
+
+
+./omp_criticaladd_scalar_spread 1 22 1000
+OMP critical add scalar spread
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9483839366149902
+max per op: 0.0000094838393661
+min per op: 0.0000030353516638
+med per op: 0.0000072548248348
+avg per op: 0.0000070120939947
+
+
+./omp_criticaladd_scalar_spread 1 23 1000
+OMP critical add scalar spread
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.0191900253906250
+max per op: 0.0000101919002539
+min per op: 0.0000019956290224
+med per op: 0.0000080378204004
+avg per op: 0.0000072602646310
+
+
+./omp_criticaladd_scalar_spread 1 24 1000
+OMP critical add scalar spread
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1043619519500734
+max per op: 0.0000110436195195
+min per op: 0.0000031154393173
+med per op: 0.0000090062962035
+avg per op: 0.0000082467543144
+
+
+./omp_criticaladd_scalar_spread 1 25 1000
+OMP critical add scalar spread
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1673209920043943
+max per op: 0.0000116732099200
+min per op: 0.0000029148096548
+med per op: 0.0000093406414801
+avg per op: 0.0000086685754814
+
+
+./omp_criticaladd_scalar_spread 1 26 1000
+OMP critical add scalar spread
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1815800204162596
+max per op: 0.0000118158002042
+min per op: 0.0000020794200555
+med per op: 0.0000090973447967
+avg per op: 0.0000083635765402
+
+
+./omp_criticaladd_scalar_spread 1 27 1000
+OMP critical add scalar spread
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.2866250969238282
+max per op: 0.0000128662509692
+min per op: 0.0000026234688669
+med per op: 0.0000100148501326
+avg per op: 0.0000098550797828
+
+
+./omp_criticaladd_scalar_spread 1 28 1000
+OMP critical add scalar spread
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3009308557586670
+max per op: 0.0000130093085576
+min per op: 0.0000022628597437
+med per op: 0.0000096354893075
+avg per op: 0.0000090659099947
+
+
+./omp_criticaladd_scalar_spread 1 29 1000
+OMP critical add scalar spread
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.2990170685424807
+max per op: 0.0000129901706854
+min per op: -0.0000004992996732
+med per op: 0.0000084820205922
+avg per op: 0.0000079740484331
+
+
+./omp_criticaladd_scalar_spread 1 30 1000
+OMP critical add scalar spread
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.5347320099029544
+max per op: 0.0000153473200990
+min per op: -0.0000009635798506
+med per op: 0.0000123075362964
+avg per op: 0.0000110211325094
+
+
+./omp_criticaladd_scalar_spread 1 31 1000
+OMP critical add scalar spread
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2.0728227746276855
+max per op: 0.0000207282277463
+min per op: 0.0000183640202243
+med per op: 0.0000200971693311
+avg per op: 0.0000202225934053
+
+
+./omp_criticaladd_scalar_spread 1 32 1000
+OMP critical add scalar spread
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.8802829147644045
+max per op: 0.0000188028291476
+min per op: 0.0000059113398160
+med per op: 0.0000136913409766
+avg per op: 0.0000129372939169
+
+
+./omp_criticaladd_scalar_spread 1 33 1000
+OMP critical add scalar spread
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2756779735412598
+max per op: 0.0000027567797354
+min per op: 0.0000023854284596
+med per op: 0.0000026958506985
+avg per op: 0.0000025565429435
+
+
+./omp_criticaladd_scalar_spread 1 34 1000
+OMP critical add scalar spread
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2848272039337157
+max per op: 0.0000028482720393
+min per op: 0.0000024926699130
+med per op: 0.0000028035961377
+avg per op: 0.0000027013698201
+
+
+./omp_criticaladd_scalar_spread 1 35 1000
+OMP critical add scalar spread
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2907467986145020
+max per op: 0.0000029074679861
+min per op: 0.0000024933093840
+med per op: 0.0000028978992752
+avg per op: 0.0000028468345585
+
+
+./omp_criticaladd_scalar_spread 1 36 1000
+OMP critical add scalar spread
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3102541203308106
+max per op: 0.0000031025412033
+min per op: 0.0000024489115997
+med per op: 0.0000030325390330
+avg per op: 0.0000029300002760
+
+
+./omp_criticaladd_scalar_spread 2 1 1000
+OMP critical add scalar spread
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0014588850860595
+max per op: 0.0000000145888509
+min per op: 0.0000000145888509
+med per op: 0.0000000145888509
+avg per op: 0.0000000145888509
+
+
+./omp_criticaladd_scalar_spread 2 2 1000
+OMP critical add scalar spread
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0084969695739746
+max per op: 0.0000000849696957
+min per op: 0.0000000790807568
+med per op: 0.0000000820252263
+avg per op: 0.0000000820252263
+
+
+./omp_criticaladd_scalar_spread 2 3 1000
+OMP critical add scalar spread
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0469648755950928
+max per op: 0.0000004696487560
+min per op: 0.0000003759999883
+med per op: 0.0000004741500987
+avg per op: 0.0000004419230594
+
+
+./omp_criticaladd_scalar_spread 2 4 1000
+OMP critical add scalar spread
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0818291314239501
+max per op: 0.0000008182913142
+min per op: 0.0000003589384773
+med per op: 0.0000007817947948
+avg per op: 0.0000007014473925
+
+
+./omp_criticaladd_scalar_spread 2 5 1000
+OMP critical add scalar spread
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1420878966827393
+max per op: 0.0000014208789668
+min per op: 0.0000010155893224
+med per op: 0.0000013468906381
+avg per op: 0.0000013002140697
+
+
+./omp_criticaladd_scalar_spread 2 6 1000
+OMP critical add scalar spread
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0950321020812988
+max per op: 0.0000009503210208
+min per op: 0.0000006563605339
+med per op: 0.0000009743058689
+avg per op: 0.0000009028553652
+
+
+./omp_criticaladd_scalar_spread 2 7 1000
+OMP critical add scalar spread
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1161250465698242
+max per op: 0.0000011612504657
+min per op: 0.0000006345915115
+med per op: 0.0000009230196001
+avg per op: 0.0000009850687562
+
+
+./omp_criticaladd_scalar_spread 2 8 1000
+OMP critical add scalar spread
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1735649608154297
+max per op: 0.0000017356496082
+min per op: 0.0000010317306131
+med per op: 0.0000015210048290
+avg per op: 0.0000012757578413
+
+
+./omp_criticaladd_scalar_spread 2 9 1000
+OMP critical add scalar spread
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1740988862915039
+max per op: 0.0000017409888629
+min per op: 0.0000006137992451
+med per op: 0.0000015583393100
+avg per op: 0.0000013580465632
+
+
+./omp_criticaladd_scalar_spread 2 10 1000
+OMP critical add scalar spread
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2830100758819580
+max per op: 0.0000028301007588
+min per op: 0.0000023897886249
+med per op: 0.0000028202162662
+avg per op: 0.0000029417174459
+
+
+./omp_criticaladd_scalar_spread 2 11 1000
+OMP critical add scalar spread
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3713590752716065
+max per op: 0.0000037135907527
+min per op: 0.0000031659900591
+med per op: 0.0000030765407175
+avg per op: 0.0000034387726864
+
+
+./omp_criticaladd_scalar_spread 2 12 1000
+OMP critical add scalar spread
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3651590589752197
+max per op: 0.0000036515905898
+min per op: 0.0000024022605075
+med per op: 0.0000033278108400
+avg per op: 0.0000033184770201
+
+
+./omp_criticaladd_scalar_spread 2 13 1000
+OMP critical add scalar spread
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4541500470123291
+max per op: 0.0000045415004701
+min per op: 0.0000024171908588
+med per op: 0.0000040793189226
+avg per op: 0.0000039070617845
+
+
+./omp_criticaladd_scalar_spread 2 14 1000
+OMP critical add scalar spread
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4782678351745604
+max per op: 0.0000047826783517
+min per op: 0.0000028608192065
+med per op: 0.0000041895051517
+avg per op: 0.0000041068733016
+
+
+./omp_criticaladd_scalar_spread 2 15 1000
+OMP critical add scalar spread
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.5846088184509277
+max per op: 0.0000058460881845
+min per op: 0.0000042151505690
+med per op: 0.0000049645200671
+avg per op: 0.0000048291171607
+
+
+./omp_criticaladd_scalar_spread 2 16 1000
+OMP critical add scalar spread
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6646538695678711
+max per op: 0.0000066465386957
+min per op: 0.0000046089004303
+med per op: 0.0000061403088338
+avg per op: 0.0000057600293292
+
+
+./omp_criticaladd_scalar_spread 2 17 1000
+OMP critical add scalar spread
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6930390844726562
+max per op: 0.0000069303908447
+min per op: 0.0000013538417084
+med per op: 0.0000068392803636
+avg per op: 0.0000060209528133
+
+
+./omp_criticaladd_scalar_spread 2 18 1000
+OMP critical add scalar spread
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7589618976287843
+max per op: 0.0000075896189763
+min per op: 0.0000028724606021
+med per op: 0.0000065526954715
+avg per op: 0.0000062204093526
+
+
+./omp_criticaladd_scalar_spread 2 19 1000
+OMP critical add scalar spread
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7826880415496825
+max per op: 0.0000078268804155
+min per op: 0.0000017363305962
+med per op: 0.0000070760482745
+avg per op: 0.0000062431683175
+
+
+./omp_criticaladd_scalar_spread 2 20 1000
+OMP critical add scalar spread
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8642041158447266
+max per op: 0.0000086420411584
+min per op: 0.0000025529596956
+med per op: 0.0000078898654756
+avg per op: 0.0000069507229252
+
+
+./omp_criticaladd_scalar_spread 2 21 1000
+OMP critical add scalar spread
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9006958629455568
+max per op: 0.0000090069586295
+min per op: 0.0000039378704417
+med per op: 0.0000073487701735
+avg per op: 0.0000067014788546
+
+
+./omp_criticaladd_scalar_spread 2 22 1000
+OMP critical add scalar spread
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9530579790649414
+max per op: 0.0000095305797906
+min per op: 0.0000027280811089
+med per op: 0.0000081026448959
+avg per op: 0.0000069700172310
+
+
+./omp_criticaladd_scalar_spread 2 23 1000
+OMP critical add scalar spread
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.0751960057678220
+max per op: 0.0000107519600577
+min per op: 0.0000040469488838
+med per op: 0.0000087551000208
+avg per op: 0.0000085032733038
+
+
+./omp_criticaladd_scalar_spread 2 24 1000
+OMP critical add scalar spread
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1319020725250244
+max per op: 0.0000113190207253
+min per op: 0.0000034980100941
+med per op: 0.0000082193894949
+avg per op: 0.0000082635048400
+
+
+./omp_criticaladd_scalar_spread 2 25 1000
+OMP critical add scalar spread
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.2122041098327636
+max per op: 0.0000121220410983
+min per op: 0.0000041408189174
+med per op: 0.0000094980406577
+avg per op: 0.0000093976401341
+
+
+./omp_criticaladd_scalar_spread 2 26 1000
+OMP critical add scalar spread
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.2533469992370605
+max per op: 0.0000125334699924
+min per op: 0.0000031232697310
+med per op: 0.0000099185643678
+avg per op: 0.0000095473568963
+
+
+./omp_criticaladd_scalar_spread 2 27 1000
+OMP critical add scalar spread
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3728431516723631
+max per op: 0.0000137284315167
+min per op: 0.0000078425187685
+med per op: 0.0000112920008205
+avg per op: 0.0000113045105658
+
+
+./omp_criticaladd_scalar_spread 2 28 1000
+OMP critical add scalar spread
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.4488630837860108
+max per op: 0.0000144886308379
+min per op: 0.0000072958691713
+med per op: 0.0000117692557817
+avg per op: 0.0000119357231550
+
+
+./omp_criticaladd_scalar_spread 2 29 1000
+OMP critical add scalar spread
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.6014599688873290
+max per op: 0.0000160145996889
+min per op: 0.0000049066593520
+med per op: 0.0000140044890077
+avg per op: 0.0000134622554412
+
+
+./omp_criticaladd_scalar_spread 2 30 1000
+OMP critical add scalar spread
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.4595651013336179
+max per op: 0.0000145956510133
+min per op: 0.0000014819691711
+med per op: 0.0000113399746140
+avg per op: 0.0000104743544886
+
+
+./omp_criticaladd_scalar_spread 2 31 1000
+OMP critical add scalar spread
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2.0326781449737545
+max per op: 0.0000203267814497
+min per op: 0.0000099150702605
+med per op: 0.0000199559385297
+avg per op: 0.0000195171196020
+
+
+./omp_criticaladd_scalar_spread 2 32 1000
+OMP critical add scalar spread
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 2.2847648325805663
+max per op: 0.0000228476483258
+min per op: 0.0000268962203708
+med per op: 0.0000243948253029
+avg per op: 0.0000248517867190
+
+
+./omp_criticaladd_scalar_spread 2 33 1000
+OMP critical add scalar spread
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2949628591461181
+max per op: 0.0000029496285915
+min per op: 0.0000025342305122
+med per op: 0.0000028777883081
+avg per op: 0.0000027701389139
+
+
+./omp_criticaladd_scalar_spread 2 34 1000
+OMP critical add scalar spread
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3103068746032716
+max per op: 0.0000031030687460
+min per op: 0.0000025756183591
+med per op: 0.0000029429949068
+avg per op: 0.0000028388622651
+
+
+./omp_criticaladd_scalar_spread 2 35 1000
+OMP critical add scalar spread
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2998280551300049
+max per op: 0.0000029982805513
+min per op: 0.0000024131617697
+med per op: 0.0000029244091466
+avg per op: 0.0000028157532656
+
+
+./omp_criticaladd_scalar_spread 2 36 1000
+OMP critical add scalar spread
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3231411129913330
+max per op: 0.0000032314111299
+min per op: 0.0000024673902043
+med per op: 0.0000031076587230
+avg per op: 0.0000030063579239
+
+
+./omp_criticaladd_scalar_spread 3 1 1000
+OMP critical add scalar spread
+threads: 1
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0014350501098633
+max per op: 0.0000000143505011
+min per op: 0.0000000143505011
+med per op: 0.0000000143505011
+avg per op: 0.0000000143505011
+
+
+./omp_criticaladd_scalar_spread 3 2 1000
+OMP critical add scalar spread
+threads: 2
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0083680587310792
+max per op: 0.0000000836805873
+min per op: 0.0000000791078857
+med per op: 0.0000000820440105
+avg per op: 0.0000000820440105
+
+
+./omp_criticaladd_scalar_spread 3 3 1000
+OMP critical add scalar spread
+threads: 3
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0203829181671143
+max per op: 0.0000002038291817
+min per op: 0.0000001220396881
+med per op: 0.0000002025207413
+avg per op: 0.0000001752798241
+
+
+./omp_criticaladd_scalar_spread 3 4 1000
+OMP critical add scalar spread
+threads: 4
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0634208765869140
+max per op: 0.0000006342087659
+min per op: 0.0000003223105008
+med per op: 0.0000005981503400
+avg per op: 0.0000005158253883
+
+
+./omp_criticaladd_scalar_spread 3 5 1000
+OMP critical add scalar spread
+threads: 5
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.0935841203918456
+max per op: 0.0000009358412039
+min per op: 0.0000006032615709
+med per op: 0.0000009136615868
+avg per op: 0.0000008281287362
+
+
+./omp_criticaladd_scalar_spread 3 6 1000
+OMP critical add scalar spread
+threads: 6
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1054879929046630
+max per op: 0.0000010548799290
+min per op: 0.0000005866692638
+med per op: 0.0000009404045481
+avg per op: 0.0000008823818106
+
+
+./omp_criticaladd_scalar_spread 3 7 1000
+OMP critical add scalar spread
+threads: 7
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1164540478973389
+max per op: 0.0000011645404790
+min per op: 0.0000007046587296
+med per op: 0.0000009493098167
+avg per op: 0.0000010295497245
+
+
+./omp_criticaladd_scalar_spread 3 8 1000
+OMP critical add scalar spread
+threads: 8
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1347529891052246
+max per op: 0.0000013475298911
+min per op: 0.0000008542389343
+med per op: 0.0000011562152015
+avg per op: 0.0000011499093763
+
+
+./omp_criticaladd_scalar_spread 3 9 1000
+OMP critical add scalar spread
+threads: 9
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.1557699705963135
+max per op: 0.0000015576997060
+min per op: 0.0000005376313486
+med per op: 0.0000013445796082
+avg per op: 0.0000012033810144
+
+
+./omp_criticaladd_scalar_spread 3 10 1000
+OMP critical add scalar spread
+threads: 10
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2503800789642334
+max per op: 0.0000025038007896
+min per op: 0.0000018651804564
+med per op: 0.0000024027286280
+avg per op: 0.0000022183238559
+
+
+./omp_criticaladd_scalar_spread 3 11 1000
+OMP critical add scalar spread
+threads: 11
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3278810909271241
+max per op: 0.0000032788109093
+min per op: 0.0000027140903096
+med per op: 0.0000029380911287
+avg per op: 0.0000030828576016
+
+
+./omp_criticaladd_scalar_spread 3 12 1000
+OMP critical add scalar spread
+threads: 12
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3650780514221191
+max per op: 0.0000036507805142
+min per op: 0.0000023173385410
+med per op: 0.0000034832206454
+avg per op: 0.0000032597170228
+
+
+./omp_criticaladd_scalar_spread 3 13 1000
+OMP critical add scalar spread
+threads: 13
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.4611788193054199
+max per op: 0.0000046117881931
+min per op: 0.0000025525489145
+med per op: 0.0000041179705453
+avg per op: 0.0000039000908077
+
+
+./omp_criticaladd_scalar_spread 3 14 1000
+OMP critical add scalar spread
+threads: 14
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.5186158899078370
+max per op: 0.0000051861588991
+min per op: 0.0000027937608586
+med per op: 0.0000047925254957
+avg per op: 0.0000045840622443
+
+
+./omp_criticaladd_scalar_spread 3 15 1000
+OMP critical add scalar spread
+threads: 15
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6174589210815429
+max per op: 0.0000061745892108
+min per op: 0.0000039158898938
+med per op: 0.0000051639986763
+avg per op: 0.0000052023417657
+
+
+./omp_criticaladd_scalar_spread 3 16 1000
+OMP critical add scalar spread
+threads: 16
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6564350349273682
+max per op: 0.0000065643503493
+min per op: 0.0000040637113885
+med per op: 0.0000063215255289
+avg per op: 0.0000056971472680
+
+
+./omp_criticaladd_scalar_spread 3 17 1000
+OMP critical add scalar spread
+threads: 17
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.6771021029968263
+max per op: 0.0000067710210300
+min per op: 0.0000035896389952
+med per op: 0.0000060882802853
+avg per op: 0.0000056194162392
+
+
+./omp_criticaladd_scalar_spread 3 18 1000
+OMP critical add scalar spread
+threads: 18
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7412781749877931
+max per op: 0.0000074127817499
+min per op: 0.0000019959405598
+med per op: 0.0000066229901390
+avg per op: 0.0000060506886228
+
+
+./omp_criticaladd_scalar_spread 3 19 1000
+OMP critical add scalar spread
+threads: 19
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.7743099554443359
+max per op: 0.0000077430995544
+min per op: 0.0000025109596358
+med per op: 0.0000070889487112
+avg per op: 0.0000061202305092
+
+
+./omp_criticaladd_scalar_spread 3 20 1000
+OMP critical add scalar spread
+threads: 20
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.8260600298004150
+max per op: 0.0000082606002980
+min per op: 0.0000023902913603
+med per op: 0.0000072156499147
+avg per op: 0.0000065129292734
+
+
+./omp_criticaladd_scalar_spread 3 21 1000
+OMP critical add scalar spread
+threads: 21
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9127099616546630
+max per op: 0.0000091270996165
+min per op: 0.0000016976007233
+med per op: 0.0000073995914371
+avg per op: 0.0000070252347805
+
+
+./omp_criticaladd_scalar_spread 3 22 1000
+OMP critical add scalar spread
+threads: 22
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.9668440265045168
+max per op: 0.0000096684402650
+min per op: 0.0000040284492210
+med per op: 0.0000080152596731
+avg per op: 0.0000072734322825
+
+
+./omp_criticaladd_scalar_spread 3 23 1000
+OMP critical add scalar spread
+threads: 23
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.0189008803100585
+max per op: 0.0000101890088031
+min per op: 0.0000049432099846
+med per op: 0.0000089927203609
+avg per op: 0.0000079642364156
+
+
+./omp_criticaladd_scalar_spread 3 24 1000
+OMP critical add scalar spread
+threads: 24
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1000601433410642
+max per op: 0.0000110006014334
+min per op: 0.0000043666909610
+med per op: 0.0000092519893771
+avg per op: 0.0000084934791216
+
+
+./omp_criticaladd_scalar_spread 3 25 1000
+OMP critical add scalar spread
+threads: 25
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.1277820379791261
+max per op: 0.0000112778203798
+min per op: 0.0000032385013487
+med per op: 0.0000087197505812
+avg per op: 0.0000083803788350
+
+
+./omp_criticaladd_scalar_spread 3 26 1000
+OMP critical add scalar spread
+threads: 26
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3957270531158446
+max per op: 0.0000139572705312
+min per op: 0.0000065619501363
+med per op: 0.0000114079098960
+avg per op: 0.0000123647376447
+
+
+./omp_criticaladd_scalar_spread 3 27 1000
+OMP critical add scalar spread
+threads: 27
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3862009446563723
+max per op: 0.0000138620094466
+min per op: 0.0000052032403525
+med per op: 0.0000118679582179
+avg per op: 0.0000108177386055
+
+
+./omp_criticaladd_scalar_spread 3 28 1000
+OMP critical add scalar spread
+threads: 28
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.3432549600982666
+max per op: 0.0000134325496010
+min per op: 0.0000064990392081
+med per op: 0.0000105325890315
+avg per op: 0.0000098502374893
+
+
+./omp_criticaladd_scalar_spread 3 29 1000
+OMP critical add scalar spread
+threads: 29
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.5148739590148923
+max per op: 0.0000151487395901
+min per op: 0.0000040346400584
+med per op: 0.0000124567007809
+avg per op: 0.0000116093053624
+
+
+./omp_criticaladd_scalar_spread 3 30 1000
+OMP critical add scalar spread
+threads: 30
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.7041919836120607
+max per op: 0.0000170419198361
+min per op: 0.0000057458401157
+med per op: 0.0000142241505424
+avg per op: 0.0000140857398505
+
+
+./omp_criticaladd_scalar_spread 3 31 1000
+OMP critical add scalar spread
+threads: 31
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.5665921129302978
+max per op: 0.0000156659211293
+min per op: -0.0000004247404944
+med per op: 0.0000125399692035
+avg per op: 0.0000110644337337
+
+
+./omp_criticaladd_scalar_spread 3 32 1000
+OMP critical add scalar spread
+threads: 32
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 1.8629517753601075
+max per op: 0.0000186295177536
+min per op: 0.0000047220817630
+med per op: 0.0000124444096114
+avg per op: 0.0000127421752699
+
+
+./omp_criticaladd_scalar_spread 3 33 1000
+OMP critical add scalar spread
+threads: 33
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.2988730145568848
+max per op: 0.0000029887301456
+min per op: 0.0000025022492422
+med per op: 0.0000029480279169
+avg per op: 0.0000028192341975
+
+
+./omp_criticaladd_scalar_spread 3 34 1000
+OMP critical add scalar spread
+threads: 34
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3001550304870605
+max per op: 0.0000030015503049
+min per op: 0.0000024709793370
+med per op: 0.0000028754459814
+avg per op: 0.0000027889197041
+
+
+./omp_criticaladd_scalar_spread 3 35 1000
+OMP critical add scalar spread
+threads: 35
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3087869464263916
+max per op: 0.0000030878694643
+min per op: 0.0000024117899719
+med per op: 0.0000029775097411
+avg per op: 0.0000028428443598
+
+
+./omp_criticaladd_scalar_spread 3 36 1000
+OMP critical add scalar spread
+threads: 36
+iter per thread: 1000
+ops per test unit: 1
+runtime of all iter: 0.3212219983062744
+max per op: 0.0000032122199831
+min per op: 0.0000026274901563
+med per op: 0.0000030724053969
+avg per op: 0.0000030418674581
+
+
