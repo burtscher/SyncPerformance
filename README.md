@@ -1,5 +1,7 @@
 # SyncPerformance
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13227900.svg)](https://doi.org/10.5281/zenodo.13227900)
+
 This repository hosts a suite of codes that measure the execution time of single synchronization primitives from CUDA and OpenMP. A full description of the test templates and methodology can be found in our paper (see below).
 
 If you use any of the code or results in this repository, please cite the following publication:
