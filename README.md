@@ -6,9 +6,7 @@ This repository hosts a suite of codes that measure the execution time of single
 
 If you use any of the code or results in this repository, please cite the following publication:
 
->Brandon Alexander Burtchell and Martin Burtscher. "Characterizing CUDA and OpenMP Synchronization Primitives." Proceedings of the IEEE International Symposium on Workload Characterization. September 2024.
-
-The paper is available [here](https://userweb.cs.txstate.edu/~mb92/papers/iiswc24b.pdf).
+>Brandon Alexander Burtchell and Martin Burtscher. "Characterizing CUDA and OpenMP Synchronization Primitives." Proceedings of the IEEE International Symposium on Workload Characterization. September 2024.  <!--- [[doi]](https://doi.org/10.21125/edulearn.2024.1136) --> [[pdf]](https://userweb.cs.txstate.edu/~mb92/papers/iiswc24b.pdf) [[pptx]](https://userweb.cs.txstate.edu/~burtscher/slides/iiswc24b.pptx)
 
 ## Installation and Setup
 
